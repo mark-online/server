@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201210251620">
+    <createTable tableName="Guild_Bank_Rights" remarks="Guild Bank Rights">
+      <column name="guild_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="rank_id" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="vault_id" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="rights" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_withdrawal_per_day" type="INT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Guild_Bank_Rights" columnNames="guild_id, rank_id, vault_id" tableName="Guild_Bank_Rights"/>
+
+    <addForeignKeyConstraint constraintName="fk_Guild_Bank_Rights_Guilds"
+        baseColumnNames="guild_id" baseTableName="Guild_Bank_Rights"
+        referencedColumnNames="id" referencedTableName="Guilds"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

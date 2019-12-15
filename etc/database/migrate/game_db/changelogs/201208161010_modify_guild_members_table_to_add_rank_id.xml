@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208161010">
+    <sql>
+IF EXISTS (SELECT name FROM sys.objects WHERE name = 'DF_Guild_Members_abillity' AND type = 'D')
+  ALTER TABLE Guild_Members DROP CONSTRAINT DF_Guild_Members_abillity
+IF COL_LENGTH('Guild_Members', 'abillity') IS NULL
+  ALTER TABLE Guild_Members ADD abillity INT
+IF COL_LENGTH('Guild_Members', 'rank_id') IS NOT NULL
+  ALTER TABLE Guild_Members DROP COLUMN rank_id
+GO
+    </sql>
+    <modifyDataType tableName="Guild_Members" columnName="abillity" newDataType="TINYINT"/>
+    <renameColumn tableName="Guild_Members" oldColumnName="abillity" newColumnName="rank_id"/>
+  </changeSet>
+
+</databaseChangeLog>

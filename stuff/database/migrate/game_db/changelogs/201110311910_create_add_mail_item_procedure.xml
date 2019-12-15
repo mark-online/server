@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110311910" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_mail_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_mail_item
+GO
+
+
+CREATE PROCEDURE dbo.add_mail_item
+    @mail_id dbo.id_t OUT,
+	@character_id dbo.id_t,
+    @item_id dbo.id_t,
+	@item_code dbo.code_t,
+	@item_count TINYINT	
+AS
+    SET NOCOUNT ON
+
+    INSERT INTO dbo.Mail_Inventories(mail_id, character_id, id, item_code, item_count)
+	    VALUES (@mail_id, @character_id, @item_id, @item_code, @item_count)
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_mail_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_mail_item
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

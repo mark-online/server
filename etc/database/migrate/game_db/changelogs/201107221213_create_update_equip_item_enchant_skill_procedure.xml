@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201107221213" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_equip_item_enchant_skill') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_equip_item_enchant_skill
+GO
+
+
+CREATE PROCEDURE dbo.update_equip_item_enchant_skill
+    @item_id dbo.id_t,
+    @slot_index TINYINT,
+	@skill_code dbo.code_t
+AS
+    SET NOCOUNT ON
+
+    IF @slot_index = 0
+	BEGIN
+	UPDATE dbo.EquipItemInfos
+		SET socket_skill_code_1 = @skill_code
+		WHERE inventory_id = @item_id
+	END
+	ELSE IF @slot_index = 1
+	BEGIN
+	UPDATE dbo.EquipItemInfos
+		SET socket_skill_code_2 = @skill_code
+		WHERE inventory_id = @item_id
+	END
+	ELSE IF  @slot_index = 2
+	BEGIN
+	UPDATE dbo.EquipItemInfos
+		SET socket_skill_code_3 = @skill_code
+		WHERE inventory_id = @item_id
+	END
+	ELSE IF @slot_index = 3
+	BEGIN
+	UPDATE dbo.EquipItemInfos
+		SET socket_skill_code_4 = @skill_code
+		WHERE inventory_id = @item_id
+	END
+	ELSE IF @slot_index = 4
+	BEGIN
+	UPDATE dbo.EquipItemInfos
+		SET socket_skill_code_5 = @skill_code
+		WHERE inventory_id = @item_id
+	END
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_equip_item_enchant_skill') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_equip_item_enchant_skill
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

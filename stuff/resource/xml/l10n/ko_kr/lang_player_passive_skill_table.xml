@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="18874385" name="갑옷 숙련화 : 천 1Lv" desc="천 계열 방어구에 익숙해지면서 회피율이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874386" name="갑옷 숙련화 : 천 2Lv" desc="천 계열 방어구에 익숙해지면서 회피율이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874387" name="갑옷 숙련화 : 천 3Lv" desc="천 계열 방어구에 익숙해지면서 회피율이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874401" name="갑옷 숙련화 : 가죽 1Lv" desc="가죽 계열 방어구에 익숙해지면서 체력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874402" name="갑옷 숙련화 : 가죽 2Lv" desc="가죽 계열 방어구에 익숙해지면서 체력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874403" name="갑옷 숙련화 : 가죽 3Lv" desc="가죽 계열 방어구에 익숙해지면서 체력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874417" name="갑옷 숙련화 : 판금 1Lv" desc="금속 계열 방어구에 익숙해지면서 막기 확률이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874418" name="갑옷 숙련화 : 판금 2Lv" desc="금속 계열 방어구에 익숙해지면서 막기 확률이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874419" name="갑옷 숙련화 : 판금 3Lv" desc="금속 계열 방어구에 익숙해지면서 막기 확률이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874433" name="무기 숙련화 : 한손 검류 1Lv" desc="한손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874434" name="무기 숙련화 : 한손 검류 2Lv" desc="한손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874435" name="무기 숙련화 : 한손 검류 3Lv" desc="한손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874436" name="무기 숙련화 : 한손 검류 4Lv" desc="한손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874437" name="무기 숙련화 : 한손 검류 5Lv" desc="한손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874449" name="무기 숙련화 : 한손 둔기류 1Lv" desc="한손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874450" name="무기 숙련화 : 한손 둔기류 2Lv" desc="한손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874451" name="무기 숙련화 : 한손 둔기류 3Lv" desc="한손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874452" name="무기 숙련화 : 한손 둔기류 4Lv" desc="한손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874453" name="무기 숙련화 : 한손 둔기류 5Lv" desc="한손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874465" name="무기 숙련화 : 양손 검류 1Lv" desc="양손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874466" name="무기 숙련화 : 양손 검류 2Lv" desc="양손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874467" name="무기 숙련화 : 양손 검류 3Lv" desc="양손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874468" name="무기 숙련화 : 양손 검류 4Lv" desc="양손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874469" name="무기 숙련화 : 양손 검류 5Lv" desc="양손 검을 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874481" name="무기 숙련화 : 양손 둔기류 1Lv" desc="양손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874482" name="무기 숙련화 : 양손 둔기류 2Lv" desc="양손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874483" name="무기 숙련화 : 양손 둔기류 3Lv" desc="양손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874484" name="무기 숙련화 : 양손 둔기류 4Lv" desc="양손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874485" name="무기 숙련화 : 양손 둔기류 5Lv" desc="양손 둔기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874497" name="무기 숙련화 : 지팡이류 1Lv" desc="지팡이를 사용하면 마법 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874498" name="무기 숙련화 : 지팡이류 2Lv" desc="지팡이를 사용하면 마법 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874499" name="무기 숙련화 : 지팡이류 3Lv" desc="지팡이를 사용하면 마법 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874500" name="무기 숙련화 : 지팡이류 4Lv" desc="지팡이를 사용하면 마법 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874501" name="무기 숙련화 : 지팡이류 5Lv" desc="지팡이를 사용하면 마법 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874513" name="무기 숙련화 : 활류 1Lv" desc="활과 같은 원거리 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874514" name="무기 숙련화 : 활류 2Lv" desc="활과 같은 원거리 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874515" name="무기 숙련화 : 활류 3Lv" desc="활과 같은 원거리 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874516" name="무기 숙련화 : 활류 4Lv" desc="활과 같은 원거리 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874517" name="무기 숙련화 : 활류 5Lv" desc="활과 같은 원거리 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874529" name="무기 숙련화 : 이도 류 1Lv" desc="이도류 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874530" name="무기 숙련화 : 이도 류 2Lv" desc="이도류 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874531" name="무기 숙련화 : 이도 류 3Lv" desc="이도류 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874532" name="무기 숙련화 : 이도 류 4Lv" desc="이도류 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874533" name="무기 숙련화 : 이도 류 5Lv" desc="이도류 무기를 사용하면 물리 공격력이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874545" name="방패 숙련화 1Lv" desc="방패를 사용하면 막기 확률이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874546" name="방패 숙련화 2Lv" desc="방패를 사용하면 막기 확률이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874547" name="방패 숙련화 3Lv" desc="방패를 사용하면 막기 확률이 %caster_effect_value_1 만큼 증가합니다."/>
+	<l10n_template data_code="18874561" name="강인함 1Lv" desc="신체를 단련하여 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874562" name="강인함 2Lv" desc="신체를 단련하여 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874563" name="강인함 3Lv" desc="신체를 단련하여 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874577" name="주문학 1Lv" desc="마법학을 연구하여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874578" name="주문학 2Lv" desc="마법학을 연구하여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874579" name="주문학 3Lv" desc="마법학을 연구하여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874593" name="철저한 분석 1Lv" desc="자신의 상태를 분석하여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874594" name="철저한 분석 2Lv" desc="자신의 상태를 분석하여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874595" name="철저한 분석 3Lv" desc="자신의 상태를 분석하여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874609" name="기초 체력 1Lv" desc="지구력 훈련을 통해 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874610" name="기초 체력 2Lv" desc="지구력 훈련을 통해 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874611" name="기초 체력 3Lv" desc="지구력 훈련을 통해 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874625" name="피부 강화 1Lv" desc="피부를 단련시켜 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874626" name="피부 강화 2Lv" desc="피부를 단련시켜 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874627" name="피부 강화 3Lv" desc="피부를 단련시켜 체력을 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874641" name="충격파 1Lv" desc="체력이 20%이하로 떨어지면 마법 스크롤을 사용해 %castee_activate_mil_sec_2초 동안 적을 무력화시킵니다."/>
+	<l10n_template data_code="18874642" name="충격파 2Lv" desc="체력이 20%이하로 떨어지면 마법 스크롤을 사용해 %castee_activate_mil_sec_2초 동안 적을 무력화시킵니다."/>
+	<l10n_template data_code="18874643" name="충격파 3Lv" desc="체력이 20%이하로 떨어지면 마법 스크롤을 사용해 %castee_activate_mil_sec_2초 동안 적을 무력화시킵니다."/>
+	<l10n_template data_code="18874657" name="절제력 1Lv" desc="기본적인 욕구를 억제해 불필요한 힘의 낭비를 줄여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874658" name="절제력 2Lv" desc="기본적인 욕구를 억제해 불필요한 힘의 낭비를 줄여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874659" name="절제력 3Lv" desc="기본적인 욕구를 억제해 불필요한 힘의 낭비를 줄여 마나를 %caster_effect_value_1 만큼 증가시킵니다."/>
+	<l10n_template data_code="18874673" name="고참병 1Lv" desc="전투에 익숙해진 전사들은 자신의 신체를 효과적으로 움직여, 같은 장비를 입더라도 방어력이 %caster_effect_value_1 만큼정도 더 사용할 수 있게 됩니다."/>
+	<l10n_template data_code="18874674" name="고참병 2Lv" desc="전투에 익숙해진 전사들은 자신의 신체를 효과적으로 움직여, 같은 장비를 입더라도 방어력이 %caster_effect_value_1 만큼정도 더 사용할 수 있게 됩니다."/>
+	<l10n_template data_code="18874675" name="고참병 3Lv" desc="전투에 익숙해진 전사들은 자신의 신체를 효과적으로 움직여, 같은 장비를 입더라도 방어력이 %caster_effect_value_1 만큼정도 더 사용할 수 있게 됩니다."/>
+	<l10n_template data_code="18874689" name="견고한 용사 1Lv" desc="정신력이 강한 전사들은 체력이 60%이하로 떨어지면 %caster_activate_mil_sec_2초의 시간동안 자신의 방어력을 %{%caster_effect_value_2/10}% 높일 수 있는 능력이 생겨납니다."/>
+	<l10n_template data_code="18874690" name="견고한 용사 2Lv" desc="정신력이 강한 전사들은 체력이 60%이하로 떨어지면 %caster_activate_mil_sec_2초의 시간동안 자신의 방어력을 %{%caster_effect_value_2/10}% 높일 수 있는 능력이 생겨납니다."/>
+	<l10n_template data_code="18874691" name="견고한 용사 3Lv" desc="정신력이 강한 전사들은 체력이 60%이하로 떨어지면 %caster_activate_mil_sec_2초의 시간동안 자신의 방어력을 %{%caster_effect_value_2/10}% 높일 수 있는 능력이 생겨납니다."/>
+	<l10n_template data_code="18874705" name="강렬한 분노 1Lv" desc="노련한 전사가 40% 이하로 체력이 떨어져 분노하면 순간적으로 %{%caster_effect_value_2/10}%의 방어 능력을 포기하고 공격력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_1/10}% 상승 시킬 수 있습니다."/>
+	<l10n_template data_code="18874706" name="강렬한 분노 2Lv" desc="노련한 전사가 40% 이하로 체력이 떨어져 분노하면 순간적으로 %{%caster_effect_value_2/10}%의 방어 능력을 포기하고 공격력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_1/10}% 상승 시킬 수 있습니다."/>
+	<l10n_template data_code="18874707" name="강렬한 분노 3Lv" desc="노련한 전사가 40% 이하로 체력이 떨어져 분노하면 순간적으로 %{%caster_effect_value_2/10}%의 방어 능력을 포기하고 공격력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_1/10}% 상승 시킬 수 있습니다."/>
+	<l10n_template data_code="18874721" name="체험주의 1Lv" desc="전투 경험이 풍부한 전사들은 체력이 45% 이하로 떨어지면 순간적인 집중력을 발휘해 2분 동안 %{%caster_effect_value_2/10}%의 막기 능력을 향상 시킬 수 있습니다."/>
+	<l10n_template data_code="18874722" name="체험주의 2Lv" desc="전투 경험이 풍부한 전사들은 체력이 45% 이하로 떨어지면 순간적인 집중력을 발휘해 2분 동안 %{%caster_effect_value_2/10}%의 막기 능력을 향상 시킬 수 있습니다."/>
+	<l10n_template data_code="18874723" name="체험주의 3Lv" desc="전투 경험이 풍부한 전사들은 체력이 45% 이하로 떨어지면 순간적인 집중력을 발휘해 2분 동안 %{%caster_effect_value_2/10}%의 막기 능력을 향상 시킬 수 있습니다."/>
+	<l10n_template data_code="18874737" name="냉정 1Lv" desc="치열한 전장에서 살아남기 위해 전사들은 자신의 상태를 분석해 %caster_effect_value_1 만큼의 체력을 증가시킬 수 있습니다."/>
+	<l10n_template data_code="18874738" name="냉정 2Lv" desc="치열한 전장에서 살아남기 위해 전사들은 자신의 상태를 분석해 %caster_effect_value_1 만큼의 체력을 증가시킬 수 있습니다."/>
+	<l10n_template data_code="18874739" name="냉정 3Lv" desc="치열한 전장에서 살아남기 위해 전사들은 자신의 상태를 분석해 %caster_effect_value_1 만큼의 체력을 증가시킬 수 있습니다."/>
+	<l10n_template data_code="18874753" name="응급처치 1Lv" desc="20% 이하로 체력이 떨어지면 경험이 많은 사람들은, 자신의 상처를 치료해 1초마다 5초동안 체력의 %{%caster_effect_value_2/10}%를 회복할 수 있습니다."/>
+	<l10n_template data_code="18874754" name="응급처치 2Lv" desc="20% 이하로 체력이 떨어지면 경험이 많은 사람들은, 자신의 상처를 치료해 1초마다 5초동안 체력의 %{%caster_effect_value_2/10}%를 회복할 수 있습니다."/>
+	<l10n_template data_code="18874755" name="응급처치 3Lv" desc="20% 이하로 체력이 떨어지면 경험이 많은 사람들은, 자신의 상처를 치료해 1초마다 5초동안 체력의 %{%caster_effect_value_2/10}%를 회복할 수 있습니다."/>
+	<l10n_template data_code="18874769" name="명상 생활 1Lv" desc="이미지 트레이닝을 통해 %caster_effect_value_1 만큼의 회피력을 상승시킬 수 있게 됩니다."/>
+	<l10n_template data_code="18874770" name="명상 생활 2Lv" desc="이미지 트레이닝을 통해 %caster_effect_value_1 만큼의 회피력을 상승시킬 수 있게 됩니다."/>
+	<l10n_template data_code="18874771" name="명상 생활 3Lv" desc="이미지 트레이닝을 통해 %caster_effect_value_1 만큼의 회피력을 상승시킬 수 있게 됩니다."/>
+	<l10n_template data_code="18874785" name="체질의 개선 1Lv" desc="마나를 받아 들이기 쉽게 신체를 활성화 시켜, 마나가 %caster_effect_value_1 만큼 향상 됩니다."/>
+	<l10n_template data_code="18874786" name="체질의 개선 2Lv" desc="마나를 받아 들이기 쉽게 신체를 활성화 시켜, 마나가 %caster_effect_value_1 만큼 향상 됩니다."/>
+	<l10n_template data_code="18874787" name="체질의 개선 3Lv" desc="마나를 받아 들이기 쉽게 신체를 활성화 시켜, 마나가 %caster_effect_value_1 만큼 향상 됩니다."/>
+	<l10n_template data_code="18874801" name="내면의 힘 1Lv" desc="체력이 50%이하로 떨어지면, 내면에 숨겨진 능력을 사용해 %caster_activate_mil_sec_2초 동안 명중률을 %{%caster_effect_value_2/10}% 향상 시킬 수 있습니다."/>
+	<l10n_template data_code="18874802" name="내면의 힘 2Lv" desc="체력이 50%이하로 떨어지면, 내면에 숨겨진 능력을 사용해 %caster_activate_mil_sec_2초 동안 명중률을 %{%caster_effect_value_2/10}% 향상 시킬 수 있습니다."/>
+	<l10n_template data_code="18874803" name="내면의 힘 3Lv" desc="체력이 50%이하로 떨어지면, 내면에 숨겨진 능력을 사용해 %caster_activate_mil_sec_2초 동안 명중률을 %{%caster_effect_value_2/10}% 향상 시킬 수 있습니다."/>
+	<l10n_template data_code="18874817" name="발견적 학습법 1Lv" desc="대자연의 원리를 공부해 마법의 위력이 %caster_effect_value_1 만큼 향상됩니다."/>
+	<l10n_template data_code="18874818" name="발견적 학습법 2Lv" desc="대자연의 원리를 공부해 마법의 위력이 %caster_effect_value_1 만큼 향상됩니다."/>
+	<l10n_template data_code="18874819" name="발견적 학습법 3Lv" desc="대자연의 원리를 공부해 마법의 위력이 %caster_effect_value_1 만큼 향상됩니다."/>
+	<l10n_template data_code="18874833" name="경각심 1Lv" desc="생존율을 높이기 위해 체력을 %caster_effect_value_1 만큼 향상시킵니다."/>
+	<l10n_template data_code="18874834" name="경각심 2Lv" desc="생존율을 높이기 위해 체력을 %caster_effect_value_1 만큼 향상시킵니다."/>
+	<l10n_template data_code="18874835" name="경각심 3Lv" desc="생존율을 높이기 위해 체력을 %caster_effect_value_1 만큼 향상시킵니다."/>
+	<l10n_template data_code="18874849" name="자연 소멸 1Lv" desc="마법사들은 20%이하로 체력이 떨어지면, 순간적으로 차원의 틈에 숨어 다음 기회를 노립니다."/>
+	<l10n_template data_code="18874850" name="자연 소멸 2Lv" desc="마법사들은 20%이하로 체력이 떨어지면, 순간적으로 차원의 틈에 숨어 다음 기회를 노립니다."/>
+	<l10n_template data_code="18874851" name="자연 소멸 3Lv" desc="마법사들은 20%이하로 체력이 떨어지면, 순간적으로 차원의 틈에 숨어 다음 기회를 노립니다."/>
+	<l10n_template data_code="18874865" name="고대 지식 1Lv" desc="고대의 지식을 연구해 마나와 마법 공격력이 향상됩니다."/>
+	<l10n_template data_code="18874866" name="고대 지식 2Lv" desc="고대의 지식을 연구해 마나와 마법 공격력이 향상됩니다."/>
+	<l10n_template data_code="18874867" name="고대 지식 3Lv" desc="고대의 지식을 연구해 마나와 마법 공격력이 향상됩니다."/>
+	<l10n_template data_code="18874881" name="집중 1Lv" desc="고도의 정신 집중으로 자신의 방어력을 %caster_effect_value_1 만큼 향상 시킵니다."/>
+	<l10n_template data_code="18874882" name="집중 2Lv" desc="고도의 정신 집중으로 자신의 방어력을 %caster_effect_value_1 만큼 향상 시킵니다."/>
+	<l10n_template data_code="18874883" name="집중 3Lv" desc="고도의 정신 집중으로 자신의 방어력을 %caster_effect_value_1 만큼 향상 시킵니다."/>
+	<l10n_template data_code="18874897" name="궁술 1Lv" desc="오랫동안 활을 사용한 궁수들은 효과적으로 활을 사용해 공격력을 %caster_effect_value_1 만큼 향상 시킵니다."/>
+	<l10n_template data_code="18874898" name="궁술 2Lv" desc="오랫동안 활을 사용한 궁수들은 효과적으로 활을 사용해 공격력을 %caster_effect_value_1 만큼 향상 시킵니다."/>
+	<l10n_template data_code="18874899" name="궁술 3Lv" desc="오랫동안 활을 사용한 궁수들은 효과적으로 활을 사용해 공격력을 %caster_effect_value_1 만큼 향상 시킵니다."/>
+	<l10n_template data_code="18874913" name="곡예 1Lv" desc="몸을 유연하게 만들어 %caster_effect_value_1 만큼 회피율을 상승시킵니다."/>
+	<l10n_template data_code="18874914" name="곡예 2Lv" desc="몸을 유연하게 만들어 %caster_effect_value_1 만큼 회피율을 상승시킵니다."/>
+	<l10n_template data_code="18874915" name="곡예 3Lv" desc="몸을 유연하게 만들어 %caster_effect_value_1 만큼 회피율을 상승시킵니다."/>
+	<l10n_template data_code="18874929" name="불규칙 1Lv" desc="자신의 명중률이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="18874930" name="불규칙 2Lv" desc="자신의 명중률이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="18874931" name="불규칙 3Lv" desc="자신의 명중률이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="18874945" name="마나 충전 1Lv" desc="마나가 30%이하로 떨어지면 마나 부족을 막기위해 1초마다 5초 동안 %{%caster_effect_value_2/10}% 회복 시키는 기술을 배웁니다."/>
+	<l10n_template data_code="18874946" name="마나 충전 2Lv" desc="마나가 30%이하로 떨어지면 마나 부족을 막기위해 1초마다 5초 동안 %{%caster_effect_value_2/10}% 회복 시키는 기술을 배웁니다."/>
+	<l10n_template data_code="18874947" name="마나 충전 3Lv" desc="마나가 30%이하로 떨어지면 마나 부족을 막기위해 1초마다 5초 동안 %{%caster_effect_value_2/10}% 회복 시키는 기술을 배웁니다."/>
+	<l10n_template data_code="18874961" name="공중제비 1Lv" desc="신체의 움직임을 활성화 시켜 %caster_effect_value_1 만큼 막기 능력이 상승합니다."/>
+	<l10n_template data_code="18874962" name="공중제비 2Lv" desc="신체의 움직임을 활성화 시켜 %caster_effect_value_1 만큼 막기 능력이 상승합니다."/>
+	<l10n_template data_code="18874963" name="공중제비 3Lv" desc="신체의 움직임을 활성화 시켜 %caster_effect_value_1 만큼 막기 능력이 상승합니다."/>
+	<l10n_template data_code="18874977" name="긴급 회피 1Lv" desc="체력이 30%이하로 떨어지면, 생존을 위해 %{%caster_effect_value_2/10}% 회피율이 상승합니다."/>
+	<l10n_template data_code="18874978" name="긴급 회피 2Lv" desc="체력이 30%이하로 떨어지면, 생존을 위해 %{%caster_effect_value_2/10}% 회피율이 상승합니다."/>
+	<l10n_template data_code="18874979" name="긴급 회피 3Lv" desc="체력이 30%이하로 떨어지면, 생존을 위해 %{%caster_effect_value_2/10}% 회피율이 상승합니다."/>
+	<l10n_template data_code="18874993" name="최후의 발악 1Lv" desc="체력이 20%이하로 떨어지면, %caster_activate_mil_sec_1초 동안 크리티컬 확률이 %caster_effect_value_1 증가합니다."/>
+	<l10n_template data_code="18874994" name="최후의 발악 2Lv" desc="체력이 20%이하로 떨어지면, %caster_activate_mil_sec_1초 동안 크리티컬 확률이 %caster_effect_value_1 증가합니다."/>
+	<l10n_template data_code="18874995" name="최후의 발악 3Lv" desc="체력이 20%이하로 떨어지면, %caster_activate_mil_sec_1초 동안 크리티컬 확률이 %caster_effect_value_1 증가합니다."/>
+	<l10n_template data_code="18875985" name="체력 성장 1LV" desc="체력이 %caster_effect_value_1 만큼 증가합니다"/>
+	<l10n_template data_code="18875986" name="체력 성장 2LV" desc="체력이 %caster_effect_value_1 만큼 증가합니다"/>
+	<l10n_template data_code="18875987" name="체력 성장 3LV" desc="체력이 %caster_effect_value_1 만큼 증가합니다"/>
+</l10n_table>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201106221115">
+    <createTable tableName="Character_Counts" remarks="character count per shard table">
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="shard_id" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="counts" type="SMALLINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Character_Counts" columnNames="account_id, shard_id" tableName="Character_Counts"/>
+
+    <addForeignKeyConstraint constraintName="fk_Character_Counts_Shards"
+      baseColumnNames="shard_id" baseTableName="Character_Counts"
+      referencedColumnNames="id" referencedTableName="Shards"
+      onDelete="CASCADE" />
+
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  <property file="gideon.properties"/>
+  <changeSet author="kcando" id="201105311403" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_world_time') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_world_time
+GO
+
+
+CREATE PROCEDURE dbo.get_world_time
+  @world_time SMALLINT OUT,
+  @zone_id INT
+AS
+
+  SET NOCOUNT ON
+  
+  SELECT @world_time = world_time
+    FROM dbo.World_Times
+    WHERE zone_id = @zone_id
+
+  SET NOCOUNT OFF
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_world_time') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_world_time
+GO
+    </rollback>
+  </changeSet>
+  
+</databaseChangeLog>
+

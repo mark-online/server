@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201207101238" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_guild_applicant') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_guild_applicant
+GO
+
+
+CREATE PROCEDURE dbo.add_guild_applicant
+    @character_id dbo.id_t,
+    @guild_id dbo.id_t
+AS
+    SET NOCOUNT ON	
+
+    INSERT INTO dbo.Guild_Applicants(character_id, guild_id) VALUES (@character_id, @guild_id)
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_guild_applicant') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_guild_applicant
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

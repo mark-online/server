@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105121037" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.learn_skill') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.learn_skill
+GO
+
+
+CREATE PROCEDURE dbo.learn_skill
+    @account_id dbo.id_t,
+	@character_id dbo.id_t,
+	@current_skill_code dbo.code_t,
+	@learn_skill_code dbo.code_t
+AS
+    SET NOCOUNT ON
+	
+	IF @current_skill_code != 0
+	BEGIN
+	    UPDATE dbo.Skills
+	       SET skill_code = @learn_skill_code
+		       WHERE character_id = @character_id AND skill_code = @current_skill_code 
+	END
+	ELSE
+	BEGIN
+		INSERT INTO dbo.Skills(account_id, character_id, skill_code) VALUES(@account_id, @character_id, @learn_skill_code)	    
+	END
+		
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.learn_skill') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.learn_skill
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

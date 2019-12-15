@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<select_recipe_production_table>
+	<select_recipe_production_template select_resources_production_code="1" recipe_code_1="83886501" max_count_1="20" recipe_code_2="0" max_count_2="0" recipe_code_3="0" max_count_3="0" recipe_code_4="0" max_count_4="0" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="2" recipe_code_1="83886501" max_count_1="10" recipe_code_2="0" max_count_2="0" recipe_code_3="0" max_count_3="0" recipe_code_4="0" max_count_4="0" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="3" recipe_code_1="83886502" max_count_1="0" recipe_code_2="83886503" max_count_2="5" recipe_code_3="83886504" max_count_3="5" recipe_code_4="83886505" max_count_4="5" recipe_code_5="83886520" max_count_5="5"/>
+	<select_recipe_production_template select_resources_production_code="4" recipe_code_1="83886502" max_count_1="3" recipe_code_2="83886505" max_count_2="3" recipe_code_3="83886504" max_count_3="3" recipe_code_4="83886520" max_count_4="3" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="5" recipe_code_1="83886506" max_count_1="5" recipe_code_2="83886507" max_count_2="5" recipe_code_3="83886508" max_count_3="5" recipe_code_4="0" max_count_4="0" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="6" recipe_code_1="83886506" max_count_1="3" recipe_code_2="83886507" max_count_2="3" recipe_code_3="83886508" max_count_3="3" recipe_code_4="0" max_count_4="0" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="7" recipe_code_1="83886509" max_count_1="3" recipe_code_2="83886519" max_count_2="3" recipe_code_3="0" max_count_3="3" recipe_code_4="0" max_count_4="0" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="8" recipe_code_1="83886510" max_count_1="3" recipe_code_2="83886512" max_count_2="3" recipe_code_3="0" max_count_3="3" recipe_code_4="0" max_count_4="0" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="9" recipe_code_1="83886511" max_count_1="3" recipe_code_2="83886513" max_count_2="3" recipe_code_3="0" max_count_3="3" recipe_code_4="0" max_count_4="0" recipe_code_5="0" max_count_5="0"/>
+	<select_recipe_production_template select_resources_production_code="10" recipe_code_1="83886514" max_count_1="3" recipe_code_2="83886515" max_count_2="3" recipe_code_3="83886516" max_count_3="3" recipe_code_4="83886518" max_count_4="3" recipe_code_5="0" max_count_5="0"/>
+</select_recipe_production_table>

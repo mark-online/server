@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208171212" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_remain_effect') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_remain_effect
+GO
+
+
+CREATE PROCEDURE dbo.add_remain_effect
+    @acoount_id dbo.id_t,
+    @character_id dbo.id_t,    
+    @data_code dbo.code_t,
+    @use_arget_status_type TINYINT,
+    @is_caster TINYINT,
+    @effect_value_1 INT,
+    @expire_activate_at_1 BIGINT,
+    @effect_value_2 INT,
+    @expire_activate_at_2 BIGINT
+    
+AS
+    SET NOCOUNT ON
+	
+    INSERT INTO dbo.Remain_Effect_Infos(account_id, character_id, data_code, is_caster, use_arget_status_type, effect_value_1, expire_activate_at_1, effect_value_2, expire_activate_at_2)  
+        VALUES(@acoount_id, @character_id, @data_code, @is_caster, @use_arget_status_type, @effect_value_1, @expire_activate_at_1, @effect_value_2, @expire_activate_at_2)
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_remain_effect') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_remain_effect
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

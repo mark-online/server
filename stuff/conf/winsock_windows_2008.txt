@@ -1,0 +1,9 @@
+Winsock tunning in Windows 2008
+===============================
+
+* Increase user port
+  - http://support.microsoft.com/kb/929851
+  - netsh int ipv4 set dynamicport tcp start=10000 num=40000
+
+* http://kb.globalscape.com/KnowledgebaseArticle10438.aspx
+  - 믿을 만 한지 모르겠음

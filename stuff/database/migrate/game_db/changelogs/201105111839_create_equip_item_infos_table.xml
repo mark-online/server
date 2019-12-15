@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111839">
+    <createTable tableName="EquipItemInfos" remarks="equip item info table">
+	  <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="inventory_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="fragment_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="open_socket_count" type="BIT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_1" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_2" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_3" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_4" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_5" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="inven_type" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+	  </createTable>
+
+    <addPrimaryKey constraintName="pk_EquipItemInfos" columnNames="account_id, character_id, inventory_id" tableName="EquipItemInfos"/>
+    
+    <createIndex indexName="ix_equip_item_info_character_id" tableName="EquipItemInfos">
+      <column name="character_id"/>
+    </createIndex>
+	
+	<addForeignKeyConstraint constraintName="fk_EquipItemInfos_Characters"
+        baseColumnNames="character_id" baseTableName="EquipItemInfos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+		
+	<addForeignKeyConstraint constraintName="fk_EquipItemInfos_Inventories"
+        baseColumnNames="inventory_id" baseTableName="EquipItemInfos"
+        referencedColumnNames="id" referencedTableName="Inventories"
+        onDelete="NO ACTION" />	
+
+  </changeSet>
+
+</databaseChangeLog>

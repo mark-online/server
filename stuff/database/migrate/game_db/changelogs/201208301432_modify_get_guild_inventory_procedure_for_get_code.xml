@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208301432" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_inventory') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_inventory
+GO
+
+
+CREATE PROCEDURE dbo.get_guild_inventory
+    @guild_id dbo.id_t
+AS
+    SET NOCOUNT ON
+
+    SELECT vault_id, id, item_code, item_count, slot_id FROM dbo.Guild_Inventories WHERE guild_id = @guild_id
+
+    SELECT g.vault_id, e.item_id, e.socket_count, e.option_script_1, e.option_value_1, e.option_script_2, e.option_value_2, e.option_script_3, e.option_value_3
+        FROM dbo.Guild_Equip_Item_Infos AS e INNER JOIN dbo.Guild_Inventories AS g ON e.item_id = g.id
+        WHERE e.guild_id = @guild_id
+
+    SELECT g.vault_id, e.item_id, e.socket_slot_id, e.gem_code, e.option_script_1, e.option_value_1, e.option_script_2, e.option_value_2, e.option_script_3, e.option_value_3
+        FROM dbo.Guild_Equip_Item_Scoket_Infos AS e INNER JOIN dbo.Guild_Inventories AS g ON e.item_id = g.id
+        WHERE e.guild_id = @guild_id
+
+    SELECT g.vault_id, a.item_id, a.option_script_1, a.option_value_1, a.option_script_2, a.option_value_2, a.option_script_3, a.option_value_3
+        FROM dbo.Guild_Accessory_Item_Infos AS a INNER JOIN dbo.Guild_Inventories AS g ON a.item_id = g.id
+        WHERE a.guild_id = @guild_id
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_inventory') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_inventory
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201210051607" runOnChange="true">
+    <sql>
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N' dbo.complete_achievement') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+        DROP PROCEDURE  dbo.complete_achievement
+GO
+
+
+  CREATE PROCEDURE  dbo.complete_achievement
+    @character_id dbo.id_t,
+    @achievement_code dbo.code_t,
+    @achievement_point INT,
+    @complete_at BIGINT
+  AS
+  SET NOCOUNT ON
+  BEGIN TRY
+    BEGIN TRANSACTION
+        
+      UPDATE dbo.Characters
+        SET achievement_point= @achievement_point 
+	      WHERE id = @character_id
+
+
+      DELETE FROM dbo.Process_Achievements
+      	WHERE character_id = @character_id AND achievement_code = @achievement_code
+
+      INSERT INTO dbo.Complete_Achievements(character_id, achievement_code, complete_at) VALUES (@character_id, @achievement_code, @complete_at)
+	    
+      COMMIT
+
+    END TRY
+    BEGIN CATCH
+      ROLLBACK
+    END CATCH
+          
+    SET NOCOUNT OFF
+    </sql>
+
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N' dbo.complete_achievement') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE  dbo.complete_achievement
+GO
+
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

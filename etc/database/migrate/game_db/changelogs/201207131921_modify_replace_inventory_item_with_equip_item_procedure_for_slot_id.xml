@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105121040" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.relpace_inventory_item_with_equip_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.relpace_inventory_item_with_equip_item
+GO
+
+
+CREATE PROCEDURE dbo.relpace_inventory_item_with_equip_item
+    @account_id dbo.id_t,
+    @character_id dbo.id_t,
+    @inven_item_id dbo.id_t,
+    @equip_item_id dbo.id_t,
+    @slot_id SMALLINT,
+    @equip_part TINYINT,
+	@unequip_part TINYINT
+AS
+    SET NOCOUNT ON
+
+    BEGIN TRY
+        BEGIN TRANSACTION
+
+		UPDATE dbo.Inventories
+            SET slot_id = @slot_id
+            WHERE id = @inven_item_id			
+
+        DELETE FROM dbo.Equipments
+            WHERE account_id = @account_id AND character_id = @character_id AND
+                equip_part = @unequip_part
+				
+        UPDATE dbo.Inventories
+            SET slot_id = 0
+            WHERE id = @equip_item_id
+		
+		INSERT INTO dbo.Equipments
+            (account_id, character_id, equip_part, inventory_id) VALUES
+            (@account_id, @character_id, @equip_part, @equip_item_id)
+
+        COMMIT
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+    END CATCH
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.relpace_inventory_item_with_equip_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.relpace_inventory_item_with_equip_item
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

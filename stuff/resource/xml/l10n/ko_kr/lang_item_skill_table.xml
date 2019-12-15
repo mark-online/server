@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="20971537" name="하급고기" desc="하급고기를 사용하면 %caster_effect_value_1 만큼 체력을 회복합니다."/>
+	<l10n_template data_code="20971553" name="중급고기" desc="중급고기를 사용하면 %caster_effect_value_1 만큽 체력을 회복합니다."/>
+	<l10n_template data_code="20971569" name="상급고기" desc="상급고기를 사용하면 %caster_effect_value_1 만큼 체력을 회복합니다."/>
+	<l10n_template data_code="20971585" name="녹용" desc="15분 동안 명중률이 5% 상승합니다."/>
+	<l10n_template data_code="20971601" name="비앙그라"/>
+	<l10n_template data_code="20971617" name="박카수"/>
+	<l10n_template data_code="20971633" name="쥐고기" desc="쥐 고기를 사용하면 %caster_effect_value_1 의 체력을 회복합니다."/>
+	<l10n_template data_code="20971649" name="달걀"/>
+	<l10n_template data_code="20971665" name="체력 회복제(A)" desc="체력을 %caster_effect_value_1 올려주고 0.5초마다 3초동안 %{%caster_effect_value_2/10}%씩 증가합니다."/>
+	<l10n_template data_code="20971681" name="마나 회복제(A)" desc="체력을 %caster_effect_value_1 올려주고 0.5초마다 3초동안 %{%caster_effect_value_2/11}%씩 증가합니다."/>
+	<l10n_template data_code="20971697" name="축복의 물약(A)" desc="0.5초씩 2.5초 동안 마나와 체력이 %{%caster_effect_value_2/10}%씩 증가합니다."/>
+	<l10n_template data_code="20971713" name="야성의 가루" desc="10분 동안 물리 공격력이 2% 증가합니다."/>
+	<l10n_template data_code="20971729" name="마법의 가루" desc="10분 동안 마법 공격력이 2% 증가합니다."/>
+	<l10n_template data_code="20971745" name="혼돈의 결정" desc="10분 동안 회피율이 2% 증가합니다."/>
+	<l10n_template data_code="20971761" name="방어의 가루" desc="10분 동안 막기 능력이 2% 증가합니다."/>
+	<l10n_template data_code="20971777" name="야성의 쿠키(A)" desc="10분 동안 물리 공격력이 5% 증가합니다."/>
+	<l10n_template data_code="20971793" name="지혜의 쿠키(A)" desc="10분 동안 마법 공격력이 5% 증가합니다."/>
+	<l10n_template data_code="20971809" name="수호의 쿠키(A)" desc="10분 동안 회피율이 5% 증가합니다."/>
+	<l10n_template data_code="20971825" name="행운의 쿠키(A)" desc="10분 동안 막기 능력이 5% 증가합니다."/>
+	<l10n_template data_code="20971841" name="스튜" desc="체력을 %caster_effect_value_1 올려주고 0.5초마다 3초동안 %{%caster_effect_value_2/10}%씩 증가합니다."/>
+	<l10n_template data_code="20971857" name="깃털" desc="%caster_activate_mil_sec_1초 동안 %{%caster_effect_value_1/10}%의 이동 속도가 상승합니다."/>
+	<l10n_template data_code="20971873" name="독 주머니" desc="독 주머니를 던져 상대에게 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="20971889" name="송아지 고기"/>
+	<l10n_template data_code="20971905" name="체력 회복제(B)"/>
+	<l10n_template data_code="20971921" name="마나 회복제(B)"/>
+	<l10n_template data_code="20971937" name="축복의 물약(B)"/>
+	<l10n_template data_code="20971889" name="송아지 고기"/>
+	<l10n_template data_code="20971905" name="체력 회복제(B)"/>
+	<l10n_template data_code="20971921" name="마나 회복제(B)"/>
+	<l10n_template data_code="20971937" name="축복의 물약(B)"/>
+</l10n_table>

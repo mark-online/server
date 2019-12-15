@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{860C8143-C973-4431-970C-04C32CE540B2}</ProjectGuid>
+    <RootNamespace>ZoneServer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;ZONESERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>RandomDungeon.debug.lib;datatable.debug.lib;sne.database.debug.lib;sne.server.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.dll</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;ZONESERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerPCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>RandomDungeon.debug.lib;datatable.debug.lib;sne.database.debug.lib;sne.server.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.dll</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;ZONESERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>RandomDungeon.lib;datatable.lib;sne.database.lib;sne.server.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;ZONESERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>RandomDungeon.lib;datatable.lib;sne.database.lib;sne.server.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\zoneserver\ai\BrainFactory.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\BuildingStateBrain.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\NpcStateBrain.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\ScriptedBrain.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\scripting\GameScriptManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\StateBrain.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\building\ActiveBuildingBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AchievementCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildingProductionTaskCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CharacterTitleCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CraftCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityActionCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityEvents.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\FieldDuelCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GraveStoneCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\NpcTalkingCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\OutsideInventoryCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\PassiveEffectCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\SelectProductionCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\WorldEventCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerAchievementController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerCharacterTitleController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerDuelController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerWorldEventController.h" />
+    <ClInclude Include="..\..\src\zoneserver\helper\AddItemInfo.h" />
+    <ClInclude Include="..\..\src\zoneserver\helper\CastChecker.h" />
+    <ClInclude Include="..\..\src\zoneserver\helper\SkillTableHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\helper\Utils.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\achievement\AchievementHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\achievement\AchievementMission.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\achievement\AchievementRepository.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Achievementable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\AggroSendable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Bankable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\BuildingGuardable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\BuildingProductionInventoryable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CharacterClassable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CharacterTitleable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Cheatable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CombatStateable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Craftable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CreatureStatusable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\FieldDuelable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Gliderable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\AggroSendableImpl.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Invadable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Marchable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\NpcHireable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Moneyable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Networkable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Protectionable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SelectRecipeProductionable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SkillLearnable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SOInventoryable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Storeable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Summonable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\TargetSelectable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Teleportable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Vehicleable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\WeaponUseable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\WorldEventable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\WorldEventPlayable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\AbstractAnchor.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\AnchorAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\GuildSkillRepository.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkillManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\CreatureStatus.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\NpcStatus.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\PlayerStatus.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\StaticObjectStatus.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\LootItemInventory.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\FieldDuelState.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\cheat\CheatCommander.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\duel\DestoryDuelCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\duel\DuelService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\duel\FieldDuel.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\item\GraveStoneService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemCostService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemDropService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemOptionService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\IdleMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\CreatureEffectHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\EffectHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\NpcEffectHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\NpcSkillChecker.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\PlayerEffectHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\PlayerSkillChecker.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\SkillChecker.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\SOEffectHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\StaticObjectSkillChecker.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\callback\WorldEventMissionCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\callback\WorldEventPlayCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\callback\WorldEventScoreCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventPlayState.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventReadyState.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventState.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventWaitState.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEventMission.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEventPhase.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEventService.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\region\WorldEventSpawnRegion.h" />
+    <ClInclude Include="..\..\src\zoneserver\zoneserver_export.h" />
+    <ClInclude Include="..\..\src\zoneserver\ZoneServerApp.h" />
+    <ClInclude Include="..\..\src\zoneserver\ZoneServerPCH.h" />
+    <ClInclude Include="..\..\src\zoneserver\ZoneService.h" />
+    <ClInclude Include="..\..\src\zoneserver\s2s\ZoneArenaServerProxy.h" />
+    <ClInclude Include="..\..\src\zoneserver\s2s\ZoneCommunityServerProxy.h" />
+    <ClInclude Include="..\..\src\zoneserver\s2s\ZoneLoginServerProxy.h" />
+    <ClInclude Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxy.h" />
+    <ClInclude Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyFactory.h" />
+    <ClInclude Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Anchor.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Building.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Creature.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Device.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Dungeon.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Entity.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\EntityEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\GameObject.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\GraveStone.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Harvest.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Npc.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Obelisk.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Player.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\RandomDungeon.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\StaticObject.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Treasure.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ArenaMatchable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Buildable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Castable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CastCheckable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CastGameTimeable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Castnotificationable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Chaoable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ConsumeItemable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Dialogable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Effectable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\EntityAbility.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Factionable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Formable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\GliderMountable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\GraveStoneable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Guildable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Inventoryable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ItemCastable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Knowable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Liveable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Moveable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\OutsideInventoryable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Partyable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\PassiveSkillCastable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Positionable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Questable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ResourcesProductionable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Rewardable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Skillable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SkillCastable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\StaticObjectCastable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\StaticObjectOwerable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Thinkable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Tickable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\VehicleMountable.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastableImpl.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastNotificationableImpl.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\FactionableAbility.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\ItemCastableAbility.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\KnowableAbility.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\KnowableQueryFilter.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\SkillCastableAbility.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptApplier.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptCommand.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\EffectScriptApplier.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\EffectScriptCommand.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\EntityEffectScriptApplier.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkill.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkillApplierHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptApplier.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptCommand.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\DeviceAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\EntityAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\HarvestAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\NpcAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\ObeliskAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\PlayerAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\RandomDungeonAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\TreasureAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingBuildState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingCompleteState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingFoundationState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\CastState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\ChaoState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\CombatState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\CreatureState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\EntityStateAbility.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\GliderState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\HarvestState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\ItemManageState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\MoveState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\SkillCasterState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\TreasureState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\VehicleState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\impl\NpcState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\state\impl\PlayerState.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\AccessoryInventory.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\CastableItem.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\EquipInventory.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\Inventory.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\PlayerInventories.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\QuestInventory.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\impl\CastableElementItem.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\item\impl\CastableQuestItem.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\bank\BankAccount.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\quest\AcceptedQuest.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\quest\AcceptedRepeatQuest.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\quest\CompletedQuest.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\quest\CompletedRepeatQuest.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\quest\Quest.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\quest\QuestRepository.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\time\CastingTimer.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\time\CoolDownTimer.h" />
+    <ClInclude Include="..\..\src\zoneserver\model\time\GlobalCoolDownTimer.h" />
+    <ClInclude Include="..\..\src\zoneserver\c2s\ZoneClientSession.h" />
+    <ClInclude Include="..\..\src\zoneserver\c2s\ZoneClientSessionCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\c2s\ZoneClientSessionFactory.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\Sector.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\SectorAddress.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\SectorDirection.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\World.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\WorldCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\WorldClock.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\WorldMap.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\WorldMapCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\WorldMapHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\region\MapRegion.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\region\NormalMapRegion.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\region\RegionTriggerManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\region\SpawnMapRegion.h" />
+    <ClInclude Include="..\..\src\zoneserver\world\region\WorldMapSpawnMapRegion.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\CreatureSkill.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\NpcSkill.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\NpcSkillList.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\PlayerSkill.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\Skill.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\SkillService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\skill\StaticObjectSkill.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\time\GameTimer.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\spawn\EntityPool.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\spawn\SpawnService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\item\CastableItemService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemIdGenerator.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\trade\Trade.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\trade\TradeManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\inven\OrderInvenItemMoveService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\teleport\TeleportService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\party\Party.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\party\PartyPlayerHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\party\PartyService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\shard\ShardService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\anchor\AnchorService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\anchor\BuildingMarkCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\guild\Guild.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\guild\GuildService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\mail\MailService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\auction\AuctionHouse.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\auction\AuctionService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\ArenaService.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\ArenaServiceCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\Arena.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaDualDeathMatchMode.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaEvents.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaMode.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaTeamDeathMatchMode.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaVSMode.h" />
+    <ClInclude Include="..\..\src\zoneserver\user\ZoneUser.h" />
+    <ClInclude Include="..\..\src\zoneserver\user\ZoneUserAllocator.h" />
+    <ClInclude Include="..\..\src\zoneserver\user\ZoneUserManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\user\detail\ZoneUserImpl.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\formation\NpcFormation.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\ChaseMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\ConfusedMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\FleeingMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\Movement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\MovementManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\PathMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\PointMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\ReturnMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\SeekAssistMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\movement\WanderMovement.h" />
+    <ClInclude Include="..\..\src\zoneserver\service\distance\DistanceChecker.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\Brain.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\BrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\BrainStateMachine.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\GlobalBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\ActiveNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\AttackingNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\DialogNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\EvadingNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\FleeingNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\IdleNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\NpcBrainStateDef.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\NpcBrainStateFactory.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\RestingNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\SeekingAssistNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\ThinkingNpcBrainState.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\BrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\ActiveNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\AggressiveNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\AttackedNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\DialogRequestedNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\FearedNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\NothingTodoNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\NpcBrainEventDef.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\NpcBrainEventFactory.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\ReturnedNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\SeekAssistNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\ThreatedNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\TiredNpcBrainEvent.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\Actions.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\Events.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\EventTrigger.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\EventTriggerDef.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\EventTriggerManager.h" />
+    <ClInclude Include="..\..\src\zoneserver\ai\aggro\AggroList.h" />
+    <ClInclude Include="..\..\src\zoneserver\helper\CastEventCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\helper\InventoryHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\helper\RotatedRegionHelper.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\AbstractAnchorController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\AnchorController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\BuildingController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\Controller.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\CreatureController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\CreatureEffectController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\DeviceController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\DungeonController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\EntityController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\GraveStoneController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\HarvestController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\MoveController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\NpcController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\ObeliskController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\PlayerController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\RandomDungeonController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\SkillController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\StaticObjectController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\TreasureController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AccessoryInventoryCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AnchorAbillityCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AnchorCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ArenaCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BotCommandCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildingStateCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildingTeleportCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CastCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ChaoCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ChatCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CheatCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CooldownCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CreatureEffectCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityStatusCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\DeviceCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\DialogCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EffectCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EmotionCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityControllerAbility.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EquipInventoryCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GliderCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GrowthCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GuildCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\HarvestCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\InterestAreaCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\InventoryCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ItemCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\LifeStatusCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\MailCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\MovementCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\PartyCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\PassiveSkillCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\QuestCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\QuestInventoryCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\RewardCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\SkillCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\StaticObjectEffectCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\StatsCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\TeleportCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\TradeCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\TreasureCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\VehicleCallback.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerAnchorController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerArenaController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerAuctionController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerBuildingController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerCastController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerDeviceController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerEffectController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerGraveStoneController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerGuildController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerHarvestController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerInventoryController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerItemController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerMailController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerMoveController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerNpcController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerOutsideInventoryController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerPartyController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerQuestController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerSkillController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerTeleportController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerTradeController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerTreasureController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\npc\NpcEffectController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\npc\NpcMoveController.h" />
+    <ClInclude Include="..\..\src\zoneserver\controller\npc\NpcSkillController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\zoneserver\ai\BrainFactory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\BuildingStateBrain.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\NpcStateBrain.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\ScriptedBrain.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\scripting\GameScriptManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\scripting\scripts\MedicNpcScript.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\StateBrain.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\callback\EntityEvents.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerAchievementController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerCharacterTitleController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerDuelController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerWorldEventController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\helper\CastChecker.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\achievement\AchievementMission.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\achievement\AchievementRepository.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\AggroSendableImpl.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\AbstractAnchor.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\AnchorAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\GuildSkillRepository.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkillManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\CreatureStatus.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\NpcStatus.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\PlayerStatus.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\StaticObjectStatus.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\LootItemInventory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\cheat\CheatCommander.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\duel\DuelService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\duel\FieldDuel.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\item\GraveStoneService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemCostService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemDropService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemOptionService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\CreatureEffectHelper.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\EffectHelper.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\NpcEffectHelper.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\NpcSkillChecker.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\PlayerEffectHelper.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\PlayerSkillChecker.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\SkillChecker.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\SOEffectHelper.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\StaticObjectSkillChecker.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\state\WorldEventPlayState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\state\WorldEventReadyState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\state\WorldEventWaitState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEvent.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEventMission.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEventPhase.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEventService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\region\WorldEventSpawnRegion.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ZoneServerApp.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ZoneServerPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ZoneService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\s2s\ZoneArenaServerProxy.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\s2s\ZoneCommunityServerProxy.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\s2s\ZoneLoginServerProxy.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxy.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyFactory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Anchor.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Building.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Creature.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Device.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Dungeon.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Entity.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\EntityEvent.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\GraveStone.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Harvest.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Npc.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Obelisk.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Player.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\RandomDungeon.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\StaticObject.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Treasure.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastableImpl.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastNotificationableImpl.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\KnowableAbility.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptApplier.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptCommand.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\EffectScriptApplier.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkill.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptApplier.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptCommand.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\DeviceAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\HarvestAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\NpcAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\ObeliskAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\PlayerAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\RandomDungeonAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\TreasureAllocator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingBuildState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingCompleteState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingFoundationState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\state\impl\NpcState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\state\impl\PlayerState.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\AccessoryInventory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\CastableItem.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\EquipInventory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\Inventory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\PlayerInventories.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\QuestInventory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\impl\CastableElementItem.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\item\impl\CastableQuestItem.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\bank\BankAccount.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\quest\AcceptedQuest.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\quest\AcceptedRepeatQuest.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\quest\QuestRepository.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\time\CastingTimer.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\time\CoolDownTimer.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\model\time\GlobalCoolDownTimer.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\c2s\ZoneClientSession.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\c2s\ZoneClientSessionFactory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\Sector.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\World.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\WorldClock.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\WorldMap.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\region\MapRegion.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\region\NormalMapRegion.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\region\RegionTriggerManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\region\SpawnMapRegion.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\world\region\WorldMapSpawnMapRegion.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\CreatureSkill.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\NpcSkill.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\PlayerSkill.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\Skill.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\SkillService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\skill\StaticObjectSkill.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\time\GameTimer.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\spawn\SpawnService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\item\CastableItemService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemIdGenerator.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\trade\Trade.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\trade\TradeManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\inven\OrderInvenItemMoveService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\teleport\TeleportService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\party\Party.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\party\PartyService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\shard\ShardService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\anchor\AnchorService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\guild\Guild.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\guild\GuildService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\mail\MailService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\auction\AuctionHouse.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\auction\AuctionService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\arena\ArenaService.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\Arena.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaDualDeathMatchMode.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaMode.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaTeamDeathMatchMode.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaVSMode.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\user\ZoneUserManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\user\detail\ZoneUserImpl.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\formation\NpcFormation.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\ChaseMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\ConfusedMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\FleeingMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\MovementManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\PathMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\PointMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\ReturnMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\SeekAssistMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\movement\WanderMovement.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\service\distance\DistanceChecker.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\Brain.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\state\BrainStateMachine.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\state\npc\NpcBrainStateFactory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\event\npc\NpcBrainEventFactory.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\Actions.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\Events.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\EventTrigger.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\EventTriggerManager.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\ai\aggro\AggroList.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\helper\RotatedRegionHelper.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\AbstractAnchorController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\AnchorController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\BuildingController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\CreatureController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\CreatureEffectController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\DeviceController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\DungeonController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\EntityController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\GraveStoneController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\HarvestController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\MoveController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\NpcController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\ObeliskController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\PlayerController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\RandomDungeonController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\SkillController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\StaticObjectController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\TreasureController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerAnchorController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerArenaController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerAuctionController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerBuildingController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerCastController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerDeviceController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerEffectController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerGraveStoneController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerGuildController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerHarvestController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerInventoryController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerItemController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerMailController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerMoveController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerNpcController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerOutsideInventoryController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerPartyController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerQuestController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerSkillController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerTeleportController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerTradeController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerTreasureController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\npc\NpcEffectController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\npc\NpcMoveController.cpp" />
+    <ClCompile Include="..\..\src\zoneserver\controller\npc\NpcSkillController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="serverbase.vcxproj">
+      <Project>{866d9020-fae0-49de-914c-0a302d13523e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

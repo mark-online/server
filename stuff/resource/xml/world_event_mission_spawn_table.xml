@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" standalone="yes"?><world_event_mission_spawn_table>
+	<world_event_mission_spawn_template mission_code="587202661" entity_code="101056587" entity_path_code="0" pool="10" mission_phase="1" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587202661" entity_code="101056642" entity_path_code="0" pool="10" mission_phase="2" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587202661" entity_code="101056672" entity_path_code="0" pool="1" mission_phase="3" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587202662" entity_code="101056787" entity_path_code="301989908" pool="1" mission_phase="1" should_notify_movement="1" join_react_distance="1000"/>
+	<world_event_mission_spawn_template mission_code="587202761" entity_code="101056657" entity_path_code="0" pool="7" mission_phase="1" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587202761" entity_code="101056707" entity_path_code="0" pool="7" mission_phase="2" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587202761" entity_code="101056792" entity_path_code="0" pool="1" mission_phase="3" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587202762" entity_code="101056897" entity_path_code="301989910" pool="1" mission_phase="1" should_notify_movement="1" join_react_distance="1000"/>
+	<world_event_mission_spawn_template mission_code="587202861" entity_code="101057077" entity_path_code="301989911" pool="1" mission_phase="1" should_notify_movement="1" join_react_distance="5000"/>
+	<world_event_mission_spawn_template mission_code="587202961" entity_code="101057142" entity_path_code="301989906" pool="1" mission_phase="1" should_notify_movement="1" join_react_distance="5000"/>
+	<world_event_mission_spawn_template mission_code="587203061" entity_code="101057167" entity_path_code="301989914" pool="1" mission_phase="1" should_notify_movement="1" join_react_distance="5000"/>
+	<world_event_mission_spawn_template mission_code="587203161" entity_code="100794713" entity_path_code="0" pool="10" mission_phase="1" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587203161" entity_code="101057187" entity_path_code="0" pool="5" mission_phase="2" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587203162" entity_code="101057192" entity_path_code="0" pool="1" mission_phase="1" should_notify_movement="1" join_react_distance="1000"/>
+	<world_event_mission_spawn_template mission_code="587203261" entity_code="101057187" entity_path_code="0" pool="10" mission_phase="1" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587203261" entity_code="101057192" entity_path_code="0" pool="5" mission_phase="2" should_notify_movement="0" join_react_distance="0"/>
+	<world_event_mission_spawn_template mission_code="587203262" entity_code="101057197" entity_path_code="0" pool="1" mission_phase="1" should_notify_movement="1" join_react_distance="1000"/>
+</world_event_mission_spawn_table>

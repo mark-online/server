@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  <preConditions>
+    <dbms type="mssql"/>
+  </preConditions>
+
+  <include file="changelogs/201105111611_create_types.xml"/>
+  <include file="changelogs/201105111613_create_hosts_table.xml"/>
+  <include file="changelogs/201105111614_create_server_specs_table.xml"/>
+  <include file="changelogs/201105111615_create_shards_table.xml"/>
+  <include file="changelogs/201105111616_create_zones_table.xml"/>
+  <include file="changelogs/201105111617_create_accounts_table.xml"/>
+  <include file="changelogs/201105111622_create_logout_logs_table.xml"/>
+  <include file="changelogs/201105171420_create_properties_table.xml"/>
+  <include file="changelogs/201105111710_create_get_server_spec_procedure.xml"/>
+  <include file="changelogs/201105111712_create_authenticate_procedure.xml"/>
+  <include file="changelogs/201105111715_create_insert_logout_log_procedure.xml"/>
+  <include file="changelogs/201105111716_create_update_login_at_procedure.xml"/>
+  <include file="changelogs/201105111718_create_get_shards_procedure.xml"/>
+  <include file="changelogs/201105121718_create_get_account_info_procedure.xml"/>
+  <include file="changelogs/201105171423_create_get_properties_procedure.xml"/>
+  <include file="changelogs/201105171429_add_default_properties.xml"/>
+  <include file="changelogs/201106221115_create_character_counts_table.xml"/>
+  <include file="changelogs/201106221124_create_get_character_counts_procedure.xml"/>
+  <include file="changelogs/201106221217_create_update_character_count_procedure.xml"/>
+  <include file="changelogs/201110121454_add_created_at_column_to_accounts_table.xml"/>
+  <include file="changelogs/201110241613_add_email_column_to_accounts_table.xml"/>
+  <include file="changelogs/201204211128_integrate_rails_devise_authentication.xml"/>
+  <include file="changelogs/201204211137_create_get_password_procedure.xml"/>
+
+  <include file="changelogs/201205022037_create_ban_table.xml"/>
+  <include file="changelogs/201205022044_create_get_bans_procedure.xml"/>
+  <include file="changelogs/201205022046_create_add_ban_procedure.xml"/>
+  <include file="changelogs/201205022127_create_remove_ban_procedure.xml"/>
+
+</databaseChangeLog>

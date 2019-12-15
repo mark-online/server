@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="19923105" name="Tongs attack"/>
+	<l10n_template data_code="19923265" name="Poison needles"/>
+	<l10n_template data_code="19923425" name="Dust storm"/>
+	<l10n_template data_code="19923585" name="Sand twisters"/>
+	<l10n_template data_code="19923745" name="Vertical Cutting"/>
+	<l10n_template data_code="19923905" name="The light of Curse "/>
+	<l10n_template data_code="19924065" name="Stone attack"/>
+	<l10n_template data_code="19924225" name="Blasting"/>
+	<l10n_template data_code="19924385" name="Bite"/>
+	<l10n_template data_code="19924545" name="Sonic attack"/>
+	<l10n_template data_code="19924706" name="Bite"/>
+	<l10n_template data_code="19924866" name="Sonic attack"/>
+	<l10n_template data_code="19925026" name="Bite"/>
+	<l10n_template data_code="19925186" name="Poison teeth"/>
+	<l10n_template data_code="19925346" name="Fist attack"/>
+	<l10n_template data_code="19925506" name="Stone throwing"/>
+	<l10n_template data_code="19925666" name="Roar"/>
+	<l10n_template data_code="19925826" name="Chopping"/>
+	<l10n_template data_code="19925986" name="Webs bind"/>
+	<l10n_template data_code="19926146" name="Feral threats"/>
+	<l10n_template data_code="19926306" name="Beak dipping"/>
+	<l10n_template data_code="19926466" name="Dagger Sting"/>
+	<l10n_template data_code="19926626" name="Duress"/>
+	<l10n_template data_code="19926787" name="Body attacks"/>
+	<l10n_template data_code="19926947" name="Charge"/>
+	<l10n_template data_code="19927105" name="Bite"/>
+	<l10n_template data_code="19927265" name="Scratching"/>
+	<l10n_template data_code="19927428" name="Fist down stroke"/>
+	<l10n_template data_code="19927588" name="Stone throwing"/>
+	<l10n_template data_code="19927748" name="Earthquake"/>
+	<l10n_template data_code="19927907" name="Scratching"/>
+	<l10n_template data_code="19928067" name="Bash"/>
+	<l10n_template data_code="19928227" name="Rotten spitting"/>
+	<l10n_template data_code="19928387" name="Forepaw Attacks"/>
+	<l10n_template data_code="19928547" name="Forepaw Bash"/>
+	<l10n_template data_code="19928707" name="Tiger strike"/>
+	<l10n_template data_code="19928867" name="Bite"/>
+	<l10n_template data_code="19929027" name="fire Bite"/>
+	<l10n_template data_code="19929187" name="Fist attack"/>
+	<l10n_template data_code="19929347" name="Explosion"/>
+	<l10n_template data_code="19929507" name="Fist Swing"/>
+	<l10n_template data_code="19929666" name="Scratching"/>
+	<l10n_template data_code="19929826" name="Bite"/>
+	<l10n_template data_code="19929986" name="Body attacks"/>
+	<l10n_template data_code="19930146" name="canine Attacks"/>
+	<l10n_template data_code="19930308" name="Darknesst"/>
+	<l10n_template data_code="19930468" name="Darkness Bash"/>
+	<l10n_template data_code="19930628" name=" ice storm"/>
+	<l10n_template data_code="19930788" name="Sword cut"/>
+	<l10n_template data_code="19930948" name="Power cut"/>
+	<l10n_template data_code="19931108" name="Quake"/>
+	<l10n_template data_code="19931267" name="Fire Lump"/>
+	<l10n_template data_code="19931427" name="Fire Scratching"/>
+	<l10n_template data_code="19931587" name="fire Bombing"/>
+	<l10n_template data_code="19931746" name="Arrow Shoot"/>
+	<l10n_template data_code="19931906" name="Dagger jab"/>
+	<l10n_template data_code="19932069" name="Fist Swing"/>
+	<l10n_template data_code="19932229" name="Stone throwing"/>
+	<l10n_template data_code="19932389" name="Bind"/>
+	<l10n_template data_code="19932549" name="Press"/>
+	<l10n_template data_code="19932709" name="Curse"/>
+	<l10n_template data_code="19932870" name="Full Swing"/>
+	<l10n_template data_code="19933030" name="Smash"/>
+	<l10n_template data_code="19933190" name="Flaring anger"/>
+	<l10n_template data_code="19933350" name="Crazy smash"/>
+	<l10n_template data_code="19933509" name="Forepaw Attacks"/>
+	<l10n_template data_code="19933669" name="Forepaw Attacks"/>
+	<l10n_template data_code="19933829" name="Scratching"/>
+	<l10n_template data_code="19933989" name="Beak Attack"/>
+	<l10n_template data_code="19934147" name="Arrow Shoot"/>
+	<l10n_template data_code="19934307" name="Bash"/>
+	<l10n_template data_code="19934467" name="Bomb throwing"/>
+	<l10n_template data_code="19934627" name="Smash"/>
+	<l10n_template data_code="19934787" name="Axe chop"/>
+	<l10n_template data_code="19934947" name="Power smash"/>
+	<l10n_template data_code="19935107" name="Shield attack"/>
+	<l10n_template data_code="19935267" name="Bash"/>
+	<l10n_template data_code="19935427" name="Stick chop"/>
+	<l10n_template data_code="19935587" name="Crow attack"/>
+	<l10n_template data_code="19935747" name="Mana shell"/>
+	<l10n_template data_code="19935914" name="Darkness Sonic"/>
+	<l10n_template data_code="19936074" name="Darkness magic"/>
+	<l10n_template data_code="19936234" name="Darkness Area"/>
+	<l10n_template data_code="19936394" name="Holy Dakness"/>
+	<l10n_template data_code="19936552" name="Chopping"/>
+	<l10n_template data_code="19936712" name="Upercut"/>
+	<l10n_template data_code="19936872" name="Smash of Bitter grief "/>
+	<l10n_template data_code="19937032" name="Restore"/>
+	<l10n_template data_code="19937192" name="Screw punch"/>
+	<l10n_template data_code="19937352" name="Power Screw punch"/>
+	<l10n_template data_code="19937512" name="Hook"/>
+	<l10n_template data_code="19937672" name="Uppercut"/>
+	<l10n_template data_code="20403111" name="Magic shell"/>
+	<l10n_template data_code="20403271" name="Mana shock"/>
+	<l10n_template data_code="20403431" name="Bash"/>
+	<l10n_template data_code="20403591" name="Mana shell"/>
+	<l10n_template data_code="20403751" name="Shield attack"/>
+	<l10n_template data_code="20403911" name="Upper swing"/>
+	<l10n_template data_code="20404071" name="Punch"/>
+	<l10n_template data_code="20404231" name="Counterattack"/>
+	<l10n_template data_code="20404391" name="Arrow shoot"/>
+	<l10n_template data_code="20404551" name="Arrow shoot"/>
+	<l10n_template data_code="20404804" name="Darkness Blessing"/>
+	<l10n_template data_code="20404964" name="Holy Light"/>
+	<l10n_template data_code="20405031" name="Smash"/>
+	<l10n_template data_code="20405191" name="Bash"/>
+	<l10n_template data_code="20405351" name="Arrow shoot"/>
+	<l10n_template data_code="20405511" name="Magic shell"/>
+	<l10n_template data_code="20405671" name="Smash"/>
+	<l10n_template data_code="20405831" name="Cleave"/>
+	<l10n_template data_code="20405991" name="Burst"/>
+	<l10n_template data_code="20406151" name="Blade Storm"/>
+	<l10n_template data_code="20406311" name="Amputation"/>
+	<l10n_template data_code="20406471" name="Shield Bash"/>
+	<l10n_template data_code="20406631" name="Amputation"/>
+	<l10n_template data_code="20406791" name="Cleave"/>
+	<l10n_template data_code="20406951" name="Burst"/>
+	<l10n_template data_code="20407111" name="Blade Storm"/>
+	<l10n_template data_code="20407271" name="Hilt Hitting"/>
+	<l10n_template data_code="20407431" name="Arrow shoot"/>
+	<l10n_template data_code="20407591" name="Poison Arrow shoot"/>
+	<l10n_template data_code="20407751" name="Arrow shoot"/>
+	<l10n_template data_code="20407911" name="Poison Arrow shoot"/>
+	<l10n_template data_code="20408071" name="Smash"/>
+	<l10n_template data_code="20408231" name="Burst"/>
+	<l10n_template data_code="20408391" name="Blade Storm"/>
+	<l10n_template data_code="20408551" name="Smash"/>
+	<l10n_template data_code="20408711" name="Cleave"/>
+	<l10n_template data_code="20408871" name="Burst"/>
+</l10n_table>

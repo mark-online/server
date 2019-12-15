@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201207051356">
+    <createTable tableName="Guild_Applicants" remarks="building guard table">
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="guild_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Guild_Applicants" columnNames="character_id" tableName="Guild_Applicants"/>
+
+    <addForeignKeyConstraint constraintName="fk_Guild_Applicants_Buildings"
+        baseColumnNames="character_id" baseTableName="Guild_Applicants"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

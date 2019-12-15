@@ -1,0 +1,3 @@
+﻿<?xml version="1.0" standalone="yes"?><function_table>
+	<function_template item_code="67108865" looting_mil_sec="0" casting_mil_sec="1000" item_script_type="1" item_script_value="1" stack_count="1" sell_cost_type="1" sell_cost="500" buy_cost_type_1="1" buy_cost_1="100" buy_cost_type_2="0" buy_cost_2="0" icon_name="Unlock_Slot_Icon" animation_name="0"/>
+</function_table>

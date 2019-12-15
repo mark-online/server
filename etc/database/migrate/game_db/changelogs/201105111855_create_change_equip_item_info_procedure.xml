@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111855" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.change_equip_item_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.change_equip_item_info
+GO
+
+
+CREATE PROCEDURE dbo.change_equip_item_info
+    @item_id dbo.id_t,
+    @new_item_code dbo.code_t,
+	@fragment_count TINYINT,
+	@open_socket_count TINYINT
+AS
+    SET NOCOUNT ON
+
+    BEGIN TRY
+        BEGIN TRANSACTION
+
+        UPDATE dbo.Inventories
+			SET item_code = @new_item_code
+			    WHERE id = @item_id
+
+		UPDATE dbo.EquipItemInfos
+			SET fragment_count = @fragment_count, open_socket_count = @open_socket_count
+			WHERE inventory_id = @item_id
+		
+        COMMIT
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+    END CATCH
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.change_equip_item_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.change_equip_item_info
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

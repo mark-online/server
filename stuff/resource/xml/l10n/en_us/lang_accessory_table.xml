@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="402718721" name="Necklace of courage"/>
+	<l10n_template data_code="402718722" name="Magic Necklace of courage"/>
+	<l10n_template data_code="402718723" name="Rare Necklace of courage"/>
+	<l10n_template data_code="402718724" name="Epic Necklace of courage"/>
+	<l10n_template data_code="402718725" name="Necklace of belief"/>
+	<l10n_template data_code="402718726" name="Magic Necklace of belief"/>
+	<l10n_template data_code="402718727" name="Rare Necklace of belief"/>
+	<l10n_template data_code="402718728" name="Epic Necklace of belief"/>
+	<l10n_template data_code="402718729" name="Necklace of hope"/>
+	<l10n_template data_code="402718730" name="Magic Necklace of hope"/>
+	<l10n_template data_code="402718731" name="Rare Necklace of hope"/>
+	<l10n_template data_code="402718732" name="Epic Necklace of hope"/>
+	<l10n_template data_code="402718733" name="Necklace of secret"/>
+	<l10n_template data_code="402718734" name="Magic Necklace of secret"/>
+	<l10n_template data_code="402718735" name="Rare Necklace of secret"/>
+	<l10n_template data_code="402718736" name="Epic Necklace of secret"/>
+	<l10n_template data_code="402784273" name="Bracelet of courage"/>
+	<l10n_template data_code="402784274" name="Magic Bracelet of courage"/>
+	<l10n_template data_code="402784275" name="Rare Bracelet of courage"/>
+	<l10n_template data_code="402784276" name="Epic Bracelet of courage"/>
+	<l10n_template data_code="402784277" name="Bracelet of belief"/>
+	<l10n_template data_code="402784278" name="Magic Bracelet of belief"/>
+	<l10n_template data_code="402784279" name="Rare Bracelet of belief"/>
+	<l10n_template data_code="402784280" name="Epic Bracelet of belief"/>
+	<l10n_template data_code="402784281" name="Bracelet of hope"/>
+	<l10n_template data_code="402784282" name="Magic Bracelet of hope"/>
+	<l10n_template data_code="402784283" name="Rare Bracelet of hope"/>
+	<l10n_template data_code="402784284" name="Epic Bracelet of hope"/>
+	<l10n_template data_code="402784285" name="Bracelet of secret"/>
+	<l10n_template data_code="402784286" name="Magic Bracelet of secret"/>
+	<l10n_template data_code="402784287" name="Rare Bracelet of secret"/>
+	<l10n_template data_code="402784288" name="Epic Bracelet of secret"/>
+	<l10n_template data_code="402849825" name="Ring of soldier"/>
+	<l10n_template data_code="402849826" name="Magic Ring of priest"/>
+	<l10n_template data_code="402849827" name="Rare Ring of luck"/>
+	<l10n_template data_code="402849828" name="Epic Ring of fighter"/>
+	<l10n_template data_code="402849829" name="Ring of mana"/>
+	<l10n_template data_code="402849830" name="Magic Ring of secret"/>
+	<l10n_template data_code="402849831" name="Rare Ring of soldier"/>
+	<l10n_template data_code="402849832" name="Epic Ring of priest"/>
+	<l10n_template data_code="402849833" name="Ring of luck"/>
+	<l10n_template data_code="402849834" name="Magic Ring of fighter"/>
+	<l10n_template data_code="402849835" name="Rare Ring of mana"/>
+	<l10n_template data_code="402849836" name="Epic Ring of secret"/>
+	<l10n_template data_code="402849837" name="Ring of secret"/>
+	<l10n_template data_code="402849838" name="Magic Ring of secret"/>
+	<l10n_template data_code="402849839" name="Rare Ring of secret"/>
+	<l10n_template data_code="402849840" name="Epic Ring of secret"/>
+	<l10n_template data_code="402849841" name="Ring of secret"/>
+	<l10n_template data_code="402784306" name="Bracelet of secret"/>
+	<l10n_template data_code="402718771" name="Necklace of soldier"/>
+	<l10n_template data_code="402718772" name="Magic Necklace of soldier"/>
+	<l10n_template data_code="402718773" name="Rare Necklace of soldier"/>
+	<l10n_template data_code="402718774" name="Epic Necklace of soldier"/>
+	<l10n_template data_code="402718775" name="Necklace of priest"/>
+	<l10n_template data_code="402718776" name="Magic Necklace of priest"/>
+	<l10n_template data_code="402718777" name="Rare Necklace of priest"/>
+	<l10n_template data_code="402718778" name="Epic Necklace of priest"/>
+	<l10n_template data_code="402718779" name="Necklace of luck"/>
+	<l10n_template data_code="402718780" name="Magic Necklace of luck"/>
+	<l10n_template data_code="402718781" name="Rare Necklace of luck"/>
+	<l10n_template data_code="402718782" name="Epic Necklace of luck"/>
+	<l10n_template data_code="402784319" name="Bracelet of soldier"/>
+	<l10n_template data_code="402784320" name="Magic Bracelet of soldier"/>
+	<l10n_template data_code="402784321" name="Rare Bracelet of soldier"/>
+	<l10n_template data_code="402784322" name="Epic Bracelet of soldier"/>
+	<l10n_template data_code="402784323" name="Bracelet of priest"/>
+	<l10n_template data_code="402784324" name="Magic Bracelet of priest"/>
+	<l10n_template data_code="402784325" name="Rare Bracelet of priest"/>
+	<l10n_template data_code="402784326" name="Epic Bracelet of priest"/>
+	<l10n_template data_code="402784327" name="Bracelet of luck"/>
+	<l10n_template data_code="402784328" name="Magic Bracelet of luck"/>
+	<l10n_template data_code="402784329" name="Rare Bracelet of luck"/>
+	<l10n_template data_code="402784330" name="Epic Bracelet of luck"/>
+	<l10n_template data_code="402849867" name="Ring of soldier"/>
+	<l10n_template data_code="402849868" name="Magic Ring of soldier"/>
+	<l10n_template data_code="402849869" name="Rare Ring of soldier"/>
+	<l10n_template data_code="402849870" name="Epic Ring of soldier"/>
+	<l10n_template data_code="402849871" name="Ring of priest"/>
+	<l10n_template data_code="402849872" name="Magic Ring of priest"/>
+	<l10n_template data_code="402849873" name="Rare Ring of priest"/>
+	<l10n_template data_code="402849874" name="Epic Ring of priest"/>
+	<l10n_template data_code="402849875" name="Ring of luck"/>
+	<l10n_template data_code="402849876" name="Magic Ring of luck"/>
+	<l10n_template data_code="402849877" name="Rare Ring of luck"/>
+	<l10n_template data_code="402849878" name="Epic Ring of luck"/>
+	<l10n_template data_code="402718807" name="Necklace of Phoenix"/>
+	<l10n_template data_code="402718808" name="Magic Necklace of Phoenix"/>
+	<l10n_template data_code="402718809" name="Rare Necklace of Phoenix"/>
+	<l10n_template data_code="402718810" name="Epic Necklace of Phoenix"/>
+	<l10n_template data_code="402718811" name="Necklace of Condor"/>
+	<l10n_template data_code="402718812" name="Magic Necklace of Condor"/>
+	<l10n_template data_code="402718813" name="Rare Necklace of Condor"/>
+	<l10n_template data_code="402718814" name="Epic Necklace of Condor"/>
+	<l10n_template data_code="402718815" name="Necklace of Thunderbird"/>
+	<l10n_template data_code="402718816" name="Magic Necklace of Thunderbird"/>
+	<l10n_template data_code="402718817" name="Rare Necklace of Thunderbird"/>
+	<l10n_template data_code="402718818" name="Epic Necklace of Thunderbird"/>
+	<l10n_template data_code="402784355" name="Bracelet of Phoenix"/>
+	<l10n_template data_code="402784356" name="Magic Bracelet of Phoenix"/>
+	<l10n_template data_code="402784357" name="Rare Bracelet of Phoenix"/>
+	<l10n_template data_code="402784358" name="Epic Bracelet of Phoenix"/>
+	<l10n_template data_code="402784359" name="Bracelet of Condor"/>
+	<l10n_template data_code="402784360" name="Magic Bracelet of Condor"/>
+	<l10n_template data_code="402784361" name="Rare Bracelet of Condor"/>
+	<l10n_template data_code="402784362" name="Epic Bracelet of Condor"/>
+	<l10n_template data_code="402784363" name="Bracelet of Thunderbird"/>
+	<l10n_template data_code="402784364" name="Magic Bracelet of Thunderbird"/>
+	<l10n_template data_code="402784365" name="Rare Bracelet of Thunderbird"/>
+	<l10n_template data_code="402784366" name="Epic Bracelet of Thunderbird"/>
+	<l10n_template data_code="402849903" name="Ring of Phoenix"/>
+	<l10n_template data_code="402849904" name="Magic Ring of Phoenix"/>
+	<l10n_template data_code="402849905" name="Rare Ring of Phoenix"/>
+	<l10n_template data_code="402849906" name="Epic Ring of Phoenix"/>
+	<l10n_template data_code="402849907" name="Ring of Condor"/>
+	<l10n_template data_code="402849908" name="Magic Ring of Condor"/>
+	<l10n_template data_code="402849909" name="Rare Ring of Condor"/>
+	<l10n_template data_code="402849910" name="Epic Ring of Condor"/>
+	<l10n_template data_code="402849911" name="Ring of Thunderbird"/>
+	<l10n_template data_code="402849912" name="Magic Ring of Thunderbird"/>
+	<l10n_template data_code="402849913" name="Rare Ring of Thunderbird"/>
+	<l10n_template data_code="402849914" name="Epic Ring of Thunderbird"/>
+	<l10n_template data_code="402718843" name="Necklace of Pono"/>
+	<l10n_template data_code="402718844" name="Magic Necklace of Pono"/>
+	<l10n_template data_code="402718845" name="Rare Necklace of Pono"/>
+	<l10n_template data_code="402718846" name="Epic Necklace of Pono"/>
+	<l10n_template data_code="402718847" name="Necklace of Kala"/>
+	<l10n_template data_code="402718848" name="Magic Necklace of Kala"/>
+	<l10n_template data_code="402718849" name="Rare Necklace of Kala"/>
+	<l10n_template data_code="402718850" name="Epic Necklace of Kala"/>
+	<l10n_template data_code="402718851" name="Necklace of Ike"/>
+	<l10n_template data_code="402718852" name="Magic Necklace of Ike"/>
+	<l10n_template data_code="402718853" name="Rare Necklace of Ike"/>
+	<l10n_template data_code="402718854" name="Epic Necklace of Ike"/>
+	<l10n_template data_code="402784391" name="Bracelet of Pono"/>
+	<l10n_template data_code="402784392" name="Magic Bracelet of Pono"/>
+	<l10n_template data_code="402784393" name="Rare Bracelet of Pono"/>
+	<l10n_template data_code="402784394" name="Epic Bracelet of Pono"/>
+	<l10n_template data_code="402784395" name="Bracelet of Kala"/>
+	<l10n_template data_code="402784396" name="Magic Bracelet of Kala"/>
+	<l10n_template data_code="402784397" name="Rare Bracelet of Kala"/>
+	<l10n_template data_code="402784398" name="Epic Bracelet of Kala"/>
+	<l10n_template data_code="402784399" name="Bracelet of Ike"/>
+	<l10n_template data_code="402784400" name="Magic Bracelet of Ike"/>
+	<l10n_template data_code="402784401" name="Rare Bracelet of Ike"/>
+	<l10n_template data_code="402784402" name="Epic Bracelet of Ike"/>
+	<l10n_template data_code="402849939" name="Ring of Pono"/>
+	<l10n_template data_code="402849940" name="Magic Ring of Pono"/>
+	<l10n_template data_code="402849941" name="Rare Ring of Pono"/>
+	<l10n_template data_code="402849942" name="Epic Ring of Pono"/>
+	<l10n_template data_code="402849943" name="Ring of Kala"/>
+	<l10n_template data_code="402849944" name="Magic Ring of Kala"/>
+	<l10n_template data_code="402849945" name="Rare Ring of Kala"/>
+	<l10n_template data_code="402849946" name="Epic Ring of Kala"/>
+	<l10n_template data_code="402849947" name="Ring of Ike"/>
+	<l10n_template data_code="402849948" name="Magic Ring of Ike"/>
+	<l10n_template data_code="402849949" name="Rare Ring of Ike"/>
+	<l10n_template data_code="402849950" name="Epic Ring of Ike"/>
+	<l10n_template data_code="402718879" name="Necklace of Runes"/>
+	<l10n_template data_code="402718880" name="Magic Necklace of Runes"/>
+	<l10n_template data_code="402718881" name="Rare Necklace of Runes"/>
+	<l10n_template data_code="402718882" name="Epic Necklace of Runes"/>
+	<l10n_template data_code="402718883" name="Necklace of Erisian"/>
+	<l10n_template data_code="402718884" name="Magic Necklace of Erisian"/>
+	<l10n_template data_code="402718885" name="Rare Necklace of Erisian"/>
+	<l10n_template data_code="402718886" name="Epic Necklace of Erisian"/>
+	<l10n_template data_code="402718887" name="Necklace of Elemental"/>
+	<l10n_template data_code="402718888" name="Magic Necklace of Elemental"/>
+	<l10n_template data_code="402718889" name="Rare Necklace of Elemental"/>
+	<l10n_template data_code="402718890" name="Epic Necklace of Elemental"/>
+	<l10n_template data_code="402784427" name="Bracelet of Runes"/>
+	<l10n_template data_code="402784428" name="Magic Bracelet of Runes"/>
+	<l10n_template data_code="402784429" name="Rare Bracelet of Runes"/>
+	<l10n_template data_code="402784430" name="Epic Bracelet of Runes"/>
+	<l10n_template data_code="402784431" name="Bracelet of Erisian"/>
+	<l10n_template data_code="402784432" name="Magic Bracelet of Erisian"/>
+	<l10n_template data_code="402784433" name="Rare Bracelet of Erisian"/>
+	<l10n_template data_code="402784434" name="Epic Bracelet of Erisian"/>
+	<l10n_template data_code="402784435" name="Bracelet of Elemental"/>
+	<l10n_template data_code="402784436" name="Magic Bracelet of Elemental"/>
+	<l10n_template data_code="402784437" name="Rare Bracelet of Elemental"/>
+	<l10n_template data_code="402784438" name="Epic Bracelet of Elemental"/>
+	<l10n_template data_code="402849975" name="Ring of Runes"/>
+	<l10n_template data_code="402849976" name="Magic Ring of Runes"/>
+	<l10n_template data_code="402849977" name="Rare Ring of Runes"/>
+	<l10n_template data_code="402849978" name="Epic Ring of Runes"/>
+	<l10n_template data_code="402849979" name="Ring of Erisian"/>
+	<l10n_template data_code="402849980" name="Magic Ring of Erisian"/>
+	<l10n_template data_code="402849981" name="Rare Ring of Erisian"/>
+	<l10n_template data_code="402849982" name="Epic Ring of Erisian"/>
+	<l10n_template data_code="402849983" name="Ring of Elemental"/>
+	<l10n_template data_code="402849984" name="Magic Ring of Elemental"/>
+	<l10n_template data_code="402849985" name="Rare Ring of Elemental"/>
+	<l10n_template data_code="402849986" name="Epic Ring of Elemental"/>
+	<l10n_template data_code="402849987" name="Ring of Sciomancy"/>
+	<l10n_template data_code="402849988" name="Magic Ring of Sciomancy"/>
+	<l10n_template data_code="402849989" name="Rare Ring of Sciomancy"/>
+	<l10n_template data_code="402849990" name="Epic Ring of Sciomancy"/>
+</l10n_table>

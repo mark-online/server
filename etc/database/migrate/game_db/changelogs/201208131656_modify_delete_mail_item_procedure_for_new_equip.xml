@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110311958" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_mail_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+      DROP PROCEDURE dbo.delete_mail_item
+GO
+
+
+      CREATE PROCEDURE dbo.delete_mail_item
+      @mail_id dbo.id_t
+      AS
+      SET NOCOUNT ON
+
+      BEGIN TRY
+      BEGIN TRANSACTION
+
+      UPDATE dbo.Mails
+      SET game_money = 0
+      WHERE id = @mail_id
+
+      DELETE FROM dbo.Mail_Equip_Item_Infos WHERE mail_id = @mail_id
+      DELETE FROM dbo.Mail_Equip_Item_Scoket_Infos WHERE mail_id = @mail_id
+      DELETE FROM dbo.Mail_Accessory_Item_Infos WHERE mail_id = @mail_id
+      DELETE FROM dbo.Mail_Inventories WHERE mail_id = @mail_id
+
+      COMMIT
+      END TRY
+      BEGIN CATCH
+      ROLLBACK
+      END CATCH
+
+      SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_mail_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_mail_item
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

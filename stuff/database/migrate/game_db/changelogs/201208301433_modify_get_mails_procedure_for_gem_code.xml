@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208301433" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_mails') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_mails
+GO
+
+
+CREATE PROCEDURE dbo.get_mails
+    @character_id dbo.id_t
+AS
+    SET NOCOUNT ON
+	
+	SELECT id, sender_nickname, sender_id, sender_npc_code, title, body, sent_at, is_read, game_money, mail_type
+	    FROM dbo.Mails WHERE character_id = @character_id
+	
+	SELECT mail_id, id, item_code, item_count
+	    FROM dbo.Mail_Inventories WHERE character_id = @character_id
+	
+	SELECT mail_id, item_id, socket_count, option_script_1, option_value_1, option_script_2, option_value_2, option_script_3, option_value_3
+	    FROM dbo.Mail_Equip_Item_Infos WHERE character_id = @character_id
+
+	SELECT mail_id, item_id, socket_slot_id, gem_code, option_script_1, option_value_1, option_script_2, option_value_2, option_script_3, option_value_3
+	    FROM dbo.Mail_Equip_Item_Scoket_Infos WHERE character_id = @character_id
+	
+	SELECT mail_id, item_id, option_script_1, option_value_1, option_script_2, option_value_2, option_script_3, option_value_3
+	    FROM dbo.Mail_Accessory_Item_Infos WHERE character_id = @character_id
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_mails') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_mails
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

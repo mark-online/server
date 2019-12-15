@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\user">
+      <UniqueIdentifier>{c8234d9d-5193-4191-81d1-e92056070162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\s2s">
+      <UniqueIdentifier>{12f46530-2830-4a21-9ac6-1d2bbfe9e09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\c2s">
+      <UniqueIdentifier>{c98f9c5e-b8a2-4f97-a481-c417f4410b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shard">
+      <UniqueIdentifier>{56b1b77f-629b-4f38-b163-513d132fb183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ban">
+      <UniqueIdentifier>{38ca3a65-ebe2-4a19-bb4c-dbc83a071ffd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\loginserver\LoginServerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\LoginServerPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\LoginService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\user\LoginUser.cpp">
+      <Filter>Source Files\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\user\LoginUserManager.cpp">
+      <Filter>Source Files\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\s2s\LoginServerSideProxy.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\s2s\LoginServerSideProxyFactory.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\s2s\LoginServerSideProxyManager.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\c2s\LoginClientSession.cpp">
+      <Filter>Source Files\c2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\c2s\LoginClientSessionFactory.cpp">
+      <Filter>Source Files\c2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\shard\ShardManager.cpp">
+      <Filter>Source Files\shard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\loginserver\ban\BanManager.cpp">
+      <Filter>Source Files\ban</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\loginserver\LoginServerApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\LoginServerPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\LoginService.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\user\LoginUser.h">
+      <Filter>Source Files\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\user\LoginUserManager.h">
+      <Filter>Source Files\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\s2s\LoginServerSideProxy.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\s2s\LoginServerSideProxyFactory.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\s2s\LoginServerSideProxyManager.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\c2s\LoginClientSession.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\c2s\LoginClientSessionCallback.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\c2s\LoginClientSessionFactory.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\shard\ShardManager.h">
+      <Filter>Source Files\shard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\ban\BanManager.h">
+      <Filter>Source Files\ban</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\loginserver\loginserver_export.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

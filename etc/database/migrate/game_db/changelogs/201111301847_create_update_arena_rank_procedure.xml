@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112191635" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_arena_rank') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_arena_rank
+GO
+
+      CREATE PROCEDURE dbo.update_arena_rank
+          @mode TINYINT
+      AS
+      SET NOCOUNT ON
+
+
+      CREATE TABLE #Temp_Arena_Rankers
+      (
+      rank INT IDENTITY PRIMARY KEY,
+      character_id INT UNIQUE,
+      score INT
+      )
+
+      CREATE INDEX temp_arena_rankers_score_idx ON #Temp_Arena_Rankers (score)
+
+      INSERT INTO #Temp_Arena_Rankers
+      SELECT  character_id, score FROM dbo.Arena_Records WHERE mode = @mode ORDER BY score DESC
+
+      UPDATE dbo.Arena_Records
+      SET rank = ( SELECT rank FROM #Temp_Arena_Rankers WHERE character_id = A.character_id)
+      FROM dbo.Arena_Records A
+      WHERE A.mode = @mode
+
+      DROP TABLE #Temp_Arena_Rankers
+
+      SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_arena_rank') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_arena_rank
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

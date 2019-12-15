@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="yes"?><fragment_table>
+	<fragment_template item_code="167772161" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="240" buy_cost_type_1="1" buy_cost_1="60" buy_cost_type_2="0" buy_cost_2="0" icon_name="Cloth_Fragment_Icon"/>
+	<fragment_template item_code="167772162" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="240" buy_cost_type_1="1" buy_cost_1="60" buy_cost_type_2="0" buy_cost_2="0" icon_name="Leather_Fragment_Icon"/>
+	<fragment_template item_code="167772163" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="240" buy_cost_type_1="1" buy_cost_1="60" buy_cost_type_2="0" buy_cost_2="0" icon_name="Plate_Fragment_Icon"/>
+	<fragment_template item_code="167772164" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="265" buy_cost_type_1="1" buy_cost_1="66" buy_cost_type_2="0" buy_cost_2="0" icon_name="One-Hand_Sword_Fragment_Icon"/>
+	<fragment_template item_code="167772165" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="395" buy_cost_type_1="1" buy_cost_1="98" buy_cost_type_2="0" buy_cost_2="0" icon_name="Two-Hand_Sword_Fragment_Icon"/>
+	<fragment_template item_code="167772166" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="265" buy_cost_type_1="1" buy_cost_1="66" buy_cost_type_2="0" buy_cost_2="0" icon_name="One-Hand_Blunt_Fragment_Icon"/>
+	<fragment_template item_code="167772167" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="395" buy_cost_type_1="1" buy_cost_1="98" buy_cost_type_2="0" buy_cost_2="0" icon_name="Two-Hand_Blunt_Fragment_Icon"/>
+	<fragment_template item_code="167772168" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="340" buy_cost_type_1="1" buy_cost_1="85" buy_cost_type_2="0" buy_cost_2="0" icon_name="Dual_Weapon_Fragment_Icon"/>
+	<fragment_template item_code="167772169" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="340" buy_cost_type_1="1" buy_cost_1="85" buy_cost_type_2="0" buy_cost_2="0" icon_name="Staff_Fragment_Icon"/>
+	<fragment_template item_code="167772170" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="380" buy_cost_type_1="1" buy_cost_1="95" buy_cost_type_2="0" buy_cost_2="0" icon_name="Bow_Fragment_Icon"/>
+	<fragment_template item_code="167772171" looting_mil_sec="2000" stack_count="10" sell_cost_type="1" sell_cost="350" buy_cost_type_1="1" buy_cost_1="87" buy_cost_type_2="0" buy_cost_2="0" icon_name="Shield_Fragment_Icon"/>
+</fragment_table>

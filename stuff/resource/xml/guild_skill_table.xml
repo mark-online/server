@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" standalone="yes"?><guild_skill_table>
+	<guild_skill_template skill_code="23068705" consume_sp="1" need_level="1" effect_script_type="101" effect_value="50" icon_name="exp_bous"/>
+	<guild_skill_template skill_code="23068737" consume_sp="1" need_level="2" effect_script_type="103" effect_value="50" icon_name="store_sale"/>
+	<guild_skill_template skill_code="23068721" consume_sp="1" need_level="3" effect_script_type="102" effect_value="50" icon_name="vehicle_speed_up"/>
+	<guild_skill_template skill_code="23068753" consume_sp="1" need_level="4" effect_script_type="104" effect_value="50" icon_name="ap_bonus"/>
+	<guild_skill_template skill_code="23068689" consume_sp="1" need_level="5" effect_script_type="100" effect_value="50" icon_name="money_bonus"/>
+	<guild_skill_template skill_code="23068706" consume_sp="1" need_level="6" effect_script_type="101" effect_value="100" icon_name="exp_bous"/>
+	<guild_skill_template skill_code="23068769" consume_sp="1" need_level="7" effect_script_type="105" effect_value="50" icon_name="revive_time_down"/>
+	<guild_skill_template skill_code="23068690" consume_sp="1" need_level="8" effect_script_type="100" effect_value="100" icon_name="money_bonus"/>
+	<guild_skill_template skill_code="23068770" consume_sp="1" need_level="10" effect_script_type="105" effect_value="100" icon_name="revive_time_down"/>
+</guild_skill_table>

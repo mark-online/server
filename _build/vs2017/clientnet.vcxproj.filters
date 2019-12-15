@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\session">
+      <UniqueIdentifier>{4a592bd4-b152-48ea-a1c2-e4755a63d4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\clientnet\ClientNetPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientnet\ServerProxyFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientnet\ServerProxyImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientnet\session\BaseSession.cpp">
+      <Filter>Source Files\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientnet\session\CommunitySession.cpp">
+      <Filter>Source Files\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientnet\session\LoginSession.cpp">
+      <Filter>Source Files\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientnet\session\ZoneSession.cpp">
+      <Filter>Source Files\session</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\clientnet\ClientNetPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientnet\ServerProxyImpl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientnet\session\BaseSession.h">
+      <Filter>Source Files\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientnet\session\CommunitySession.h">
+      <Filter>Source Files\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientnet\session\LoginSession.h">
+      <Filter>Source Files\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientnet\session\SessionCallback.h">
+      <Filter>Source Files\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientnet\session\ZoneSession.h">
+      <Filter>Source Files\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\clientnet\ServerProxy.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\clientnet\ServerProxyCallback.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\clientnet\ServerProxyConfig.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\clientnet\ServerProxyFactory.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\server\rpc\ZoneArenaRpc.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201210051435" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_process_achievements') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_process_achievements
+GO
+
+
+CREATE PROCEDURE dbo.get_process_achievements
+    @character_id dbo.id_t
+AS
+    SET NOCOUNT ON
+
+    SELECT achievement_code, mission_code, param_1, param_2, last_update_at FROM dbo.Process_Achievements WHERE character_id = @character_id
+
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_process_achievements') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_process_achievements
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" standalone="yes"?><world_event_invader_spawn_table>
+	<world_event_invader_spawn_template mission_code="587202661" entity_code="101056637" entity_path_code="301989907" pool="1" first_spawn_sec="5" min_spawn_sec="60" max_spawn_sec="120" mission_phase="1" should_notify_movement="0"/>
+	<world_event_invader_spawn_template mission_code="587202661" entity_code="101056637" entity_path_code="301989907" pool="1" first_spawn_sec="5" min_spawn_sec="60" max_spawn_sec="120" mission_phase="2" should_notify_movement="0"/>
+	<world_event_invader_spawn_template mission_code="587202661" entity_code="101056637" entity_path_code="301989907" pool="1" first_spawn_sec="5" min_spawn_sec="30" max_spawn_sec="60" mission_phase="3" should_notify_movement="0"/>
+	<world_event_invader_spawn_template mission_code="587202761" entity_code="101056782" entity_path_code="301989909" pool="1" first_spawn_sec="5" min_spawn_sec="60" max_spawn_sec="120" mission_phase="1" should_notify_movement="0"/>
+	<world_event_invader_spawn_template mission_code="587202761" entity_code="101056782" entity_path_code="301989909" pool="1" first_spawn_sec="5" min_spawn_sec="60" max_spawn_sec="120" mission_phase="2" should_notify_movement="0"/>
+	<world_event_invader_spawn_template mission_code="587202761" entity_code="101056782" entity_path_code="301989909" pool="1" first_spawn_sec="5" min_spawn_sec="30" max_spawn_sec="60" mission_phase="3" should_notify_movement="0"/>
+</world_event_invader_spawn_table>

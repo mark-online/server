@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111712" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.authenticate') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.authenticate
+GO
+
+
+CREATE PROCEDURE dbo.authenticate
+  @account_id dbo.id_t OUT,
+  @user_id NVARCHAR(10),
+  @password NVARCHAR(10)
+AS
+
+  SET NOCOUNT ON
+
+  SELECT @account_id = id
+    FROM dbo.Accounts
+    WHERE user_id = @user_id AND password = @password;
+
+SET NOCOUNT OFF
+    </sql>
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.authenticate') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.authenticate
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

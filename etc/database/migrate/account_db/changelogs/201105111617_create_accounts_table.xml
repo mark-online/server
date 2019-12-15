@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111617">
+    <createTable tableName="Accounts" remarks="user account information">
+      <column name="id" type="dbo.id_t" autoIncrement="true">
+        <constraints nullable="false"/>
+      </column>
+      <column name="user_id" type="NVARCHAR(10)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="password" type="NVARCHAR(10)"/>
+      <column name="grade" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="last_shard_id" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="last_login_at" type="SMALLDATETIME"/>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Accounts" columnNames="id" tableName="Accounts"/>
+    <createIndex indexName="ux_Accounts_user_id" tableName="Accounts" unique="true">
+      <column name="user_id"/>
+    </createIndex>
+    <createIndex indexName="ix_Accounts_last_login_at" tableName="Accounts" unique="false">
+      <column name="last_login_at"/>
+    </createIndex>
+
+  </changeSet>
+
+</databaseChangeLog>

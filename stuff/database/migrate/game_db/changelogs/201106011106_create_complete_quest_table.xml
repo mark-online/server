@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201106011106">
+    <createTable tableName="Complete_Quests" remarks="Complete quest table">
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="quest_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Complete_Quests" columnNames="character_id, quest_code" tableName="Complete_Quests"/>
+
+    <addForeignKeyConstraint constraintName="fk_Complete_Quests_Characters"
+        baseColumnNames="character_id" baseTableName="Complete_Quests"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

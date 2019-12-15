@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111710" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_server_spec') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_server_spec
+GO
+      
+CREATE PROCEDURE dbo.get_server_spec
+  @listening_address VARCHAR(30) OUT,
+  @listening_port INT OUT,
+  @monitor_port INT OUT,
+  @worker_thread_count INT OUT,
+  @session_pool_size INT OUT,
+  @max_user_count INT OUT,
+  @packet_cipher VARCHAR(10) OUT,
+  @cipher_key_time_limit INT OUT,
+  @authentication_timeout INT OUT,
+  @heartbeat_timeout INT OUT,
+  @max_bytes_per_second INT OUT,
+  @seconds_for_throttling INT OUT,
+  @max_pendable_packet_count INT OUT,
+  @certificate VARCHAR(10) OUT,
+  @name VARCHAR(30)
+AS
+  SET NOCOUNT ON
+
+  SELECT @listening_address = s.listening_address,
+    @listening_port = s.listening_port,
+    @monitor_port = s.monitor_port,
+    @worker_thread_count = s.worker_thread_count,
+    @session_pool_size = s.session_pool_size,
+    @max_user_count = s.max_user_count,
+    @packet_cipher = s.packet_cipher,
+    @cipher_key_time_limit = s.cipher_key_time_limit,
+    @authentication_timeout = s.authentication_timeout,
+    @heartbeat_timeout = s.heartbeat_timeout,
+    @max_bytes_per_second = s.max_bytes_per_second,
+    @seconds_for_throttling = s.seconds_for_throttling,
+    @max_pendable_packet_count = s.max_pendable_packet_count,
+    @certificate = s.certificate
+    FROM dbo.Hosts h, dbo.Server_Specs s
+    WHERE h.name = s.host_name AND s.name = @name
+
+  SET NOCOUNT OFF
+    </sql>
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_server_spec') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_server_spec
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

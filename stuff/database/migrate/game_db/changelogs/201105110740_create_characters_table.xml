@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105110740">
+    <createTable tableName="Characters" remarks="character table">
+      <column name="id" type="dbo.id_t" autoIncrement="true">
+        <constraints nullable="false"/>
+      </column>
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="nickname" type="NVARCHAR(10)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="class" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="zone_id" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_x" type="REAL">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_y" type="REAL">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_z" type="REAL">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_heading" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="sex" type="tinyint">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="current_level" type="tinyint" defaultValueNumeric="1">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="level_step" type="tinyint" defaultValueNumeric="1">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="exp" type="int" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="sp" type="smallint" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="hp" type="int" defaultValueNumeric="100">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="mp" type="int" defaultValueNumeric="100">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="cp" type="smallint" defaultValueNumeric="100">
+        <constraints nullable="false"/>
+      </column> 
+      <column name="recovery_cp" type="smallint" defaultValueNumeric="7">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_state" type="tinyint" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="chaotic" type="SMALLINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="is_actionbar_lock" type="tinyint" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Characters" columnNames="id" tableName="Characters"/>
+    <createIndex indexName="ux_Character_nickname" tableName="Characters" unique="true">
+      <column name="nickname"/>
+    </createIndex>
+    <createIndex indexName="ix_Character_account_id" tableName="Characters">
+      <column name="account_id"/>
+    </createIndex>
+
+  </changeSet>
+
+</databaseChangeLog>

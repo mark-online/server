@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201210251716" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_guild_rank') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_guild_rank
+GO
+
+
+CREATE PROCEDURE dbo.delete_guild_rank
+    @guild_id dbo.id_t,
+    @rank_id TINYINT
+AS
+    SET NOCOUNT ON
+	
+    DELETE dbo.Guild_Ranks WHERE guild_id = @guild_id AND rank_id = @rank_id
+    IF @@ROWCOUNT = 1
+    BEGIN
+        UPDATE dbo.Guild_Ranks SET rank_id = rank_id - 1 WHERE guild_id = @guild_id AND rank_id > @rank_id
+    END
+    DELETE dbo.Guild_Bank_Rights WHERE guild_id = @guild_id AND rank_id = @rank_id
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_guild_rank') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_guild_rank
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

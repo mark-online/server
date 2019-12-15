@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111031111" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_auctions') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_auctions
+GO
+
+
+CREATE PROCEDURE dbo.get_auctions
+    @zone_id dbo.id_t
+AS
+    SET NOCOUNT ON
+	
+	SELECT id, npc_code, seller_id, buyer_id, current_bid_money, buyout_money, deposit_fee, expire_at
+		FROM dbo.Auctions WHERE zone_id = @zone_id
+	
+	SELECT auction_id, item_id, item_code, item_count 
+	    FROM dbo.Auction_Inventories WHERE zone_id = @zone_id
+	
+	SELECT auction_id, socket_count, option_script_1, option_value_1, option_script_2, option_value_2, option_script_3, option_value_3
+		FROM dbo.Auction_Equip_Item_Infos WHERE zone_id = @zone_id
+
+	SELECT auction_id, socket_slot_id, option_script_1, option_value_1, option_script_2, option_value_2, option_script_3, option_value_3
+		FROM dbo.Auction_Equip_Item_Socket_Infos WHERE zone_id = @zone_id
+
+	SELECT auction_id, option_script_1, option_value_1, option_script_2, option_value_2, option_script_3, option_value_3
+		FROM dbo.Auction_Accessory_Item_Infos WHERE zone_id = @zone_id
+		
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_auctions') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_auctions
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

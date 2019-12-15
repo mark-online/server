@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201205311432" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_building_guard') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_building_guard
+GO
+
+
+CREATE PROCEDURE dbo.add_building_guard
+    @id dbo.id_t,    
+    @building_id dbo.id_t,
+    @npc_code dbo.code_t,
+    @pos_x REAL,
+    @pos_y REAL,
+    @pos_z REAL,
+    @pos_heading TINYINT,
+    @expire_at BIGINT
+AS
+    SET NOCOUNT ON
+	
+    INSERT INTO dbo.Building_Guards(id, building_id , npc_code, pos_x, pos_y, pos_z, pos_heading, expire_at)  
+        VALUES(@id, @building_id, @npc_code, @pos_x, @pos_y, @pos_z, @pos_heading, @expire_at)
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_building_guard') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_building_guard
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

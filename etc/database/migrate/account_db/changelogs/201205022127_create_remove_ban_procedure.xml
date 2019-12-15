@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201205022046" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_ban') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.remove_ban
+GO
+
+
+CREATE PROCEDURE dbo.remove_ban
+  @ban_mode TINYINT, 
+  @account_id dbo.id_t, 
+  @character_id dbo.id_t, 
+  @ip_address VARCHAR(30)
+AS
+
+  SET NOCOUNT ON
+  
+  IF @ban_mode  = 1
+  BEGIN
+   DELETE FROM dbo.Bans WHERE account_id = @account_id
+  END
+  ELSE IF @ban_mode  = 2
+  BEGIN
+   DELETE FROM dbo.Bans WHERE character_id = @character_id 
+  END
+  ELSE IF @ban_mode = 3
+  BEGIN
+   DELETE FROM dbo.Bans WHERE ip_address = @ip_address 
+  END
+  
+SET NOCOUNT OFF
+    </sql>
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_ban') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.remove_ban
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

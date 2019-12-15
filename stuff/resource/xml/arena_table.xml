@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" standalone="yes"?><arenas>
+	<arena_template arena_map_code="184811521" x_sector_count="11" y_sector_count="11" z_sector_count="11" sector_length="30" min_player_count="2" max_player_count="2" arena_mode_type="1" can_mount_vehicle="0" can_glider="0" match_time="5"/>
+	<arena_template arena_map_code="184811522" x_sector_count="11" y_sector_count="11" z_sector_count="11" sector_length="30" min_player_count="2" max_player_count="10" arena_mode_type="3" can_mount_vehicle="0" can_glider="0" match_time="10"/>
+</arenas>

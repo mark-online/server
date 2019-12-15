@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="19923105" name="집게 공격"/>
+	<l10n_template data_code="19923265" name="독침"/>
+	<l10n_template data_code="19923425" name="모래 바람"/>
+	<l10n_template data_code="19923585" name="모래 회오리"/>
+	<l10n_template data_code="19923745" name="수직 베기"/>
+	<l10n_template data_code="19923905" name="저주의 빛"/>
+	<l10n_template data_code="19924065" name="돌 공격"/>
+	<l10n_template data_code="19924225" name="폭파"/>
+	<l10n_template data_code="19924385" name="물기"/>
+	<l10n_template data_code="19924545" name="음파 공격"/>
+	<l10n_template data_code="19924706" name="물기"/>
+	<l10n_template data_code="19924866" name="음파 공격"/>
+	<l10n_template data_code="19925026" name="물기"/>
+	<l10n_template data_code="19925186" name="마비침"/>
+	<l10n_template data_code="19925346" name="주먹 공격"/>
+	<l10n_template data_code="19925506" name="돌 던지기"/>
+	<l10n_template data_code="19925666" name="포효"/>
+	<l10n_template data_code="19925826" name="찍기"/>
+	<l10n_template data_code="19925986" name="거미줄 묶기"/>
+	<l10n_template data_code="19926146" name="야성의 위협"/>
+	<l10n_template data_code="19926306" name="부리 찍기"/>
+	<l10n_template data_code="19926466" name="단검 찌르기"/>
+	<l10n_template data_code="19926626" name="협박"/>
+	<l10n_template data_code="19926787" name="몸통 공격"/>
+	<l10n_template data_code="19926947" name="돌격"/>
+	<l10n_template data_code="19927105" name="물기"/>
+	<l10n_template data_code="19927265" name="할퀴기"/>
+	<l10n_template data_code="19927428" name="주먹 내려치기"/>
+	<l10n_template data_code="19927588" name="돌 던지기"/>
+	<l10n_template data_code="19927748" name="대지진"/>
+	<l10n_template data_code="19927907" name="할퀴기"/>
+	<l10n_template data_code="19928067" name="후려치기"/>
+	<l10n_template data_code="19928227" name="썩은 침뱉기"/>
+	<l10n_template data_code="19928387" name="앞발 공격"/>
+	<l10n_template data_code="19928547" name="앞발 후리기"/>
+	<l10n_template data_code="19928707" name="덮치기"/>
+	<l10n_template data_code="19928867" name="물기"/>
+	<l10n_template data_code="19929027" name="화염 물기"/>
+	<l10n_template data_code="19929187" name="주먹 공격"/>
+	<l10n_template data_code="19929347" name="화염 폭발"/>
+	<l10n_template data_code="19929507" name="주먹 휘두르기"/>
+	<l10n_template data_code="19929666" name="할퀴기"/>
+	<l10n_template data_code="19929826" name="물기"/>
+	<l10n_template data_code="19929986" name="몸통 공격"/>
+	<l10n_template data_code="19930146" name="송곳니 공격"/>
+	<l10n_template data_code="19930308" name="암흑"/>
+	<l10n_template data_code="19930468" name="암흑 강타"/>
+	<l10n_template data_code="19930628" name="얼음 폭풍"/>
+	<l10n_template data_code="19930788" name="베기"/>
+	<l10n_template data_code="19930948" name="강격"/>
+	<l10n_template data_code="19931108" name="지진"/>
+	<l10n_template data_code="19931267" name="화염 덩어리"/>
+	<l10n_template data_code="19931427" name="화염 주먹"/>
+	<l10n_template data_code="19931587" name="화염 폭격"/>
+	<l10n_template data_code="19931746" name="화살 공격"/>
+	<l10n_template data_code="19931906" name="단검 찌르기"/>
+	<l10n_template data_code="19932069" name="주먹 휘두르기"/>
+	<l10n_template data_code="19932229" name="돌 던지기"/>
+	<l10n_template data_code="19932389" name="묶기"/>
+	<l10n_template data_code="19932549" name="압사"/>
+	<l10n_template data_code="19932709" name="저주"/>
+	<l10n_template data_code="19932870" name="파괴"/>
+	<l10n_template data_code="19933030" name="후려치기"/>
+	<l10n_template data_code="19933190" name="분노"/>
+	<l10n_template data_code="19933350" name="광란의 타격"/>
+	<l10n_template data_code="19933509" name="앞발 공격"/>
+	<l10n_template data_code="19933669" name="앞발 공격"/>
+	<l10n_template data_code="19933829" name="할퀴기"/>
+	<l10n_template data_code="19933989" name="부리 찍기"/>
+	<l10n_template data_code="19934147" name="화살 공격"/>
+	<l10n_template data_code="19934307" name="후려치기"/>
+	<l10n_template data_code="19934467" name="폭탄 던지기"/>
+	<l10n_template data_code="19934627" name="후려치기"/>
+	<l10n_template data_code="19934787" name="도끼 내려치기"/>
+	<l10n_template data_code="19934947" name="도끼 강격"/>
+	<l10n_template data_code="19935107" name="방패 공격"/>
+	<l10n_template data_code="19935267" name="후려치기"/>
+	<l10n_template data_code="19935427" name="내려찍기"/>
+	<l10n_template data_code="19935587" name="까마귀 공격"/>
+	<l10n_template data_code="19935747" name="마나탄"/>
+	<l10n_template data_code="19935914" name="어둠의 함성"/>
+	<l10n_template data_code="19936074" name="어둠의 마법"/>
+	<l10n_template data_code="19936234" name="암흑 공간"/>
+	<l10n_template data_code="19936394" name="성스러운 어둠"/>
+	<l10n_template data_code="19936552" name="내려치기"/>
+	<l10n_template data_code="19936712" name="올려치기"/>
+	<l10n_template data_code="19936872" name="통한의 일격"/>
+	<l10n_template data_code="19937032" name="복구"/>
+	<l10n_template data_code="19937192" name="회전 주먹"/>
+	<l10n_template data_code="19937352" name="필살 회전 주먹"/>
+	<l10n_template data_code="19937512" name="맹타"/>
+	<l10n_template data_code="19937672" name="올려치기"/>
+	<l10n_template data_code="20403111" name="마법탄"/>
+	<l10n_template data_code="20403271" name="마나 충격"/>
+	<l10n_template data_code="20403431" name="강타"/>
+	<l10n_template data_code="20403591" name="마나탄"/>
+	<l10n_template data_code="20403751" name="방패 공격"/>
+	<l10n_template data_code="20403911" name="올려베기"/>
+	<l10n_template data_code="20404071" name="펀치"/>
+	<l10n_template data_code="20404231" name="반격"/>
+	<l10n_template data_code="20404391" name="화살 공격"/>
+	<l10n_template data_code="20404551" name="화살 공격"/>
+	<l10n_template data_code="20404804" name="어둠의 가호"/>
+	<l10n_template data_code="20404964" name="성스러운 빛"/>
+	<l10n_template data_code="20405031" name="베기"/>
+	<l10n_template data_code="20405191" name="휘두르기"/>
+	<l10n_template data_code="20405351" name="화살 공격"/>
+	<l10n_template data_code="20405511" name="마법탄"/>
+	<l10n_template data_code="20405671" name="강타"/>
+	<l10n_template data_code="20405831" name="베어넘기기"/>
+	<l10n_template data_code="20405991" name="파열"/>
+	<l10n_template data_code="20406151" name="칼날 폭풍"/>
+	<l10n_template data_code="20406311" name="절단"/>
+	<l10n_template data_code="20406471" name="방패 치기"/>
+	<l10n_template data_code="20406631" name="절단"/>
+	<l10n_template data_code="20406791" name="베어넘기기"/>
+	<l10n_template data_code="20406951" name="파열"/>
+	<l10n_template data_code="20407111" name="칼날 폭풍"/>
+	<l10n_template data_code="20407271" name="자루치기"/>
+	<l10n_template data_code="20407431" name="화살 공격"/>
+	<l10n_template data_code="20407591" name="독 화살 공격"/>
+	<l10n_template data_code="20407751" name="화살 공격"/>
+	<l10n_template data_code="20407911" name="독 화살 공격"/>
+	<l10n_template data_code="20408071" name="강타"/>
+	<l10n_template data_code="20408231" name="파열"/>
+	<l10n_template data_code="20408391" name="칼날 폭풍"/>
+	<l10n_template data_code="20408551" name="강타"/>
+	<l10n_template data_code="20408711" name="베어넘기기"/>
+	<l10n_template data_code="20408871" name="파열"/>
+</l10n_table>

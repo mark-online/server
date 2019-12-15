@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" standalone="yes"?><help_table>
+	<help_template id="character" title_ko_kr="캐릭터" title_en_us="Character"/>
+	<help_template id="inventory" title_ko_kr="인벤토리" title_en_us="Inventory"/>
+	<help_template id="skill" title_ko_kr="스킬" title_en_us="Skill"/>
+	<help_template id="pve" title_ko_kr="사냥" title_en_us="PvE"/>
+	<help_template id="pvp" title_ko_kr="PvP" title_en_us="PvP"/>
+	<help_template id="harvest" title_ko_kr="채집" title_en_us="Harvest"/>
+	<help_template id="crafting" title_ko_kr="제작" title_en_us="Crafting"/>
+	<help_template id="vehicle" title_ko_kr="이동 수단" title_en_us="Vehicle"/>
+	<help_template id="obelisk" title_ko_kr="오벨리스크" title_en_us="Obelisk"/>
+	<help_template id="party" title_ko_kr="파티" title_en_us="Party"/>
+	<help_template id="chatting" title_ko_kr="채팅" title_en_us="Chatting"/>
+	<help_template id="quest" title_ko_kr="퀘스트" title_en_us="Quest"/>
+	<help_template id="housing" title_ko_kr="하우징" title_en_us="Housing"/>
+	<help_template id="upgrade" title_ko_kr="강화" title_en_us="Upgrade"/>
+	<help_template id="trade" title_ko_kr="사용자 거래" title_en_us="User trade"/>
+	<help_template id="shop" title_ko_kr="상점 거래" title_en_us="NPC shop"/>
+	<help_template id="recovery" title_ko_kr="체력 회복" title_en_us="Health recovery"/>
+	<help_template id="shortcut" title_ko_kr="단축키" title_en_us="Shortcut"/>
+	<help_template id="colosseum" title_ko_kr="투기장" title_en_us="Arena"/>
+	<help_template id="beginner" title_ko_kr="초보자 보호" title_en_us="Protection"/>
+	<help_template id="game_tip" title_ko_kr="게임팁" title_en_us="Game Tip"/>
+</help_table>

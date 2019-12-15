@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<position_spawn_table>
+
+  <position_spawn_template entity_code="318767111" entity_path_code="0" heading="94" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="548.654" y="282.964" z="1117.92"/>
+
+  <position_spawn_template entity_code="318767111" entity_path_code="0" heading="142" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-265.898" y="-498.073" z="1142.08"/>
+
+  <position_spawn_template entity_code="318767111" entity_path_code="0" heading="101" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="557.909" y="-594.365" z="1082.2"/>
+
+  <position_spawn_template entity_code="318767111" entity_path_code="0" heading="8" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="0" region_code="0" x="0" y="0" z="1087.12"/>
+
+  <position_spawn_template entity_code="318767111" entity_path_code="0" heading="75" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-255.49" y="583.955" z="1092.14"/>
+
+  <position_spawn_template entity_code="318767120" entity_path_code="0" heading="61" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="182.864" y="522.478" z="1195.89"/>
+
+  <position_spawn_template entity_code="318767121" entity_path_code="0" heading="135" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="286.471" y="-234.832" z="1099.55"/>
+
+  <position_spawn_template entity_code="318767119" entity_path_code="0" heading="110" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-217.139" y="63.6183" z="1093"/>
+
+  <position_spawn_template entity_code="318767109" entity_path_code="0" heading="165" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-65.295" y="-212.015" z="1124.71"/>
+
+  <position_spawn_template entity_code="318767109" entity_path_code="0" heading="39" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-194.718" y="-178.363" z="1125.04"/>
+
+  <position_spawn_template entity_code="318767109" entity_path_code="0" heading="77" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-106.82" y="-54.4906" z="1126"/>
+
+  <position_spawn_template entity_code="318767110" entity_path_code="0" heading="77" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-118.349" y="-136.507" z="1124.76"/>
+
+  <position_spawn_template entity_code="318767118" entity_path_code="0" heading="134" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="182.938" y="252.761" z="1089.88"/>
+
+  <position_spawn_template entity_code="318767131" entity_path_code="0" heading="16" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="635.174" y="-622.885" z="1077.98"/>
+
+  <position_spawn_template entity_code="318767131" entity_path_code="0" heading="53" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="14.0788" y="-357.579" z="1134.98"/>
+
+  <position_spawn_template entity_code="318767131" entity_path_code="0" heading="102" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="613.929" y="351.03" z="1119.96"/>
+
+  <position_spawn_template entity_code="318767131" entity_path_code="0" heading="102" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-424.508" y="451.592" z="1118.2"/>
+
+  <position_spawn_template entity_code="318767113" entity_path_code="0" heading="74" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="660.726" y="-117.08" z="1136.76"/>
+
+  <position_spawn_template entity_code="318767114" entity_path_code="0" heading="3" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-664.005" y="37.2074" z="1108.51"/>
+
+  <position_spawn_template entity_code="318767112" entity_path_code="0" heading="32" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="255.149" y="-642.243" z="1096.98"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="155" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-64.2923" y="-192.53" z="1124.96"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-59.676" y="-187.618" z="1125.01"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="155" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-55.465" y="-182.019" z="1124.99"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-50.7694" y="-176.909" z="1125"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="154" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-47.0601" y="-171.332" z="1125.08"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-42.8148" y="-166.214" z="1124.96"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="146" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-40.9387" y="-159.713" z="1124.98"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-38.3892" y="-153.558" z="1124.99"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="133" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-39.5775" y="-146.835" z="1125.08"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-39.8234" y="-139.823" z="1124.92"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="130" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-41.4036" y="-133.221" z="1125.3"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-42.4254" y="-125.935" z="1124.91"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="126" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-44.9368" y="-119.374" z="1125.04"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-46.8156" y="-112.525" z="1125.02"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="122" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-50.3443" y="-106.268" z="1124.98"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-53.2152" y="-99.6894" z="1125.07"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="119" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-57.3227" y="-93.8209" z="1124.57"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-60.8046" y="-87.5766" z="1124.97"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="102" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-97.5957" y="-55.4911" z="1124.95"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-90.9761" y="-58.1441" z="1125.04"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="113" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-86.2354" y="-63.3104" z="1125"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-80.8939" y="-68.1737" z="1124.99"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="112" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-76.0276" y="-73.3073" z="1124.95"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-70.5912" y="-77.7428" z="1124.8"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="113" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-65.8731" y="-82.8581" z="1124.79"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="88" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-117.229" y="-56.4311" z="1124.9"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-124.314" y="-56.6233" z="1125"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="84" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-131.191" y="-58.5041" z="1125.03"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-138.292" y="-59.597" z="1125.97"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="76" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-144.56" y="-63.0002" z="1125.09"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-151.118" y="-65.8901" z="1124.79"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="73" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-157.003" y="-70" z="1125.17"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-163.177" y="-73.5413" z="1124.93"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="65" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-167.65" y="-79.1116" z="1124.96"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-172.657" y="-84.2583" z="1125.03"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="62" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-176.48" y="-90.2615" z="1124.97"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-180.817" y="-95.9835" z="1125.05"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="56" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-183.41" y="-102.613" z="1124.94"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-186.485" y="-108.747" z="1125"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="53" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-188.394" y="-115.386" z="1125.01"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-190.874" y="-121.884" z="1124.99"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="51" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-192.131" y="-128.654" z="1124.97"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-194.069" y="-135.259" z="1125.08"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="45" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-195.479" y="-168.586" z="1124.79"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-195.727" y="-161.572" z="1124.62"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="46" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-194.923" y="-154.386" z="1125.01"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-194.785" y="-147.414" z="1125.37"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="46" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-193.936" y="-142.104" z="1124.95"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="23" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-189.186" y="-186.71" z="1126.07"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-184.484" y="-192.067" z="1126.04"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="16" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-178.356" y="-195.581" z="1126.46"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-172.512" y="-199.686" z="1126.01"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="10" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-165.81" y="-202.078" z="1125.61"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-159.285" y="-205.057" z="1125.5"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="6" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-152.349" y="-206.413" z="1124.87"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-145.539" y="-208.457" z="1125.02"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="3" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-138.399" y="-209.019" z="1124.94"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-131.412" y="-210.308" z="1124.94"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="1" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-124.354" y="-210.386" z="1125.01"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="168" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-84.2983" y="-207.142" z="1124.62"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-90.1341" y="-210.194" z="1124.74"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="0" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-96.863" y="-210.144" z="1124.75"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-117.307" y="-211.214" z="1124.78"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="0" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-110.558" y="-210.732" z="1124.77"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-103.748" y="-210.871" z="1124.74"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-78.1548" y="-204.62" z="1125.48"/>
+
+  <position_spawn_template entity_code="318767117" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-68.2457" y="-198.13" z="1124.53"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="20" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-72.8443" y="-209.182" z="1124.66"/>
+
+  <position_spawn_template entity_code="318767105" entity_path_code="0" heading="122" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="-65.631" y="-204.476" z="1124.57"/>
+
+  <position_spawn_template entity_code="318767112" entity_path_code="0" heading="32" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="0" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="0" region_code="0" x="390.038" y="561.123" z="1142.08"/>
+
+  <position_spawn_template entity_code="100764177" entity_path_code="0" heading="111" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="198.191" y="301.975" z="1094.11"/>
+
+  <position_spawn_template entity_code="100764172" entity_path_code="0" heading="78" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="172.908" y="297.064" z="1094.11"/>
+
+  <position_spawn_template entity_code="100764167" entity_path_code="0" heading="120" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="200.61" y="277.923" z="1090.11"/>
+
+  <position_spawn_template entity_code="100763962" entity_path_code="0" heading="43" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="188.124" y="268.768" z="1090.16"/>
+
+  <position_spawn_template entity_code="100764122" entity_path_code="0" heading="137" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="179.156" y="251.631" z="1090.37"/>
+
+  <position_spawn_template entity_code="100763917" entity_path_code="0" heading="140" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="180.988" y="243.205" z="1090.26"/>
+
+  <position_spawn_template entity_code="100895319" entity_path_code="0" heading="30" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="252.504" y="-119.076" z="1100.2"/>
+
+  <position_spawn_template entity_code="100764312" entity_path_code="0" heading="46" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="209.623" y="249.088" z="1090.15"/>
+
+  <position_spawn_template entity_code="100764282" entity_path_code="0" heading="151" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="222.047" y="266.425" z="1090.14"/>
+
+  <position_spawn_template entity_code="100895094" entity_path_code="0" heading="51" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="163.306" y="244.216" z="1090.06"/>
+
+  <position_spawn_template entity_code="100895574" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="213.299" y="256.265" z="1090.29"/>
+
+  <position_spawn_template entity_code="100895594" entity_path_code="0" heading="33" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="220.911" y="252.811" z="1090.52"/>
+
+  <position_spawn_template entity_code="100764392" entity_path_code="0" heading="137" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="226.774" y="283.055" z="1090.14"/>
+
+  <position_spawn_template entity_code="100764307" entity_path_code="0" heading="100" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="400.653" y="596.759" z="1147.4"/>
+
+  <position_spawn_template entity_code="100895314" entity_path_code="0" heading="98" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="301.458" y="-543.873" z="1102.07"/>
+
+  <position_spawn_template entity_code="100764337" entity_path_code="0" heading="75" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-445.925" y="-503.627" z="1063.9"/>
+
+  <position_spawn_template entity_code="100895324" entity_path_code="0" heading="22" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-421.614" y="-311.38" z="1124.88"/>
+
+  <position_spawn_template entity_code="100764237" entity_path_code="0" heading="65" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-453.009" y="-68.5196" z="1099.27"/>
+
+  <position_spawn_template entity_code="100764517" entity_path_code="0" heading="103" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="210.989" y="270.133" z="1090.17"/>
+
+  <position_spawn_template entity_code="100764527" entity_path_code="0" heading="103" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="239.597" y="268.278" z="1104.35"/>
+
+  <position_spawn_template entity_code="100764527" entity_path_code="0" heading="91" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="149.246" y="277.663" z="1107.82"/>
+
+  <position_spawn_template entity_code="100764412" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-36.5491" y="342.46" z="1136.36"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="181.037" y="232.896" z="1090.35"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="197.598" y="279.944" z="1090.04"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-54.7886" y="-390.425" z="1135.62"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="243.037" y="-637.824" z="1095.9"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="523.764" y="368.766" z="1120.82"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="522.919" y="618.207" z="1157.24"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="610.443" y="-611.806" z="1078.55"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-135.483" y="-138.798" z="1125.12"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-37.3035" y="432.515" z="1122.41"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="388.979" y="561.024" z="1141.84"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-438.906" y="433.826" z="1116.96"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="9.90404" y="-398.655" z="1135.53"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="13.9542" y="36.3444" z="1086.46"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-103.33" y="289.415" z="1134.5"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="528.751" y="629.27" z="1154.98"/>
+
+  <position_spawn_template entity_code="100955445" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-225.39" y="106.234" z="1093.15"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="176.424" y="294.345" z="1094.09"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="213.714" y="301.801" z="1094.12"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="209.348" y="264.174" z="1090.12"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="596.329" y="333.828" z="1119.83"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-2.68664" y="-316.364" z="1134.52"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-218.341" y="74.2607" z="1093.43"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="624.149" y="351.295" z="1120.41"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="177.883" y="513.916" z="1195.19"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-412.109" y="447.033" z="1118.41"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="667.929" y="-594.295" z="1078.35"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-115.46" y="-174.815" z="1125.28"/>
+
+  <position_spawn_template entity_code="100955450" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="34.8995" y="-367.63" z="1135.49"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="57.4381" y="565.465" z="1116.19"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="66.9404" y="593.118" z="1111.18"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-205.076" y="529.129" z="1089.36"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-234.203" y="576.192" z="1091.07"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="144.496" y="-130.031" z="1082.52"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-268.248" y="-147.161" z="1116.46"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="-247.746" y="-137.678" z="1116.59"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="394.253" y="599.685" z="1147.87"/>
+
+  <position_spawn_template entity_code="100955455" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="520.625" y="43.1134" z="1086.9"/>
+
+  <position_spawn_template entity_code="100794408" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="600019" min_despawn_interval="0" min_spawn_delay="5" min_spawn_interval="360000" region_code="0" x="-316.521" y="-188.965" z="1118.09"/>
+
+  <position_spawn_template entity_code="100794408" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="600000" min_despawn_interval="0" min_spawn_delay="5" min_spawn_interval="360000" region_code="0" x="-524.091" y="-9.56146" z="1090.56"/>
+
+  <position_spawn_template entity_code="100794408" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="600000" min_despawn_interval="0" min_spawn_delay="5" min_spawn_interval="360000" region_code="0" x="15.218" y="59.6054" z="1086.35"/>
+
+  <position_spawn_template entity_code="100794408" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="600000" min_despawn_interval="0" min_spawn_delay="5" min_spawn_interval="360000" region_code="0" x="410.589" y="421.342" z="1129.92"/>
+
+  <position_spawn_template entity_code="100794408" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="600000" min_despawn_interval="0" min_spawn_delay="5" min_spawn_interval="360000" region_code="0" x="519.594" y="77.9535" z="1087.57"/>
+
+  <position_spawn_template entity_code="100794408" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="600000" min_despawn_interval="0" min_spawn_delay="5" min_spawn_interval="360000" region_code="0" x="296.561" y="-453.056" z="1098.15"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="57" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-651.386" y="26.1726" z="1109.51"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="121" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-673.109" y="24.1443" z="1107.49"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="165" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-672.597" y="45.0198" z="1108.5"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="3" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-651.703" y="45.5144" z="1108.19"/>
+
+  <position_spawn_template entity_code="100794628" entity_path_code="0" heading="43" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-654.19" y="36.8439" z="1108.73"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="41" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-210.34" y="57.9987" z="1093.25"/>
+
+  <position_spawn_template entity_code="100794628" entity_path_code="0" heading="11" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-220.462" y="71.7034" z="1093"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="129" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-229.809" y="60.0476" z="1093"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="25" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-212.083" y="67.9203" z="1093"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="9" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="-219.384" y="47.9862" z="1099.33"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="153" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="655.993" y="-121.355" z="1136.41"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="147" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="661.471" y="-109.602" z="1136.57"/>
+
+  <position_spawn_template entity_code="100794628" entity_path_code="0" heading="153" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="653.979" y="-112.124" z="1136.47"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="157" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="656.005" y="-104.05" z="1136.88"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="145" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="649.326" y="-116.495" z="1136.39"/>
+
+  <position_spawn_template entity_code="100794628" entity_path_code="0" heading="140" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="276.55" y="-235.374" z="1099.5"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="159" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="281.56" y="-228.153" z="1100.03"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="133" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="285.682" y="-241.655" z="1100.4"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="68" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="296.914" y="-242.699" z="1101.15"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="37" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="295.173" y="-228.229" z="1100.17"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="161" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="177.796" y="525.875" z="1194.68"/>
+
+  <position_spawn_template entity_code="100794628" entity_path_code="0" heading="126" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="176.881" y="521.57" z="1195.05"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="127" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="183.828" y="515.097" z="1194.81"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="111" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="175.42" y="516.525" z="1195.13"/>
+
+  <position_spawn_template entity_code="100794483" entity_path_code="0" heading="143" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="5000" region_code="0" x="173.277" y="524.399" z="1195.28"/>
+
+  <position_spawn_template entity_code="100955465" entity_path_code="0" heading="43" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="5000" region_code="0" x="159.732" y="250.526" z="1090.1"/>
+
+  <position_spawn_template entity_code="100955465" entity_path_code="0" heading="54" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="5000" region_code="0" x="159.868" y="253.796" z="1090.3"/>
+
+  <position_spawn_template entity_code="100955465" entity_path_code="0" heading="65" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="5000" region_code="0" x="-239.783" y="99.3509" z="1093"/>
+
+  <position_spawn_template entity_code="100955465" entity_path_code="0" heading="38" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="5000" region_code="0" x="-237.608" y="105.431" z="1093.1"/>
+
+  <position_spawn_template entity_code="100783837" entity_path_code="0" heading="111" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="221.828" y="234.715" z="1089.94"/>
+
+  <position_spawn_template entity_code="100783837" entity_path_code="301989905" heading="175" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="215.149" y="259.617" z="1090"/>
+
+  <position_spawn_template entity_code="100794993" entity_path_code="0" heading="125" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="0" min_spawn_interval="9000" region_code="0" x="632.271" y="-285.57" z="1099.18"/>
+
+  <position_spawn_template entity_code="251658263" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="310.647" y="-503.8" z="1100.25"/>
+
+  <position_spawn_template entity_code="251658263" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="307.145" y="-491.964" z="1100.42"/>
+
+  <position_spawn_template entity_code="251658263" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="315.282" y="-489.006" z="1100.64"/>
+
+  <position_spawn_template entity_code="251658263" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="314.78" y="-496.221" z="1100.46"/>
+
+  <position_spawn_template entity_code="251658263" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="304.353" y="-501.032" z="1100.48"/>
+
+  <position_spawn_template entity_code="251658263" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="298.919" y="-497.356" z="1100.58"/>
+
+  <position_spawn_template entity_code="251658263" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="302.542" y="-482.874" z="1100.34"/>
+
+  <position_spawn_template entity_code="251658264" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="281.746" y="-502.973" z="1100.9"/>
+
+  <position_spawn_template entity_code="251658264" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="276.819" y="-504.996" z="1101.27"/>
+
+  <position_spawn_template entity_code="251658264" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="280.071" y="-510.188" z="1101.5"/>
+
+  <position_spawn_template entity_code="251658264" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="284.829" y="-512.439" z="1101.57"/>
+
+  <position_spawn_template entity_code="251658264" entity_path_code="0" heading="148" max_despawn_interval="0" max_spawn_delay="1000" max_spawn_interval="10000" min_despawn_interval="0" min_spawn_delay="1" min_spawn_interval="9000" region_code="0" x="279.412" y="-516.437" z="1102.65"/>
+
+</position_spawn_table>

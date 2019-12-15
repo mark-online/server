@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201108261043">
+    <createTable tableName="Guilds" remarks="guild table">
+      <column name="id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="guild_name" type="NVARCHAR(15)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="guild_mark_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Guild" columnNames="id" tableName="Guilds"/>
+
+  </changeSet>
+
+</databaseChangeLog>

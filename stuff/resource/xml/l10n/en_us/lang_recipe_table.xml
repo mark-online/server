@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="83906080" name="Copper Craft"/>
+	<l10n_template data_code="83906081" name="Iron Fragment Craft"/>
+	<l10n_template data_code="83906082" name="Silver Fragment Craft"/>
+	<l10n_template data_code="83906083" name="Gold Fragment Craft"/>
+	<l10n_template data_code="83906084" name="Leather Craft"/>
+	<l10n_template data_code="83906085" name="Wheat Flour Craft"/>
+	<l10n_template data_code="83906086" name="prepared meat Craft"/>
+	<l10n_template data_code="83906087" name="Sugar Craft"/>
+	<l10n_template data_code="83906088" name="Fabric of high rank Craft"/>
+	<l10n_template data_code="83906089" name="Bone Meal Craft"/>
+	<l10n_template data_code="83906090" name="Potion of Blessing(A) Craft"/>
+	<l10n_template data_code="83906091" name="wild powder Craft"/>
+	<l10n_template data_code="83906092" name="Magic powder Craft"/>
+	<l10n_template data_code="83906093" name="Chaos Crystal Craft"/>
+	<l10n_template data_code="83906094" name="Protection powder Craft"/>
+	<l10n_template data_code="83906095" name="Stem Craft"/>
+	<l10n_template data_code="83906096" name="Enhanced Copper Craft"/>
+	<l10n_template data_code="83906097" name="Steel Craft"/>
+	<l10n_template data_code="83906098" name="Silver bar Craft"/>
+	<l10n_template data_code="83906099" name="Gold bar Craft"/>
+	<l10n_template data_code="83906100" name="Blade Craft"/>
+	<l10n_template data_code="83906101" name="Hilt Craft"/>
+	<l10n_template data_code="83906102" name="Bow Strings Craft"/>
+	<l10n_template data_code="83906103" name="Bow Limb Craft"/>
+	<l10n_template data_code="83906104" name="Pole Craft"/>
+	<l10n_template data_code="83906105" name="wild Cookie(A) Craft"/>
+	<l10n_template data_code="83906106" name="Wisdom Cookie(A) Craft"/>
+	<l10n_template data_code="83906107" name="Protection Cookie(A) Craft"/>
+	<l10n_template data_code="83906108" name="Fortune Cookie(A) Craft"/>
+	<l10n_template data_code="83906109" name="Stew Craft"/>
+	<l10n_template data_code="83906110" name="Cloth Fragment Recipe"/>
+	<l10n_template data_code="83906111" name="Leather Fragment Recipe"/>
+	<l10n_template data_code="83906112" name="Plate Fragment Recipe"/>
+	<l10n_template data_code="83906113" name="One-Hand Sword Fragment Recipe"/>
+	<l10n_template data_code="83906114" name="Two-Hand Sword Fragment Recipe"/>
+	<l10n_template data_code="83906115" name="One-Hand Blunt Fragment Recipe"/>
+	<l10n_template data_code="83906116" name="Two-Hand Blunt Fragment Recipe"/>
+	<l10n_template data_code="83906117" name="Dual Weapon Fragment Recipe"/>
+	<l10n_template data_code="83906118" name="Staff Fragment Recipe"/>
+	<l10n_template data_code="83906119" name="Bow Fragment Recipe"/>
+	<l10n_template data_code="83906121" name="Shield Fragment Recipe"/>
+	<l10n_template data_code="83906122" name="Gen of Valor (inferiority) Craft"/>
+	<l10n_template data_code="83906123" name="Gen of Wind (inferiority) Craft"/>
+	<l10n_template data_code="83906124" name="Gen of Mana (inferiority) Craft"/>
+	<l10n_template data_code="83906125" name="Gen of Valor (intermediate) Craft"/>
+	<l10n_template data_code="83906126" name="Gen of Wind (intermediate) Craft"/>
+	<l10n_template data_code="83906127" name="Gen of Mana (intermediate) Craft"/>
+	<l10n_template data_code="83906128" name="Gen of Valor (Senior) Craft"/>
+	<l10n_template data_code="83906129" name="Gen of Wind (Senior) Craft"/>
+	<l10n_template data_code="83906130" name="Gen of Mana (Senior) Craft"/>
+	<l10n_template data_code="83906131" name="Potion of Blessing Craft(B)"/>
+	<l10n_template data_code="83886081" name="Roman Helmet Recipe"/>
+	<l10n_template data_code="83886082" name="Magic Roman Helmet Recipe"/>
+	<l10n_template data_code="83886083" name="Rare Roman Helmet Recipe"/>
+	<l10n_template data_code="83886084" name="Epic Roman Helmet Recipe"/>
+	<l10n_template data_code="83886085" name="Officer Helmet Recipe"/>
+	<l10n_template data_code="83886086" name="Magic Officer Helmet Recipe"/>
+	<l10n_template data_code="83886087" name="Rare Officer Helmet Recipe"/>
+	<l10n_template data_code="83886088" name="Epic Officer Helmet Recipe"/>
+	<l10n_template data_code="83886089" name="Iron Helmet Recipe"/>
+	<l10n_template data_code="83886090" name="Magic Iron Helmet Recipe"/>
+	<l10n_template data_code="83886091" name="Rare Iron Helmet Recipe"/>
+	<l10n_template data_code="83886092" name="Epic Iron Helmet Recipe"/>
+	<l10n_template data_code="83886093" name="Steel Helmet Recipe"/>
+	<l10n_template data_code="83886094" name="Magic Steel Helmet Recipe"/>
+	<l10n_template data_code="83886095" name="Rare Steel Helmet Recipe"/>
+	<l10n_template data_code="83886096" name="Epic Steel Helmet Recipe"/>
+	<l10n_template data_code="83886097" name="Plate Helmet Recipe"/>
+	<l10n_template data_code="83886098" name="Magic Plate Helmet Recipe"/>
+	<l10n_template data_code="83886099" name="Rare Plate Helmet Recipe"/>
+	<l10n_template data_code="83886100" name="Epic Plate Helmet Recipe"/>
+	<l10n_template data_code="83886101" name="Alloy Helmet Recipe"/>
+	<l10n_template data_code="83886102" name="Magic Alloy Helmet Recipe"/>
+	<l10n_template data_code="83886103" name="Rare Alloy Helmet Recipe"/>
+	<l10n_template data_code="83886104" name="Epic Alloy Helmet Recipe"/>
+	<l10n_template data_code="83886105" name="Paladin Helmet Recipe"/>
+	<l10n_template data_code="83886106" name="Magic Paladin Helmet Recipe"/>
+	<l10n_template data_code="83886107" name="Rare Paladin Helmet Recipe"/>
+	<l10n_template data_code="83886108" name="Epic Paladin Helmet Recipe"/>
+	<l10n_template data_code="83886109" name="Chainmail Helmet Recipe"/>
+	<l10n_template data_code="83886110" name="Magic Chainmail Helmet Recipe"/>
+	<l10n_template data_code="83886111" name="Rare Chainmail Helmet Recipe"/>
+	<l10n_template data_code="83886112" name="Epic Chainmail Helmet Recipe"/>
+	<l10n_template data_code="83886113" name="Macas Helmet Recipe"/>
+	<l10n_template data_code="83886114" name="Magic Macas Helmet Recipe"/>
+	<l10n_template data_code="83886115" name="Rare Macas Helmet Recipe"/>
+	<l10n_template data_code="83886116" name="Epic Macas Helmet Recipe"/>
+	<l10n_template data_code="83886117" name="Cotton Cap Recipe"/>
+	<l10n_template data_code="83886118" name="Magic Cotton Cap Recipe"/>
+	<l10n_template data_code="83886119" name="Rare Cotton Cap Recipe"/>
+	<l10n_template data_code="83886120" name="Epic Cotton Cap Recipe"/>
+	<l10n_template data_code="83886121" name="War Cap Recipe"/>
+	<l10n_template data_code="83886122" name="Magic War Cap Recipe"/>
+	<l10n_template data_code="83886123" name="Rare War Cap Recipe"/>
+	<l10n_template data_code="83886124" name="Epic War Cap Recipe"/>
+	<l10n_template data_code="83886125" name="Sage Cap Recipe"/>
+	<l10n_template data_code="83886126" name="Magic Sage Cap Recipe"/>
+	<l10n_template data_code="83886127" name="Rare Sage Cap Recipe"/>
+	<l10n_template data_code="83886128" name="Epic Sage Cap Recipe"/>
+	<l10n_template data_code="83886129" name="Interrogative Cap Recipe"/>
+	<l10n_template data_code="83886130" name="Magic Interrogative Cap Recipe"/>
+	<l10n_template data_code="83886131" name="Rare Interrogative Cap Recipe"/>
+	<l10n_template data_code="83886132" name="Epic Interrogative Cap Recipe"/>
+	<l10n_template data_code="83886133" name="Frost Cap Recipe"/>
+	<l10n_template data_code="83886134" name="Magic Frost Cap Recipe"/>
+	<l10n_template data_code="83886135" name="Rare Frost Cap Recipe"/>
+	<l10n_template data_code="83886136" name="Epic Frost Cap Recipe"/>
+	<l10n_template data_code="83886137" name="Heroic Cap Recipe"/>
+	<l10n_template data_code="83886138" name="Magic Heroic Cap Recipe"/>
+	<l10n_template data_code="83886139" name="Rare Heroic Cap Recipe"/>
+	<l10n_template data_code="83886140" name="Epic Heroic Cap Recipe"/>
+	<l10n_template data_code="83886141" name="Leather Cap Recipe"/>
+	<l10n_template data_code="83886142" name="Magic Leather Cap Recipe"/>
+	<l10n_template data_code="83886143" name="Rare Leather Cap Recipe"/>
+	<l10n_template data_code="83886144" name="Epic Leather Cap Recipe"/>
+	<l10n_template data_code="83886145" name="Leather Helmet Recipe"/>
+	<l10n_template data_code="83886146" name="Magic Leather Helmet Recipe"/>
+	<l10n_template data_code="83886147" name="Rare Leather Helmet Recipe"/>
+	<l10n_template data_code="83886148" name="Epic Leather Helmet Recipe"/>
+	<l10n_template data_code="83886149" name="Advanced Leather Helmet Recipe"/>
+	<l10n_template data_code="83886150" name="Magic Advanced Leather Helmet Recipe"/>
+	<l10n_template data_code="83886151" name="Rare Advanced Leather Helmet Recipe"/>
+	<l10n_template data_code="83886152" name="Epic Advanced Leather Helmet Recipe"/>
+	<l10n_template data_code="83886153" name="Leather of Valor Helmet Recipe"/>
+	<l10n_template data_code="83886154" name="Magic Leather of Valor Helmet Recipe"/>
+	<l10n_template data_code="83886155" name="Rare Leather of Valor Helmet Recipe"/>
+	<l10n_template data_code="83886156" name="Epic Leather of Valor Helmet Recipe"/>
+	<l10n_template data_code="83886157" name="Assassin Hood Recipe"/>
+	<l10n_template data_code="83886158" name="Magic Assassin Hood Recipe"/>
+	<l10n_template data_code="83886159" name="Rare Assassin Hood Recipe"/>
+	<l10n_template data_code="83886160" name="Epic Assassin Hood Recipe"/>
+	<l10n_template data_code="83886161" name="Asmodians Hood Recipe"/>
+	<l10n_template data_code="83886162" name="Magic Asmodians Hood Recipe"/>
+	<l10n_template data_code="83886163" name="Rare Asmodians Hood Recipe"/>
+	<l10n_template data_code="83886164" name="Epic Asmodians Hood Recipe"/>
+	<l10n_template data_code="83886165" name="Darkness Hood Recipe"/>
+	<l10n_template data_code="83886166" name="Magic Darkness Hood Recipe"/>
+	<l10n_template data_code="83886167" name="Rare Darkness Hood Recipe"/>
+	<l10n_template data_code="83886168" name="Epic Darkness Hood Recipe"/>
+	<l10n_template data_code="83886169" name="Habeon Hood Recipe"/>
+	<l10n_template data_code="83886170" name="Magic Habeon Hood Recipe"/>
+	<l10n_template data_code="83886171" name="Rare Habeon Hood Recipe"/>
+	<l10n_template data_code="83886172" name="Epic Habeon Hood Recipe"/>
+	<l10n_template data_code="83886173" name="Guardian Helmet Recipe"/>
+	<l10n_template data_code="83886174" name="Magic Guardian Helmet Recipe"/>
+	<l10n_template data_code="83886175" name="Rare Guardian Helmet Recipe"/>
+	<l10n_template data_code="83886176" name="Epic Guardian Helmet Recipe"/>
+	<l10n_template data_code="83886177" name="Blaze Cap Recipe"/>
+	<l10n_template data_code="83886178" name="Magic Blaze Cap Recipe"/>
+	<l10n_template data_code="83886179" name="Rare Blaze Cap Recipe"/>
+	<l10n_template data_code="83886180" name="Epic Blaze Cap Recipe"/>
+	<l10n_template data_code="83886181" name="Cap of Arousal Recipe"/>
+	<l10n_template data_code="83886182" name="Magic Cap of Arousal Recipe"/>
+	<l10n_template data_code="83886183" name="Rare Cap of Arousal Recipe"/>
+	<l10n_template data_code="83886184" name="Epic Cap of Arousal Recipe"/>
+	<l10n_template data_code="83888080" name="Roman Pauldrons Recipe"/>
+	<l10n_template data_code="83888081" name="Magic Roman Pauldrons Recipe"/>
+	<l10n_template data_code="83888082" name="Rare Roman Pauldrons Recipe"/>
+	<l10n_template data_code="83888083" name="Epic Roman Pauldrons Recipe"/>
+	<l10n_template data_code="83888084" name="Elite Pauldrons Recipe"/>
+	<l10n_template data_code="83888085" name="Magic Elite Pauldrons Recipe"/>
+	<l10n_template data_code="83888086" name="Rare Elite Pauldrons Recipe"/>
+	<l10n_template data_code="83888087" name="Epic Elite Pauldrons Recipe"/>
+	<l10n_template data_code="83888088" name="War Pauldrons Recipe"/>
+	<l10n_template data_code="83888089" name="Magic War Pauldrons Recipe"/>
+	<l10n_template data_code="83888090" name="Rare War Pauldrons Recipe"/>
+	<l10n_template data_code="83888091" name="Epic War Pauldrons Recipe"/>
+	<l10n_template data_code="83888092" name="Knight Pauldrons Recipe"/>
+	<l10n_template data_code="83888093" name="Magic Knight Pauldrons Recipe"/>
+	<l10n_template data_code="83888094" name="Rare Knight Pauldrons Recipe"/>
+	<l10n_template data_code="83888095" name="Epic Knight Pauldrons Recipe"/>
+	<l10n_template data_code="83888096" name="Warriors Pauldrons Recipe"/>
+	<l10n_template data_code="83888097" name="Magic Warriors Pauldrons Recipe"/>
+	<l10n_template data_code="83888098" name="Rare Warriors Pauldrons Recipe"/>
+	<l10n_template data_code="83888099" name="Epic Warriors Pauldrons Recipe"/>
+	<l10n_template data_code="83888100" name="Victorious Pauldrons Recipe"/>
+	<l10n_template data_code="83888101" name="Magic Victorious Pauldrons Recipe"/>
+	<l10n_template data_code="83888102" name="Rare Victorious Pauldrons Recipe"/>
+	<l10n_template data_code="83888103" name="Epic Victorious Pauldrons Recipe"/>
+	<l10n_template data_code="83888104" name="Guardian Pauldrons Recipe"/>
+	<l10n_template data_code="83888105" name="Magic Guardian Pauldrons Recipe"/>
+	<l10n_template data_code="83888106" name="Rare Guardian Pauldrons Recipe"/>
+	<l10n_template data_code="83888107" name="Epic Guardian Pauldrons Recipe"/>
+	<l10n_template data_code="83888108" name="Habeon Shoulder Recipe"/>
+	<l10n_template data_code="83888109" name="Magic Habeon Shoulder Recipe"/>
+	<l10n_template data_code="83888110" name="Rare Habeon Shoulder Recipe"/>
+	<l10n_template data_code="83888111" name="Epic Habeon Shoulder Recipe"/>
+	<l10n_template data_code="83888112" name="Blaze Shoulderpads Recipe"/>
+	<l10n_template data_code="83888113" name="Magic Blaze Shoulderpads Recipe"/>
+	<l10n_template data_code="83888114" name="Rare Blaze Shoulderpads Recipe"/>
+	<l10n_template data_code="83888115" name="Epic Blaze Shoulderpads Recipe"/>
+	<l10n_template data_code="83888116" name="Shoulderpads Recipe"/>
+	<l10n_template data_code="83888117" name="Magic Shoulderpads Recipe"/>
+	<l10n_template data_code="83888118" name="Rare Shoulderpads Recipe"/>
+	<l10n_template data_code="83888119" name="Epic Shoulderpads Recipe"/>
+	<l10n_template data_code="83888120" name="Strong Shoulderpads Recipe"/>
+	<l10n_template data_code="83888121" name="Magic Strong Shoulderpads Recipe"/>
+	<l10n_template data_code="83888122" name="Rare Strong Shoulderpads Recipe"/>
+	<l10n_template data_code="83888123" name="Epic Strong Shoulderpads Recipe"/>
+	<l10n_template data_code="83888124" name="Training Shoulderpads Recipe"/>
+	<l10n_template data_code="83888125" name="Magic Training Shoulderpads Recipe"/>
+	<l10n_template data_code="83888126" name="Rare Training Shoulderpads Recipe"/>
+	<l10n_template data_code="83888127" name="Epic Training Shoulderpads Recipe"/>
+	<l10n_template data_code="83888128" name="Shoulderpads of Agony Recipe"/>
+	<l10n_template data_code="83888129" name="Magic Shoulderpads of Agony Recipe"/>
+	<l10n_template data_code="83888130" name="Rare Shoulderpads of Agony Recipe"/>
+	<l10n_template data_code="83888131" name="Epic Shoulderpads of Agony Recipe"/>
+	<l10n_template data_code="83888132" name="Sage Shoulderpads Recipe"/>
+	<l10n_template data_code="83888133" name="Magic Sage Shoulderpads Recipe"/>
+	<l10n_template data_code="83888134" name="Rare Sage Shoulderpads Recipe"/>
+	<l10n_template data_code="83888135" name="Epic Sage Shoulderpads Recipe"/>
+	<l10n_template data_code="83888136" name="Shoulderpads of Arousal Recipe"/>
+	<l10n_template data_code="83888137" name="Magic Shoulderpads of Arousal Recipe"/>
+	<l10n_template data_code="83888138" name="Rare Shoulderpads of Arousal Recipe"/>
+	<l10n_template data_code="83888139" name="Epic Shoulderpads of Arousal Recipe"/>
+	<l10n_template data_code="83888140" name="Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888141" name="Magic Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888142" name="Rare Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888143" name="Epic Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888144" name="Strong Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888145" name="Magic Strong Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888146" name="Rare Strong Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888147" name="Epic Strong Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888148" name="Leather Shoulder of Valor Recipe"/>
+	<l10n_template data_code="83888149" name="Magic Leather Shoulder of Valor Recipe"/>
+	<l10n_template data_code="83888150" name="Rare Leather Shoulder of Valor Recipe"/>
+	<l10n_template data_code="83888151" name="Epic Leather Shoulder of Valor Recipe"/>
+	<l10n_template data_code="83888152" name="Assassin Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888153" name="Magic Assassin Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888154" name="Rare Assassin Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888155" name="Epic Assassin Leather Shoulder Recipe"/>
+	<l10n_template data_code="83888156" name="Leather Shoulder of Agony Recipe"/>
+	<l10n_template data_code="83888157" name="Magic Leather Shoulder of Agony Recipe"/>
+	<l10n_template data_code="83888158" name="Rare Leather Shoulder of Agony Recipe"/>
+	<l10n_template data_code="83888159" name="Epic Leather Shoulder of Agony Recipe"/>
+	<l10n_template data_code="83888160" name="Leather Shoulder of Chaos Recipe"/>
+	<l10n_template data_code="83888161" name="Magic Leather Shoulder of Chaos Recipe"/>
+	<l10n_template data_code="83888162" name="Rare Leather Shoulder of Chaos Recipe"/>
+	<l10n_template data_code="83888163" name="Epic Leather Shoulder of Chaos Recipe"/>
+	<l10n_template data_code="83890080" name="Roman Breastplate Recipe"/>
+	<l10n_template data_code="83890081" name="Magic Roman Breastplate Recipe"/>
+	<l10n_template data_code="83890082" name="Rare Roman Breastplate Recipe"/>
+	<l10n_template data_code="83890083" name="Epic Roman Breastplate Recipe"/>
+	<l10n_template data_code="83890084" name="Officer Breastplate Recipe"/>
+	<l10n_template data_code="83890085" name="Magic Officer Breastplate Recipe"/>
+	<l10n_template data_code="83890086" name="Rare Officer Breastplate Recipe"/>
+	<l10n_template data_code="83890087" name="Epic Officer Breastplate Recipe"/>
+	<l10n_template data_code="83890088" name="Hauberk Recipe"/>
+	<l10n_template data_code="83890089" name="Magic Hauberk Recipe"/>
+	<l10n_template data_code="83890090" name="Rare Hauberk Recipe"/>
+	<l10n_template data_code="83890091" name="Epic Hauberk Recipe"/>
+	<l10n_template data_code="83890092" name="War Hauberk Recipe"/>
+	<l10n_template data_code="83890093" name="Magic War Hauberk Recipe"/>
+	<l10n_template data_code="83890094" name="Rare War Hauberk Recipe"/>
+	<l10n_template data_code="83890095" name="Epic War Hauberk Recipe"/>
+	<l10n_template data_code="83890096" name="Cuirass Recipe"/>
+	<l10n_template data_code="83890097" name="Magic Cuirass Recipe"/>
+	<l10n_template data_code="83890098" name="Rare Cuirass Recipe"/>
+	<l10n_template data_code="83890099" name="Epic Cuirass Recipe"/>
+	<l10n_template data_code="83890100" name="Cuirass Of divinity Recipe"/>
+	<l10n_template data_code="83890101" name="Magic Cuirass Of divinity Recipe"/>
+	<l10n_template data_code="83890102" name="Rare Cuirass Of divinity Recipe"/>
+	<l10n_template data_code="83890103" name="Epic Cuirass Of divinity Recipe"/>
+	<l10n_template data_code="83890104" name="Plate Armor Recipe"/>
+	<l10n_template data_code="83890105" name="Magic Plate Armor Recipe"/>
+	<l10n_template data_code="83890106" name="Rare Plate Armor Recipe"/>
+	<l10n_template data_code="83890107" name="Epic Plate Armor Recipe"/>
+	<l10n_template data_code="83890108" name="Reinforcement Breastplate Recipe"/>
+	<l10n_template data_code="83890109" name="Magic Reinforcement Breastplate Recipe"/>
+	<l10n_template data_code="83890110" name="Rare Reinforcement Breastplate Recipe"/>
+	<l10n_template data_code="83890111" name="Epic Reinforcement Breastplate Recipe"/>
+	<l10n_template data_code="83890112" name="Cotton Tunic Recipe"/>
+	<l10n_template data_code="83890113" name="Magic Cotton Tunic Recipe"/>
+	<l10n_template data_code="83890114" name="Rare Cotton Tunic Recipe"/>
+	<l10n_template data_code="83890115" name="Epic Cotton Tunic Recipe"/>
+	<l10n_template data_code="83890116" name="Tunic Of agony Recipe"/>
+	<l10n_template data_code="83890117" name="Magic Tunic Of agony Recipe"/>
+	<l10n_template data_code="83890118" name="Rare Tunic Of agony Recipe"/>
+	<l10n_template data_code="83890119" name="Epic Tunic Of agony Recipe"/>
+	<l10n_template data_code="83890120" name="Paladin Breastplate Recipe"/>
+	<l10n_template data_code="83890121" name="Magic Paladin Breastplate Recipe"/>
+	<l10n_template data_code="83890122" name="Rare Paladin Breastplate Recipe"/>
+	<l10n_template data_code="83890123" name="Epic Paladin Breastplate Recipe"/>
+	<l10n_template data_code="83890124" name="Cuirass Of chaos Recipe"/>
+	<l10n_template data_code="83890125" name="Magic Cuirass Of chaos Recipe"/>
+	<l10n_template data_code="83890126" name="Rare Cuirass Of chaos Recipe"/>
+	<l10n_template data_code="83890127" name="Epic Cuirass Of chaos Recipe"/>
+	<l10n_template data_code="83890128" name="Reinforcement Cuirass Recipe"/>
+	<l10n_template data_code="83890129" name="Magic Reinforcement Cuirass Recipe"/>
+	<l10n_template data_code="83890130" name="Rare Reinforcement Cuirass Recipe"/>
+	<l10n_template data_code="83890131" name="Epic Reinforcement Cuirass Recipe"/>
+	<l10n_template data_code="83890132" name="War Cuirass Recipe"/>
+	<l10n_template data_code="83890133" name="Magic War Cuirass Recipe"/>
+	<l10n_template data_code="83890134" name="Rare War Cuirass Recipe"/>
+	<l10n_template data_code="83890135" name="Epic War Cuirass Recipe"/>
+	<l10n_template data_code="83890136" name="Fighting spirit Cuirass Recipe"/>
+	<l10n_template data_code="83890137" name="Magic Fighting spirit Cuirass Recipe"/>
+	<l10n_template data_code="83890138" name="Rare Fighting spirit Cuirass Recipe"/>
+	<l10n_template data_code="83890139" name="Epic Fighting spirit Cuirass Recipe"/>
+	<l10n_template data_code="83890140" name="Assassin Cuirass Recipe"/>
+	<l10n_template data_code="83890141" name="Magic Assassin Cuirass Recipe"/>
+	<l10n_template data_code="83890142" name="Rare Assassin Cuirass Recipe"/>
+	<l10n_template data_code="83890143" name="Epic Assassin Cuirass Recipe"/>
+	<l10n_template data_code="83890144" name="Reinforcement Cotton Armor Recipe"/>
+	<l10n_template data_code="83890145" name="Magic Reinforcement Cotton Armor Recipe"/>
+	<l10n_template data_code="83890146" name="Rare Reinforcement Cotton Armor Recipe"/>
+	<l10n_template data_code="83890147" name="Epic Reinforcement Cotton Armor Recipe"/>
+	<l10n_template data_code="83890148" name="Training Tunic Recipe"/>
+	<l10n_template data_code="83890149" name="Magic Training Tunic Recipe"/>
+	<l10n_template data_code="83890150" name="Rare Training Tunic Recipe"/>
+	<l10n_template data_code="83890151" name="Epic Training Tunic Recipe"/>
+	<l10n_template data_code="83890152" name="Interrogative Tunic Recipe"/>
+	<l10n_template data_code="83890153" name="Magic Interrogative Tunic Recipe"/>
+	<l10n_template data_code="83890154" name="Rare Interrogative Tunic Recipe"/>
+	<l10n_template data_code="83890155" name="Epic Interrogative Tunic Recipe"/>
+	<l10n_template data_code="83890156" name="Sage Tunic Recipe"/>
+	<l10n_template data_code="83890157" name="Magic Sage Tunic Recipe"/>
+	<l10n_template data_code="83890158" name="Rare Sage Tunic Recipe"/>
+	<l10n_template data_code="83890159" name="Epic Sage Tunic Recipe"/>
+	<l10n_template data_code="83890160" name="Asmodians Tunic Recipe"/>
+	<l10n_template data_code="83890161" name="Magic Asmodians Tunic Recipe"/>
+	<l10n_template data_code="83890162" name="Rare Asmodians Tunic Recipe"/>
+	<l10n_template data_code="83890163" name="Epic Asmodians Tunic Recipe"/>
+	<l10n_template data_code="83890164" name="Blaze Tunic Recipe"/>
+	<l10n_template data_code="83890165" name="Magic Blaze Tunic Recipe"/>
+	<l10n_template data_code="83890166" name="Rare Blaze Tunic Recipe"/>
+	<l10n_template data_code="83890167" name="Epic Blaze Tunic Recipe"/>
+	<l10n_template data_code="83890168" name="Habeon Cuirass Recipe"/>
+	<l10n_template data_code="83890169" name="Magic Habeon Cuirass Recipe"/>
+	<l10n_template data_code="83890170" name="Rare Habeon Cuirass Recipe"/>
+	<l10n_template data_code="83890171" name="Epic Habeon Cuirass Recipe"/>
+	<l10n_template data_code="83890172" name="Guardian Breastplate Recipe"/>
+	<l10n_template data_code="83890173" name="Magic Guardian Breastplate Recipe"/>
+	<l10n_template data_code="83890174" name="Rare Guardian Breastplate Recipe"/>
+	<l10n_template data_code="83890175" name="Epic Guardian Breastplate Recipe"/>
+	<l10n_template data_code="83892080" name="Roman Greaves Recipe"/>
+	<l10n_template data_code="83892081" name="Magic Roman Greaves Recipe"/>
+	<l10n_template data_code="83892082" name="Rare Roman Greaves Recipe"/>
+	<l10n_template data_code="83892083" name="Epic Roman Greaves Recipe"/>
+	<l10n_template data_code="83892084" name="Officer Greaves Recipe"/>
+	<l10n_template data_code="83892085" name="Magic Officer Greaves Recipe"/>
+	<l10n_template data_code="83892086" name="Rare Officer Greaves Recipe"/>
+	<l10n_template data_code="83892087" name="Epic Officer Greaves Recipe"/>
+	<l10n_template data_code="83892088" name="Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892089" name="Magic Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892090" name="Rare Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892091" name="Epic Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892092" name="War Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892093" name="Magic War Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892094" name="Rare War Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892095" name="Epic War Chainmail Greaves Recipe"/>
+	<l10n_template data_code="83892096" name="Trousers Recipe"/>
+	<l10n_template data_code="83892097" name="Magic Trousers Recipe"/>
+	<l10n_template data_code="83892098" name="Rare Trousers Recipe"/>
+	<l10n_template data_code="83892099" name="Epic Trousers Recipe"/>
+	<l10n_template data_code="83892100" name="Trousers Of divinity Recipe"/>
+	<l10n_template data_code="83892101" name="Magic Trousers Of divinity Recipe"/>
+	<l10n_template data_code="83892102" name="Rare Trousers Of divinity Recipe"/>
+	<l10n_template data_code="83892103" name="Epic Trousers Of divinity Recipe"/>
+	<l10n_template data_code="83892104" name="Plate Greaves Recipe"/>
+	<l10n_template data_code="83892105" name="Magic Plate Greaves Recipe"/>
+	<l10n_template data_code="83892106" name="Rare Plate Greaves Recipe"/>
+	<l10n_template data_code="83892107" name="Epic Plate Greaves Recipe"/>
+	<l10n_template data_code="83892108" name="Reinforcement Plate Greaves Recipe"/>
+	<l10n_template data_code="83892109" name="Magic Reinforcement Plate Greaves Recipe"/>
+	<l10n_template data_code="83892110" name="Rare Reinforcement Plate Greaves Recipe"/>
+	<l10n_template data_code="83892111" name="Epic Reinforcement Plate Greaves Recipe"/>
+	<l10n_template data_code="83892112" name="Leggings Recipe"/>
+	<l10n_template data_code="83892113" name="Magic Leggings Recipe"/>
+	<l10n_template data_code="83892114" name="Rare Leggings Recipe"/>
+	<l10n_template data_code="83892115" name="Epic Leggings Recipe"/>
+	<l10n_template data_code="83892116" name="Leggings of agony Recipe"/>
+	<l10n_template data_code="83892117" name="Magic Leggings Of agony Recipe"/>
+	<l10n_template data_code="83892118" name="Rare Leggings of agony Recipe"/>
+	<l10n_template data_code="83892119" name="Epic Leggings of agony Recipe"/>
+	<l10n_template data_code="83892120" name="Paladin Greaves Recipe"/>
+	<l10n_template data_code="83892121" name="Magic Paladin Greaves Recipe"/>
+	<l10n_template data_code="83892122" name="Rare Paladin Greaves Recipe"/>
+	<l10n_template data_code="83892123" name="Epic Paladin Greaves Recipe"/>
+	<l10n_template data_code="83892124" name="Trousers of chaos Recipe"/>
+	<l10n_template data_code="83892125" name="Magic Trousers of chaos Recipe"/>
+	<l10n_template data_code="83892126" name="Rare Trousers of chaos Recipe"/>
+	<l10n_template data_code="83892127" name="Epic Trousers of chaos Recipe"/>
+	<l10n_template data_code="83892128" name="Reinforcement Trousers Recipe"/>
+	<l10n_template data_code="83892129" name="Magic Reinforcement Trousers Recipe"/>
+	<l10n_template data_code="83892130" name="Rare Reinforcement Trousers Recipe"/>
+	<l10n_template data_code="83892131" name="Epic Reinforcement Trousers Recipe"/>
+	<l10n_template data_code="83892132" name="War Trousers Recipe"/>
+	<l10n_template data_code="83892133" name="Magic War Trousers Recipe"/>
+	<l10n_template data_code="83892134" name="Rare War Trousers Recipe"/>
+	<l10n_template data_code="83892135" name="Epic War Trousers Recipe"/>
+	<l10n_template data_code="83892136" name="Fighting spirit Trousers Recipe"/>
+	<l10n_template data_code="83892137" name="Magic Fighting spirit Trousers Recipe"/>
+	<l10n_template data_code="83892138" name="Rare Fighting spirit Trousers Recipe"/>
+	<l10n_template data_code="83892139" name="Epic Fighting spirit Trousers Recipe"/>
+	<l10n_template data_code="83892140" name="Assassin Trousers Recipe"/>
+	<l10n_template data_code="83892141" name="Magic Assassin Trousers Recipe"/>
+	<l10n_template data_code="83892142" name="Rare Assassin Trousers Recipe"/>
+	<l10n_template data_code="83892143" name="Epic Assassin Trousers Recipe"/>
+	<l10n_template data_code="83892144" name="Reinforcement Leggings Recipe"/>
+	<l10n_template data_code="83892145" name="Magic Reinforcement Leggings Recipe"/>
+	<l10n_template data_code="83892146" name="Rare Reinforcement Leggings Recipe"/>
+	<l10n_template data_code="83892147" name="Epic Reinforcement Leggings Recipe"/>
+	<l10n_template data_code="83892148" name="Training Leggings Recipe"/>
+	<l10n_template data_code="83892149" name="Magic Training Leggings Recipe"/>
+	<l10n_template data_code="83892150" name="Rare Training Leggings Recipe"/>
+	<l10n_template data_code="83892151" name="Epic Training Leggings Recipe"/>
+	<l10n_template data_code="83892152" name="Interrogative Leggings Recipe"/>
+	<l10n_template data_code="83892153" name="Magic Interrogative Leggings Recipe"/>
+	<l10n_template data_code="83892154" name="Rare Interrogative Leggings Recipe"/>
+	<l10n_template data_code="83892155" name="Epic Interrogative Leggings Recipe"/>
+	<l10n_template data_code="83892156" name="Sage Leggings Recipe"/>
+	<l10n_template data_code="83892157" name="Magic Sage Leggings Recipe"/>
+	<l10n_template data_code="83892158" name="Rare Sage Leggings Recipe"/>
+	<l10n_template data_code="83892159" name="Epic Sage Leggings Recipe"/>
+	<l10n_template data_code="83892160" name="Asmodians Leggings Recipe"/>
+	<l10n_template data_code="83892161" name="Magic Asmodians Leggings Recipe"/>
+	<l10n_template data_code="83892162" name="Rare Asmodians Leggings Recipe"/>
+	<l10n_template data_code="83892163" name="Epic Asmodians Leggings Recipe"/>
+	<l10n_template data_code="83892164" name="Blaze Leggings Recipe"/>
+	<l10n_template data_code="83892165" name="Magic Blaze Leggings Recipe"/>
+	<l10n_template data_code="83892166" name="Rare Blaze Leggings Recipe"/>
+	<l10n_template data_code="83892167" name="Epic Blaze Leggings Recipe"/>
+	<l10n_template data_code="83892168" name="Habeon Trousers Recipe"/>
+	<l10n_template data_code="83892169" name="Magic Habeon Trousers Recipe"/>
+	<l10n_template data_code="83892170" name="Rare Habeon Trousers Recipe"/>
+	<l10n_template data_code="83892171" name="Epic Habeon Trousers Recipe"/>
+	<l10n_template data_code="83892172" name="Guardian Greaves Recipe"/>
+	<l10n_template data_code="83892173" name="Magic Guardian Greaves Recipe"/>
+	<l10n_template data_code="83892174" name="Rare Guardian Greaves Recipe"/>
+	<l10n_template data_code="83892175" name="Epic Guardian Greaves Recipe"/>
+	<l10n_template data_code="83894080" name="Roman Gauntlets Recipe"/>
+	<l10n_template data_code="83894081" name="Magic Roman Gauntlets Recipe"/>
+	<l10n_template data_code="83894082" name="Rare Roman Gauntlets Recipe"/>
+	<l10n_template data_code="83894083" name="Epic Roman Gauntlets Recipe"/>
+	<l10n_template data_code="83894084" name="Warriors Gauntlets Recipe"/>
+	<l10n_template data_code="83894085" name="Magic Warriors Gauntlets Recipe"/>
+	<l10n_template data_code="83894086" name="Rare Warriors Gauntlets Recipe"/>
+	<l10n_template data_code="83894087" name="Epic Warriors Gauntlets Recipe"/>
+	<l10n_template data_code="83894088" name="Iron Gauntlet Recipe"/>
+	<l10n_template data_code="83894089" name="Magic Iron Gauntlet Recipe"/>
+	<l10n_template data_code="83894090" name="Rare Iron Gauntlet Recipe"/>
+	<l10n_template data_code="83894091" name="Epic Iron Gauntlet Recipe"/>
+	<l10n_template data_code="83894092" name="Gauntlet of Valor Recipe"/>
+	<l10n_template data_code="83894093" name="Magic Gauntlet of Valor Recipe"/>
+	<l10n_template data_code="83894094" name="Rare Gauntlet of Valor Recipe"/>
+	<l10n_template data_code="83894095" name="Epic Gauntlet of Valor Recipe"/>
+	<l10n_template data_code="83894096" name="Plate Gauntlet Recipe"/>
+	<l10n_template data_code="83894097" name="Magic Plate Gauntlet Recipe"/>
+	<l10n_template data_code="83894098" name="Rare Plate Gauntlet Recipe"/>
+	<l10n_template data_code="83894099" name="Epic Plate Gauntlet Recipe"/>
+	<l10n_template data_code="83894100" name="War Gauntlet Recipe"/>
+	<l10n_template data_code="83894101" name="Magic War Gauntlet Recipe"/>
+	<l10n_template data_code="83894102" name="Rare War Gauntlet Recipe"/>
+	<l10n_template data_code="83894103" name="Epic War Gauntlet Recipe"/>
+	<l10n_template data_code="83894104" name="Steel Gauntlet Recipe"/>
+	<l10n_template data_code="83894105" name="Magic Steel Gauntlet Recipe"/>
+	<l10n_template data_code="83894106" name="Rare Steel Gauntlet Recipe"/>
+	<l10n_template data_code="83894107" name="Epic Steel Gauntlet Recipe"/>
+	<l10n_template data_code="83894108" name="Fighting spirit Gauntlet Recipe"/>
+	<l10n_template data_code="83894109" name="Magic Fighting spirit Gauntlet Recipe"/>
+	<l10n_template data_code="83894110" name="Rare Fighting spirit Gauntlet Recipe"/>
+	<l10n_template data_code="83894111" name="Epic Fighting spirit Gauntlet Recipe"/>
+	<l10n_template data_code="83894112" name="Scutum Recipe"/>
+	<l10n_template data_code="83894113" name="Magic Scutum Recipe"/>
+	<l10n_template data_code="83894114" name="Rare Scutum Recipe"/>
+	<l10n_template data_code="83894115" name="Epic Scutum Recipe"/>
+	<l10n_template data_code="83894116" name="Round Shield Recipe"/>
+	<l10n_template data_code="83894117" name="Magic Round Shield Recipe"/>
+	<l10n_template data_code="83894118" name="Rare Round Shield Recipe"/>
+	<l10n_template data_code="83894119" name="Epic Round Shield Recipe"/>
+	<l10n_template data_code="83894120" name="Kite Shield Recipe"/>
+	<l10n_template data_code="83894121" name="Magic Kite Shield Recipe"/>
+	<l10n_template data_code="83894122" name="Rare Kite Shield Recipe"/>
+	<l10n_template data_code="83894123" name="Epic Kite Shield Recipe"/>
+	<l10n_template data_code="83894124" name="Cursed Shield Recipe"/>
+	<l10n_template data_code="83894125" name="Magic Cursed Shield Recipe"/>
+	<l10n_template data_code="83894126" name="Rare Cursed Shield Recipe"/>
+	<l10n_template data_code="83894127" name="Epic Cursed Shield Recipe"/>
+	<l10n_template data_code="83894128" name="Hoplon Recipe"/>
+	<l10n_template data_code="83894129" name="Magic Hoplon Recipe"/>
+	<l10n_template data_code="83894130" name="Rare Hoplon Recipe"/>
+	<l10n_template data_code="83894131" name="Epic Hoplon Recipe"/>
+	<l10n_template data_code="83894132" name="Pelta Recipe"/>
+	<l10n_template data_code="83894133" name="Magic Pelta Recipe"/>
+	<l10n_template data_code="83894134" name="Rare Pelta Recipe"/>
+	<l10n_template data_code="83894135" name="Epic Pelta Recipe"/>
+	<l10n_template data_code="83894136" name="Buckler Recipe"/>
+	<l10n_template data_code="83894137" name="Magic Buckler Recipe"/>
+	<l10n_template data_code="83894138" name="Rare Buckler Recipe"/>
+	<l10n_template data_code="83894139" name="Epic Buckler Recipe"/>
+	<l10n_template data_code="83894140" name="Clipeus Recipe"/>
+	<l10n_template data_code="83894141" name="Magic Clipeus Recipe"/>
+	<l10n_template data_code="83894142" name="Rare Clipeus Recipe"/>
+	<l10n_template data_code="83894143" name="Epic Clipeus Recipe"/>
+	<l10n_template data_code="83894144" name="Plate Belt Recipe"/>
+	<l10n_template data_code="83894145" name="Magic Plate Belt Recipe"/>
+	<l10n_template data_code="83894146" name="Rare Plate Belt Recipe"/>
+	<l10n_template data_code="83894147" name="Epic Plate Belt Recipe"/>
+	<l10n_template data_code="83894148" name="Fighting spirit Belt Recipe"/>
+	<l10n_template data_code="83894149" name="Magic Fighting spirit Belt Recipe"/>
+	<l10n_template data_code="83894150" name="Rare Fighting spirit Belt Recipe"/>
+	<l10n_template data_code="83894151" name="Epic Fighting spirit Belt Recipe"/>
+	<l10n_template data_code="83894152" name="Truthful Belt Recipe"/>
+	<l10n_template data_code="83894153" name="Magic Truthful Belt Recipe"/>
+	<l10n_template data_code="83894154" name="Rare Truthful Belt Recipe"/>
+	<l10n_template data_code="83894155" name="Epic Truthful Belt Recipe"/>
+	<l10n_template data_code="83894156" name="Belt of Valor Recipe"/>
+	<l10n_template data_code="83894157" name="Magic Belt of Valor Recipe"/>
+	<l10n_template data_code="83894158" name="Rare Belt of Valor Recipe"/>
+	<l10n_template data_code="83894159" name="Epic Belt of Valor Recipe"/>
+	<l10n_template data_code="83894160" name="Heroic Belt Recipe"/>
+	<l10n_template data_code="83894161" name="Magic Heroic Belt Recipe"/>
+	<l10n_template data_code="83894162" name="Rare Heroic Belt Recipe"/>
+	<l10n_template data_code="83894163" name="Epic Heroic Belt Recipe"/>
+	<l10n_template data_code="83894164" name="Sash Recipe"/>
+	<l10n_template data_code="83894165" name="Magic Sash Recipe"/>
+	<l10n_template data_code="83894166" name="Rare Sash Recipe"/>
+	<l10n_template data_code="83894167" name="Epic Sash Recipe"/>
+	<l10n_template data_code="83894168" name="Adventurer Sash Recipe"/>
+	<l10n_template data_code="83894169" name="Magic Adventurer Sash Recipe"/>
+	<l10n_template data_code="83894170" name="Rare Adventurer Sash Recipe"/>
+	<l10n_template data_code="83894171" name="Epic Adventurer Sash Recipe"/>
+	<l10n_template data_code="83894172" name="Sash of Destruction Recipe"/>
+	<l10n_template data_code="83894173" name="Magic Sash of Destruction Recipe"/>
+	<l10n_template data_code="83894174" name="Rare Sash of Destruction Recipe"/>
+	<l10n_template data_code="83894175" name="Epic Sash of Destruction Recipe"/>
+	<l10n_template data_code="83894176" name="Sash of Glory Recipe"/>
+	<l10n_template data_code="83894177" name="Magic Sash of Glory Recipe"/>
+	<l10n_template data_code="83894178" name="Rare Sash of Glory Recipe"/>
+	<l10n_template data_code="83894179" name="Epic Sash of Glory Recipe"/>
+	<l10n_template data_code="83894180" name="Sash of Mystery  Recipe"/>
+	<l10n_template data_code="83894181" name="Magic Sash of Mystery  Recipe"/>
+	<l10n_template data_code="83894182" name="Rare Sash of Mystery  Recipe"/>
+	<l10n_template data_code="83894183" name="Epic Sash of Mystery  Recipe"/>
+	<l10n_template data_code="83894184" name="Waistband Recipe"/>
+	<l10n_template data_code="83894185" name="Magic Waistband Recipe"/>
+	<l10n_template data_code="83894186" name="Rare Waistband Recipe"/>
+	<l10n_template data_code="83894187" name="Epic Waistband Recipe"/>
+	<l10n_template data_code="83894188" name="Interrogative Waistband Recipe"/>
+	<l10n_template data_code="83894189" name="Magic Interrogative Waistband Recipe"/>
+	<l10n_template data_code="83894190" name="Rare Interrogative Waistband Recipe"/>
+	<l10n_template data_code="83894191" name="Epic Interrogative Waistband Recipe"/>
+	<l10n_template data_code="83894192" name="Waistband of Truth Recipe"/>
+	<l10n_template data_code="83894193" name="Magic Waistband of Truth Recipe"/>
+	<l10n_template data_code="83894194" name="Rare Waistband of Truth Recipe"/>
+	<l10n_template data_code="83894195" name="Epic Waistband of Truth Recipe"/>
+	<l10n_template data_code="83894196" name="Waistband of Destruction Recipe"/>
+	<l10n_template data_code="83894197" name="Magic Waistband of Destruction Recipe"/>
+	<l10n_template data_code="83894198" name="Rare Waistband of Destruction Recipe"/>
+	<l10n_template data_code="83894199" name="Epic Waistband of Destruction Recipe"/>
+	<l10n_template data_code="83894200" name="Sage Waistband Recipe"/>
+	<l10n_template data_code="83894201" name="Magic Sage Waistband Recipe"/>
+	<l10n_template data_code="83894202" name="Rare Sage Waistband Recipe"/>
+	<l10n_template data_code="83894203" name="Epic Sage Waistband Recipe"/>
+	<l10n_template data_code="83894204" name="Blaze Mitts Recipe"/>
+	<l10n_template data_code="83894205" name="Magic Blaze Mitts Recipe"/>
+	<l10n_template data_code="83894206" name="Rare Blaze Mitts Recipe"/>
+	<l10n_template data_code="83894207" name="Epic Blaze Mitts Recipe"/>
+	<l10n_template data_code="83894208" name="Habeon Gloves Recipe"/>
+	<l10n_template data_code="83894209" name="Magic Habeon Gloves Recipe"/>
+	<l10n_template data_code="83894210" name="Rare Habeon Gloves Recipe"/>
+	<l10n_template data_code="83894211" name="Epic Habeon Gloves Recipe"/>
+	<l10n_template data_code="83894212" name="Guardian Gauntlets Recipe"/>
+	<l10n_template data_code="83894213" name="Magic Guardian Gauntlets Recipe"/>
+	<l10n_template data_code="83894214" name="Rare Guardian Gauntlets Recipe"/>
+	<l10n_template data_code="83894215" name="Epic Guardian Gauntlets Recipe"/>
+	<l10n_template data_code="83894216" name="Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894217" name="Magic Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894218" name="Rare Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894219" name="Epic Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894220" name="Strong Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894221" name="Magic Strong Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894222" name="Rare Strong Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894223" name="Epic Strong Cloth Mitts Recipe"/>
+	<l10n_template data_code="83894224" name="Training Mitts Recipe"/>
+	<l10n_template data_code="83894225" name="Magic Training Mitts Recipe"/>
+	<l10n_template data_code="83894226" name="Rare Training Mitts Recipe"/>
+	<l10n_template data_code="83894227" name="Epic Training Mitts Recipe"/>
+	<l10n_template data_code="83894228" name="Mitts of Agony Recipe"/>
+	<l10n_template data_code="83894229" name="Magic Mitts of Agony Recipe"/>
+	<l10n_template data_code="83894230" name="Rare Mitts of Agony Recipe"/>
+	<l10n_template data_code="83894231" name="Epic Mitts of Agony Recipe"/>
+	<l10n_template data_code="83894232" name="Sage Mitts Recipe"/>
+	<l10n_template data_code="83894233" name="Magic Sage Mitts Recipe"/>
+	<l10n_template data_code="83894234" name="Rare Sage Mitts Recipe"/>
+	<l10n_template data_code="83894235" name="Epic Sage Mitts Recipe"/>
+	<l10n_template data_code="83894236" name="Asmodians Mitts Recipe"/>
+	<l10n_template data_code="83894237" name="Magic Asmodians Mitts Recipe"/>
+	<l10n_template data_code="83894238" name="Rare Asmodians Mitts Recipe"/>
+	<l10n_template data_code="83894239" name="Epic Asmodians Mitts Recipe"/>
+	<l10n_template data_code="83894240" name="Mitts of Arousal Recipe"/>
+	<l10n_template data_code="83894241" name="Magic Mitts of Arousal Recipe"/>
+	<l10n_template data_code="83894242" name="Rare Mitts of Arousal Recipe"/>
+	<l10n_template data_code="83894243" name="Epic Mitts of Arousal Recipe"/>
+	<l10n_template data_code="83894244" name="Mitts of Chaos Recipe"/>
+	<l10n_template data_code="83894245" name="Magic Mitts of Chaos Recipe"/>
+	<l10n_template data_code="83894246" name="Rare Mitts of Chaos Recipe"/>
+	<l10n_template data_code="83894247" name="Epic Mitts of Chaos Recipe"/>
+	<l10n_template data_code="83894248" name="Leather Gloves Recipe"/>
+	<l10n_template data_code="83894249" name="Magic Leather Gloves Recipe"/>
+	<l10n_template data_code="83894250" name="Rare Leather Gloves Recipe"/>
+	<l10n_template data_code="83894251" name="Epic Leather Gloves Recipe"/>
+	<l10n_template data_code="83894252" name="Reinforcement Leather Gloves Recipe"/>
+	<l10n_template data_code="83894253" name="Magic Reinforcement Leather Gloves Recipe"/>
+	<l10n_template data_code="83894254" name="Rare Reinforcement Leather Gloves Recipe"/>
+	<l10n_template data_code="83894255" name="Epic Reinforcement Leather Gloves Recipe"/>
+	<l10n_template data_code="83894256" name="War Leather Gloves Recipe"/>
+	<l10n_template data_code="83894257" name="Magic War Leather Gloves Recipe"/>
+	<l10n_template data_code="83894258" name="Rare War Leather Gloves Recipe"/>
+	<l10n_template data_code="83894259" name="Epic War Leather Gloves Recipe"/>
+	<l10n_template data_code="83894260" name="Leather Gloves of Chaos Recipe"/>
+	<l10n_template data_code="83894261" name="Magic Leather Gloves of Chaos Recipe"/>
+	<l10n_template data_code="83894262" name="Rare Leather Gloves of Chaos Recipe"/>
+	<l10n_template data_code="83894263" name="Epic Leather Gloves of Chaos Recipe"/>
+	<l10n_template data_code="83894264" name="Leather Gloves of Divinity Recipe"/>
+	<l10n_template data_code="83894265" name="Magic Leather Gloves of Divinity Recipe"/>
+	<l10n_template data_code="83894266" name="Rare Leather Gloves of Divinity Recipe"/>
+	<l10n_template data_code="83894267" name="Epic Leather Gloves of Divinity Recipe"/>
+	<l10n_template data_code="83894268" name="Leather Gloves of Valor Recipe"/>
+	<l10n_template data_code="83894269" name="Magic Leather Gloves of Valor Recipe"/>
+	<l10n_template data_code="83894270" name="Rare Leather Gloves of Valor Recipe"/>
+	<l10n_template data_code="83894271" name="Epic Leather Gloves of Valor Recipe"/>
+	<l10n_template data_code="83894272" name="Assassin Leather Gloves Recipe"/>
+	<l10n_template data_code="83894273" name="Magic Assassin Leather Gloves Recipe"/>
+	<l10n_template data_code="83894274" name="Rare Assassin Leather Gloves Recipe"/>
+	<l10n_template data_code="83894275" name="Epic Assassin Leather Gloves Recipe"/>
+	<l10n_template data_code="83894276" name="Leather Gloves of Jinn Recipe"/>
+	<l10n_template data_code="83894277" name="Magic Leather Gloves of Jinn Recipe"/>
+	<l10n_template data_code="83894278" name="Rare Leather Gloves of Jinn Recipe"/>
+	<l10n_template data_code="83894279" name="Epic Leather Gloves of Jinn Recipe"/>
+	<l10n_template data_code="83894280" name="Kalkan Recipe"/>
+	<l10n_template data_code="83894281" name="Magic Kalkan Recipe"/>
+	<l10n_template data_code="83894282" name="Rare Kalkan Recipe"/>
+	<l10n_template data_code="83894283" name="Epic Kalkan Recipe"/>
+	<l10n_template data_code="83898080" name="Slippers Recipe"/>
+	<l10n_template data_code="83898081" name="Magic Slippers Recipe"/>
+	<l10n_template data_code="83898082" name="Rare Slippers Recipe"/>
+	<l10n_template data_code="83898083" name="Epic Slippers Recipe"/>
+	<l10n_template data_code="83898084" name="Boots Recipe"/>
+	<l10n_template data_code="83898085" name="Magic Boots Recipe"/>
+	<l10n_template data_code="83898086" name="Rare Boots Recipe"/>
+	<l10n_template data_code="83898087" name="Epic Boots Recipe"/>
+	<l10n_template data_code="83898088" name="Crafted Boots Recipe"/>
+	<l10n_template data_code="83898089" name="Magic Crafted Boots Recipe"/>
+	<l10n_template data_code="83898090" name="Rare Crafted Boots Recipe"/>
+	<l10n_template data_code="83898091" name="Epic Crafted Boots Recipe"/>
+	<l10n_template data_code="83898092" name="Sabatons Recipe"/>
+	<l10n_template data_code="83898093" name="Magic Sabatons Recipe"/>
+	<l10n_template data_code="83898094" name="Rare Sabatons Recipe"/>
+	<l10n_template data_code="83898095" name="Epic Sabatons Recipe"/>
+	<l10n_template data_code="83898096" name="Knight Sabatons Recipe"/>
+	<l10n_template data_code="83898097" name="Magic Knight Sabatons Recipe"/>
+	<l10n_template data_code="83898098" name="Rare Knight Sabatons Recipe"/>
+	<l10n_template data_code="83898099" name="Epic Knight Sabatons Recipe"/>
+	<l10n_template data_code="83898100" name="Shoes Recipe"/>
+	<l10n_template data_code="83898101" name="Magic Shoes Recipe"/>
+	<l10n_template data_code="83898102" name="Rare Shoes Recipe"/>
+	<l10n_template data_code="83898103" name="Epic Shoes Recipe"/>
+	<l10n_template data_code="83898104" name="Interrogative Shoes Recipe"/>
+	<l10n_template data_code="83898105" name="Magic Interrogative Shoes Recipe"/>
+	<l10n_template data_code="83898106" name="Rare Interrogative Shoes Recipe"/>
+	<l10n_template data_code="83898107" name="Epic Interrogative Shoes Recipe"/>
+	<l10n_template data_code="83898108" name="Sabatons of Valor Recipe"/>
+	<l10n_template data_code="83898109" name="Magic Sabatons of Valor Recipe"/>
+	<l10n_template data_code="83898110" name="Rare Sabatons of Valor Recipe"/>
+	<l10n_template data_code="83898111" name="Epic Sabatons of Valor Recipe"/>
+	<l10n_template data_code="83898112" name="Chainmail Sabaton Recipe"/>
+	<l10n_template data_code="83898113" name="Magic Chainmail Sabaton Recipe"/>
+	<l10n_template data_code="83898114" name="Rare Chainmail Sabaton Recipe"/>
+	<l10n_template data_code="83898115" name="Epic Chainmail Sabaton Recipe"/>
+	<l10n_template data_code="83898116" name="Marten Boots Recipe"/>
+	<l10n_template data_code="83898117" name="Magic Marten Boots Recipe"/>
+	<l10n_template data_code="83898118" name="Rare Marten Boots Recipe"/>
+	<l10n_template data_code="83898119" name="Epic Marten Boots Recipe"/>
+	<l10n_template data_code="83898120" name="Quality Boots Recipe"/>
+	<l10n_template data_code="83898121" name="Magic Quality Boots Recipe"/>
+	<l10n_template data_code="83898122" name="Rare Quality Boots Recipe"/>
+	<l10n_template data_code="83898123" name="Epic Quality Boots Recipe"/>
+	<l10n_template data_code="83898124" name="Assassin Boots Recipe"/>
+	<l10n_template data_code="83898125" name="Magic Assassin Boots Recipe"/>
+	<l10n_template data_code="83898126" name="Rare Assassin Boots Recipe"/>
+	<l10n_template data_code="83898127" name="Epic Assassin Boots Recipe"/>
+	<l10n_template data_code="83898128" name="Boots fo Silence Recipe"/>
+	<l10n_template data_code="83898129" name="Magic Boots fo Silence Recipe"/>
+	<l10n_template data_code="83898130" name="Rare Boots fo Silence Recipe"/>
+	<l10n_template data_code="83898131" name="Epic Boots fo Silence Recipe"/>
+	<l10n_template data_code="83898132" name="Darkness Boots Recipe"/>
+	<l10n_template data_code="83898133" name="Magic Darkness Boots Recipe"/>
+	<l10n_template data_code="83898134" name="Rare Darkness Boots Recipe"/>
+	<l10n_template data_code="83898135" name="Epic Darkness Boots Recipe"/>
+	<l10n_template data_code="83898136" name="Steel Sabatons Recipe"/>
+	<l10n_template data_code="83898137" name="Magic Steel Sabatons Recipe"/>
+	<l10n_template data_code="83898138" name="Rare Steel Sabatons Recipe"/>
+	<l10n_template data_code="83898139" name="Epic Steel Sabatons Recipe"/>
+	<l10n_template data_code="83898140" name="Warriors Sabatons Recipe"/>
+	<l10n_template data_code="83898141" name="Magic Warriors Sabatons Recipe"/>
+	<l10n_template data_code="83898142" name="Rare Warriors Sabatons Recipe"/>
+	<l10n_template data_code="83898143" name="Epic Warriors Sabatons Recipe"/>
+	<l10n_template data_code="83898144" name="Victorious Sabatons Recipe"/>
+	<l10n_template data_code="83898145" name="Magic Victorious Sabatons Recipe"/>
+	<l10n_template data_code="83898146" name="Rare Victorious Sabatons Recipe"/>
+	<l10n_template data_code="83898147" name="Epic Victorious Sabatons Recipe"/>
+	<l10n_template data_code="83898148" name="Horrors Sabatons Recipe"/>
+	<l10n_template data_code="83898149" name="Magic Horrors Sabatons Recipe"/>
+	<l10n_template data_code="83898150" name="Rare Horrors Sabatons Recipe"/>
+	<l10n_template data_code="83898151" name="Epic Horrors Sabatons Recipe"/>
+	<l10n_template data_code="83898152" name="Advanced Shoes Recipe"/>
+	<l10n_template data_code="83898153" name="Magic Advanced Shoes Recipe"/>
+	<l10n_template data_code="83898154" name="Rare Advanced Shoes Recipe"/>
+	<l10n_template data_code="83898155" name="Epic Advanced Shoes Recipe"/>
+	<l10n_template data_code="83898156" name="Training Shoes Recipe"/>
+	<l10n_template data_code="83898157" name="Magic Training Shoes Recipe"/>
+	<l10n_template data_code="83898158" name="Rare Training Shoes Recipe"/>
+	<l10n_template data_code="83898159" name="Epic Training Shoes Recipe"/>
+	<l10n_template data_code="83898160" name="Shoes of Jinn Recipe"/>
+	<l10n_template data_code="83898161" name="Magic Shoes of Jinn Recipe"/>
+	<l10n_template data_code="83898162" name="Rare Shoes of Jinn Recipe"/>
+	<l10n_template data_code="83898163" name="Epic Shoes of Jinn Recipe"/>
+	<l10n_template data_code="83898164" name="Shoes of Blessing Recipe"/>
+	<l10n_template data_code="83898165" name="Magic Shoes of Blessing Recipe"/>
+	<l10n_template data_code="83898166" name="Rare Shoes of Blessing Recipe"/>
+	<l10n_template data_code="83898167" name="Epic Shoes of Blessing Recipe"/>
+	<l10n_template data_code="83898168" name="Mageblood Shoes Recipe"/>
+	<l10n_template data_code="83898169" name="Magic Mageblood Shoes Recipe"/>
+	<l10n_template data_code="83898170" name="Rare Mageblood Shoes Recipe"/>
+	<l10n_template data_code="83898171" name="Epic Mageblood Shoes Recipe"/>
+	<l10n_template data_code="83898172" name="Shoes of prophecy Recipe"/>
+	<l10n_template data_code="83898173" name="Magic Shoes of prophecy Recipe"/>
+	<l10n_template data_code="83898174" name="Rare Shoes of prophecy Recipe"/>
+	<l10n_template data_code="83898175" name="Epic Shoes of prophecy Recipe"/>
+	<l10n_template data_code="83898176" name="Blaze Shoes Recipe"/>
+	<l10n_template data_code="83898177" name="Magic Blaze Shoes Recipe"/>
+	<l10n_template data_code="83898178" name="Rare Blaze Shoes Recipe"/>
+	<l10n_template data_code="83898179" name="Epic Blaze Shoes Recipe"/>
+	<l10n_template data_code="83898180" name="Habeon Boots Recipe"/>
+	<l10n_template data_code="83898181" name="Magic Habeon Boots Recipe"/>
+	<l10n_template data_code="83898182" name="Rare Habeon Boots Recipe"/>
+	<l10n_template data_code="83898183" name="Epic Habeon Boots Recipe"/>
+	<l10n_template data_code="83898184" name="Guardian Sabatons Recipe"/>
+	<l10n_template data_code="83898185" name="Magic Guardian Sabatons Recipe"/>
+	<l10n_template data_code="83898186" name="Rare Guardian Sabatons Recipe"/>
+	<l10n_template data_code="83898187" name="Epic Guardian Sabatons Recipe"/>
+	<l10n_template data_code="83900080" name="Gladius Recipe"/>
+	<l10n_template data_code="83900081" name="Magic Gladius Recipe"/>
+	<l10n_template data_code="83900082" name="Rare Gladius Recipe"/>
+	<l10n_template data_code="83900083" name="Epic Gladius Recipe"/>
+	<l10n_template data_code="83900084" name="Viking Axe Recipe"/>
+	<l10n_template data_code="83900085" name="Magic Viking Axe Recipe"/>
+	<l10n_template data_code="83900086" name="Rare Viking Axe Recipe"/>
+	<l10n_template data_code="83900087" name="Epic Viking Axe Recipe"/>
+	<l10n_template data_code="83900088" name="Gladius of Wind Recipe"/>
+	<l10n_template data_code="83900089" name="Magic Gladius of Wind Recipe"/>
+	<l10n_template data_code="83900090" name="Rare Gladius of Wind Recipe"/>
+	<l10n_template data_code="83900091" name="Epic Gladius of Wind Recipe"/>
+	<l10n_template data_code="83900092" name="Long Sword Recipe"/>
+	<l10n_template data_code="83900093" name="Magic Long Sword Recipe"/>
+	<l10n_template data_code="83900094" name="Rare Long Sword Recipe"/>
+	<l10n_template data_code="83900095" name="Epic Long Sword Recipe"/>
+	<l10n_template data_code="83900096" name="Templar Sword Recipe"/>
+	<l10n_template data_code="83900097" name="Magic Templar Sword Recipe"/>
+	<l10n_template data_code="83900098" name="Rare Templar Sword Recipe"/>
+	<l10n_template data_code="83900099" name="Epic Templar Sword Recipe"/>
+	<l10n_template data_code="83900100" name="Dagger Recipe"/>
+	<l10n_template data_code="83900101" name="Magic Dagger Recipe"/>
+	<l10n_template data_code="83900102" name="Rare Dagger Recipe"/>
+	<l10n_template data_code="83900103" name="Epic Dagger Recipe"/>
+	<l10n_template data_code="83900104" name="Templar Sword of Flame Recipe"/>
+	<l10n_template data_code="83900105" name="Magic Templar Sword of Flame Recipe"/>
+	<l10n_template data_code="83900106" name="Rare Templar Sword of Flame Recipe"/>
+	<l10n_template data_code="83900107" name="Epic Templar Sword of Flame Recipe"/>
+	<l10n_template data_code="83900108" name="Cursed Sword Recipe"/>
+	<l10n_template data_code="83900109" name="Magic Cursed Sword Recipe"/>
+	<l10n_template data_code="83900110" name="Rare Cursed Sword Recipe"/>
+	<l10n_template data_code="83900111" name="Epic Cursed Sword Recipe"/>
+	<l10n_template data_code="83900112" name="Heroic Sword Recipe"/>
+	<l10n_template data_code="83900113" name="Magic Heroic Sword Recipe"/>
+	<l10n_template data_code="83900114" name="Rare Heroic Sword Recipe"/>
+	<l10n_template data_code="83900115" name="Epic Heroic Sword Recipe"/>
+	<l10n_template data_code="83900116" name="Bow Recipe"/>
+	<l10n_template data_code="83900117" name="Magic Bow Recipe"/>
+	<l10n_template data_code="83900118" name="Rare Bow Recipe"/>
+	<l10n_template data_code="83900119" name="Epic Bow Recipe"/>
+	<l10n_template data_code="83900120" name="Crossbow Recipe"/>
+	<l10n_template data_code="83900121" name="Magic Crossbow Recipe"/>
+	<l10n_template data_code="83900122" name="Rare Crossbow Recipe"/>
+	<l10n_template data_code="83900123" name="Epic Crossbow Recipe"/>
+	<l10n_template data_code="83900124" name="Training Bow Recipe"/>
+	<l10n_template data_code="83900125" name="Magic Training Bow Recipe"/>
+	<l10n_template data_code="83900126" name="Rare Training Bow Recipe"/>
+	<l10n_template data_code="83900127" name="Epic Training Bow Recipe"/>
+	<l10n_template data_code="83900128" name="Training Crossbow Recipe"/>
+	<l10n_template data_code="83900129" name="Magic Training Crossbow Recipe"/>
+	<l10n_template data_code="83900130" name="Rare Training Crossbow Recipe"/>
+	<l10n_template data_code="83900131" name="Epic Training Crossbow Recipe"/>
+	<l10n_template data_code="83900132" name="Longbow Recipe"/>
+	<l10n_template data_code="83900133" name="Magic Longbow Recipe"/>
+	<l10n_template data_code="83900134" name="Rare Longbow Recipe"/>
+	<l10n_template data_code="83900135" name="Epic Longbow Recipe"/>
+	<l10n_template data_code="83900136" name="Cursed Bow Recipe"/>
+	<l10n_template data_code="83900137" name="Magic Cursed Bow Recipe"/>
+	<l10n_template data_code="83900138" name="Rare Cursed Bow Recipe"/>
+	<l10n_template data_code="83900139" name="Epic Cursed Bow Recipe"/>
+	<l10n_template data_code="83900140" name="Cursed crossbow Recipe"/>
+	<l10n_template data_code="83900141" name="Magic Cursed crossbow Recipe"/>
+	<l10n_template data_code="83900142" name="Rare Cursed crossbow Recipe"/>
+	<l10n_template data_code="83900143" name="Epic Cursed crossbow Recipe"/>
+	<l10n_template data_code="83900144" name="Arctic Bow Recipe"/>
+	<l10n_template data_code="83900145" name="Magic Arctic Bow Recipe"/>
+	<l10n_template data_code="83900146" name="Rare Arctic Bow Recipe"/>
+	<l10n_template data_code="83900147" name="Epic Arctic Bow Recipe"/>
+	<l10n_template data_code="83900148" name="Eagle Staff Recipe"/>
+	<l10n_template data_code="83900149" name="Magic Eagle Staff Recipe"/>
+	<l10n_template data_code="83900150" name="Rare Eagle Staff Recipe"/>
+	<l10n_template data_code="83900151" name="Epic Eagle Staff Recipe"/>
+	<l10n_template data_code="83900152" name="Mageblood Staff Recipe"/>
+	<l10n_template data_code="83900153" name="Magic Mageblood Staff Recipe"/>
+	<l10n_template data_code="83900154" name="Rare Mageblood Staff Recipe"/>
+	<l10n_template data_code="83900155" name="Epic Mageblood Staff Recipe"/>
+	<l10n_template data_code="83900156" name="Halberd Recipe"/>
+	<l10n_template data_code="83900157" name="Magic Halberd Recipe"/>
+	<l10n_template data_code="83900158" name="Rare Halberd Recipe"/>
+	<l10n_template data_code="83900159" name="Epic Halberd Recipe"/>
+	<l10n_template data_code="83900160" name="Staff of Blessing Recipe"/>
+	<l10n_template data_code="83900161" name="Magic Staff of Blessing Recipe"/>
+	<l10n_template data_code="83900162" name="Rare Staff of Blessing Recipe"/>
+	<l10n_template data_code="83900163" name="Epic Staff of Blessing Recipe"/>
+	<l10n_template data_code="83900164" name="Staff of Arousal Recipe"/>
+	<l10n_template data_code="83900165" name="Magic Staff of Arousal Recipe"/>
+	<l10n_template data_code="83900166" name="Rare Staff of Arousal Recipe"/>
+	<l10n_template data_code="83900167" name="Epic Staff of Arousal Recipe"/>
+	<l10n_template data_code="83900168" name="Cursed Halberd Recipe"/>
+	<l10n_template data_code="83900169" name="Magic Cursed Halberd Recipe"/>
+	<l10n_template data_code="83900170" name="Rare Cursed Halberd Recipe"/>
+	<l10n_template data_code="83900171" name="Epic Cursed Halberd Recipe"/>
+	<l10n_template data_code="83900172" name="Sage Staff Recipe"/>
+	<l10n_template data_code="83900173" name="Magic Sage Staff Recipe"/>
+	<l10n_template data_code="83900174" name="Rare Sage Staff Recipe"/>
+	<l10n_template data_code="83900175" name="Epic Sage Staff Recipe"/>
+	<l10n_template data_code="83900176" name="Elemental Staff Recipe"/>
+	<l10n_template data_code="83900177" name="Magic Elemental Staff Recipe"/>
+	<l10n_template data_code="83900178" name="Rare Elemental Staff Recipe"/>
+	<l10n_template data_code="83900179" name="Epic Elemental Staff Recipe"/>
+	<l10n_template data_code="83900180" name="Zweihander Recipe"/>
+	<l10n_template data_code="83900181" name="Magic Zweihander Recipe"/>
+	<l10n_template data_code="83900182" name="Rare Zweihander Recipe"/>
+	<l10n_template data_code="83900183" name="Epic Zweihander Recipe"/>
+	<l10n_template data_code="83900184" name="Doublebladed Axe Recipe"/>
+	<l10n_template data_code="83900185" name="Magic Doublebladed Axe Recipe"/>
+	<l10n_template data_code="83900186" name="Rare Doublebladed Axe Recipe"/>
+	<l10n_template data_code="83900187" name="Epic Doublebladed Axe Recipe"/>
+	<l10n_template data_code="83900188" name="Bastard sword Recipe"/>
+	<l10n_template data_code="83900189" name="Magic Bastard sword Recipe"/>
+	<l10n_template data_code="83900190" name="Rare Bastard sword Recipe"/>
+	<l10n_template data_code="83900191" name="Epic Bastard sword Recipe"/>
+	<l10n_template data_code="83900192" name="Claymore Recipe"/>
+	<l10n_template data_code="83900193" name="Magic Claymore Recipe"/>
+	<l10n_template data_code="83900194" name="Rare Claymore Recipe"/>
+	<l10n_template data_code="83900195" name="Epic Claymore Recipe"/>
+	<l10n_template data_code="83900196" name="Bastard sword of Flame Recipe"/>
+	<l10n_template data_code="83900197" name="Magic Bastard sword of Flame Recipe"/>
+	<l10n_template data_code="83900198" name="Rare Bastard sword of Flame Recipe"/>
+	<l10n_template data_code="83900199" name="Epic Bastard sword of Flame Recipe"/>
+	<l10n_template data_code="83900200" name="Claymore of Pain Recipe"/>
+	<l10n_template data_code="83900201" name="Magic Claymore of Pain Recipe"/>
+	<l10n_template data_code="83900202" name="Rare Claymore of Pain Recipe"/>
+	<l10n_template data_code="83900203" name="Epic Claymore of Pain Recipe"/>
+	<l10n_template data_code="83900204" name="Scimitar Recipe"/>
+	<l10n_template data_code="83900205" name="Magic Scimitar Recipe"/>
+	<l10n_template data_code="83900206" name="Rare Scimitar Recipe"/>
+	<l10n_template data_code="83900207" name="Epic Scimitar Recipe"/>
+	<l10n_template data_code="83900208" name="Cursed Great Sword Recipe"/>
+	<l10n_template data_code="83900209" name="Magic Cursed Great Sword Recipe"/>
+	<l10n_template data_code="83900210" name="Rare Cursed Great Sword Recipe"/>
+	<l10n_template data_code="83900211" name="Epic Cursed Great Sword Recipe"/>
+	<l10n_template data_code="83900212" name="Spiked club Recipe"/>
+	<l10n_template data_code="83900213" name="Magic Spiked club Recipe"/>
+	<l10n_template data_code="83900214" name="Rare Spiked club Recipe"/>
+	<l10n_template data_code="83900215" name="Epic Spiked club Recipe"/>
+	<l10n_template data_code="83900216" name="War hammer of Warrior Recipe"/>
+	<l10n_template data_code="83900217" name="Magic War hammer of Warrior Recipe"/>
+	<l10n_template data_code="83900218" name="Rare War hammer of Warrior Recipe"/>
+	<l10n_template data_code="83900219" name="Epic War hammer of Warrior Recipe"/>
+	<l10n_template data_code="83900220" name="Mornimg star Recipe"/>
+	<l10n_template data_code="83900221" name="Magic Mornimg star Recipe"/>
+	<l10n_template data_code="83900222" name="Rare Mornimg star Recipe"/>
+	<l10n_template data_code="83900223" name="Epic Mornimg star Recipe"/>
+	<l10n_template data_code="83900224" name="Mace Recipe"/>
+	<l10n_template data_code="83900225" name="Magic Mace Recipe"/>
+	<l10n_template data_code="83900226" name="Rare Mace Recipe"/>
+	<l10n_template data_code="83900227" name="Epic Mace Recipe"/>
+	<l10n_template data_code="83900228" name="War hammer of Land Recipe"/>
+	<l10n_template data_code="83900229" name="Magic War hammer of Land Recipe"/>
+	<l10n_template data_code="83900230" name="Rare War hammer of Land Recipe"/>
+	<l10n_template data_code="83900231" name="Epic War hammer of Land Recipe"/>
+	<l10n_template data_code="83900232" name="Mornimg star of Destruction Recipe"/>
+	<l10n_template data_code="83900233" name="Magic Mornimg star of Destruction Recipe"/>
+	<l10n_template data_code="83900234" name="Rare Mornimg star of Destruction Recipe"/>
+	<l10n_template data_code="83900235" name="Epic Mornimg star of Destruction Recipe"/>
+	<l10n_template data_code="83900236" name="Cursed Morning Star Recipe"/>
+	<l10n_template data_code="83900237" name="Magic Cursed Morning Star Recipe"/>
+	<l10n_template data_code="83900238" name="Rare Cursed Morning Star Recipe"/>
+	<l10n_template data_code="83900239" name="Epic Cursed Morning Star Recipe"/>
+	<l10n_template data_code="83900240" name="Paladin Mace Recipe"/>
+	<l10n_template data_code="83900241" name="Magic Paladin Mace Recipe"/>
+	<l10n_template data_code="83900242" name="Rare Paladin Mace Recipe"/>
+	<l10n_template data_code="83900243" name="Epic Paladin Mace Recipe"/>
+	<l10n_template data_code="83900244" name="Iron Warhammer Recipe"/>
+	<l10n_template data_code="83900245" name="Magic Iron Warhammer Recipe"/>
+	<l10n_template data_code="83900246" name="Rare Iron Warhammer Recipe"/>
+	<l10n_template data_code="83900247" name="Epic Iron Warhammer Recipe"/>
+	<l10n_template data_code="83900248" name="Wood Hammer Recipe"/>
+	<l10n_template data_code="83900249" name="Magic Wood Hammer Recipe"/>
+	<l10n_template data_code="83900250" name="Rare Wood Hammer Recipe"/>
+	<l10n_template data_code="83900251" name="Epic Wood Hammer Recipe"/>
+	<l10n_template data_code="83900252" name="War Axe Recipe"/>
+	<l10n_template data_code="83900253" name="Magic War Axe Recipe"/>
+	<l10n_template data_code="83900254" name="Rare War Axe Recipe"/>
+	<l10n_template data_code="83900255" name="Epic War Axe Recipe"/>
+	<l10n_template data_code="83900256" name="Gurz Recipe"/>
+	<l10n_template data_code="83900257" name="Magic Gurz Recipe"/>
+	<l10n_template data_code="83900258" name="Rare Gurz Recipe"/>
+	<l10n_template data_code="83900259" name="Epic Gurz Recipe"/>
+	<l10n_template data_code="83900260" name="Cursed Warhammer Recipe"/>
+	<l10n_template data_code="83900261" name="Magic Cursed Warhammer Recipe"/>
+	<l10n_template data_code="83900262" name="Rare Cursed Warhammer Recipe"/>
+	<l10n_template data_code="83900263" name="Epic Cursed Warhammer Recipe"/>
+	<l10n_template data_code="83900264" name="Warhammer of Fear Recipe"/>
+	<l10n_template data_code="83900265" name="Magic Warhammer of Fear Recipe"/>
+	<l10n_template data_code="83900266" name="Rare Warhammer of Fear Recipe"/>
+	<l10n_template data_code="83900267" name="Epic Warhammer of Fear Recipe"/>
+	<l10n_template data_code="83900268" name="Gurz of Sorrow Recipe"/>
+	<l10n_template data_code="83900269" name="Magic Gurz of Sorrow Recipe"/>
+	<l10n_template data_code="83900270" name="Rare Gurz of Sorrow Recipe"/>
+	<l10n_template data_code="83900271" name="Epic Gurz of Sorrow Recipe"/>
+	<l10n_template data_code="83900272" name="Victorious Warhammer Recipe"/>
+	<l10n_template data_code="83900273" name="Magic Victorious Warhammer Recipe"/>
+	<l10n_template data_code="83900274" name="Rare Victorious Warhammer Recipe"/>
+	<l10n_template data_code="83900275" name="Epic Victorious Warhammer Recipe"/>
+	<l10n_template data_code="83900276" name="Blaze Dagger Recipe"/>
+	<l10n_template data_code="83900277" name="Magic Blaze Dagger Recipe"/>
+	<l10n_template data_code="83900278" name="Rare Blaze Dagger Recipe"/>
+	<l10n_template data_code="83900279" name="Epic Blaze Dagger Recipe"/>
+	<l10n_template data_code="83900280" name="Elemental Dagger Recipe"/>
+	<l10n_template data_code="83900281" name="Magic Elemental Dagger Recipe"/>
+	<l10n_template data_code="83900282" name="Rare Elemental Dagger Recipe"/>
+	<l10n_template data_code="83900283" name="Epic Elemental Dagger Recipe"/>
+	<l10n_template data_code="83900284" name="Gurz of Fear Recipe"/>
+	<l10n_template data_code="83900285" name="Magic Gurz of Fear Recipe"/>
+	<l10n_template data_code="83900286" name="Rare Gurz of Fear Recipe"/>
+	<l10n_template data_code="83900287" name="Epic Gurz of Fear Recipe"/>
+</l10n_table>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208151536" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_guild') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.remove_guild
+GO
+
+
+CREATE PROCEDURE dbo.remove_guild
+    @guild_id dbo.id_t
+AS
+    SET NOCOUNT ON
+
+	DELETE FROM dbo.Guild_Event_Logs WHERE guild_id = @guild_id
+	DELETE FROM dbo.Guild_Bank_Event_Logs WHERE guild_id = @guild_id
+        DELETE FROM dbo.Guild_Game_Money_Event_Logs WHERE guild_id = @guild_id
+        DELETE FROM dbo.Guild_Relationship_Infos WHERE owner_id = @guild_id OR target_id = @guild_id 
+        DELETE FROM dbo.Guild_Vaults WHERE guild_id = @guild_id
+        DELETE FROM dbo.Guild_Equip_Item_Infos WHERE guild_id = @guild_id
+        DELETE FROM dbo.Guild_Inventories WHERE guild_id = @guild_id
+        DELETE FROM dbo.Guild_Applicants WHERE guild_id = @guild_id
+	DELETE FROM dbo.Guild_Members WHERE guild_id = @guild_id
+	DELETE FROM dbo.Guild_Ranks WHERE guild_id = @guild_id
+	DELETE FROM dbo.Guild_Bank_Rights WHERE guild_id = @guild_id
+
+	DELETE FROM dbo.Guilds WHERE id= @guild_id
+	
+	SET NOCOUNT OFF
+	
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_guild') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.remove_guild
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

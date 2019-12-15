@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201205311420">
+    <createTable tableName="Building_Guards" remarks="building guard table">
+      <column name="id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="building_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="npc_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_x" type="REAL">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_y" type="REAL">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_z" type="REAL">
+        <constraints nullable="false"/>
+      </column>
+      <column name="pos_heading" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="expire_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Building_Guards" columnNames="id" tableName="Building_Guards"/>
+
+    <addForeignKeyConstraint constraintName="fk_Building_Guards_Buildings"
+        baseColumnNames="building_id" baseTableName="Building_Guards"
+        referencedColumnNames="id" referencedTableName="Buildings"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

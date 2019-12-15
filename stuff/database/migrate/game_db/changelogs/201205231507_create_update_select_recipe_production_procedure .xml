@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201205231507">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_select_recipe_production') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.update_select_recipe_production
+GO
+
+CREATE PROCEDURE dbo.update_select_recipe_production
+  @owner_id dbo.id_t,
+  @recipe_code dbo.code_t,
+  @count TINYINT,
+  @complete_at BIGINT
+AS
+
+  SET NOCOUNT ON
+
+  UPDATE dbo.Building_Select_Recipe_Production_Infos 
+    SET count = @count, complete_at = @complete_at
+      WHERE building_id = @owner_id AND recipe_code = @recipe_code 
+
+  SET NOCOUNT OFF
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_select_recipe_production') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.update_select_recipe_production
+GO
+    </rollback>
+  </changeSet>
+  
+</databaseChangeLog>

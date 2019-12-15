@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201203161405" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.change_guild_member_grade') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.change_guild_member_grade
+GO
+
+
+CREATE PROCEDURE dbo.change_guild_member_grade
+    @character_id dbo.id_t,
+    @grade TINYINT  
+AS
+    SET NOCOUNT ON
+    
+    UPDATE dbo.Guild_Members
+    SET grade = @grade
+    WHERE @character_id = grade
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.change_guild_member_grade') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.change_guild_member_grade
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

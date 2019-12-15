@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201012141625">
+    <createTable tableName="Inventories" remarks="inventory table">
+      <column name="id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="slot_id" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="inven_type" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Inventories" columnNames="id" tableName="Inventories"/>
+    <createIndex indexName="ix_Inventories_account_id" tableName="Inventories">
+      <column name="account_id"/>
+    </createIndex>
+    <createIndex indexName="ix_Inventories_character_id" tableName="Inventories">
+      <column name="character_id"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Inventories_Characters"
+        baseColumnNames="character_id" baseTableName="Inventories"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

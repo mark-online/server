@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111031257" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_auction') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_auction
+GO
+
+
+CREATE PROCEDURE dbo.delete_auction
+    @auction_id dbo.id_t,
+	@zone_id dbo.id_t
+AS
+    SET NOCOUNT ON
+	
+	DELETE FROM dbo.Auction_Equip_Item_Infos WHERE auction_id = @auction_id AND zone_id = @zone_id
+    DELETE FROM dbo.Auction_Inventories WHERE auction_id = @auction_id AND zone_id = @zone_id
+	DELETE FROM dbo.Auctions WHERE id = @auction_id AND zone_id = @zone_id
+    
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_auction') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_auction
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

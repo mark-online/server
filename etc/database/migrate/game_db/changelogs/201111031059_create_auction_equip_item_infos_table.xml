@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111031059">
+    <createTable tableName="Auction_Equip_Item_Infos" remarks="auction equip item info table">
+      <column name="auction_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="zone_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column> 
+	  <column name="fragment_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="open_socket_count" type="BIT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_1" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_2" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_3" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_4" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_5" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  </createTable>
+
+    <addPrimaryKey constraintName="pk_Auction_Equip_Item_Infos" columnNames="auction_id, zone_id" tableName="Auction_Equip_Item_Infos"/>
+    
+	    <addForeignKeyConstraint constraintName="fk_Auction_Equip_Item_Infos_Auctions"
+        baseColumnNames="auction_id, zone_id" baseTableName="Auction_Equip_Item_Infos"
+        referencedColumnNames="id, zone_id" referencedTableName="Auctions"
+        onDelete="NO ACTION" />
+  </changeSet>
+
+</databaseChangeLog>

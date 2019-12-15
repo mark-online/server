@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111040045" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.check_duplicate_nickname') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.check_duplicate_nickname
+GO
+
+
+CREATE PROCEDURE dbo.check_duplicate_nickname
+	@nickname NVARCHAR(10)
+AS
+    SET NOCOUNT ON
+	DECLARE @exist_nickname INT
+	
+	SELECT @exist_nickname = COUNT(id)
+        FROM dbo.Characters
+		    WHERE nickname = @nickname
+
+    SET NOCOUNT OFF
+	IF @exist_nickname > 0
+	BEGIN
+	    return 1
+	END
+	ELSE
+	BEGIN
+	    return 0
+	END
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.check_duplicate_nickname') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.check_duplicate_nickname
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

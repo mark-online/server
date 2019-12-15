@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201202211649" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_glider_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.create_glider_info
+GO
+
+
+-- error_code_out:
+--   0: succeeded
+--   547: invalid Account ID
+--   2601: duplicated nickname
+--   *: DB error
+CREATE PROCEDURE dbo.create_glider_info
+    @character_id dbo.id_t,
+    @account_id dbo.id_t,
+    @id dbo.id_t,
+    @glider_code dbo.code_t
+AS
+    SET NOCOUNT ON
+    
+    INSERT INTO Glider_infos(account_id, character_id, id, glider_code) VALUES (@account_id, @character_id, @id, @glider_code)
+      
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_glider_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.create_glider_info
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

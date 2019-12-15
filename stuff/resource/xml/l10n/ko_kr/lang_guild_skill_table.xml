@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="23068705" name="실전 경험 1Lv" desc="몬스터 사냥 또는 퀘스트 보상으로 얻는 경험치가 5% 만큼 증가합니다."/>
+	<l10n_template data_code="23068737" name="염가 판매" desc="상점에서 물건을 구입할 때 5%만큼 비용이 줄어듭니다."/>
+	<l10n_template data_code="23068721" name="말 달리자" desc="탈것의 이동 속도가 5%만큼 증가합니다."/>
+	<l10n_template data_code="23068753" name="검투사" desc="투기장에서 얻는 투기장 포인트가 5% 만큼 증가합니다."/>
+	<l10n_template data_code="23068689" name="행운의 동전 1Lv" desc="몬스터 사냥 또는 퀘스트 보상으로 얻는 돈이 5% 만큼 증가하고, 추가로 증가분은 길드 은행에 저장됩니다."/>
+	<l10n_template data_code="23068706" name="실전 경험 2Lv" desc="몬스터 사냥 또는 퀘스트 보상으로 얻는 경험치가 10% 만큼 증가합니다."/>
+	<l10n_template data_code="23068769" name="빠른 부활 1Lv" desc="부활 시간이 5% 만큼 줄어듭니다."/>
+	<l10n_template data_code="23068690" name="행운의 동전 2Lv" desc="몬스터 사냥 또는 퀘스트 보상으로 얻는 돈이 10% 만큼 증가하고, 추가로 증가분은 길드 은행에 저장됩니다."/>
+	<l10n_template data_code="23068770" name="빠른 부활 2Lv" desc="부활 시간이 10% 만큼 줄어듭니다."/>
+</l10n_table>

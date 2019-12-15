@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" standalone="yes"?><faction_table>
+	<faction_template faction_code="1" our_mask="1" friendly_mask="0" hostile_mask="16" hostile_factions="13"/>
+	<faction_template faction_code="2" our_mask="3" friendly_mask="2" hostile_mask="20" hostile_factions="13"/>
+	<faction_template faction_code="3" our_mask="5" friendly_mask="4" hostile_mask="18" hostile_factions="13"/>
+	<faction_template faction_code="4" our_mask="16" friendly_mask="16" hostile_mask="7" friendly_factions="9 10" hostile_factions="13"/>
+	<faction_template faction_code="5" our_mask="16" friendly_mask="16" hostile_mask="15" friendly_factions="9 10" hostile_factions="13"/>
+	<faction_template faction_code="6" our_mask="8" friendly_mask="8" hostile_mask="0" hostile_factions="13"/>
+	<faction_template faction_code="7" our_mask="8" friendly_mask="8" hostile_mask="16" hostile_factions="13"/>
+	<faction_template faction_code="8" our_mask="16" friendly_mask="0" hostile_mask="23" hostile_factions="13"/>
+	<faction_template faction_code="9" our_mask="18" friendly_mask="0" hostile_mask="12" friendly_factions="5 9 13 "/>
+	<faction_template faction_code="10" our_mask="16" friendly_mask="0" hostile_mask="10" friendly_factions="5 10" hostile_factions="1 9 13"/>
+	<faction_template faction_code="11" our_mask="0" friendly_mask="0" hostile_mask="0" hostile_factions="0"/>
+	<faction_template faction_code="12" our_mask="8" friendly_mask="0" hostile_mask="31" friendly_factions="12" hostile_factions="13"/>
+	<faction_template faction_code="13" our_mask="16" friendly_mask="0" hostile_mask="29" friendly_factions="9 13"/>
+</faction_table>

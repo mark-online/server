@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?><action_table>
+	<action_template action_code="1" anim_name="human_farm_root1" effect_name="Seeding_Effect" action_is_moving="0" play_time="5000"/>
+	<action_template action_code="2" anim_name="human_farm_root2" effect_name="Reg_Effect" action_is_moving="0" play_time="5000"/>
+	<action_template action_code="3" anim_name="morphosis" effect_name="Ghoul_Morphosis_Effect" action_is_moving="0" play_time="5000"/>
+	<action_template action_code="4" anim_name="injection" effect_name="Chaos_Stone_Injection_Effect" action_is_moving="0" play_time="5000"/>
+	<action_template action_code="5" anim_name="lich_king_summon" effect_name="0" action_is_moving="0" play_time="5000"/>
+	<action_template action_code="6" anim_name="cure" effect_name="Basket_003_Effect" action_is_moving="0" play_time="5000"/>
+	<action_template action_code="7" anim_name="root" effect_name="Healing_Castee_Effect" action_is_moving="0" play_time="5000"/>
+</action_table>

@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="17825809" name="강타 1Lv"/>
+	<l10n_template data_code="17825810" name="강타 2Lv"/>
+	<l10n_template data_code="17825811" name="강타 3Lv"/>
+	<l10n_template data_code="17825812" name="강타 4Lv"/>
+	<l10n_template data_code="17825813" name="강타 5Lv"/>
+	<l10n_template data_code="17825825" name="베어넘기기 1Lv"/>
+	<l10n_template data_code="17825826" name="베어넘기기 2Lv"/>
+	<l10n_template data_code="17825827" name="베어넘기기 3Lv"/>
+	<l10n_template data_code="17825828" name="베어넘기기 4Lv"/>
+	<l10n_template data_code="17825829" name="베어넘기기 5Lv"/>
+	<l10n_template data_code="17825841" name="자루치기 1Lv"/>
+	<l10n_template data_code="17825842" name="자루치기 2Lv"/>
+	<l10n_template data_code="17825843" name="자루치기 3Lv"/>
+	<l10n_template data_code="17825844" name="자루치기 4Lv"/>
+	<l10n_template data_code="17825845" name="자루치기 5Lv"/>
+	<l10n_template data_code="17825857" name="지면강타 1Lv"/>
+	<l10n_template data_code="17825858" name="지면강타 2Lv"/>
+	<l10n_template data_code="17825859" name="지면강타 3Lv"/>
+	<l10n_template data_code="17825873" name="날카로운 일격 1Lv"/>
+	<l10n_template data_code="17825874" name="날카로운 일격 2Lv"/>
+	<l10n_template data_code="17825875" name="날카로운 일격 3Lv"/>
+	<l10n_template data_code="17825889" name="투척 1Lv"/>
+	<l10n_template data_code="17825890" name="투척 2Lv"/>
+	<l10n_template data_code="17825891" name="투척 3Lv"/>
+	<l10n_template data_code="17825905" name="압도 1LV"/>
+	<l10n_template data_code="17825906" name="압도 2LV"/>
+	<l10n_template data_code="17825907" name="압도 3LV"/>
+	<l10n_template data_code="17825921" name="근지구력 1Lv"/>
+	<l10n_template data_code="17825922" name="근지구력 2Lv"/>
+	<l10n_template data_code="17825923" name="근지구력 3Lv"/>
+	<l10n_template data_code="17827409" name="마법탄 1Lv"/>
+	<l10n_template data_code="17827410" name="마법탄 2Lv"/>
+	<l10n_template data_code="17827411" name="마법탄 3Lv"/>
+	<l10n_template data_code="17827412" name="마법탄 4Lv"/>
+	<l10n_template data_code="17827413" name="마법탄 5Lv"/>
+	<l10n_template data_code="17827425" name="얼음 화살 1Lv"/>
+	<l10n_template data_code="17827426" name="얼음 화살 2Lv"/>
+	<l10n_template data_code="17827427" name="얼음 화살 3Lv"/>
+	<l10n_template data_code="17827428" name="얼음 화살 4Lv"/>
+	<l10n_template data_code="17827429" name="얼음 화살 5Lv"/>
+	<l10n_template data_code="17827441" name="회오리 바람 1Lv"/>
+	<l10n_template data_code="17827442" name="회오리 바람 2Lv"/>
+	<l10n_template data_code="17827443" name="회오리 바람 3Lv"/>
+	<l10n_template data_code="17827457" name="불꽃 1Lv"/>
+	<l10n_template data_code="17827458" name="불꽃 2Lv"/>
+	<l10n_template data_code="17827459" name="불꽃 3Lv"/>
+	<l10n_template data_code="17827473" name="숙면 1Lv"/>
+	<l10n_template data_code="17827474" name="숙면 2Lv"/>
+	<l10n_template data_code="17827475" name="숙면 3Lv"/>
+	<l10n_template data_code="17827489" name="마나 재생 1Lv"/>
+	<l10n_template data_code="17827490" name="마나 재생 2Lv"/>
+	<l10n_template data_code="17827491" name="마나 재생 3Lv"/>
+	<l10n_template data_code="17827505" name="자연의 결속 1Lv"/>
+	<l10n_template data_code="17827506" name="자연의 결속 2Lv"/>
+	<l10n_template data_code="17827507" name="자연의 결속 3Lv"/>
+	<l10n_template data_code="17827521" name="마나 획득 1Lv"/>
+	<l10n_template data_code="17827522" name="마나 획득 2Lv"/>
+	<l10n_template data_code="17827523" name="마나 획득 3Lv"/>
+	<l10n_template data_code="17827537" name="기초 지식 1Lv"/>
+	<l10n_template data_code="17827538" name="기초 지식 2Lv"/>
+	<l10n_template data_code="17827539" name="기초 지식 3Lv"/>
+	<l10n_template data_code="17829009" name="관통 화살 1LV"/>
+	<l10n_template data_code="17829010" name="관통 화살 2LV"/>
+	<l10n_template data_code="17829011" name="관통 화살 3LV"/>
+	<l10n_template data_code="17829012" name="관통 화살 4LV"/>
+	<l10n_template data_code="17829013" name="관통 화살 5LV"/>
+	<l10n_template data_code="17829025" name="돌격 사격 1Lv"/>
+	<l10n_template data_code="17829026" name="돌격 사격 2Lv"/>
+	<l10n_template data_code="17829027" name="돌격 사격 3Lv"/>
+	<l10n_template data_code="17829028" name="돌격 사격 4Lv"/>
+	<l10n_template data_code="17829029" name="돌격 사격 5Lv"/>
+	<l10n_template data_code="17829041" name="치명적인 독 1Lv"/>
+	<l10n_template data_code="17829042" name="치명적인 독 2Lv"/>
+	<l10n_template data_code="17829043" name="치명적인 독 3Lv"/>
+	<l10n_template data_code="17829044" name="치명적인 독 4Lv"/>
+	<l10n_template data_code="17829045" name="치명적인 독 5Lv"/>
+	<l10n_template data_code="17829057" name="섬광 화살 1Lv"/>
+	<l10n_template data_code="17829058" name="섬광 화살 2Lv"/>
+	<l10n_template data_code="17829059" name="섬광 화살 3Lv"/>
+	<l10n_template data_code="17829073" name="불꽃놀이 1Lv"/>
+	<l10n_template data_code="17829074" name="불꽃놀이 2Lv"/>
+	<l10n_template data_code="17829075" name="불꽃놀이 3Lv"/>
+	<l10n_template data_code="17829089" name="독 화살 1Lv"/>
+	<l10n_template data_code="17829090" name="독 화살 2Lv"/>
+	<l10n_template data_code="17829091" name="독 화살 3Lv"/>
+	<l10n_template data_code="17829105" name="수면 화살 1Lv"/>
+	<l10n_template data_code="17829106" name="수면 화살 2Lv"/>
+	<l10n_template data_code="17829107" name="수면 화살 3Lv"/>
+	<l10n_template data_code="17829121" name="연막탄 1Lv"/>
+	<l10n_template data_code="17829122" name="연막탄 2Lv"/>
+	<l10n_template data_code="17829123" name="연막탄 3Lv"/>
+	<l10n_template data_code="17829137" name="정신력 강화 1Lv"/>
+	<l10n_template data_code="17829138" name="정신력 강화 2Lv"/>
+	<l10n_template data_code="17829139" name="정신력 강화 3Lv"/>
+	<l10n_template data_code="17830609" name="집행 1Lv"/>
+	<l10n_template data_code="17830610" name="집행 2Lv"/>
+	<l10n_template data_code="17830611" name="집행 3Lv"/>
+	<l10n_template data_code="17830625" name="휴식 1Lv"/>
+	<l10n_template data_code="17830626" name="휴식 2Lv"/>
+	<l10n_template data_code="17830627" name="휴식 3Lv"/>
+	<l10n_template data_code="17830641" name="건물 수리 1Lv"/>
+	<l10n_template data_code="17830642" name="건물 수리 2Lv"/>
+	<l10n_template data_code="17830643" name="건물 수리 3Lv"/>
+	<l10n_template data_code="17830657" name="전투 태세 1Lv"/>
+	<l10n_template data_code="17830658" name="전투 태세 2Lv"/>
+	<l10n_template data_code="17830659" name="전투 태세 3Lv"/>
+	<l10n_template data_code="17830673" name="전투 해제 1Lv"/>
+	<l10n_template data_code="17830674" name="전투 해제 2Lv"/>
+	<l10n_template data_code="17830675" name="전투 해제 3Lv"/>
+	<l10n_template data_code="17832209" name="칼날 폭풍 1Lv"/>
+	<l10n_template data_code="17832210" name="칼날 폭풍 2Lv"/>
+	<l10n_template data_code="17832211" name="칼날 폭풍 3Lv"/>
+	<l10n_template data_code="17832225" name="감각 파괴 1Lv"/>
+	<l10n_template data_code="17832226" name="감각 파괴 2Lv"/>
+	<l10n_template data_code="17832227" name="감각 파괴 3Lv"/>
+	<l10n_template data_code="17832241" name="공격 본능 1Lv"/>
+	<l10n_template data_code="17832242" name="공격 본능 2Lv"/>
+	<l10n_template data_code="17832243" name="공격 본능 3Lv"/>
+	<l10n_template data_code="17832257" name="명령 하달 1Lv"/>
+	<l10n_template data_code="17832258" name="명령 하달 2Lv"/>
+	<l10n_template data_code="17832259" name="명령 하달 3Lv"/>
+	<l10n_template data_code="17832273" name="난폭한 일격 1Lv"/>
+	<l10n_template data_code="17832274" name="난폭한 일격 2Lv"/>
+	<l10n_template data_code="17832275" name="난폭한 일격 3Lv"/>
+	<l10n_template data_code="17832289" name="필살의 각오 1Lv"/>
+	<l10n_template data_code="17832290" name="필살의 각오 2Lv"/>
+	<l10n_template data_code="17832291" name="필살의 각오 3Lv"/>
+	<l10n_template data_code="17832305" name="방어 본능 1Lv"/>
+	<l10n_template data_code="17832306" name="방어 본능 2Lv"/>
+	<l10n_template data_code="17832307" name="방어 본능 3Lv"/>
+	<l10n_template data_code="17832321" name="필살의 일격 1Lv"/>
+	<l10n_template data_code="17832322" name="필살의 일격 2Lv"/>
+	<l10n_template data_code="17832323" name="필살의 일격 3Lv"/>
+	<l10n_template data_code="17832337" name="돌진 1Lv"/>
+	<l10n_template data_code="17832338" name="돌진 2Lv"/>
+	<l10n_template data_code="17832339" name="돌진 3Lv"/>
+	<l10n_template data_code="17832353" name="광분 1Lv"/>
+	<l10n_template data_code="17832354" name="광분 2Lv"/>
+	<l10n_template data_code="17832355" name="광분 3Lv"/>
+	<l10n_template data_code="17832369" name="위협 1Lv"/>
+	<l10n_template data_code="17832370" name="위협 2Lv"/>
+	<l10n_template data_code="17832371" name="위협 3Lv"/>
+	<l10n_template data_code="17832385" name="도발 1Lv"/>
+	<l10n_template data_code="17832386" name="도발 2Lv"/>
+	<l10n_template data_code="17832387" name="도발 3Lv"/>
+	<l10n_template data_code="17832401" name="방패 후려치기 1Lv"/>
+	<l10n_template data_code="17832402" name="방패 후려치기 2Lv"/>
+	<l10n_template data_code="17832403" name="방패 후려치기 3Lv"/>
+	<l10n_template data_code="17832417" name="외침 1Lv"/>
+	<l10n_template data_code="17832418" name="외침 2Lv"/>
+	<l10n_template data_code="17832419" name="외침 3Lv"/>
+	<l10n_template data_code="17835409" name="정신 교란 1Lv"/>
+	<l10n_template data_code="17835410" name="정신 교란 2Lv"/>
+	<l10n_template data_code="17835411" name="정신 교란 3Lv"/>
+	<l10n_template data_code="17835425" name="죽음의 유혹 1Lv"/>
+	<l10n_template data_code="17835426" name="죽음의 유혹 2Lv"/>
+	<l10n_template data_code="17835427" name="죽음의 유혹 3Lv"/>
+	<l10n_template data_code="17835441" name="화염 창 1Lv"/>
+	<l10n_template data_code="17835442" name="화염 창 2Lv"/>
+	<l10n_template data_code="17835443" name="화염 창 3Lv"/>
+	<l10n_template data_code="17835457" name="얼음 방벽 1Lv"/>
+	<l10n_template data_code="17835458" name="얼음 방벽 2Lv"/>
+	<l10n_template data_code="17835459" name="얼음 방벽 3Lv"/>
+	<l10n_template data_code="17835473" name="정신 파괴 1Lv"/>
+	<l10n_template data_code="17835474" name="정신 파괴 2Lv"/>
+	<l10n_template data_code="17835475" name="정신 파괴 3Lv"/>
+	<l10n_template data_code="17835489" name="영원한 화염 1Lv"/>
+	<l10n_template data_code="17835490" name="영원한 화염 2Lv"/>
+	<l10n_template data_code="17835491" name="영원한 화염 3Lv"/>
+	<l10n_template data_code="17835505" name="마나 방패 1Lv" desc="대량의 마나를 소모해 %caster_activate_mil_sec_1초 동안 적의 공격을 모조리 막아냅니다."/>
+	<l10n_template data_code="17835506" name="마나 방패 2Lv" desc="대량의 마나를 소모해 %caster_activate_mil_sec_1초 동안 적의 공격을 모조리 막아냅니다."/>
+	<l10n_template data_code="17835507" name="마나 방패 3Lv" desc="대량의 마나를 소모해 %caster_activate_mil_sec_1초 동안 적의 공격을 모조리 막아냅니다."/>
+	<l10n_template data_code="17835521" name="결빙 1Lv"/>
+	<l10n_template data_code="17835522" name="결빙 2Lv"/>
+	<l10n_template data_code="17835523" name="결빙 3Lv"/>
+	<l10n_template data_code="17835537" name="정신 붕괴 1Lv"/>
+	<l10n_template data_code="17835538" name="정신 붕괴 2Lv"/>
+	<l10n_template data_code="17835539" name="정신 붕괴 3Lv"/>
+	<l10n_template data_code="17835553" name="신체 노화 1Lv"/>
+	<l10n_template data_code="17835554" name="신체 노화 2Lv"/>
+	<l10n_template data_code="17835555" name="신체 노화 3Lv"/>
+	<l10n_template data_code="17835569" name="에테르체 1Lv" desc="자신에게 걸린 정신력 약화, 봉인, 변이, 스턴 상태를 벗어날 수 있습니다. "/>
+	<l10n_template data_code="17835570" name="에테르체 2Lv" desc="자신에게 걸린 정신력 약화, 봉인, 변이, 스턴 상태를 벗어날 수 있습니다. "/>
+	<l10n_template data_code="17835571" name="에테르체 3Lv" desc="자신에게 걸린 정신력 약화, 봉인, 변이, 스턴 상태를 벗어날 수 있습니다. "/>
+	<l10n_template data_code="17838609" name="대혼란 1Lv"/>
+	<l10n_template data_code="17838610" name="대혼란 2Lv"/>
+	<l10n_template data_code="17838611" name="대혼란 3Lv"/>
+	<l10n_template data_code="17838625" name="거짓말 1Lv"/>
+	<l10n_template data_code="17838626" name="거짓말 2Lv"/>
+	<l10n_template data_code="17838627" name="거짓말 3Lv"/>
+	<l10n_template data_code="17838641" name="제압 1Lv"/>
+	<l10n_template data_code="17838642" name="제압 2Lv"/>
+	<l10n_template data_code="17838643" name="제압 3Lv"/>
+	<l10n_template data_code="17838657" name="체력 흡수 1Lv"/>
+	<l10n_template data_code="17838658" name="체력 흡수 2Lv"/>
+	<l10n_template data_code="17838659" name="체력 흡수 3Lv"/>
+	<l10n_template data_code="17838673" name="무장 해제 1Lv"/>
+	<l10n_template data_code="17838674" name="무장 해제 2Lv"/>
+	<l10n_template data_code="17838675" name="무장 해제 3Lv"/>
+	<l10n_template data_code="17838689" name="체력 강탈 1Lv"/>
+	<l10n_template data_code="17838690" name="체력 강탈 2Lv"/>
+	<l10n_template data_code="17838691" name="체력 강탈 3Lv"/>
+	<l10n_template data_code="17838705" name="은신 1Lv"/>
+	<l10n_template data_code="17838706" name="은신 2Lv"/>
+	<l10n_template data_code="17838707" name="은신 3Lv"/>
+	<l10n_template data_code="17838721" name="매복 공격 1Lv"/>
+	<l10n_template data_code="17838722" name="매복 공격 2Lv"/>
+	<l10n_template data_code="17838723" name="매복 공격 3Lv"/>
+	<l10n_template data_code="17838737" name="요격 1Lv"/>
+	<l10n_template data_code="17838738" name="요격 2Lv"/>
+	<l10n_template data_code="17838739" name="요격 3Lv"/>
+	<l10n_template data_code="17838753" name="감각 상승 1Lv"/>
+	<l10n_template data_code="17838754" name="감각 상승 2Lv"/>
+	<l10n_template data_code="17838755" name="감각 상승 3Lv"/>
+	<l10n_template data_code="17838769" name="시력 강화 1Lv"/>
+	<l10n_template data_code="17838770" name="시력 강화 2Lv"/>
+	<l10n_template data_code="17838771" name="시력 강화 3Lv"/>
+	<l10n_template data_code="17841809" name="피의 광기 1LV"/>
+	<l10n_template data_code="17841810" name="피의 광기 2LV"/>
+	<l10n_template data_code="17841811" name="피의 광기 3LV"/>
+	<l10n_template data_code="17841825" name="야수 본능 1LV"/>
+	<l10n_template data_code="17841826" name="야수 본능 2LV"/>
+	<l10n_template data_code="17841827" name="야수 본능 3LV"/>
+	<l10n_template data_code="17841841" name="광란 1LV"/>
+	<l10n_template data_code="17841842" name="광란 2LV"/>
+	<l10n_template data_code="17841843" name="광란 3LV"/>
+	<l10n_template data_code="17841857" name="분노의 함성 1LV"/>
+	<l10n_template data_code="17841858" name="분노의 함성 2LV"/>
+	<l10n_template data_code="17841859" name="분노의 함성 3LV"/>
+	<l10n_template data_code="17845009" name="절단 1LV"/>
+	<l10n_template data_code="17845010" name="절단 2LV"/>
+	<l10n_template data_code="17845011" name="절단 3LV"/>
+	<l10n_template data_code="17845025" name="사생결단 1LV"/>
+	<l10n_template data_code="17845026" name="사생결단 2LV"/>
+	<l10n_template data_code="17845027" name="사생결단 3LV"/>
+	<l10n_template data_code="17845041" name="광격 1LV"/>
+	<l10n_template data_code="17845042" name="광격 2LV"/>
+	<l10n_template data_code="17845043" name="광격 3LV"/>
+	<l10n_template data_code="17845057" name="태클 1LV"/>
+	<l10n_template data_code="17845058" name="태클 2LV"/>
+	<l10n_template data_code="17845059" name="태클 3LV"/>
+	<l10n_template data_code="17845073" name="투기 방출 1Lv"/>
+	<l10n_template data_code="17845074" name="투기 방출 2Lv"/>
+	<l10n_template data_code="17845075" name="투기 방출 3Lv"/>
+	<l10n_template data_code="17848209" name="전투 의지 1Lv"/>
+	<l10n_template data_code="17848210" name="전투 의지 2Lv"/>
+	<l10n_template data_code="17848211" name="전투 의지 3Lv"/>
+	<l10n_template data_code="17848225" name="돌격 명령 1Lv"/>
+	<l10n_template data_code="17848226" name="돌격 명령 2Lv"/>
+	<l10n_template data_code="17848227" name="돌격 명령 3Lv"/>
+	<l10n_template data_code="17848241" name="정신 무장 1Lv"/>
+	<l10n_template data_code="17848242" name="정신 무장 2Lv"/>
+	<l10n_template data_code="17848243" name="정신 무장 3Lv"/>
+	<l10n_template data_code="17848257" name="마나 함성 1Lv"/>
+	<l10n_template data_code="17848258" name="마나 함성 2Lv"/>
+	<l10n_template data_code="17848259" name="마나 함성 3Lv"/>
+	<l10n_template data_code="17848273" name="어깨 공격 1LV"/>
+	<l10n_template data_code="17848274" name="어깨 공격 2LV"/>
+	<l10n_template data_code="17848275" name="어깨 공격 3LV"/>
+	<l10n_template data_code="17851409" name="불기둥 1Lv"/>
+	<l10n_template data_code="17851410" name="불기둥 2Lv"/>
+	<l10n_template data_code="17851411" name="불기둥 3Lv"/>
+	<l10n_template data_code="17851425" name="선풍 1Lv"/>
+	<l10n_template data_code="17851426" name="선풍 2Lv"/>
+	<l10n_template data_code="17851427" name="선풍 3Lv"/>
+	<l10n_template data_code="17851441" name="혹한 1Lv"/>
+	<l10n_template data_code="17851442" name="혹한 2Lv"/>
+	<l10n_template data_code="17851443" name="혹한 3Lv"/>
+	<l10n_template data_code="17851457" name="암석 돌출 1Lv"/>
+	<l10n_template data_code="17851458" name="암석 돌출 2Lv"/>
+	<l10n_template data_code="17851459" name="암석 돌출 3Lv"/>
+	<l10n_template data_code="17851473" name="저주 1Lv"/>
+	<l10n_template data_code="17851474" name="저주 2Lv"/>
+	<l10n_template data_code="17851475" name="저주 3Lv"/>
+	<l10n_template data_code="17854609" name="운석 소환 1Lv"/>
+	<l10n_template data_code="17854610" name="운석 소환 2Lv"/>
+	<l10n_template data_code="17854611" name="운석 소환 3Lv"/>
+	<l10n_template data_code="17854625" name="화염 분출 1Lv"/>
+	<l10n_template data_code="17854626" name="화염 분출 2Lv"/>
+	<l10n_template data_code="17854627" name="화염 분출 3Lv"/>
+	<l10n_template data_code="17854641" name="활성화 1Lv"/>
+	<l10n_template data_code="17854642" name="활성화 2Lv"/>
+	<l10n_template data_code="17854643" name="활성화 3Lv"/>
+	<l10n_template data_code="17854657" name="번개 1Lv"/>
+	<l10n_template data_code="17854658" name="번개 2Lv"/>
+	<l10n_template data_code="17854659" name="번개 3Lv"/>
+	<l10n_template data_code="17854673" name="신성한 불꽃 1Lv"/>
+	<l10n_template data_code="17854674" name="신성한 불꽃 2Lv"/>
+	<l10n_template data_code="17854675" name="신성한 불꽃 3Lv"/>
+	<l10n_template data_code="17854689" name="탐지 마법 1 Lv" desc="주변을 탐색 마법을 시전하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17854690" name="탐지 마법 2 Lv" desc="주변을 탐색 마법을 시전하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17854691" name="탐지 마법 3 Lv" desc="주변을 탐색 마법을 시전하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17857809" name="정화 1Lv"/>
+	<l10n_template data_code="17857810" name="정화 2Lv"/>
+	<l10n_template data_code="17857811" name="정화 3Lv"/>
+	<l10n_template data_code="17857825" name="폭풍 1Lv"/>
+	<l10n_template data_code="17857826" name="폭풍 2Lv"/>
+	<l10n_template data_code="17857827" name="폭풍 3Lv"/>
+	<l10n_template data_code="17857841" name="폭풍설 1Lv"/>
+	<l10n_template data_code="17857842" name="폭풍설 2Lv"/>
+	<l10n_template data_code="17857843" name="폭풍설 3Lv"/>
+	<l10n_template data_code="17857857" name="생명의 뿌리 1Lv" desc="상대의 체력을 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="17857858" name="생명의 뿌리 2Lv" desc="상대의 체력을 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="17857859" name="생명의 뿌리 3Lv" desc="상대의 체력을 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="17857873" name="생명의 잎사귀 1Lv" desc="자신의 마나를 소모해 상대를 부활시킵니다."/>
+	<l10n_template data_code="17857874" name="생명의 잎사귀 2Lv" desc="자신의 마나를 소모해 상대를 부활시킵니다."/>
+	<l10n_template data_code="17857875" name="생명의 잎사귀 3Lv" desc="자신의 마나를 소모해 상대를 부활시킵니다."/>
+	<l10n_template data_code="17857889" name="생명줄 1Lv"/>
+	<l10n_template data_code="17857890" name="생명줄 2Lv"/>
+	<l10n_template data_code="17857891" name="생명줄 3Lv"/>
+	<l10n_template data_code="17861009" name="비장의 수단 1Lv"/>
+	<l10n_template data_code="17861010" name="비장의 수단 2Lv"/>
+	<l10n_template data_code="17861011" name="비장의 수단 3Lv"/>
+	<l10n_template data_code="17861025" name="냉기 화살 1Lv"/>
+	<l10n_template data_code="17861026" name="냉기 화살 2Lv"/>
+	<l10n_template data_code="17861027" name="냉기 화살 3Lv"/>
+	<l10n_template data_code="17861041" name="충격 화살 1Lv"/>
+	<l10n_template data_code="17861042" name="충격 화살 2Lv"/>
+	<l10n_template data_code="17861043" name="충격 화살 3Lv"/>
+	<l10n_template data_code="17861057" name="약화 지역 1Lv"/>
+	<l10n_template data_code="17861058" name="약화 지역 2Lv"/>
+	<l10n_template data_code="17861059" name="약화 지역 3Lv"/>
+	<l10n_template data_code="17861073" name="정신 착란 1Lv"/>
+	<l10n_template data_code="17861074" name="정신 착란 2Lv"/>
+	<l10n_template data_code="17861075" name="정신 착란 3Lv"/>
+	<l10n_template data_code="17864209" name="저격 1Lv"/>
+	<l10n_template data_code="17864210" name="저격 2Lv"/>
+	<l10n_template data_code="17864211" name="저격 3Lv"/>
+	<l10n_template data_code="17864225" name="관찰 1Lv" desc="주변을 탐색하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17864226" name="관찰 2Lv" desc="주변을 탐색하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17864227" name="관찰 3Lv" desc="주변을 탐색하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17864241" name="불꽃 화살 1Lv"/>
+	<l10n_template data_code="17864242" name="불꽃 화살 2Lv"/>
+	<l10n_template data_code="17864243" name="불꽃 화살 3Lv"/>
+	<l10n_template data_code="17864257" name="불 지옥 1Lv"/>
+	<l10n_template data_code="17864258" name="불 지옥 2Lv"/>
+	<l10n_template data_code="17864259" name="불 지옥 3Lv"/>
+	<l10n_template data_code="17864273" name="불 바다 1Lv"/>
+	<l10n_template data_code="17864274" name="불 바다 2Lv"/>
+	<l10n_template data_code="17864275" name="불 바다 3Lv"/>
+	<l10n_template data_code="17867409" name="복수 1Lv"/>
+	<l10n_template data_code="17867410" name="복수 2Lv"/>
+	<l10n_template data_code="17867411" name="복수 3Lv"/>
+	<l10n_template data_code="17867425" name="절단 1LV"/>
+	<l10n_template data_code="17867426" name="절단 2LV"/>
+	<l10n_template data_code="17867427" name="절단 3LV"/>
+	<l10n_template data_code="17867441" name="감염된 단도 1Lv"/>
+	<l10n_template data_code="17867442" name="감염된 단도 2Lv"/>
+	<l10n_template data_code="17867443" name="감염된 단도 3Lv"/>
+	<l10n_template data_code="17867457" name="난도질 1Lv"/>
+	<l10n_template data_code="17867458" name="난도질 2Lv"/>
+	<l10n_template data_code="17867459" name="난도질 3Lv"/>
+	<l10n_template data_code="17867473" name="그림자 이동 1Lv"/>
+	<l10n_template data_code="17867474" name="그림자 이동 2Lv"/>
+	<l10n_template data_code="17867475" name="그림자 이동 3Lv"/>
+	<l10n_template data_code="17867489" name="암살 1Lv"/>
+	<l10n_template data_code="17867490" name="암살 2Lv"/>
+	<l10n_template data_code="17867491" name="암살 3Lv"/>
+</l10n_table>

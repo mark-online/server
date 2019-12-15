@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201105171429" runOnChange="true">
+    <!-- Client's certificate -->
+    <delete tableName="Properties">
+      <where>[key]='certificate.key'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="certificate.key"/>
+      <column name="value" value="1234567890"/>
+      <column name="comments" value="cipher key for certificate encrypt/decrypt(uint32_t)"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='migration.effective_period'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="migration.effective_period"/>
+      <column name="value" value="300"/> <!-- 5 minutes (5*60) -->
+      <column name="comments" value="migration effective period(second unit.uint32_t)"/>
+    </insert>
+
+    <!-- C2S tunning -->
+    <delete tableName="Properties">
+      <where>[key]='c2s.high_concurrent_session_count'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="c2s.high_concurrent_session_count"/>
+      <column name="value" value="10"/> <!-- for Test -->
+      <column name="comments" value="how many concurrent session is allowed in the C2S connection."/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='c2s.max_concurrent_session_count'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="c2s.max_concurrent_session_count"/>
+      <column name="value" value="20"/> <!-- for Test -->
+      <column name="comments" value="how many concurrent session is allowed in the C2S connection."/>
+    </insert>
+
+    <!-- S2S tunning -->
+    <delete tableName="Properties">
+          <where>[key]='s2s.connection_timeout'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="s2s.connection_timeout"/>
+      <column name="value" value="5000"/>
+      <column name="comments" value="connection timeout(mili-seconds) for S2S connection"/>
+    </insert>
+
+    <!-- login_server tunning -->
+    <delete tableName="Properties">
+      <where>[key]='login_server.old_certificate_check_period'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="login_server.old_certificate_check_period"/>
+      <column name="value" value="300"/>
+      <column name="comments" value="check period for old certificate(seconds)"/>
+    </insert>
+
+    <!-- database_proxy_server tunning -->
+    <delete tableName="Properties">
+          <where>[key]='database_proxy_server.enabled'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="database_proxy_server.enabled"/>
+      <column name="value" value="1"/>
+      <column name="comments" value="DatabaseProxyServer is enabled?"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='database_proxy_server.cache.account_load_count'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="database_proxy_server.cache.account_load_count"/>
+      <column name="value" value="0"/>
+      <column name="comments" value="account cache load count"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='database_proxy_server.cache.old_cache_check_period'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="database_proxy_server.cache.old_cache_check_period"/>
+      <column name="value" value="360"/>
+      <column name="comments" value="check period for old cache remover(seconds)"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='database_proxy_server.cache.old_cache_min_access_period'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="database_proxy_server.cache.old_cache_min_access_period"/>
+      <column name="value" value="120"/>
+      <column name="comments" value="access period for old cache remover(seconds)"/>
+    </insert>
+
+    <!-- data_table -->
+    <delete tableName="Properties">
+          <where>[key]='data_table.property_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.property_table_url"/>
+      <column name="value" value="resource\xml\property_table.xml"/>
+      <column name="comments" value="WorldMap table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_map_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_map_table_url"/>
+      <column name="value" value="resource\xml\world_map_table.xml"/>
+      <column name="comments" value="WorldMap table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.region_table_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.region_table_url_prefix"/>
+      <column name="value" value="resource\xml\maps\map_"/>
+      <column name="comments" value="Region table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.arena_region_table_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.arena_region_table_url_prefix"/>
+      <column name="value" value="resource\xml\maps\arena\map_"/>
+      <column name="comments" value="Arena Region table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.region_coordinates_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.region_coordinates_url_prefix"/>
+      <column name="value" value="resource\xml\regions\region_"/>
+      <column name="comments" value="Region Coordinates table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.anchor_region_coordinates_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.anchor_region_coordinates_url_prefix"/>
+      <column name="value" value="resource\xml\anchor_regions\anchor_region_"/>
+      <column name="comments" value="anchor Region Coordinates table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.region_spawn_table_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.region_spawn_table_url_prefix"/>
+      <column name="value" value="resource\xml\spawns\region_spawn_"/>
+      <column name="comments" value="region spawn table"/>
+    </insert>
+
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.position_spawn_table_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.position_spawn_table_url_prefix"/>
+      <column name="value" value="resource\xml\spawns\position_spawn_"/>
+      <column name="comments" value="Position spawn table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.entity_path_table_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.entity_path_table_url_prefix"/>
+      <column name="value" value="resource\xml\entity_paths\entity_path_"/>
+      <column name="comments" value="entity path table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.equip_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.equip_table_url"/>
+      <column name="value" value="resource\xml\equip_table.xml"/>
+      <column name="comments" value="Equipment table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.function_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.function_table_url"/>
+      <column name="value" value="resource\xml\function_table.xml"/>
+      <column name="comments" value="Function table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.reprocess_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.reprocess_table_url"/>
+      <column name="value" value="resource\xml\reprocess_table.xml"/>
+      <column name="comments" value="Reprocess table"/>
+    </insert>	
+
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.recipe_table_url'</where>
+    </delete>	
+	<insert tableName="Properties">
+      <column name="key" value="data_table.recipe_table_url"/>
+      <column name="value" value="resource\xml\recipe_table.xml"/>
+      <column name="comments" value="Recipe table"/>
+    </insert>
+	
+
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.default_equip_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.default_equip_table_url"/>
+      <column name="value" value="resource\xml\default_equip_table.xml"/>
+      <column name="comments" value="Default equipment table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.character_default_item_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.character_default_item_table_url"/>
+      <column name="value" value="resource\xml\character_default_item_table.xml"/>
+      <column name="comments" value="character default item table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.character_default_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.character_default_skill_table_url"/>
+      <column name="value" value="resource\xml\character_default_skill_table.xml"/>
+      <column name="comments" value="character default skill table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.skill_effect_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.skill_effect_table_url"/>
+      <column name="value" value="resource\xml\skill_effect_table.xml"/>
+      <column name="comments" value="Skill Effect table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.accessory_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.accessory_table_url"/>
+      <column name="value" value="resource\xml\accessory_table.xml"/>
+      <column name="comments" value="Assessory table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.npc_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_skill_table_url"/>
+      <column name="value" value="resource\xml\npc_skill_table.xml"/>
+      <column name="comments" value="Npc Skill table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.npc_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_table_url"/>
+      <column name="value" value="resource\xml\npc_table.xml"/>
+      <column name="comments" value="NPC table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.element_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.element_table_url"/>
+      <column name="value" value="resource\xml\element_table.xml"/>
+      <column name="comments" value="Element table"/>
+    </insert>
+	
+	<delete tableName="Properties">
+          <where>[key]='data_table.exp_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.exp_table_url"/>
+      <column name="value" value="resource\xml\exp_table.xml"/>
+      <column name="comments" value="Exp table"/>
+    </insert>
+
+	<delete tableName="Properties">
+          <where>[key]='data_table.select_recipe_production_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.select_recipe_production_table_url"/>
+      <column name="value" value="resource\xml\select_recipe_production_table.xml"/>
+      <column name="comments" value="Select Recipe Production table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_drop_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_drop_table_url"/>
+      <column name="value" value="resource\xml\world_drop_table.xml"/>
+      <column name="comments" value="World drop table"/>
+    </insert>
+
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_drop_suffix_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_drop_suffix_table_url"/>
+      <column name="value" value="resource\xml\world_drop_suffix_table.xml"/>
+      <column name="comments" value="World drop suffix table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.item_drop_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.item_drop_table_url"/>
+      <column name="value" value="resource\xml\item_drop_table.xml"/>
+      <column name="comments" value="item drop table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.fragment_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.fragment_table_url"/>
+      <column name="value" value="resource\xml\fragment_table.xml"/>
+      <column name="comments" value="Fragment table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.gem_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.gem_table_url"/>
+      <column name="value" value="resource\xml\gem_table.xml"/>
+      <column name="comments" value="gem table"/>
+    </insert>
+	
+	
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.random_dungeon_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.random_dungeon_table_url"/>
+      <column name="value" value="resource\xml\random_dungeon_table.xml"/>
+      <column name="comments" value="random dungeon table"/>
+    </insert>
+	
+	<delete tableName="Properties">
+          <where>[key]='data_table.quest_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_table_url"/>
+      <column name="value" value="resource\xml\quest_table.xml"/>
+      <column name="comments" value="Quest table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_item_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_item_table_url"/>
+      <column name="value" value="resource\xml\quest_item_table.xml"/>
+      <column name="comments" value="QuestItem table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_kill_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_kill_mission_table_url"/>
+      <column name="value" value="resource\xml\quest_kill_mission_table.xml"/>
+      <column name="comments" value="QuestKillMission table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_obtain_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_obtain_mission_table_url"/>
+      <column name="value" value="resource\xml\quest_obtain_mission_table.xml"/>
+      <column name="comments" value="QuestObtainMission table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_prove_mission_table_url'</where>
+    </delete>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_probe_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_probe_mission_table_url"/>
+      <column name="value" value="resource\xml\quest_probe_mission_table.xml"/>
+      <column name="comments" value="QuestProbeMission table"/>
+    </insert>		
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_transport_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_transport_mission_table_url"/>
+      <column name="value" value="resource\xml\quest_transport_mission_table.xml"/>
+      <column name="comments" value="QuestKillMission table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_activation_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_activation_mission_table_url"/>
+      <column name="value" value="resource\xml\quest_activation_mission_table.xml"/>
+      <column name="comments" value="QuestActivationMission table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.quest_contents_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.quest_contents_mission_table_url"/>
+      <column name="value" value="resource\xml\quest_contents_mission_table.xml"/>
+      <column name="comments" value="QuestContentsMission table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.harvest_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.harvest_table_url"/>
+      <column name="value" value="resource\xml\harvest_table.xml"/>
+      <column name="comments" value="Harvest table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.npc_sell_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_sell_table_url"/>
+      <column name="value" value="resource\xml\npc_sell_table.xml"/>
+      <column name="comments" value="npc sell table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.npc_buy_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_buy_table_url"/>
+      <column name="value" value="resource\xml\npc_buy_table.xml"/>
+      <column name="comments" value="npc buy table"/>
+    </insert>
+	
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.treasure_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.treasure_table_url"/>
+      <column name="value" value="resource\xml\treasure_table.xml"/>
+      <column name="comments" value="Treasure table"/>
+    </insert>
+		  
+    <delete tableName="Properties">
+          <where>[key]='data_table.anchor_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.anchor_table_url"/>
+      <column name="value" value="resource\xml\anchor_table.xml"/>
+      <column name="comments" value="Anchor table"/>
+    </insert>
+	
+    <delete tableName="Properties">
+          <where>[key]='data_table.controll_anchor_table_url'</where>
+    </delete>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.building_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.building_table_url"/>
+      <column name="value" value="resource\xml\building_table.xml"/>
+      <column name="comments" value="Building table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.resources_production_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.resources_production_table_url"/>
+      <column name="value" value="resource\xml\resources_production_table.xml"/>
+      <column name="comments" value="Resources Production table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.so_activate_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.so_activate_skill_table_url"/>
+      <column name="value" value="resource\xml\so_activate_skill_table.xml"/>
+      <column name="comments" value="Device Activate Skill table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.arena_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.arena_table_url"/>
+      <column name="value" value="resource\xml\arena_table.xml"/>
+      <column name="comments" value="Arena table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.faction_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.faction_table_url"/>
+      <column name="value" value="resource\xml\faction_table.xml"/>
+      <column name="comments" value="Faction table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.event_trigger_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.event_trigger_table_url"/>
+      <column name="value" value="resource\xml_server\event_trigger_table.xml"/>
+      <column name="comments" value="Event Trigger table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.public_quest_table_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.public_quest_table_url_prefix"/>
+      <column name="value" value="resource\xml\public_quest\public_quest_"/>
+      <column name="comments" value="Public Quest table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.public_quest_stage_table_url_prefix'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.public_quest_stage_table_url_prefix"/>
+      <column name="value" value="resource\xml\public_quest\public_quest_stage_"/>
+      <column name="comments" value="Public Quest Stage table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.device_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.device_table_url"/>
+      <column name="value" value="resource\xml\device_table.xml"/>
+      <column name="comments" value="Device table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.building_guard_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.building_guard_table_url"/>
+      <column name="value" value="resource\xml\building_guard_table.xml"/>
+      <column name="comments" value="Building Guard table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.building_guard_sell_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.building_guard_sell_table_url"/>
+      <column name="value" value="resource\xml\building_guard_sell_table.xml"/>
+      <column name="comments" value="Building Guard Sell table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.glider_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.glider_table_url"/>
+      <column name="value" value="resource\xml\glider_table.xml"/>
+      <column name="comments" value="Glider table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.vehicle_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.vehicle_table_url"/>
+      <column name="value" value="resource\xml\vehicle_table.xml"/>
+      <column name="comments" value="Vehicle table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.harness_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.harness_table_url"/>
+      <column name="value" value="resource\xml\harness_table.xml"/>
+      <column name="comments" value="Harness table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.action_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.action_table_url"/>
+      <column name="value" value="resource\xml\action_table.xml"/>
+      <column name="comments" value="Entity action table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.npc_formation_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_formation_table_url"/>
+      <column name="value" value="resource\xml_server\npc_formation_table.xml"/>
+      <column name="comments" value="NPC formation table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.npc_talking_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_talking_table_url"/>
+      <column name="value" value="resource\xml\l10n\ko_kr\npc_talking_table.xml"/>
+      <column name="comments" value="NPC talking table"/>
+    </insert>
+
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_event_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_event_table_url"/>
+      <column name="value" value="resource\xml\world_event_table.xml"/>
+      <column name="comments" value="world event table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_event_phase_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_event_phase_table_url"/>
+      <column name="value" value="resource\xml\world_event_phase_table.xml"/>
+      <column name="comments" value="world event phase table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_event_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_event_mission_table_url"/>
+      <column name="value" value="resource\xml\world_event_mission_table.xml"/>
+      <column name="comments" value="world event mission table"/>
+    </insert>
+
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_event_mission_spawn_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_event_mission_spawn_table_url"/>
+      <column name="value" value="resource\xml\world_event_mission_spawn_table.xml"/>
+      <column name="comments" value="world event mission table"/>
+    </insert>
+
+    <delete tableName="Properties">
+          <where>[key]='data_table.world_event_invader_spawn_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.world_event_invader_spawn_table_url"/>
+      <column name="value" value="resource\xml\world_event_invader_spawn_table.xml"/>
+      <column name="comments" value="world event invader spawn table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.player_active_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.player_active_skill_table_url"/>
+      <column name="value" value="resource\xml\player_active_skill_table.xml"/>
+      <column name="comments" value="player active skill table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.item_active_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.item_active_skill_table_url"/>
+      <column name="value" value="resource\xml\item_active_skill_table.xml"/>
+      <column name="comments" value="item active skill table"/>
+    </insert>
+
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.npc_active_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_active_skill_table_url"/>
+      <column name="value" value="resource\xml\npc_active_skill_table.xml"/>
+      <column name="comments" value="npc active skill table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.so_active_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.so_active_skill_table_url"/>
+      <column name="value" value="resource\xml\so_active_skill_table.xml"/>
+      <column name="comments" value="so active skill table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.player_passive_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.player_passive_skill_table_url"/>
+      <column name="value" value="resource\xml\player_passive_skill_table.xml"/>
+      <column name="comments" value="player passive skill table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.item_option_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.item_option_table_url"/>
+      <column name="value" value="resource\xml\item_option_table.xml"/>
+      <column name="comments" value="item option table"/>
+    </insert>
+
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.item_suffix_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.item_suffix_table_url"/>
+      <column name="value" value="resource\xml\item_suffix_table.xml"/>
+      <column name="comments" value="item suffix table"/>
+    </insert>
+    
+    <delete tableName="Properties">
+      <where>[key]='data_table.npc_recipe_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.npc_recipe_table_url"/>
+      <column name="value" value="resource\xml\npc_recipe_table.xml"/>
+      <column name="comments" value="npc recipe table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.character_status_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.character_status_table_url"/>
+      <column name="value" value="resource\xml\character_status_table.xml"/>
+      <column name="comments" value="character status table"/>
+    </insert>
+    
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.achievement_mission_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.achievement_mission_table_url"/>
+      <column name="value" value="resource\xml\achievement_mission_table.xml"/>
+      <column name="comments" value="achievementmission table"/>
+    </insert>
+    
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.achievement_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.achievement_table_url"/>
+      <column name="value" value="resource\xml\achievement_table.xml"/>
+      <column name="comments" value="achievement table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.character_title_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.character_title_table_url"/>
+      <column name="value" value="resource\xml\character_title_table.xml"/>
+      <column name="comments" value="character title table"/>
+    </insert>
+        
+    <delete tableName="Properties">
+      <where>[key]='data_table.guild_level_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.guild_level_table_url"/>
+      <column name="value" value="resource\xml\guild_level_table.xml"/>
+      <column name="comments" value="guild level table"/>
+    </insert>
+
+    <delete tableName="Properties">
+      <where>[key]='data_table.guild_skill_table_url'</where>
+    </delete>
+    <insert tableName="Properties">
+      <column name="key" value="data_table.guild_skill_table_url"/>
+      <column name="value" value="resource\xml\guild_skill_table.xml"/>
+      <column name="comments" value="guild skill table"/>
+    </insert>
+
+    <rollback>
+      DELETE FROM Properties
+    </rollback>
+  
+  </changeSet>
+  
+</databaseChangeLog>
+

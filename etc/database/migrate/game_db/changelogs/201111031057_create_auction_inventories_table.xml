@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111031057">
+    <createTable tableName="Auction_Inventories" remarks="auction inventory table">
+      <column name="auction_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="zone_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="item_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Auction_Inventories" columnNames="auction_id, zone_id" tableName="Auction_Inventories"/>
+    
+    <addForeignKeyConstraint constraintName="fk_Auction_Inventories_Auctions"
+        baseColumnNames="auction_id, zone_id" baseTableName="Auction_Inventories"
+        referencedColumnNames="id, zone_id" referencedTableName="Auctions"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

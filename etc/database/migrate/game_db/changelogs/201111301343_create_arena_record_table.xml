@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111301343">
+    <createTable tableName="Arena_Records" remarks="Arena table">
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="mode" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="rank" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="score" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="win" type="INT">
+        <constraints nullable="false"/>
+      </column>	  
+      <column name="lose" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="draw" type="INT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Arena_Records" columnNames="character_id, mode" tableName="Arena_Records"/>
+    <createIndex indexName="ix_Arena_Records_rank" tableName="Arena_Records">
+      <column name="rank"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Arena_Records_Characters"
+        baseColumnNames="character_id" baseTableName="Arena_Records"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

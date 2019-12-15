@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110191539" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_repeat_quest_mission') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_repeat_quest_mission
+GO
+
+
+CREATE PROCEDURE dbo.update_repeat_quest_mission
+    @character_id dbo.id_t,
+	@quest_code dbo.id_t,
+	@mission_code dbo.code_t,
+	@goal_code dbo.code_t,
+	@value INT
+AS
+    SET NOCOUNT ON
+	
+	UPDATE dbo.Accept_Quest_Missions
+	    SET value = @value
+        WHERE character_id = @character_id AND quest_code = @quest_code AND mission_code = @mission_code AND  @goal_code = @goal_code
+	
+	SET NOCOUNT OFF
+	
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_repeat_quest_mission') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_repeat_quest_mission
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

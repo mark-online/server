@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E6C5A35F-E7BB-44EE-AA49-B072F87F99B6}</ProjectGuid>
+    <RootNamespace>CommunityServer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>COMMUNITYSERVER_HAS_DLL;COMMUNITYSERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>CommunityServerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sne.database.debug.lib;sne.server.debug.lib;datatable.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.dll</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>COMMUNITYSERVER_HAS_DLL;COMMUNITYSERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>CommunityServerPCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sne.database.debug.lib;sne.server.debug.lib;datatable.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.dll</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>COMMUNITYSERVER_HAS_DLL;COMMUNITYSERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>CommunityServerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sne.database.lib;sne.server.lib;datatable.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>COMMUNITYSERVER_HAS_DLL;COMMUNITYSERVER_BUILD_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>CommunityServerPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>sne.database.lib;sne.server.lib;datatable.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\communityserver\buddy\CommunityBuddyManager.h" />
+    <ClInclude Include="..\..\src\communityserver\communityserver_export.h" />
+    <ClInclude Include="..\..\src\communityserver\CommunityServerApp.h" />
+    <ClInclude Include="..\..\src\communityserver\CommunityServerPCH.h" />
+    <ClInclude Include="..\..\src\communityserver\CommunityService.h" />
+    <ClInclude Include="..\..\src\communityserver\guild\inventory\GuildInventory.h" />
+    <ClInclude Include="..\..\src\communityserver\guild\inventory\GuildInventoryCallback.h" />
+    <ClInclude Include="..\..\src\communityserver\party\GroupParty.h" />
+    <ClInclude Include="..\..\src\communityserver\party\Party.h" />
+    <ClInclude Include="..\..\src\communityserver\party\SoloParty.h" />
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityLoginServerProxy.h" />
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityServerSideProxy.h" />
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityServerSideProxyFactory.h" />
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityServerSideProxyManager.h" />
+    <ClInclude Include="..\..\src\communityserver\c2s\CommunityClientSession.h" />
+    <ClInclude Include="..\..\src\communityserver\c2s\CommunityClientSessionCallback.h" />
+    <ClInclude Include="..\..\src\communityserver\c2s\CommunityClientSessionFactory.h" />
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUser.h" />
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUserAllocator.h" />
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUserHelper.h" />
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUserManager.h" />
+    <ClInclude Include="..\..\src\communityserver\user\detail\CommunityUserImpl.h" />
+    <ClInclude Include="..\..\src\communityserver\channel\WorldMapChannel.h" />
+    <ClInclude Include="..\..\src\communityserver\channel\WorldMapChannelManager.h" />
+    <ClInclude Include="..\..\src\communityserver\party\CommunityParty.h" />
+    <ClInclude Include="..\..\src\communityserver\party\CommunityPartyManager.h" />
+    <ClInclude Include="..\..\src\communityserver\guild\CommunityGuild.h" />
+    <ClInclude Include="..\..\src\communityserver\guild\CommunityGuildManager.h" />
+    <ClInclude Include="..\..\src\communityserver\dominion\CommunityDominionManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\communityserver\buddy\CommunityBuddyManager.cpp" />
+    <ClCompile Include="..\..\src\communityserver\CommunityServerApp.cpp" />
+    <ClCompile Include="..\..\src\communityserver\CommunityServerPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\CommunityService.cpp" />
+    <ClCompile Include="..\..\src\communityserver\guild\inventory\GuildInventory.cpp" />
+    <ClCompile Include="..\..\src\communityserver\party\GroupParty.cpp" />
+    <ClCompile Include="..\..\src\communityserver\party\Party.cpp" />
+    <ClCompile Include="..\..\src\communityserver\party\SoloParty.cpp" />
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityLoginServerProxy.cpp" />
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityServerSideProxy.cpp" />
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityServerSideProxyFactory.cpp" />
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityServerSideProxyManager.cpp" />
+    <ClCompile Include="..\..\src\communityserver\c2s\CommunityClientSession.cpp" />
+    <ClCompile Include="..\..\src\communityserver\c2s\CommunityClientSessionFactory.cpp" />
+    <ClCompile Include="..\..\src\communityserver\user\CommunityUserManager.cpp" />
+    <ClCompile Include="..\..\src\communityserver\user\detail\CommunityUserImpl.cpp" />
+    <ClCompile Include="..\..\src\communityserver\channel\WorldMapChannel.cpp" />
+    <ClCompile Include="..\..\src\communityserver\channel\WorldMapChannelManager.cpp" />
+    <ClCompile Include="..\..\src\communityserver\party\CommunityParty.cpp" />
+    <ClCompile Include="..\..\src\communityserver\party\CommunityPartyManager.cpp" />
+    <ClCompile Include="..\..\src\communityserver\guild\CommunityGuild.cpp" />
+    <ClCompile Include="..\..\src\communityserver\guild\CommunityGuildManager.cpp" />
+    <ClCompile Include="..\..\src\communityserver\dominion\CommunityDominionManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="serverbase.vcxproj">
+      <Project>{866d9020-fae0-49de-914c-0a302d13523e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

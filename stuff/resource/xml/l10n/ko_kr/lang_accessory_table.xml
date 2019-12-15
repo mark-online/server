@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="402718721" name="용기의 목걸이"/>
+	<l10n_template data_code="402718722" name="견고한 용기의 목걸이"/>
+	<l10n_template data_code="402718723" name="특별한 용기의 목걸이"/>
+	<l10n_template data_code="402718724" name="고귀한 용기의 목걸이"/>
+	<l10n_template data_code="402718725" name="신념의 목걸이"/>
+	<l10n_template data_code="402718726" name="견고한 신념의 목걸이"/>
+	<l10n_template data_code="402718727" name="특별한 신념의 목걸이"/>
+	<l10n_template data_code="402718728" name="고귀한 신념의 목걸이"/>
+	<l10n_template data_code="402718729" name="희망의 목걸이"/>
+	<l10n_template data_code="402718730" name="견고한 희망의 목걸이"/>
+	<l10n_template data_code="402718731" name="특별한 희망의 목걸이"/>
+	<l10n_template data_code="402718732" name="고귀한 희망의 목걸이"/>
+	<l10n_template data_code="402718733" name="비밀의 목걸이"/>
+	<l10n_template data_code="402718734" name="견고한 비밀의 목걸이"/>
+	<l10n_template data_code="402718735" name="특별한 비밀의 목걸이"/>
+	<l10n_template data_code="402718736" name="고귀한 비밀의 목걸이"/>
+	<l10n_template data_code="402784273" name="용기의 팔찌"/>
+	<l10n_template data_code="402784274" name="견고한 용기의 팔찌"/>
+	<l10n_template data_code="402784275" name="특별한 용기의 팔찌"/>
+	<l10n_template data_code="402784276" name="고귀한 용기의 팔찌"/>
+	<l10n_template data_code="402784277" name="신념의 팔찌"/>
+	<l10n_template data_code="402784278" name="견고한 신념의 팔찌"/>
+	<l10n_template data_code="402784279" name="특별한 신념의 팔찌"/>
+	<l10n_template data_code="402784280" name="고귀한 신념의 팔찌"/>
+	<l10n_template data_code="402784281" name="희망의 팔찌"/>
+	<l10n_template data_code="402784282" name="견고한 희망의 팔찌"/>
+	<l10n_template data_code="402784283" name="특별한 희망의 팔찌"/>
+	<l10n_template data_code="402784284" name="고귀한 희망의 팔찌"/>
+	<l10n_template data_code="402784285" name="비밀의 팔찌"/>
+	<l10n_template data_code="402784286" name="견고한 비밀의 팔찌"/>
+	<l10n_template data_code="402784287" name="특별한 비밀의 팔찌"/>
+	<l10n_template data_code="402784288" name="고귀한 비밀의 팔찌"/>
+	<l10n_template data_code="402849825" name="용기의 반지"/>
+	<l10n_template data_code="402849826" name="견고한 용기의 반지"/>
+	<l10n_template data_code="402849827" name="특별한 용기의 반지"/>
+	<l10n_template data_code="402849828" name="고귀한 용기의 반지"/>
+	<l10n_template data_code="402849829" name="신념의 반지"/>
+	<l10n_template data_code="402849830" name="견고한 신념의 반지"/>
+	<l10n_template data_code="402849831" name="특별한 신념의 반지"/>
+	<l10n_template data_code="402849832" name="고귀한 신념의 반지"/>
+	<l10n_template data_code="402849833" name="희망의 반지"/>
+	<l10n_template data_code="402849834" name="견고한 희망의 반지"/>
+	<l10n_template data_code="402849835" name="특별한 희망의 반지"/>
+	<l10n_template data_code="402849836" name="고귀한 희망의 반지"/>
+	<l10n_template data_code="402849837" name="비밀의 반지"/>
+	<l10n_template data_code="402849838" name="견고한 비밀의 반지"/>
+	<l10n_template data_code="402849839" name="특별한 비밀의 반지"/>
+	<l10n_template data_code="402849840" name="고귀한 비밀의 반지"/>
+	<l10n_template data_code="402849841" name="짝퉁반지"/>
+	<l10n_template data_code="402784306" name="짝퉁 팔찌"/>
+	<l10n_template data_code="402718771" name="용사의 목걸이"/>
+	<l10n_template data_code="402718772" name="견고한 용사의 목걸이"/>
+	<l10n_template data_code="402718773" name="특별한 용사의 목걸이"/>
+	<l10n_template data_code="402718774" name="고귀한 용사의 목걸이"/>
+	<l10n_template data_code="402718775" name="신관의 목걸이"/>
+	<l10n_template data_code="402718776" name="견고한 신관의 목걸이"/>
+	<l10n_template data_code="402718777" name="특별한 신관의 목걸이"/>
+	<l10n_template data_code="402718778" name="고귀한 신관의 목걸이"/>
+	<l10n_template data_code="402718779" name="행운의 목걸이"/>
+	<l10n_template data_code="402718780" name="견고한 행운의 목걸이"/>
+	<l10n_template data_code="402718781" name="특별한 행운의 목걸이"/>
+	<l10n_template data_code="402718782" name="고귀한 행운의 목걸이"/>
+	<l10n_template data_code="402784319" name="용사의 팔찌"/>
+	<l10n_template data_code="402784320" name="견고한 용사의 팔찌"/>
+	<l10n_template data_code="402784321" name="특별한 용사의 팔찌"/>
+	<l10n_template data_code="402784322" name="고귀한 용사의 팔찌"/>
+	<l10n_template data_code="402784323" name="신관의 팔찌"/>
+	<l10n_template data_code="402784324" name="견고한 신관의 팔찌"/>
+	<l10n_template data_code="402784325" name="특별한 신관의 팔찌"/>
+	<l10n_template data_code="402784326" name="고귀한 신관의 팔찌"/>
+	<l10n_template data_code="402784327" name="행운의 팔찌"/>
+	<l10n_template data_code="402784328" name="견고한 행운의 팔찌"/>
+	<l10n_template data_code="402784329" name="특별한 행운의 팔찌"/>
+	<l10n_template data_code="402784330" name="고귀한 행운의 팔찌"/>
+	<l10n_template data_code="402849867" name="용사의 반지"/>
+	<l10n_template data_code="402849868" name="견고한 용사의 반지"/>
+	<l10n_template data_code="402849869" name="특별한 용사의 반지"/>
+	<l10n_template data_code="402849870" name="고귀한 용사의 반지"/>
+	<l10n_template data_code="402849871" name="신관의 반지"/>
+	<l10n_template data_code="402849872" name="견고한 신관의 반지"/>
+	<l10n_template data_code="402849873" name="특별한 신관의 반지"/>
+	<l10n_template data_code="402849874" name="고귀한 신관의 반지"/>
+	<l10n_template data_code="402849875" name="행운의 반지"/>
+	<l10n_template data_code="402849876" name="견고한 행운의 반지"/>
+	<l10n_template data_code="402849877" name="특별한 행운의 반지"/>
+	<l10n_template data_code="402849878" name="고귀한 행운의 반지"/>
+	<l10n_template data_code="402718807" name="피닉스 목걸이"/>
+	<l10n_template data_code="402718808" name="견고한 피닉스 목걸이"/>
+	<l10n_template data_code="402718809" name="특별한 피닉스 목걸이"/>
+	<l10n_template data_code="402718810" name="고귀한 피닉스 목걸이"/>
+	<l10n_template data_code="402718811" name="콘도르 목걸이"/>
+	<l10n_template data_code="402718812" name="견고한 콘도르 목걸이"/>
+	<l10n_template data_code="402718813" name="특별한 콘도르 목걸이"/>
+	<l10n_template data_code="402718814" name="고귀한 콘도르 목걸이"/>
+	<l10n_template data_code="402718815" name="선더버드 목걸이"/>
+	<l10n_template data_code="402718816" name="견고한 선더버드 목걸이"/>
+	<l10n_template data_code="402718817" name="특별한 선더버드 목걸이"/>
+	<l10n_template data_code="402718818" name="고귀한 선더버드 목걸이"/>
+	<l10n_template data_code="402784355" name="피닉스 팔찌"/>
+	<l10n_template data_code="402784356" name="견고한 피닉스 팔찌"/>
+	<l10n_template data_code="402784357" name="특별한 피닉스 팔찌"/>
+	<l10n_template data_code="402784358" name="고귀한 피닉스 팔찌"/>
+	<l10n_template data_code="402784359" name="콘도르 팔찌"/>
+	<l10n_template data_code="402784360" name="견고한 콘도르 팔찌"/>
+	<l10n_template data_code="402784361" name="특별한 콘도르 팔찌"/>
+	<l10n_template data_code="402784362" name="고귀한 콘도르 팔찌"/>
+	<l10n_template data_code="402784363" name="선더버드 팔찌"/>
+	<l10n_template data_code="402784364" name="견고한 선더버드 팔찌"/>
+	<l10n_template data_code="402784365" name="특별한 선더버드 팔찌"/>
+	<l10n_template data_code="402784366" name="고귀한 선더버드 팔찌"/>
+	<l10n_template data_code="402849903" name="피닉스 반지"/>
+	<l10n_template data_code="402849904" name="견고한 피닉스 반지"/>
+	<l10n_template data_code="402849905" name="특별한 피닉스 반지"/>
+	<l10n_template data_code="402849906" name="고귀한 피닉스 반지"/>
+	<l10n_template data_code="402849907" name="콘도르 반지"/>
+	<l10n_template data_code="402849908" name="견고한 콘도르 반지"/>
+	<l10n_template data_code="402849909" name="특별한 콘도르 반지"/>
+	<l10n_template data_code="402849910" name="고귀한 콘도르 반지"/>
+	<l10n_template data_code="402849911" name="선더버드 반지"/>
+	<l10n_template data_code="402849912" name="견고한 선더버드 반지"/>
+	<l10n_template data_code="402849913" name="특별한 선더버드 반지"/>
+	<l10n_template data_code="402849914" name="고귀한 선더버드 반지"/>
+	<l10n_template data_code="402718843" name="포노 목걸이"/>
+	<l10n_template data_code="402718844" name="견고한 포노 목걸이"/>
+	<l10n_template data_code="402718845" name="특별한 포노 목걸이"/>
+	<l10n_template data_code="402718846" name="고귀한 포노 목걸이"/>
+	<l10n_template data_code="402718847" name="칼라 목걸이"/>
+	<l10n_template data_code="402718848" name="견고한 칼라 목걸이"/>
+	<l10n_template data_code="402718849" name="특별한 칼라 목걸이"/>
+	<l10n_template data_code="402718850" name="고귀한 칼라 목걸이"/>
+	<l10n_template data_code="402718851" name="이케 목걸이"/>
+	<l10n_template data_code="402718852" name="견고한 이케 목걸이"/>
+	<l10n_template data_code="402718853" name="특별한 이케 목걸이"/>
+	<l10n_template data_code="402718854" name="고귀한 이케 목걸이"/>
+	<l10n_template data_code="402784391" name="포노 팔찌"/>
+	<l10n_template data_code="402784392" name="견고한 포노 팔찌"/>
+	<l10n_template data_code="402784393" name="특별한 포노 팔찌"/>
+	<l10n_template data_code="402784394" name="고귀한 포노 팔찌"/>
+	<l10n_template data_code="402784395" name="칼라 팔찌"/>
+	<l10n_template data_code="402784396" name="견고한 칼라 팔찌"/>
+	<l10n_template data_code="402784397" name="특별한 칼라 팔찌"/>
+	<l10n_template data_code="402784398" name="고귀한 칼라 팔찌"/>
+	<l10n_template data_code="402784399" name="이케 팔찌"/>
+	<l10n_template data_code="402784400" name="견고한 이케 팔찌"/>
+	<l10n_template data_code="402784401" name="특별한 이케 팔찌"/>
+	<l10n_template data_code="402784402" name="고귀한 이케 팔찌"/>
+	<l10n_template data_code="402849939" name="포노 반지"/>
+	<l10n_template data_code="402849940" name="견고한 포노 반지"/>
+	<l10n_template data_code="402849941" name="특별한 포노 반지"/>
+	<l10n_template data_code="402849942" name="고귀한 포노 반지"/>
+	<l10n_template data_code="402849943" name="칼라 반지"/>
+	<l10n_template data_code="402849944" name="견고한 칼라 반지"/>
+	<l10n_template data_code="402849945" name="특별한 칼라 반지"/>
+	<l10n_template data_code="402849946" name="고귀한 칼라 반지"/>
+	<l10n_template data_code="402849947" name="이케 반지"/>
+	<l10n_template data_code="402849948" name="견고한 이케 반지"/>
+	<l10n_template data_code="402849949" name="특별한 이케 반지"/>
+	<l10n_template data_code="402849950" name="고귀한 이케 반지"/>
+	<l10n_template data_code="402718879" name="룬 목걸이"/>
+	<l10n_template data_code="402718880" name="견고한 룬 목걸이"/>
+	<l10n_template data_code="402718881" name="특별한 룬 목걸이"/>
+	<l10n_template data_code="402718882" name="고귀한 룬 목걸이"/>
+	<l10n_template data_code="402718883" name="에리스 목걸이"/>
+	<l10n_template data_code="402718884" name="견고한 에리스 목걸이"/>
+	<l10n_template data_code="402718885" name="특별한 에리스 목걸이"/>
+	<l10n_template data_code="402718886" name="고귀한 에리스 목걸이"/>
+	<l10n_template data_code="402718887" name="엘리멘트 목걸이"/>
+	<l10n_template data_code="402718888" name="견고한 엘리멘트 목걸이"/>
+	<l10n_template data_code="402718889" name="특별한 엘리멘트 목걸이"/>
+	<l10n_template data_code="402718890" name="고귀한 엘리멘트 목걸이"/>
+	<l10n_template data_code="402784427" name="룬 팔찌"/>
+	<l10n_template data_code="402784428" name="견고한 룬 팔찌"/>
+	<l10n_template data_code="402784429" name="특별한 룬 팔찌"/>
+	<l10n_template data_code="402784430" name="고귀한 룬 팔찌"/>
+	<l10n_template data_code="402784431" name="에리스 팔찌"/>
+	<l10n_template data_code="402784432" name="견고한 에리스 팔찌"/>
+	<l10n_template data_code="402784433" name="특별한 에리스 팔찌"/>
+	<l10n_template data_code="402784434" name="고귀한 에리스 팔찌"/>
+	<l10n_template data_code="402784435" name="엘리멘트 팔찌"/>
+	<l10n_template data_code="402784436" name="견고한 엘리멘트 팔찌"/>
+	<l10n_template data_code="402784437" name="특별한 엘리멘트 팔찌"/>
+	<l10n_template data_code="402784438" name="고귀한 엘리멘트 팔찌"/>
+	<l10n_template data_code="402849975" name="룬 반지"/>
+	<l10n_template data_code="402849976" name="견고한 룬 반지"/>
+	<l10n_template data_code="402849977" name="특별한 룬 반지"/>
+	<l10n_template data_code="402849978" name="고귀한 룬 반지"/>
+	<l10n_template data_code="402849979" name="에리스 반지"/>
+	<l10n_template data_code="402849980" name="견고한 에리스 반지"/>
+	<l10n_template data_code="402849981" name="특별한 에리스 반지"/>
+	<l10n_template data_code="402849982" name="고귀한 에리스 반지"/>
+	<l10n_template data_code="402849983" name="엘리멘트 반지"/>
+	<l10n_template data_code="402849984" name="견고한 엘리멘트 반지"/>
+	<l10n_template data_code="402849985" name="특별한 엘리멘트 반지"/>
+	<l10n_template data_code="402849986" name="고귀한 엘리멘트 반지"/>
+	<l10n_template data_code="402849987" name="시오맨시 반지"/>
+	<l10n_template data_code="402849988" name="견고한 시오맨시 반지"/>
+	<l10n_template data_code="402849989" name="특별한 시오맨시 반지"/>
+	<l10n_template data_code="402849990" name="고귀한 시오맨시 반지"/>
+</l10n_table>

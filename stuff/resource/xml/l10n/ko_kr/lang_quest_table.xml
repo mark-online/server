@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="352321537" name="위급한 상황" desc="체력 회복제를 사용해 손실된 체력을 보충할 수 있습니다."/>
+	<l10n_template data_code="352321538" name="두려움"/>
+	<l10n_template data_code="352321539" name="전투의 기본"/>
+	<l10n_template data_code="352321540" name="강화의 중요성"/>
+	<l10n_template data_code="352321541" name="장비를 강화하라" desc="모든 장비는 강화에 성공하면 성능이 좋아집니다."/>
+	<l10n_template data_code="352321542" name="전장 지원"/>
+	<l10n_template data_code="352321543" name="반격" desc="저항력이 높으면 상대의 속성 공격에 대한 피해를 적게 입습니다."/>
+	<l10n_template data_code="352321544" name="공포"/>
+	<l10n_template data_code="352321545" name="마계의 유혹"/>
+	<l10n_template data_code="352321546" name="거미줄 수집"/>
+	<l10n_template data_code="352321547" name="신전 보호"/>
+	<l10n_template data_code="352321548" name="부대 배치"/>
+	<l10n_template data_code="352321549" name="마계의 침공"/>
+	<l10n_template data_code="352321550" name="첫 번째 명령"/>
+	<l10n_template data_code="352321551" name="보급 지연"/>
+	<l10n_template data_code="352321552" name="병력 지원"/>
+	<l10n_template data_code="352321553" name="보급 요청"/>
+	<l10n_template data_code="352321554" name="빌어먹을 도둑들"/>
+	<l10n_template data_code="352321555" name="쥐나 잡아!"/>
+	<l10n_template data_code="352321556" name="믿음을 강요할 순 없다"/>
+	<l10n_template data_code="352321557" name="성벽 보수"/>
+	<l10n_template data_code="352321558" name="의문의 마법사"/>
+	<l10n_template data_code="352321559" name="의문의 마법사II"/>
+	<l10n_template data_code="352321560" name="의문의 마법사III"/>
+	<l10n_template data_code="352321561" name="부정한 존재들"/>
+	<l10n_template data_code="352321562" name="성물의 활성화"/>
+	<l10n_template data_code="352321563" name="기이한 현상"/>
+	<l10n_template data_code="352321564" name="능력 부족"/>
+	<l10n_template data_code="352321565" name="딸아이의 가출"/>
+	<l10n_template data_code="352321566" name="겨울나기"/>
+	<l10n_template data_code="352321567" name="언데드의 공포"/>
+	<l10n_template data_code="352321568" name="가난한 농가"/>
+	<l10n_template data_code="352321569" name="고기가 먹고 싶다"/>
+	<l10n_template data_code="352321570" name="난폭한 멧돼지"/>
+	<l10n_template data_code="352321571" name="방어의 중요성"/>
+	<l10n_template data_code="352321572" name="아빠가 보고 싶어요"/>
+	<l10n_template data_code="352321573" name="아빠는 어디에……."/>
+	<l10n_template data_code="352321574" name="아빠의 복수를 해주세요"/>
+	<l10n_template data_code="352321575" name="비르깃의 눈물"/>
+	<l10n_template data_code="352321576" name="언데드를 막아라"/>
+	<l10n_template data_code="352321577" name="언데드 개체의 증가 억제"/>
+	<l10n_template data_code="352321578" name="언데드 개체의 증가 억제II"/>
+	<l10n_template data_code="352321579" name="부정(父情)"/>
+	<l10n_template data_code="352321580" name="생명의 위협"/>
+	<l10n_template data_code="352321581" name="자신을 알아야 한다"/>
+	<l10n_template data_code="352321582" name="마법사라고 모두가 나쁜 것은 아니다"/>
+	<l10n_template data_code="352321583" name="검의 이끌림"/>
+	<l10n_template data_code="352321584" name="활의 이끌림"/>
+	<l10n_template data_code="352321585" name="지팡이의 이끌림"/>
+	<l10n_template data_code="352321586" name="과학과 마법의 조화"/>
+	<l10n_template data_code="352321587" name="힘에는 책임이 따른다"/>
+	<l10n_template data_code="352321588" name="전투 능력 배양"/>
+	<l10n_template data_code="352321589" name="작다고 무시하지 마라"/>
+	<l10n_template data_code="352321590" name="지혈제"/>
+	<l10n_template data_code="352321591" name="쟈칸 고블린을 상대하는 법"/>
+	<l10n_template data_code="352321592" name="최종 시험"/>
+	<l10n_template data_code="352321593" name="붉은 머리 독수리의 알"/>
+	<l10n_template data_code="352321594" name="훈련을 끝내다"/>
+	<l10n_template data_code="352321595" name="짐승들의 접근 방지"/>
+	<l10n_template data_code="352321596" name="쟈칸 고블린을 쫓아내라"/>
+	<l10n_template data_code="352321597" name="밝히는 놈"/>
+	<l10n_template data_code="352321598" name="결사대의 계략"/>
+	<l10n_template data_code="352321599" name="위급한 상황"/>
+	<l10n_template data_code="352321600" name="철저한 준비"/>
+	<l10n_template data_code="352321601" name="호랑이 사육"/>
+	<l10n_template data_code="352321602" name="나도 고기 먹을 줄 안다"/>
+	<l10n_template data_code="352321603" name="능력 개방"/>
+	<l10n_template data_code="352321604" name="정체성 확립"/>
+	<l10n_template data_code="352321605" name="전사 전직"/>
+	<l10n_template data_code="352321606" name="마법사 전직"/>
+	<l10n_template data_code="352321607" name="도둑 전직"/>
+	<l10n_template data_code="352321608" name="정령들의 이상 증세"/>
+	<l10n_template data_code="352321609" name="신무기 개발"/>
+	<l10n_template data_code="352321610" name="불의 정령왕 이프리트"/>
+	<l10n_template data_code="352321611" name="카오스 에너지"/>
+	<l10n_template data_code="352321612" name="카오스 에너지를 정화하라"/>
+	<l10n_template data_code="352321613" name="정령들을 정화하라"/>
+	<l10n_template data_code="352321614" name="부정한 기운의 정화"/>
+	<l10n_template data_code="352321615" name="혼란의 시대"/>
+	<l10n_template data_code="352321616" name="겔본 제국의 음모"/>
+	<l10n_template data_code="352321617" name="나쁜 사람들"/>
+	<l10n_template data_code="352321618" name="마계의 문"/>
+	<l10n_template data_code="352321619" name="진군 저지"/>
+	<l10n_template data_code="352321620" name="시간 지연"/>
+	<l10n_template data_code="352321621" name="영웅의 부활"/>
+	<l10n_template data_code="352321622" name="부서진 마차"/>
+	<l10n_template data_code="352321623" name="부서진 마차II"/>
+	<l10n_template data_code="352321624" name="알게 뭐야?"/>
+	<l10n_template data_code="352321625" name="세실리는 생선을 좋아해"/>
+	<l10n_template data_code="352321626" name="껄끄러운 심부름"/>
+	<l10n_template data_code="352321627" name="목공 기술"/>
+	<l10n_template data_code="352321628" name="목공 기술"/>
+	<l10n_template data_code="352321629" name="능력을 증명하라"/>
+	<l10n_template data_code="352321630" name="생존술을 배우다"/>
+	<l10n_template data_code="352321631" name="하고 싶은 일"/>
+	<l10n_template data_code="352321632" name="하고 싶은 일II"/>
+	<l10n_template data_code="352321633" name="설리반의 부업"/>
+	<l10n_template data_code="352321634" name="목공 실습"/>
+	<l10n_template data_code="352321635" name="위습의 공포"/>
+	<l10n_template data_code="352321636" name="겔본 중갑보병 저지"/>
+	<l10n_template data_code="352321637" name="전사 맞아?"/>
+	<l10n_template data_code="352321638" name="마법사 맞아?"/>
+	<l10n_template data_code="352321639" name="도둑 맞아?"/>
+	<l10n_template data_code="352321640" name="멧돼지의 위협"/>
+	<l10n_template data_code="352321641" name="군량 확보"/>
+	<l10n_template data_code="352321642" name="신비한 약"/>
+	<l10n_template data_code="352321643" name="구원 요청"/>
+	<l10n_template data_code="352321644" name="구원 요청"/>
+	<l10n_template data_code="352321645" name="구원 요청"/>
+	<l10n_template data_code="352321646" name="보급 부대의 군수물자 보급을 막아라"/>
+	<l10n_template data_code="352321647" name="겔본 증원군의 이동 저지"/>
+	<l10n_template data_code="352321648" name="비밀 유지"/>
+	<l10n_template data_code="352321649" name="흉악한 녀석들"/>
+	<l10n_template data_code="352321650" name="가족 생각"/>
+	<l10n_template data_code="352321651" name="희망의 씨앗"/>
+	<l10n_template data_code="352321652" name="삼촌의 소식"/>
+	<l10n_template data_code="352321653" name="지긋지긋한 겔본 군대"/>
+	<l10n_template data_code="352321654" name="간절한 소원"/>
+	<l10n_template data_code="352321655" name="카오스 에너지 발산"/>
+	<l10n_template data_code="352321656" name="감염된 사람들의 치료"/>
+	<l10n_template data_code="352321657" name="위협적인 코모도"/>
+	<l10n_template data_code="352321658" name="카오스 에너지에 대한 보고서"/>
+	<l10n_template data_code="352321659" name="코모도의 번식 억제"/>
+	<l10n_template data_code="352321660" name="강한 사람이 되고 싶습니다"/>
+	<l10n_template data_code="352321661" name="나만의 영지를 갖고 싶습니다"/>
+	<l10n_template data_code="352321662" name="자유롭게 살고 싶습니다"/>
+	<l10n_template data_code="352321663" name="위협적인 짐승들"/>
+	<l10n_template data_code="352321664" name="샤벨 타이거"/>
+	<l10n_template data_code="352321665" name="샤벨 타이거 이빨"/>
+	<l10n_template data_code="352321666" name="카오스 에너지에 대한 연구 진척"/>
+	<l10n_template data_code="352321667" name="군자금 전달"/>
+	<l10n_template data_code="352321668" name="위험한 시도"/>
+	<l10n_template data_code="352321669" name="악몽의 시간"/>
+	<l10n_template data_code="352321670" name="겔본의 음모"/>
+	<l10n_template data_code="352321671" name="지휘관 암살 시도"/>
+	<l10n_template data_code="352321672" name="증거 수집"/>
+	<l10n_template data_code="352321673" name="음산한 기운의 정체"/>
+	<l10n_template data_code="352321674" name="암살보다 확실한 방법"/>
+	<l10n_template data_code="352321675" name="자유민이 되다"/>
+	<l10n_template data_code="352321676" name="연구에 방해가 된다"/>
+	<l10n_template data_code="352321677" name="쿼렐 촉 수집"/>
+	<l10n_template data_code="352321678" name="겔본 주둔지 침투 준비"/>
+	<l10n_template data_code="352321679" name="보급품 부족"/>
+	<l10n_template data_code="352321680" name="군자금 조달의 어려움"/>
+	<l10n_template data_code="352321681" name="실력 검증"/>
+	<l10n_template data_code="352321682" name="실력을 알아보기 위한 조건"/>
+	<l10n_template data_code="352321683" name="어른들의 말"/>
+	<l10n_template data_code="352321684" name="언데드의 증가 원인"/>
+	<l10n_template data_code="352321685" name="우리가 원하는 건 뭐?"/>
+	<l10n_template data_code="352321686" name="당신은 멋쟁이"/>
+	<l10n_template data_code="352321687" name="지독한 인간……."/>
+	<l10n_template data_code="352321688" name="무서운 거미"/>
+	<l10n_template data_code="352321689" name="걱정되는 일"/>
+	<l10n_template data_code="352321690" name="독수리 알"/>
+	<l10n_template data_code="352321691" name="음산한 빛의 정체"/>
+	<l10n_template data_code="352321692" name="늑대가 나타난 이유"/>
+	<l10n_template data_code="352321693" name="아빠가 주신 단검"/>
+	<l10n_template data_code="352321694" name="걸리면 죽는다"/>
+	<l10n_template data_code="352321695" name="새로운 생명"/>
+	<l10n_template data_code="352321696" name="겁쟁이 래몬트"/>
+	<l10n_template data_code="352321697" name="숨어만 있었다."/>
+	<l10n_template data_code="352321698" name="할켄의 마법사"/>
+	<l10n_template data_code="352321699" name="마나 분석"/>
+	<l10n_template data_code="352321700" name="여긴 너무……."/>
+	<l10n_template data_code="352321701" name="집에 가고 싶어요"/>
+	<l10n_template data_code="352321702" name="정령들의 난동 원인을 발견하다"/>
+	<l10n_template data_code="352321703" name="아빠가 남긴 것"/>
+	<l10n_template data_code="352321704" name="탈취당한 문서"/>
+	<l10n_template data_code="352321705" name="방해자 제거"/>
+	<l10n_template data_code="352321706" name="효율적인 관리"/>
+	<l10n_template data_code="352321707" name="진흙탕이 싫어"/>
+	<l10n_template data_code="352321708" name="잃어버린 가방"/>
+	<l10n_template data_code="352321709" name="보급 저지"/>
+	<l10n_template data_code="352321710" name="겔본 유격병"/>
+	<l10n_template data_code="352321711" name="정탐요원 그렌빌"/>
+	<l10n_template data_code="352321712" name="건망증"/>
+	<l10n_template data_code="352321713" name="어린 정보원"/>
+	<l10n_template data_code="352321714" name="이상한 느낌"/>
+	<l10n_template data_code="352321715" name="비밀을 캐다"/>
+	<l10n_template data_code="352321716" name="용기는 나이와 상관이 없다"/>
+	<l10n_template data_code="352321717" name="위험을 알려라"/>
+	<l10n_template data_code="352321718" name="몬스터 사육 저지"/>
+	<l10n_template data_code="352321719" name="아들의 흔적"/>
+	<l10n_template data_code="352321720" name="원한은 시간이 지나도 잊혀지지 않는다"/>
+	<l10n_template data_code="352321721" name="쟈칸 고블린의 영역 확장 저지"/>
+	<l10n_template data_code="352321722" name="쟈칸 고블린 전사를 처치하라!"/>
+	<l10n_template data_code="352321723" name="쟈칸 고블린들의 목표를 제거하라!"/>
+	<l10n_template data_code="352321724" name="야영지가 망가져요"/>
+	<l10n_template data_code="352321725" name="코모도를 해치워 주시오!"/>
+	<l10n_template data_code="352321726" name="고릴라를 생포 하시오!"/>
+	<l10n_template data_code="352321727" name="아빠를 괴롭힌 사람들"/>
+	<l10n_template data_code="352321728" name="첩보"/>
+	<l10n_template data_code="352321729" name="확실한 증거"/>
+	<l10n_template data_code="352321730" name="수련 기사들의 만행"/>
+	<l10n_template data_code="352321731" name="기사 대장 처치"/>
+	<l10n_template data_code="352321732" name="마계의 음흉한 속셈"/>
+	<l10n_template data_code="352321733" name="전사의 각성"/>
+	<l10n_template data_code="352321734" name="바바리안 전직"/>
+	<l10n_template data_code="352321735" name="투사 전직"/>
+	<l10n_template data_code="352321736" name="커멘더 전직"/>
+	<l10n_template data_code="352321737" name="마법사 각성"/>
+	<l10n_template data_code="352321738" name="원소술사 전직"/>
+	<l10n_template data_code="352321739" name="신성 마법사 전직"/>
+	<l10n_template data_code="352321740" name="드루이드 전직"/>
+	<l10n_template data_code="352321741" name="도둑의 변신"/>
+	<l10n_template data_code="352321742" name="방랑자 전직"/>
+	<l10n_template data_code="352321743" name="추적자 전직"/>
+	<l10n_template data_code="352321744" name="어쌔신 전직"/>
+	<l10n_template data_code="352321745" name="수상한 녀석들"/>
+	<l10n_template data_code="352321746" name="케이널의 호출"/>
+	<l10n_template data_code="352321747" name="나무정령의 분노"/>
+	<l10n_template data_code="352321748" name="나무정령의 분노II"/>
+	<l10n_template data_code="352321749" name="제국 주둔병 제거"/>
+	<l10n_template data_code="352321750" name="정체성 확립"/>
+	<l10n_template data_code="352321751" name="전사 전직"/>
+	<l10n_template data_code="352321752" name="마법사 전직"/>
+	<l10n_template data_code="352321753" name="도둑 전직"/>
+	<l10n_template data_code="352321754" name="전사의 각성"/>
+	<l10n_template data_code="352321755" name="바바리안 전직"/>
+	<l10n_template data_code="352321756" name="투사 전직"/>
+	<l10n_template data_code="352321757" name="커멘더 전직"/>
+	<l10n_template data_code="352321758" name="마법사 각성"/>
+	<l10n_template data_code="352321759" name="원소술사 전직"/>
+	<l10n_template data_code="352321760" name="신성 마법사 전직"/>
+	<l10n_template data_code="352321761" name="드루이드 전직"/>
+	<l10n_template data_code="352321762" name="도둑의 변신"/>
+	<l10n_template data_code="352321763" name="방랑자 전직"/>
+	<l10n_template data_code="352321764" name="추적자 전직"/>
+	<l10n_template data_code="352321765" name="어쌔신 전직"/>
+</l10n_table>

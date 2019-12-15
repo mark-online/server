@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201109291512" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.save_character_stats') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.save_character_stats
+GO
+
+
+CREATE PROCEDURE dbo.save_character_stats
+    @account_id dbo.id_t,
+    @character_id dbo.id_t,
+    @current_level TINYINT,
+    @level_step TINYINT,
+    @exp SMALLINT,
+    @character_state SMALLINT,
+    @sp SMALLINT,
+    @hp INT,
+    @mp INT,
+    @pos_x REAL,
+    @pos_y REAL,
+    @pos_z REAL,
+    @pos_heading TINYINT,
+    @zone_id INT,
+    @gameMoney BIGINT,
+    @bankGameMoney BIGINT,
+    @chaotic SMALLINT,
+    @is_actionbar_lock TINYINT,
+    @character_class TINYINT,
+    @arena_point INT,
+    @event_coin INT,
+    @forge_coin INT
+AS
+    SET NOCOUNT ON
+
+    UPDATE dbo.Last_Access_Characters
+      SET character_id = @character_id
+      WHERE account_id = @account_id
+    IF @@ROWCOUNT = 0
+    BEGIN
+      INSERT INTO dbo.Last_Access_Characters
+        (account_id, character_id) VALUES (@account_id, @character_id)
+    END
+
+    UPDATE dbo.Characters
+        SET zone_id = @zone_id, 
+            pos_x = @pos_x, 
+            pos_y = @pos_y, 
+            pos_z = @pos_z, 
+            pos_heading = @pos_heading, 
+            current_level = @current_level, 
+            level_step = @level_step, 
+            exp = @exp, 
+            sp = @sp, 
+            hp = @hp, 
+            mp = @mp, 
+            character_state = @character_state,			
+	    chaotic = @chaotic,
+            is_actionbar_lock = @is_actionbar_lock,
+	    class = @character_class,
+            arena_point =@arena_point
+        WHERE id = @character_id
+    
+    UPDATE dbo.GameMonies
+      SET game_money = @gameMoney, bank_game_money = @bankGameMoney, event_coin = @event_coin, forge_coin = @forge_coin 
+      WHERE character_id = @character_id
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.save_character_stats') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.save_character_stats
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

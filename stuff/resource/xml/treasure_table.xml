@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?><treasure_table>
+	<treasure_template treasure_code="268435457" live_mil_sec="60000" open_mil_sec="10000" item_drop_id="1000" world_drop_id="84" modeling_name="TreasureChest" animation_name="treasureopen" open_effect="TreasureOpen_Effect" display_effect="Treasure_Effect"/>
+	<treasure_template treasure_code="268435458" live_mil_sec="60000" open_mil_sec="10000" item_drop_id="1001" world_drop_id="85" modeling_name="DungeonTreasureChest" animation_name="treasureopen" open_effect="TreasureOpen_Effect" display_effect="Treasure_Effect"/>
+	<treasure_template treasure_code="268435459" live_mil_sec="60000" open_mil_sec="10000" item_drop_id="1002" world_drop_id="86" modeling_name="TreasureChest" animation_name="treasureopen" open_effect="TreasureOpen_Effect" display_effect="Treasure_Effect"/>
+	<treasure_template treasure_code="268435460" live_mil_sec="60000" open_mil_sec="10000" item_drop_id="1003" world_drop_id="87" modeling_name="TreasureChest" animation_name="treasureopen" open_effect="TreasureOpen_Effect" display_effect="Treasure_Effect"/>
+	<treasure_template treasure_code="268435461" live_mil_sec="60000" open_mil_sec="10000" item_drop_id="1004" world_drop_id="88" modeling_name="TreasureChest" animation_name="treasureopen" open_effect="TreasureOpen_Effect" display_effect="Treasure_Effect"/>
+	<treasure_template treasure_code="268435462" live_mil_sec="60000" open_mil_sec="10000" item_drop_id="1005" world_drop_id="89" modeling_name="TreasureChest" animation_name="treasureopen" open_effect="TreasureOpen_Effect" display_effect="Treasure_Effect"/>
+	<treasure_template treasure_code="268435463" live_mil_sec="60000" open_mil_sec="10000" item_drop_id="1006" world_drop_id="90" modeling_name="TreasureChest" animation_name="treasureopen" open_effect="TreasureOpen_Effect" display_effect="Treasure_Effect"/>
+</treasure_table>

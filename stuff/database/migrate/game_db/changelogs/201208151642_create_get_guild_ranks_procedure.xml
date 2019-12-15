@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208151642" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_ranks') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_ranks
+GO
+
+
+CREATE PROCEDURE dbo.get_guild_ranks
+    @guild_id dbo.id_t
+AS
+    SET NOCOUNT ON
+
+    SELECT rank_id, name, rights, money_withdrawal_per_day FROM dbo.Guild_Ranks WHERE guild_id = @guild_id ORDER BY rank_id ASC
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_ranks') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_ranks
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

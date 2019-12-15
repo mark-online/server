@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201207181628" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_guild_member_withdraw') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_guild_member_withdraw
+GO
+
+
+CREATE PROCEDURE dbo.update_guild_member_withdraw
+    @character_id dbo.id_t,
+    @withdraw BIGINT,
+    @reset_withdraw_at BIGINT
+AS
+    SET NOCOUNT ON
+	
+    UPDATE dbo.Guild_Members 
+    SET reset_withdraw_at = @reset_withdraw_at, day_withdraw = @withdraw
+    WHERE character_id = @character_id
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_guild_member_withdraw') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_guild_member_withdraw
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

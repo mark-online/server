@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111041619">
+      <addColumn tableName="ActionBars">
+           <column name="code_10" type="dbo.code_t" defaultValueNumeric="0">
+               <constraints nullable="false"/>
+           </column> 
+           <column name="code_11" type="dbo.code_t" defaultValueNumeric="0">
+               <constraints nullable="false"/>
+           </column>
+      </addColumn>
+  </changeSet>
+
+</databaseChangeLog>

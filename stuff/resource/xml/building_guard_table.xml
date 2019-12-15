@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" standalone="yes"?><building_guard_table>
+	<building_guard_template building_guard_code="536870913" building_guard_icon="Shield_Guard_Icon" npc_code="100991221" day_cost="100" check_building_code="318767106" check_building_distance="6"/>
+	<building_guard_template building_guard_code="536870914" building_guard_icon="Shield_Guard_Icon" npc_code="100991222" day_cost="100" check_building_code="318767106" check_building_distance="6"/>
+	<building_guard_template building_guard_code="536870915" building_guard_icon="Bow_Guard_Icon" npc_code="100991223" day_cost="100" check_building_code="318767106" check_building_distance="6"/>
+	<building_guard_template building_guard_code="536870916" building_guard_icon="Shield_Guard_Icon" npc_code="100991224" day_cost="100" check_building_code="318767109" check_building_distance="5"/>
+	<building_guard_template building_guard_code="536870917" building_guard_icon="Shield_Guard_Icon" npc_code="100991230" day_cost="100" check_building_code="318767110" check_building_distance="65"/>
+	<building_guard_template building_guard_code="536870918" building_guard_icon="Bow_Guard_Icon" npc_code="100991231" day_cost="100" check_building_code="318767110" check_building_distance="65"/>
+	<building_guard_template building_guard_code="536870919" building_guard_icon="Mailbox_Icon" npc_code="100859996" day_cost="100" check_building_code="318767131" check_building_distance="65"/>
+	<building_guard_template building_guard_code="536870920" building_guard_icon="Shield_Guard_Icon" npc_code="100991248" day_cost="100" check_building_code="318767111" check_building_distance="9"/>
+</building_guard_table>

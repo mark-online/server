@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<dominion_region_table>
+
+  <dominion_region_template building_code="318767111" region_image="184614916_4" x="548.654" y="282.964"/>
+
+  <dominion_region_template building_code="318767111" region_image="184614916_2" x="-265.898" y="-498.073"/>
+
+  <dominion_region_template building_code="318767111" region_image="184614916_3" x="557.909" y="-594.365"/>
+
+  <dominion_region_template building_code="318767111" region_image="184614916_5" x="0" y="0"/>
+
+  <dominion_region_template building_code="318767111" region_image="184614916_1" x="-255.49" y="583.955"/>
+
+  <dominion_region_template building_code="318767110" region_image="184614916_6" x="-118.349" y="-136.507"/>
+
+</dominion_region_table>

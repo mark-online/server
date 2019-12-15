@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105121036" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_max_inventory_id') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_max_inventory_id
+GO
+
+
+CREATE PROCEDURE dbo.get_max_inventory_id
+  @item_id dbo.id_t OUT
+AS
+
+  SET NOCOUNT ON
+  DECLARE @inven_id dbo.id_t
+  DECLARE @quest_id dbo.id_t
+  SELECT @inven_id = ISNULL(MAX(id), 0) FROM dbo.Inventories
+  SELECT @quest_id = ISNULL(MAX(id), 0) FROM dbo.Quest_Inventories
+  
+  IF @inven_id > @quest_id
+  BEGIN
+	SET @item_id = @inven_id
+  END
+  ELSE
+  BEGIN
+    SET @item_id = @quest_id
+  END
+    
+SET NOCOUNT OFF
+    </sql>
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_max_inventory_id') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_max_inventory_id
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

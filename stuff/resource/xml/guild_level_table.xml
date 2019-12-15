@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" standalone="yes"?><guild_level_table>
+	<guild_level_template guild_level="1" exp="5000" guild_member_count="10"/>
+	<guild_level_template guild_level="2" exp="10000" guild_member_count="10"/>
+	<guild_level_template guild_level="3" exp="15000" guild_member_count="10"/>
+	<guild_level_template guild_level="4" exp="20000" guild_member_count="10"/>
+	<guild_level_template guild_level="5" exp="25000" guild_member_count="20"/>
+	<guild_level_template guild_level="6" exp="30000" guild_member_count="20"/>
+	<guild_level_template guild_level="7" exp="35000" guild_member_count="20"/>
+	<guild_level_template guild_level="8" exp="40000" guild_member_count="20"/>
+	<guild_level_template guild_level="9" exp="45000" guild_member_count="20"/>
+	<guild_level_template guild_level="10" exp="50000" guild_member_count="30"/>
+	<guild_level_template guild_level="11" exp="55000" guild_member_count="30"/>
+	<guild_level_template guild_level="12" exp="60000" guild_member_count="30"/>
+	<guild_level_template guild_level="13" exp="65000" guild_member_count="30"/>
+	<guild_level_template guild_level="14" exp="70000" guild_member_count="30"/>
+	<guild_level_template guild_level="15" exp="75000" guild_member_count="40"/>
+</guild_level_table>

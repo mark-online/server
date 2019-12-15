@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\database">
+      <UniqueIdentifier>{81f9c1da-4432-476a-a4d3-8bf00635140d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\database\mssql">
+      <UniqueIdentifier>{a0bd456c-7fff-484d-854b-070272540800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\database\proxy">
+      <UniqueIdentifier>{8b2de1de-b908-4d36-b943-e628bf3d2199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\datatable">
+      <UniqueIdentifier>{41b080f9-e8e0-484c-ac36-6a21e5b396ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include Files\database">
+      <UniqueIdentifier>{7b81f439-b4b6-41b6-ae54-cd616b0d22f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files\database\proxy">
+      <UniqueIdentifier>{bd4740d3-097f-47d2-bb98-3d2132aa6b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files\database\callback">
+      <UniqueIdentifier>{142326da-f1b9-4f11-9fe5-80004a26369f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files\app">
+      <UniqueIdentifier>{dee1dfb6-c878-48b7-ba8f-6375d441f347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files\service">
+      <UniqueIdentifier>{96966b9d-845f-467a-9935-2a42323c3dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files\datatable">
+      <UniqueIdentifier>{028a6785-5a45-4fa3-a93b-f04d22b8520f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\app">
+      <UniqueIdentifier>{567d1501-86c0-4f34-a378-fe397d9bbad2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\serverbase\ServerBasePCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\serverbase\database\GideonDatabaseFactory.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\serverbase\database\mssql\SqlServerAccountDatabase.cpp">
+      <Filter>Source Files\database\mssql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\serverbase\database\mssql\SqlServerGameDatabase.cpp">
+      <Filter>Source Files\database\mssql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\serverbase\server\app\BaseSessionServerApp.cpp">
+      <Filter>Source Files\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\serverbase\database\proxy\DeferrableProxyGameDatabase.cpp">
+      <Filter>Source Files\database\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\serverbase\datatable\DataTableLoader.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\serverbase\ServerBasePCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serverbase\database\mssql\SqlServerAccountDatabase.h">
+      <Filter>Source Files\database\mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serverbase\database\mssql\SqlServerAccountDatabaseCommands.h">
+      <Filter>Source Files\database\mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serverbase\database\mssql\SqlServerCommonDatabaseCommands.h">
+      <Filter>Source Files\database\mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serverbase\database\mssql\SqlServerGameDatabase.h">
+      <Filter>Source Files\database\mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serverbase\database\mssql\SqlServerGameDatabaseCommands.h">
+      <Filter>Source Files\database\mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\serverbase\database\proxy\DeferrableProxyGameDatabase.h">
+      <Filter>Source Files\database\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\AccountDatabase.h">
+      <Filter>Include Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\GameDatabase.h">
+      <Filter>Include Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\GideonDatabaseFactory.h">
+      <Filter>Include Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\ProxyGameDatabase.h">
+      <Filter>Include Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\proxy\RequestFuture.h">
+      <Filter>Include Files\database\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\callback\GameMailCallback.h">
+      <Filter>Include Files\database\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\app\BaseSessionServerApp.h">
+      <Filter>Include Files\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\service\SessionService.h">
+      <Filter>Include Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\datatable\DataTableLoader.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\callback\CommunityBuddyCallback.h">
+      <Filter>Include Files\database\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\serverbase\database\callback\DBQueryPlayerCallback.h">
+      <Filter>Include Files\database\callback</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

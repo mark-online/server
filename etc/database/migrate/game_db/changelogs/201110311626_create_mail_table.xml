@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110311626">
+    <createTable tableName="Mails" remarks="Mail table">
+      <column name="id" type="dbo.id_t" autoIncrement="true">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="sender_nickname" type="NVARCHAR(10)">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="sender_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="sender_npc_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="title" type="NVARCHAR(25)">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="body" type="NVARCHAR(100)">
+        <constraints nullable="false"/>
+      </column>	  
+      <column name="sent_at" type="SMALLDATETIME">
+        <constraints nullable="false"/>
+      </column>
+      <column name="is_read" type="BIT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="game_money" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="mail_type" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Mails" columnNames="id, character_id" tableName="Mails"/>
+
+    <addForeignKeyConstraint constraintName="fk_Mails_Characters"
+        baseColumnNames="character_id" baseTableName="Mails"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

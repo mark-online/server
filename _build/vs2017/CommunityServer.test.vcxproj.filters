@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fixture">
+      <UniqueIdentifier>{cd291afe-e575-49a6-a6de-7c0d24bf9bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tests">
+      <UniqueIdentifier>{02a51d93-39c1-4108-a7b8-bc056f8655da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\communityserver.test\CommunityServer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\CommunityServerTestPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\CommunityServiceTestFixture.cpp">
+      <Filter>Source Files\fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\MockCommunityLoginServerProxy.cpp">
+      <Filter>Source Files\fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\MockCommunityServerSideProxy.cpp">
+      <Filter>Source Files\fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\MockCommunityUser.cpp">
+      <Filter>Source Files\fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\CommunityGuildTest.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\CommunityPartyTest.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\CommunityUserTest.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\WorldMapChannelTest.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\communityserver.test\CommunityServiceTest.cpp">
+      <Filter>Source Files\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\communityserver.test\CommunityServerTestPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\communityserver.test\CommunityServiceTestFixture.h">
+      <Filter>Source Files\fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\communityserver.test\MockCommunityClientSessionCallback.h">
+      <Filter>Source Files\fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\communityserver.test\MockCommunityLoginServerProxy.h">
+      <Filter>Source Files\fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\communityserver.test\MockCommunityServerSideProxy.h">
+      <Filter>Source Files\fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\communityserver.test\MockCommunityUser.h">
+      <Filter>Source Files\fixture</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

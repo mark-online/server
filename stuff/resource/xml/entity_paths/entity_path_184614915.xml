@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<entity_path_table>
+
+  <entity_path_template entity_path_code="301989889" is_looping="1">
+    <path_node heading="67" rest_time="0" x="-267.913" y="438.506" z="2243.22"/>
+    <path_node heading="67" rest_time="0" x="-255.719" y="419.586" z="2243.48"/>
+    <path_node heading="35" rest_time="0" x="-245.97" y="418.52" z="2243.53"/>
+    <path_node heading="171" rest_time="0" x="-241.137" y="429.046" z="2243.06"/>
+    <path_node heading="147" rest_time="0" x="-251.95" y="433.827" z="2243.06"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989890" is_looping="1">
+    <path_node heading="127" rest_time="0" x="-278.882" y="757.035" z="2243.78"/>
+    <path_node heading="103" rest_time="0" x="-285.974" y="748.333" z="2244.26"/>
+    <path_node heading="100" rest_time="0" x="-293.196" y="731.037" z="2243.63"/>
+    <path_node heading="85" rest_time="0" x="-289.185" y="719.726" z="2243.76"/>
+    <path_node heading="105" rest_time="0" x="-292.861" y="702.494" z="2243.67"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989891" is_looping="1">
+    <path_node heading="94" rest_time="10000" x="-521.548" y="110.399" z="2319.46"/>
+    <path_node heading="21" rest_time="10000" x="-505.431" y="110.337" z="2320.87"/>
+    <path_node heading="179" rest_time="10000" x="-513.603" y="116.555" z="2320.09"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989892" is_looping="1">
+    <path_node heading="109" rest_time="5000" x="-368.198" y="211.447" z="2281.09"/>
+    <path_node heading="109" rest_time="5000" x="-390.394" y="173.185" z="2275.31"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989893" is_looping="1">
+    <path_node heading="12" rest_time="5000" x="-364.294" y="210" z="2280.72"/>
+    <path_node heading="6" rest_time="5000" x="-382.759" y="172.298" z="2276.02"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989904" is_looping="1">
+    <path_node heading="159" rest_time="0" x="206.828" y="541.118" z="2204.2"/>
+    <path_node heading="159" rest_time="0" x="173.643" y="578.447" z="2206.66"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989907" is_looping="0">
+    <path_node heading="113" rest_time="300" x="-167.027" y="673.263" z="2234.09"/>
+    <path_node heading="84" rest_time="300" x="-175.555" y="657.554" z="2234.34"/>
+    <path_node heading="84" rest_time="300" x="-160.365" y="634.788" z="2235.65"/>
+    <path_node heading="84" rest_time="300" x="-151.8" y="614.435" z="2234.78"/>
+    <path_node heading="69" rest_time="300" x="-150.071" y="597.892" z="2233.17"/>
+    <path_node heading="36" rest_time="300" x="-138.296" y="588.245" z="2232.97"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989908" is_looping="0">
+    <path_node heading="20" rest_time="500" x="-213.676" y="634.229" z="2234.47"/>
+    <path_node heading="66" rest_time="500" x="-207.087" y="637.767" z="2234.38"/>
+    <path_node heading="44" rest_time="500" x="-197.356" y="628.98" z="2233.78"/>
+    <path_node heading="52" rest_time="500" x="-175.479" y="629.54" z="2235.52"/>
+    <path_node heading="64" rest_time="500" x="-157.167" y="621.482" z="2236.41"/>
+    <path_node heading="55" rest_time="500" x="-149.458" y="615.677" z="2234.97"/>
+    <path_node heading="26" rest_time="500" x="-141.409" y="595.109" z="2233.91"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989909" is_looping="0">
+    <path_node heading="107" rest_time="300" x="-172.313" y="416.322" z="2254.46"/>
+    <path_node heading="107" rest_time="300" x="-178.292" y="404.041" z="2253.36"/>
+    <path_node heading="107" rest_time="300" x="-186.614" y="391.248" z="2253.64"/>
+    <path_node heading="122" rest_time="300" x="-198.853" y="382.734" z="2253.96"/>
+    <path_node heading="122" rest_time="300" x="-209.468" y="377.5" z="2253.52"/>
+    <path_node heading="111" rest_time="300" x="-219.034" y="370.866" z="2253.38"/>
+    <path_node heading="122" rest_time="300" x="-224.21" y="362.52" z="2254.19"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989910" is_looping="0">
+    <path_node heading="121" rest_time="500" x="-175.965" y="394.342" z="2254.13"/>
+    <path_node heading="121" rest_time="500" x="-184.658" y="388.359" z="2253.95"/>
+    <path_node heading="121" rest_time="500" x="-197.476" y="382.383" z="2254.46"/>
+    <path_node heading="121" rest_time="500" x="-210.874" y="379.85" z="2253.46"/>
+    <path_node heading="102" rest_time="500" x="-220.541" y="371.585" z="2253.37"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989911" is_looping="0">
+    <path_node heading="21" rest_time="300" x="-335.957" y="-91.252" z="2272.47"/>
+    <path_node heading="13" rest_time="300" x="-318.027" y="-69.8472" z="2275.52"/>
+    <path_node heading="8" rest_time="300" x="-307.967" y="-30.4546" z="2279.24"/>
+    <path_node heading="0" rest_time="300" x="-302.374" y="-0.929564" z="2279.94"/>
+    <path_node heading="174" rest_time="300" x="-302.529" y="28.3319" z="2279.5"/>
+    <path_node heading="164" rest_time="300" x="-315.023" y="67.7249" z="2279.37"/>
+    <path_node heading="161" rest_time="300" x="-331.347" y="93.1557" z="2274.27"/>
+    <path_node heading="163" rest_time="300" x="-357.824" y="117.02" z="2274.61"/>
+    <path_node heading="179" rest_time="300" x="-359.973" y="132.413" z="2274.25"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989914" is_looping="1">
+    <path_node heading="145" rest_time="5000" x="-479.465" y="669.426" z="2256.55"/>
+    <path_node heading="146" rest_time="6000" x="-485.988" y="655.97" z="2258.12"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989913" is_looping="0">
+    <path_node heading="159" rest_time="0" x="-491.927" y="609.318" z="2257.93"/>
+    <path_node heading="170" rest_time="0" x="-504.195" y="631.345" z="2259.06"/>
+    <path_node heading="13" rest_time="0" x="-507.551" y="640.588" z="2259.36"/>
+    <path_node heading="0" rest_time="0" x="-502.354" y="651.134" z="2259.13"/>
+    <path_node heading="173" rest_time="0" x="-500.004" y="660.424" z="2258.97"/>
+    <path_node heading="144" rest_time="0" x="-503.437" y="670.327" z="2258.2"/>
+    <path_node heading="137" rest_time="0" x="-511.835" y="672.321" z="2259.07"/>
+    <path_node heading="137" rest_time="0" x="-524.141" y="673.127" z="2260.25"/>
+    <path_node heading="137" rest_time="0" x="-539.093" y="674.061" z="2260.06"/>
+    <path_node heading="137" rest_time="0" x="-581.704" y="676.726" z="2260.06"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989912" is_looping="0">
+    <path_node heading="2" rest_time="0" x="-491.426" y="611.808" z="2257.94"/>
+    <path_node heading="0" rest_time="0" x="-491.349" y="639.352" z="2258.85"/>
+    <path_node heading="161" rest_time="0" x="-492.042" y="651.997" z="2258.53"/>
+    <path_node heading="157" rest_time="0" x="-493.574" y="663.411" z="2258.51"/>
+    <path_node heading="165" rest_time="0" x="-499.453" y="675.036" z="2257.67"/>
+    <path_node heading="117" rest_time="0" x="-509.849" y="683.588" z="2259.31"/>
+    <path_node heading="133" rest_time="0" x="-520.106" y="672.237" z="2259.62"/>
+    <path_node heading="139" rest_time="0" x="-545.432" y="673.083" z="2260.06"/>
+    <path_node heading="139" rest_time="0" x="-560.092" y="673.281" z="2260.14"/>
+    <path_node heading="131" rest_time="0" x="-579.453" y="677.607" z="2260.06"/>
+    <path_node heading="131" rest_time="0" x="-603.803" y="678.341" z="2260.09"/>
+  </entity_path_template>
+
+</entity_path_table>

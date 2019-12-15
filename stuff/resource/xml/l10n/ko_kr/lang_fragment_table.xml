@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="167772161" name="천 조각" desc="천 계열 방어구 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772162" name="가죽 조각" desc="가죽 계열 방어구 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772163" name="판금 조각" desc="금속 계열 방어구 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772164" name="한손 검류 조각" desc="한손 검류 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772165" name="양손 검류 조각" desc="양손 검류 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772166" name="한손 타격류 조각" desc="한손 타격류 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772167" name="양손 타격류 조각" desc="양손 타격류 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772168" name="이도 류 조각" desc="이도류 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772169" name="지팡이 류 조각" desc="지팡이 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772170" name="장궁 류 조각" desc="장궁류 아이템을 제작하거나 강화할 때 사용합니다."/>
+	<l10n_template data_code="167772171" name="방패 류 조각" desc="방패 아이템을 제작하거나 강화할 때 사용합니다."/>
+</l10n_table>

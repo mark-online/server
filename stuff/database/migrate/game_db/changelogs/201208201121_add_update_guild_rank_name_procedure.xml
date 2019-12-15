@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208201121" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_guild_rank_name') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_guild_rank_name
+GO
+
+CREATE PROCEDURE dbo.update_guild_rank_name
+    @guild_id dbo.id_t,
+    @rank_id TINYINT, 
+    @rank_name NVARCHAR(10)
+AS
+    SET NOCOUNT ON
+	
+    UPDATE dbo.Guild_Ranks SET name = @rank_name
+	WHERE guild_id = @guild_id AND rank_id = @rank_id
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_guild_rank_name') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_guild_rank_name
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

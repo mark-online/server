@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="201392129" name="Character Spawn 001"/>
+	<l10n_template data_code="201457665" name="Character Grave 001"/>
+	<l10n_template data_code="201457667" name="Character Grave 003"/>
+	<l10n_template data_code="201457668" name="Character Grave 004"/>
+	<l10n_template data_code="201457670" name="Character Grave 006"/>
+	<l10n_template data_code="201457671" name="Character Grave 007"/>
+	<l10n_template data_code="201457672" name="Character Grave 008"/>
+	<l10n_template data_code="201457673" name="Character Grave 009"/>
+	<l10n_template data_code="201457674" name="Character Grave 010"/>
+	<l10n_template data_code="201457675" name="Character Grave 000"/>
+	<l10n_template data_code="201523201" name="Spider 001"/>
+	<l10n_template data_code="201523202" name="Skeleton 001"/>
+	<l10n_template data_code="201523203" name="Gelbon Slave soldiers 001"/>
+	<l10n_template data_code="201523204" name="Petty Thief 001"/>
+	<l10n_template data_code="201523205" name="Skeleton Warrior 001"/>
+	<l10n_template data_code="201523206" name="Thief 001"/>
+	<l10n_template data_code="201523207" name="Contaminated Rat 001"/>
+	<l10n_template data_code="201523208" name="Ghoul 001"/>
+	<l10n_template data_code="201523209" name="Ghoul 002"/>
+	<l10n_template data_code="201523210" name="Tiger's Cub 001"/>
+	<l10n_template data_code="201523211" name="Salamander 001"/>
+	<l10n_template data_code="201523212" name="Tigress 001"/>
+	<l10n_template data_code="201523213" name="Tiger quest"/>
+	<l10n_template data_code="201523214" name="Gelbon Green Troop 001"/>
+	<l10n_template data_code="201523215" name="Gelbon Worker 001"/>
+	<l10n_template data_code="201523216" name="Gelbon Foot Soldier 001"/>
+	<l10n_template data_code="201523217" name="Oswald Militia 001"/>
+	<l10n_template data_code="201523218" name="Wounded Boar 001"/>
+	<l10n_template data_code="201523219" name="Boar 001"/>
+	<l10n_template data_code="201523220" name="Wild Boar 001"/>
+	<l10n_template data_code="201523221" name="Hungry Boar 001"/>
+	<l10n_template data_code="201523222" name="Fierce Wolf 001"/>
+	<l10n_template data_code="201523223" name="Gelbon Heavy Ravitailleur 001"/>
+	<l10n_template data_code="201523224" name="Gelbon Scout 001"/>
+	<l10n_template data_code="201523225" name="Gelbon Heavy Infantry 001"/>
+	<l10n_template data_code="201523226" name="Gelbon Ranger 001"/>
+	<l10n_template data_code="201523227" name="Saber Tiger 001"/>
+	<l10n_template data_code="201523228" name="Gorilla 001"/>
+	<l10n_template data_code="201523229" name="King Komodo 001"/>
+	<l10n_template data_code="201523230" name="Komodo 001"/>
+	<l10n_template data_code="201523231" name="Gelbon Veteran Troop 001"/>
+	<l10n_template data_code="201523232" name="Chaos Tiger 001"/>
+	<l10n_template data_code="201523233" name="Gorilla 002"/>
+	<l10n_template data_code="201523234" name="Trainer Of Wild Beast 001"/>
+	<l10n_template data_code="201523235" name="Refugee 001"/>
+	<l10n_template data_code="201523236" name="Lappet Faced Vulture 001"/>
+	<l10n_template data_code="201523237" name="Avnas 001"/>
+	<l10n_template data_code="201523238" name="Jyakan Goblin 002"/>
+	<l10n_template data_code="201523239" name="Gelbon Ranger Recruit 001"/>
+	<l10n_template data_code="201523240" name="Gelbon Veteran Troop 002"/>
+	<l10n_template data_code="201523241" name="Fire Bird 001"/>
+	<l10n_template data_code="201523242" name="Burning Wisp 001"/>
+	<l10n_template data_code="201523243" name="Black Wolf 001"/>
+	<l10n_template data_code="201523244" name="Contaminated Spider 001"/>
+	<l10n_template data_code="201523245" name="Goblin 001"/>
+	<l10n_template data_code="201523246" name="Goblin Warrior 001"/>
+	<l10n_template data_code="201523247" name="Goblin Wizard 001"/>
+	<l10n_template data_code="201523248" name="Contaminated Tree Sprit 001"/>
+	<l10n_template data_code="201523249" name="Jyakan Goblin 001"/>
+	<l10n_template data_code="201523250" name="Jyakan Goblin Warrior 001"/>
+	<l10n_template data_code="201523251" name="Jyakan Goblin Wizard 001"/>
+	<l10n_template data_code="201523252" name="Jyakan Goblin Warrior 002"/>
+	<l10n_template data_code="201523253" name="Goblin Warrior 002"/>
+	<l10n_template data_code="201785345" name="Corpse Spider 001"/>
+	<l10n_template data_code="201785346" name="Basalt 001"/>
+	<l10n_template data_code="201785347" name="Piece Wood 001"/>
+	<l10n_template data_code="201785348" name="Jasmin 001"/>
+	<l10n_template data_code="201785349" name="Hub 001"/>
+	<l10n_template data_code="201785350" name="Gebonin mushroom 001"/>
+	<l10n_template data_code="201850881" name="Treasure Chest"/>
+	<l10n_template data_code="201981954" name="Criminal Character Grave 002"/>
+	<l10n_template data_code="201981955" name="Criminal Character Grave 003"/>
+	<l10n_template data_code="201981956" name="Criminal Character Grave 004"/>
+	<l10n_template data_code="201981957" name="Criminal Character Grave 005"/>
+	<l10n_template data_code="202047489" name="Abandoned Mine"/>
+	<l10n_template data_code="202047490" name="Table"/>
+	<l10n_template data_code="202047491" name="Table"/>
+	<l10n_template data_code="202047492" name="Volcano"/>
+	<l10n_template data_code="202375169" name="Gelbon shock troops"/>
+	<l10n_template data_code="202375170" name="Tereusen Village"/>
+	<l10n_template data_code="202375171" name="Mongeulri Temple"/>
+	<l10n_template data_code="202375172" name="Elbert Castles"/>
+	<l10n_template data_code="202375173" name="Diogo Farm"/>
+	<l10n_template data_code="202375174" name="Klrent Village"/>
+	<l10n_template data_code="202375175" name="Sortie camp"/>
+	<l10n_template data_code="202375176" name="Volcanic Area"/>
+	<l10n_template data_code="202375177" name="Gelbon construction site"/>
+	<l10n_template data_code="202375178" name="Terence luber camp"/>
+	<l10n_template data_code="202375179" name="Gelbon supply base"/>
+	<l10n_template data_code="202375180" name="Refugee village"/>
+	<l10n_template data_code="202375181" name="The headquaters of Gelbon"/>
+	<l10n_template data_code="202440705" name="0"/>
+	<l10n_template data_code="202440706" name="0"/>
+	<l10n_template data_code="202440707" name="0"/>
+	<l10n_template data_code="202440708" name="0"/>
+	<l10n_template data_code="202440709" name="0"/>
+	<l10n_template data_code="202440710" name="0"/>
+	<l10n_template data_code="202440711" name="0"/>
+	<l10n_template data_code="202440712" name="0"/>
+	<l10n_template data_code="201654273" name="0"/>
+	<l10n_template data_code="201654274" name="0"/>
+	<l10n_template data_code="201588737" name="0"/>
+	<l10n_template data_code="201588738" name="0"/>
+	<l10n_template data_code="201588739" name="0"/>
+	<l10n_template data_code="201588740" name="0"/>
+	<l10n_template data_code="202506241" name="0"/>
+	<l10n_template data_code="202506242" name="0"/>
+	<l10n_template data_code="202506243" name="0"/>
+	<l10n_template data_code="202506244" name="0"/>
+	<l10n_template data_code="202506245" name="0"/>
+	<l10n_template data_code="202506246" name="0"/>
+</l10n_table>

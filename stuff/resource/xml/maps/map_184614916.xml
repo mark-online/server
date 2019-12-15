@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" standalone="yes"?><region_table>
+	<region_template region_code="201392129" param1="0" param2="0"/>
+	<region_template region_code="201457665" param1="0" param2="0"/>
+	<region_template region_code="201523201" param1="0" param2="0"/>
+	<region_template region_code="201523202" param1="0" param2="0"/>
+	<region_template region_code="201523203" param1="0" param2="0"/>
+	<region_template region_code="201523204" param1="0" param2="0"/>
+	<region_template region_code="201523205" param1="0" param2="0"/>
+	<region_template region_code="201523206" param1="0" param2="0"/>
+	<region_template region_code="201523207" param1="0" param2="0"/>
+	<region_template region_code="201523208" param1="0" param2="0"/>
+	<region_template region_code="201523209" param1="0" param2="0"/>
+	<region_template region_code="201523210" param1="0" param2="0"/>
+	<region_template region_code="201523211" param1="0" param2="0"/>
+	<region_template region_code="201523212" param1="0" param2="0"/>
+	<region_template region_code="201523213" param1="0" param2="0"/>
+	<region_template region_code="201523214" param1="0" param2="0"/>
+	<region_template region_code="201523215" param1="0" param2="0"/>
+	<region_template region_code="201523216" param1="0" param2="0"/>
+	<region_template region_code="201850881" param1="0" param2="0"/>
+	<region_template region_code="201981953" param1="0" param2="0"/>
+	<region_template region_code="202375169" param1="0" param2="0"/>
+	<region_template region_code="202375170" param1="0" param2="0"/>
+	<region_template region_code="202375171" param1="0" param2="0"/>
+	<region_template region_code="202375172" param1="0" param2="0"/>
+	<region_template region_code="202375173" param1="0" param2="0"/>
+	<region_template region_code="202375174" param1="0" param2="0"/>
+	<region_template region_code="202375175" param1="0" param2="0"/>
+	<region_template region_code="202375176" param1="0" param2="0"/>
+	<region_template region_code="201654273" param1="184614915" param2="201654274"/>
+	<region_template region_code="201654274" param1="0" param2="0"/>
+	<region_template region_code="201588737" param1="184745989" param2="0"/>
+	<region_template region_code="201588738" param1="184745990" param2="0"/>
+	<region_template region_code="202506241" param1="0" param2="0"/>
+</region_table>

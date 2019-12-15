@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" standalone="yes"?><quest_obtain_mission_table>
+	<quest_obtain_mission_template mission_code="369229825" goal="20" goal_info="335544323" goal_value="2" marker_code_1="201785345" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229826" goal="20" goal_info="335544322" goal_value="2" marker_code_1="201785346" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229827" goal="20" goal_info="335544336" goal_value="3" marker_code_1="201785347" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229828" goal="20" goal_info="117440514" goal_value="3" marker_code_1="201523218" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229829" goal="20" goal_info="335544325" goal_value="3" marker_code_1="201785348" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229830" goal="20" goal_info="335544331" goal_value="3" marker_code_1="251658262" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229831" goal="20" goal_info="335544329" goal_value="3" marker_code_1="251658259" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229832" goal="20" goal_info="335544341" goal_value="2" marker_code_1="251658261" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229833" goal="20" goal_info="335544326" goal_value="3" marker_code_1="201785349" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229834" goal="20" goal_info="117440515" goal_value="3" marker_code_1="201523220" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229835" goal="20" goal_info="117440514" goal_value="3" marker_code_1="201523218" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229836" goal="20" goal_info="117440547" goal_value="3" marker_code_1="201523211" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229837" goal="20" goal_info="117440534" goal_value="3" marker_code_1="201523222" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229838" goal="20" goal_info="117440516" goal_value="3" marker_code_1="201523221" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229839" goal="20" goal_info="335544327" goal_value="3" marker_code_1="201785350" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229840" goal="20" goal_info="117440533" goal_value="5" marker_code_1="201523230" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229841" goal="20" goal_info="117440534" goal_value="5" marker_code_1="201523232" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229842" goal="20" goal_info="117440556" goal_value="5" marker_code_1="201523238" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229843" goal="20" goal_info="117440534" goal_value="5" marker_code_1="201523212" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229844" goal="20" goal_info="117440533" goal_value="5" marker_code_1="201523238" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229845" goal="20" goal_info="335544339" goal_value="1" marker_code_1="251658253" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229846" goal="20" goal_info="335544328" goal_value="1" marker_code_1="251658258" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229847" goal="20" goal_info="335544330" goal_value="1" marker_code_1="251658256" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229848" goal="20" goal_info="117440541" goal_value="2" marker_code_1="201523237" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229849" goal="20" goal_info="335544332" goal_value="1" marker_code_1="251658260" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229850" goal="20" goal_info="117440551" goal_value="2" marker_code_1="251658242" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229851" goal="20" goal_info="335544322" goal_value="2" marker_code_1="251658247" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229852" goal="20" goal_info="335544333" goal_value="1" marker_code_1="251658257" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229853" goal="20" goal_info="335544334" goal_value="1" marker_code_1="251658255" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229854" goal="20" goal_info="117440557" goal_value="1" marker_code_1="100794818" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229855" goal="20" goal_info="335544340" goal_value="1" marker_code_1="251658254" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229856" goal="20" goal_info="117440558" goal_value="5" marker_code_1="201523231" marker_code_2="0" marker_code_3="0"/>
+	<quest_obtain_mission_template mission_code="369229857" goal="20" goal_info="117440542" goal_value="1" marker_code_1="251658266" marker_code_2="0" marker_code_3="0"/>
+</quest_obtain_mission_table>

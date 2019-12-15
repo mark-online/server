@@ -1,0 +1,9 @@
+#liquibase.properties
+classpath: ../jdbc/sqljdbc4.jar
+url=jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=Gideon_account_test
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+logLevel=SEVERE
+
+username: Gideon_account_test
+password: Gideon_account_test
+

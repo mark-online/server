@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="587202661" name="마계 입구 닫기"/>
+	<l10n_template data_code="587202662" name="'마계 정예병' 퇴치" desc="마계 정예병: 마왕님의 강림이 머지 않았다!"/>
+	<l10n_template data_code="587202761" name="마계 입구 닫기"/>
+	<l10n_template data_code="587202762" name="'아몬' 퇴치" desc="아몬: 마왕의 이름으로 인간계를 정복하리라!"/>
+	<l10n_template data_code="587202861" name="'카오스 거상' 퇴치" desc="카오스 거상: 새로운 세상이 도래할 것이다! "/>
+	<l10n_template data_code="587202961" name="'고대 거상' 퇴치" desc="고대 거상: 경배하라! 마왕님의 강림을 찬양하라!"/>
+	<l10n_template data_code="587203061" name="'커델' 퇴치" desc="커델: 모두 내 앞에서 무릎을 꿇으리라!"/>
+	<l10n_template data_code="587203161" name="마계 입구 닫기"/>
+	<l10n_template data_code="587203162" name="'마계 나무' 퇴치" desc="Devildom Tree: 내 숲을 침범한 자, 용서치 않으리라!"/>
+	<l10n_template data_code="587203261" name="마계 입구 닫기"/>
+	<l10n_template data_code="587203262" name="'헬펜센트' 퇴치" desc="Helpensenteu: 나 헬펜센트가! 부숴주마! 모조리 갈기갈기 찢어주리라!"/>
+</l10n_table>

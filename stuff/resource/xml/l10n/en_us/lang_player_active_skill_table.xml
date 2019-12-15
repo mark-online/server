@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="17825809" name="Smash 1Lv"/>
+	<l10n_template data_code="17825810" name="Smash 2Lv"/>
+	<l10n_template data_code="17825811" name="Smash 3Lv"/>
+	<l10n_template data_code="17825812" name="Smash 4Lv"/>
+	<l10n_template data_code="17825813" name="Smash 5Lv"/>
+	<l10n_template data_code="17825825" name="Cleave 1Lv"/>
+	<l10n_template data_code="17825826" name="Cleave 2Lv"/>
+	<l10n_template data_code="17825827" name="Cleave 3Lv"/>
+	<l10n_template data_code="17825828" name="Cleave 4Lv"/>
+	<l10n_template data_code="17825829" name="Cleave 5Lv"/>
+	<l10n_template data_code="17825841" name="Hilt Hitting 1Lv"/>
+	<l10n_template data_code="17825842" name="Hilt Hitting 2Lv"/>
+	<l10n_template data_code="17825843" name="Hilt Hitting 3Lv"/>
+	<l10n_template data_code="17825844" name="Hilt Hitting 4Lv"/>
+	<l10n_template data_code="17825845" name="Hilt Hitting 5Lv"/>
+	<l10n_template data_code="17825857" name="Ground Slam 1Lv"/>
+	<l10n_template data_code="17825858" name="Ground Slam 2Lv"/>
+	<l10n_template data_code="17825859" name="Ground Slam 3Lv"/>
+	<l10n_template data_code="17825873" name="Sharp Attack 1Lv"/>
+	<l10n_template data_code="17825874" name="Sharp Attack 2Lv"/>
+	<l10n_template data_code="17825875" name="Sharp Attack 3Lv"/>
+	<l10n_template data_code="17825889" name="Throw 1Lv"/>
+	<l10n_template data_code="17825890" name="Throw 2Lv"/>
+	<l10n_template data_code="17825891" name="Throw 3Lv"/>
+	<l10n_template data_code="17825905" name="Knockdown 1Lv"/>
+	<l10n_template data_code="17825906" name="Knockdown 2Lv"/>
+	<l10n_template data_code="17825907" name="Knockdown 3Lv"/>
+	<l10n_template data_code="17825921" name="Muscle Endurance 1Lv"/>
+	<l10n_template data_code="17825922" name="Muscle Endurance 2Lv"/>
+	<l10n_template data_code="17825923" name="Muscle Endurance 3Lv"/>
+	<l10n_template data_code="17827409" name="Mana Missile 1Lv"/>
+	<l10n_template data_code="17827410" name="Mana Missile 2Lv"/>
+	<l10n_template data_code="17827411" name="Mana Missile 3Lv"/>
+	<l10n_template data_code="17827412" name="Mana Missile 4Lv"/>
+	<l10n_template data_code="17827413" name="Mana Missile 5Lv"/>
+	<l10n_template data_code="17827425" name="Ice Arrow 1Lv"/>
+	<l10n_template data_code="17827426" name="Ice Arrow 2Lv"/>
+	<l10n_template data_code="17827427" name="Ice Arrow 3Lv"/>
+	<l10n_template data_code="17827428" name="Ice Arrow 4Lv"/>
+	<l10n_template data_code="17827429" name="Ice Arrow 5Lv"/>
+	<l10n_template data_code="17827441" name="Whirl Wind 1Lv"/>
+	<l10n_template data_code="17827442" name="Whirl Wind 2Lv"/>
+	<l10n_template data_code="17827443" name="Whirl Wind 3Lv"/>
+	<l10n_template data_code="17827457" name="Flare 1Lv"/>
+	<l10n_template data_code="17827458" name="Flare 2Lv"/>
+	<l10n_template data_code="17827459" name="Flare 3Lv"/>
+	<l10n_template data_code="17827473" name="Dead Sleep 1Lv"/>
+	<l10n_template data_code="17827474" name="Dead Sleep 2Lv"/>
+	<l10n_template data_code="17827475" name="Dead Sleep 3Lv"/>
+	<l10n_template data_code="17827489" name="Mana Regeneration 1Lv"/>
+	<l10n_template data_code="17827490" name="Mana Regeneration 2Lv"/>
+	<l10n_template data_code="17827491" name="Mana Regeneration 3Lv"/>
+	<l10n_template data_code="17827505" name="Bind Of Nature 1Lv"/>
+	<l10n_template data_code="17827506" name="Bind Of Nature 2Lv"/>
+	<l10n_template data_code="17827507" name="Bind Of Nature 3Lv"/>
+	<l10n_template data_code="17827521" name="Acquire Mana 1Lv"/>
+	<l10n_template data_code="17827522" name="Acquire Mana 2Lv"/>
+	<l10n_template data_code="17827523" name="Acquire Mana 3Lv"/>
+	<l10n_template data_code="17827537" name="Basic Knowledge 1Lv"/>
+	<l10n_template data_code="17827538" name="Basic Knowledge 2Lv"/>
+	<l10n_template data_code="17827539" name="Basic Knowledge 3Lv"/>
+	<l10n_template data_code="17829009" name="Piercing Arrow 1Lv"/>
+	<l10n_template data_code="17829010" name="Piercing Arrow 2Lv"/>
+	<l10n_template data_code="17829011" name="Piercing Arrow 3Lv"/>
+	<l10n_template data_code="17829012" name="Piercing Arrow 4Lv"/>
+	<l10n_template data_code="17829013" name="Piercing Arrow 5Lv"/>
+	<l10n_template data_code="17829025" name="Assault_Fire 1Lv"/>
+	<l10n_template data_code="17829026" name="Assault_Fire 2Lv"/>
+	<l10n_template data_code="17829027" name="Assault_Fire 3Lv"/>
+	<l10n_template data_code="17829028" name="Assault_Fire 4Lv"/>
+	<l10n_template data_code="17829029" name="Assault_Fire 5Lv"/>
+	<l10n_template data_code="17829041" name="Mortal Venom 1Lv"/>
+	<l10n_template data_code="17829042" name="Mortal Venom 2Lv"/>
+	<l10n_template data_code="17829043" name="Mortal Venom 3Lv"/>
+	<l10n_template data_code="17829044" name="Mortal Venom 4Lv"/>
+	<l10n_template data_code="17829045" name="Mortal Venom 5Lv"/>
+	<l10n_template data_code="17829057" name="Spark Arrow 1Lv"/>
+	<l10n_template data_code="17829058" name="Spark Arrow 2Lv"/>
+	<l10n_template data_code="17829059" name="Spark Arrow 3Lv"/>
+	<l10n_template data_code="17829073" name="Fireworks 1Lv"/>
+	<l10n_template data_code="17829074" name="Fireworks 2Lv"/>
+	<l10n_template data_code="17829075" name="Fireworks 3Lv"/>
+	<l10n_template data_code="17829089" name="Poison Arrow 1Lv"/>
+	<l10n_template data_code="17829090" name="Poison Arrow 2Lv"/>
+	<l10n_template data_code="17829091" name="Poison Arrow 3Lv"/>
+	<l10n_template data_code="17829105" name="Sleep Arrow 1Lv"/>
+	<l10n_template data_code="17829106" name="Sleep Arrow 2Lv"/>
+	<l10n_template data_code="17829107" name="Sleep Arrow 3Lv"/>
+	<l10n_template data_code="17829121" name="Smoke Projectile 1Lv"/>
+	<l10n_template data_code="17829122" name="Smoke Projectile 2Lv"/>
+	<l10n_template data_code="17829123" name="Smoke Projectile 3Lv"/>
+	<l10n_template data_code="17829137" name="Mental Strengthen 1Lv"/>
+	<l10n_template data_code="17829138" name="Mental Strengthen 2Lv"/>
+	<l10n_template data_code="17829139" name="Mental Strengthen 3Lv"/>
+	<l10n_template data_code="17830609" name="Execution 1Lv"/>
+	<l10n_template data_code="17830610" name="Execution 2Lv"/>
+	<l10n_template data_code="17830611" name="Execution 3Lv"/>
+	<l10n_template data_code="17830625" name="Rest 1Lv"/>
+	<l10n_template data_code="17830626" name="Rest 2Lv"/>
+	<l10n_template data_code="17830627" name="Rest 3Lv"/>
+	<l10n_template data_code="17830641" name="Building Repair 1Lv"/>
+	<l10n_template data_code="17830642" name="Building Repair 2Lv"/>
+	<l10n_template data_code="17830643" name="Building Repair 3Lv"/>
+	<l10n_template data_code="17830657" name="Hold Battle Position 1Lv"/>
+	<l10n_template data_code="17830658" name="Hold Battle Position 2Lv"/>
+	<l10n_template data_code="17830659" name="Hold Battle Position 3Lv"/>
+	<l10n_template data_code="17830673" name="Unhold Battle Position 1Lv"/>
+	<l10n_template data_code="17830674" name="Unhold Battle Position 2Lv"/>
+	<l10n_template data_code="17830675" name="Unhold Battle Position 3Lv"/>
+	<l10n_template data_code="17832209" name="Blade Storm 1Lv"/>
+	<l10n_template data_code="17832210" name="Blade Storm 2Lv"/>
+	<l10n_template data_code="17832211" name="Blade Storm 3Lv"/>
+	<l10n_template data_code="17832225" name="Sense Destruction 1Lv"/>
+	<l10n_template data_code="17832226" name="Sense Destruction 2Lv"/>
+	<l10n_template data_code="17832227" name="Sense Destruction 3Lv"/>
+	<l10n_template data_code="17832241" name="Attack instinct 1Lv"/>
+	<l10n_template data_code="17832242" name="Attack instinct 2Lv"/>
+	<l10n_template data_code="17832243" name="Attack instinct 3Lv"/>
+	<l10n_template data_code="17832257" name="Orders 1Lv"/>
+	<l10n_template data_code="17832258" name="Orders 2Lv"/>
+	<l10n_template data_code="17832259" name="Orders 3Lv"/>
+	<l10n_template data_code="17832273" name="Outrageous Attack 1Lv"/>
+	<l10n_template data_code="17832274" name="Outrageous Attack 2Lv"/>
+	<l10n_template data_code="17832275" name="Outrageous Attack 3Lv"/>
+	<l10n_template data_code="17832289" name="Unbeatable Determination 1Lv"/>
+	<l10n_template data_code="17832290" name="Unbeatable Determination 2Lv"/>
+	<l10n_template data_code="17832291" name="Unbeatable Determination 3Lv"/>
+	<l10n_template data_code="17832305" name="Defens instinct 1Lv"/>
+	<l10n_template data_code="17832306" name="Defens instinct 2Lv"/>
+	<l10n_template data_code="17832307" name="Defens instinct 3Lv"/>
+	<l10n_template data_code="17832321" name="Unbeatable Attack 1Lv"/>
+	<l10n_template data_code="17832322" name="Unbeatable Attack 2Lv"/>
+	<l10n_template data_code="17832323" name="Unbeatable Attack 3Lv"/>
+	<l10n_template data_code="17832337" name="Charge 1Lv"/>
+	<l10n_template data_code="17832338" name="Charge 2Lv"/>
+	<l10n_template data_code="17832339" name="Charge 3Lv"/>
+	<l10n_template data_code="17832353" name="Frenzy 1Lv"/>
+	<l10n_template data_code="17832354" name="Frenzy 2Lv"/>
+	<l10n_template data_code="17832355" name="Frenzy 3Lv"/>
+	<l10n_template data_code="17832369" name="Intimidation 1Lv"/>
+	<l10n_template data_code="17832370" name="Intimidation 2Lv"/>
+	<l10n_template data_code="17832371" name="Intimidation 3Lv"/>
+	<l10n_template data_code="17832385" name="Provocation 1Lv"/>
+	<l10n_template data_code="17832386" name="Provocation 2Lv"/>
+	<l10n_template data_code="17832387" name="Provocation 3Lv"/>
+	<l10n_template data_code="17832401" name="Shield Bash 1Lv"/>
+	<l10n_template data_code="17832402" name="Shield Bash 2Lv"/>
+	<l10n_template data_code="17832403" name="Shield Bash 3Lv"/>
+	<l10n_template data_code="17832417" name="Shout 1Lv"/>
+	<l10n_template data_code="17832418" name="Shout 2Lv"/>
+	<l10n_template data_code="17832419" name="Shout 3Lv"/>
+	<l10n_template data_code="17835409" name="Mental Disturbing 1Lv"/>
+	<l10n_template data_code="17835410" name="Mental Disturbing 2Lv"/>
+	<l10n_template data_code="17835411" name="Mental Disturbing 3Lv"/>
+	<l10n_template data_code="17835425" name="Lure of Death 1Lv"/>
+	<l10n_template data_code="17835426" name="Lure of Death 2Lv"/>
+	<l10n_template data_code="17835427" name="Lure of Death 3Lv"/>
+	<l10n_template data_code="17835441" name="Flame Spear 1Lv"/>
+	<l10n_template data_code="17835442" name="Flame Spear 2Lv"/>
+	<l10n_template data_code="17835443" name="Flame Spear 3Lv"/>
+	<l10n_template data_code="17835457" name="Ice Barrier 1Lv"/>
+	<l10n_template data_code="17835458" name="Ice Barrier 2Lv"/>
+	<l10n_template data_code="17835459" name="Ice Barrier 3Lv"/>
+	<l10n_template data_code="17835473" name="Mental Destruction 1Lv"/>
+	<l10n_template data_code="17835474" name="Mental Destruction 2Lv"/>
+	<l10n_template data_code="17835475" name="Mental Destruction 3Lv"/>
+	<l10n_template data_code="17835489" name="Permanent Blaze 1Lv"/>
+	<l10n_template data_code="17835490" name="Permanent Blaze 2Lv"/>
+	<l10n_template data_code="17835491" name="Permanent Blaze 3Lv"/>
+	<l10n_template data_code="17835505" name="Mana Shield 1Lv" desc="대량의 마나를 소모해 %caster_activate_mil_sec_1초 동안 적의 공격을 모조리 막아냅니다."/>
+	<l10n_template data_code="17835506" name="Mana Shield 2Lv" desc="대량의 마나를 소모해 %caster_activate_mil_sec_1초 동안 적의 공격을 모조리 막아냅니다."/>
+	<l10n_template data_code="17835507" name="Mana Shield 3Lv" desc="대량의 마나를 소모해 %caster_activate_mil_sec_1초 동안 적의 공격을 모조리 막아냅니다."/>
+	<l10n_template data_code="17835521" name="Freezing 1Lv"/>
+	<l10n_template data_code="17835522" name="Freezing 2Lv"/>
+	<l10n_template data_code="17835523" name="Freezing 3Lv"/>
+	<l10n_template data_code="17835537" name="Mental Collapse 1Lv"/>
+	<l10n_template data_code="17835538" name="Mental Collapse 2Lv"/>
+	<l10n_template data_code="17835539" name="Mental Collapse 3Lv"/>
+	<l10n_template data_code="17835553" name="Body Aging 1Lv"/>
+	<l10n_template data_code="17835554" name="Body Aging 2Lv"/>
+	<l10n_template data_code="17835555" name="Body Aging 3Lv"/>
+	<l10n_template data_code="17835569" name="Ethereal Body 1Lv" desc="자신에게 걸린 정신력 약화, 봉인, 변이, 스턴 상태를 벗어날 수 있습니다. "/>
+	<l10n_template data_code="17835570" name="Ethereal Body 2Lv" desc="자신에게 걸린 정신력 약화, 봉인, 변이, 스턴 상태를 벗어날 수 있습니다. "/>
+	<l10n_template data_code="17835571" name="Ethereal Body 3Lv" desc="자신에게 걸린 정신력 약화, 봉인, 변이, 스턴 상태를 벗어날 수 있습니다. "/>
+	<l10n_template data_code="17838609" name="Mayhem 1Lv"/>
+	<l10n_template data_code="17838610" name="Mayhem 2Lv"/>
+	<l10n_template data_code="17838611" name="Mayhem 3Lv"/>
+	<l10n_template data_code="17838625" name="Lie 1Lv"/>
+	<l10n_template data_code="17838626" name="Lie 2Lv"/>
+	<l10n_template data_code="17838627" name="Lie 3Lv"/>
+	<l10n_template data_code="17838641" name="Overwhelm 1Lv"/>
+	<l10n_template data_code="17838642" name="Overwhelm 2Lv"/>
+	<l10n_template data_code="17838643" name="Overwhelm 3Lv"/>
+	<l10n_template data_code="17838657" name="Stamina Absorption 1Lv"/>
+	<l10n_template data_code="17838658" name="Stamina Absorption 2Lv"/>
+	<l10n_template data_code="17838659" name="Stamina Absorption 3Lv"/>
+	<l10n_template data_code="17838673" name="Disarm 1Lv"/>
+	<l10n_template data_code="17838674" name="Disarm 2Lv"/>
+	<l10n_template data_code="17838675" name="Disarm 3Lv"/>
+	<l10n_template data_code="17838689" name="Stamina Robbing 1Lv"/>
+	<l10n_template data_code="17838690" name="Stamina Robbing 2Lv"/>
+	<l10n_template data_code="17838691" name="Stamina Robbing 3Lv"/>
+	<l10n_template data_code="17838705" name="Sneak 1Lv"/>
+	<l10n_template data_code="17838706" name="Sneak 2Lv"/>
+	<l10n_template data_code="17838707" name="Sneak 3Lv"/>
+	<l10n_template data_code="17838721" name="Ambush 1Lv"/>
+	<l10n_template data_code="17838722" name="Ambush 2Lv"/>
+	<l10n_template data_code="17838723" name="Ambush 3Lv"/>
+	<l10n_template data_code="17838737" name="Waylay 1Lv"/>
+	<l10n_template data_code="17838738" name="Waylay 2Lv"/>
+	<l10n_template data_code="17838739" name="Waylay 3Lv"/>
+	<l10n_template data_code="17838753" name="Sense Acceleration 1Lv"/>
+	<l10n_template data_code="17838754" name="Sense Acceleration 2Lv"/>
+	<l10n_template data_code="17838755" name="Sense Acceleration 3Lv"/>
+	<l10n_template data_code="17838769" name="Vision strengthen 1Lv"/>
+	<l10n_template data_code="17838770" name="Vision strengthen 2Lv"/>
+	<l10n_template data_code="17838771" name="Vision strengthen 3Lv"/>
+	<l10n_template data_code="17841809" name="Blood Frenzy 1Lv"/>
+	<l10n_template data_code="17841810" name="Blood Frenzy 2Lv"/>
+	<l10n_template data_code="17841811" name="Blood Frenzy 3Lv"/>
+	<l10n_template data_code="17841825" name="Beast instinct 1LV"/>
+	<l10n_template data_code="17841826" name="Beast instinct 2LV"/>
+	<l10n_template data_code="17841827" name="Beast instinct 3LV"/>
+	<l10n_template data_code="17841841" name="Frenzy 1LV"/>
+	<l10n_template data_code="17841842" name="Frenzy 2LV"/>
+	<l10n_template data_code="17841843" name="Frenzy 3LV"/>
+	<l10n_template data_code="17841857" name="Anger's Shouts 1Lv"/>
+	<l10n_template data_code="17841858" name="Anger's Shouts 2Lv"/>
+	<l10n_template data_code="17841859" name="Anger's Shouts 3Lv"/>
+	<l10n_template data_code="17845009" name="Amputation 1Lv"/>
+	<l10n_template data_code="17845010" name="Amputation 2Lv"/>
+	<l10n_template data_code="17845011" name="Amputation 3Lv"/>
+	<l10n_template data_code="17845025" name="Desperately 1Lv"/>
+	<l10n_template data_code="17845026" name="Desperately 2Lv"/>
+	<l10n_template data_code="17845027" name="Desperately 3Lv"/>
+	<l10n_template data_code="17845041" name="Crazy Blow 1Lv"/>
+	<l10n_template data_code="17845042" name="Crazy Blow 2Lv"/>
+	<l10n_template data_code="17845043" name="Crazy Blow 3Lv"/>
+	<l10n_template data_code="17845057" name="Tackle 1Lv"/>
+	<l10n_template data_code="17845058" name="Tackle 2Lv"/>
+	<l10n_template data_code="17845059" name="Tackle 3Lv"/>
+	<l10n_template data_code="17845073" name="Force's emission 1Lv"/>
+	<l10n_template data_code="17845074" name="Force's emission 2Lv"/>
+	<l10n_template data_code="17845075" name="Force's emission 3Lv"/>
+	<l10n_template data_code="17848209" name="Combat rely 1Lv"/>
+	<l10n_template data_code="17848210" name="Combat rely 2Lv"/>
+	<l10n_template data_code="17848211" name="Combat rely 3Lv"/>
+	<l10n_template data_code="17848225" name="Battle Orders 1Lv"/>
+	<l10n_template data_code="17848226" name="Battle Orders 2Lv"/>
+	<l10n_template data_code="17848227" name="Battle Orders 3Lv"/>
+	<l10n_template data_code="17848241" name="Mental armament 1Lv"/>
+	<l10n_template data_code="17848242" name="Mental armament 2Lv"/>
+	<l10n_template data_code="17848243" name="Mental armament 3Lv"/>
+	<l10n_template data_code="17848257" name="Mana's Shouts 1Lv"/>
+	<l10n_template data_code="17848258" name="Mana's Shouts 2Lv"/>
+	<l10n_template data_code="17848259" name="Mana's Shouts 3Lv"/>
+	<l10n_template data_code="17848273" name="Charging 1Lv"/>
+	<l10n_template data_code="17848274" name="Charging 2Lv"/>
+	<l10n_template data_code="17848275" name="Charging 3Lv"/>
+	<l10n_template data_code="17851409" name="Pillar Of Fire 1Lv"/>
+	<l10n_template data_code="17851410" name="Pillar Of Fire 2Lv"/>
+	<l10n_template data_code="17851411" name="Pillar Of Fire 3Lv"/>
+	<l10n_template data_code="17851425" name="Cyclonic 1Lv"/>
+	<l10n_template data_code="17851426" name="Cyclonic 2Lv"/>
+	<l10n_template data_code="17851427" name="Cyclonic 3Lv"/>
+	<l10n_template data_code="17851441" name="Hard Frost 1Lv"/>
+	<l10n_template data_code="17851442" name="Hard Frost 2Lv"/>
+	<l10n_template data_code="17851443" name="Hard Frost 3Lv"/>
+	<l10n_template data_code="17851457" name="Rock Burst 1Lv"/>
+	<l10n_template data_code="17851458" name="Rock Burst 2Lv"/>
+	<l10n_template data_code="17851459" name="Rock Burst 3Lv"/>
+	<l10n_template data_code="17851473" name="Curse 1Lv"/>
+	<l10n_template data_code="17851474" name="Curse 2Lv"/>
+	<l10n_template data_code="17851475" name="Curse 3Lv"/>
+	<l10n_template data_code="17854609" name="Meteor Recall 1Lv"/>
+	<l10n_template data_code="17854610" name="Meteor Recall 2Lv"/>
+	<l10n_template data_code="17854611" name="Meteor Recall 3Lv"/>
+	<l10n_template data_code="17854625" name="Flame Jet 1Lv"/>
+	<l10n_template data_code="17854626" name="Flame Jet 2Lv"/>
+	<l10n_template data_code="17854627" name="Flame Jet 3Lv"/>
+	<l10n_template data_code="17854641" name="Activation 1Lv"/>
+	<l10n_template data_code="17854642" name="Activation 2Lv"/>
+	<l10n_template data_code="17854643" name="Activation 3Lv"/>
+	<l10n_template data_code="17854657" name="Lightning 1Lv"/>
+	<l10n_template data_code="17854658" name="Lightning 2Lv"/>
+	<l10n_template data_code="17854659" name="Lightning 3Lv"/>
+	<l10n_template data_code="17854673" name="Divine Flame 1Lv"/>
+	<l10n_template data_code="17854674" name="Divine Flame 2Lv"/>
+	<l10n_template data_code="17854675" name="Divine Flame 3Lv"/>
+	<l10n_template data_code="17854689" name="Navigation 1Lv" desc="주변을 탐색 마법을 시전하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17854690" name="Navigation 2Lv" desc="주변을 탐색 마법을 시전하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17854691" name="Navigation 3Lv" desc="주변을 탐색 마법을 시전하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17857809" name="Purify 1Lv"/>
+	<l10n_template data_code="17857810" name="Purify 2Lv"/>
+	<l10n_template data_code="17857811" name="Purify 3Lv"/>
+	<l10n_template data_code="17857825" name="Tempest 1Lv"/>
+	<l10n_template data_code="17857826" name="Tempest 2Lv"/>
+	<l10n_template data_code="17857827" name="Tempest 3Lv"/>
+	<l10n_template data_code="17857841" name="Blizzard 1Lv"/>
+	<l10n_template data_code="17857842" name="Blizzard 2Lv"/>
+	<l10n_template data_code="17857843" name="Blizzard 3Lv"/>
+	<l10n_template data_code="17857857" name="Root Of Life 1Lv" desc="상대의 체력을 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="17857858" name="Root Of Life 2Lv" desc="상대의 체력을 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="17857859" name="Root Of Life 3Lv" desc="상대의 체력을 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="17857873" name="Leaf Of Life 1Lv" desc="자신의 마나를 소모해 상대를 부활시킵니다."/>
+	<l10n_template data_code="17857874" name="Leaf Of Life 2Lv" desc="자신의 마나를 소모해 상대를 부활시킵니다."/>
+	<l10n_template data_code="17857875" name="Leaf Of Life 3Lv" desc="자신의 마나를 소모해 상대를 부활시킵니다."/>
+	<l10n_template data_code="17857889" name="Lifeline 1Lv"/>
+	<l10n_template data_code="17857890" name="Lifeline 2Lv"/>
+	<l10n_template data_code="17857891" name="Lifeline 3Lv"/>
+	<l10n_template data_code="17861009" name="Secret Weapon 1Lv"/>
+	<l10n_template data_code="17861010" name="Secret Weapon 2Lv"/>
+	<l10n_template data_code="17861011" name="Secret Weapon 3Lv"/>
+	<l10n_template data_code="17861025" name="Frost Arrows 1Lv"/>
+	<l10n_template data_code="17861026" name="Frost Arrows 2Lv"/>
+	<l10n_template data_code="17861027" name="Frost Arrows 3Lv"/>
+	<l10n_template data_code="17861041" name="Shock Arrows 1Lv"/>
+	<l10n_template data_code="17861042" name="Shock Arrows 2Lv"/>
+	<l10n_template data_code="17861043" name="Shock Arrows 3Lv"/>
+	<l10n_template data_code="17861057" name="Weakening region 1Lv"/>
+	<l10n_template data_code="17861058" name="Weakening region 2Lv"/>
+	<l10n_template data_code="17861059" name="Weakening region 3Lv"/>
+	<l10n_template data_code="17861073" name="Brainstorm 1Lv"/>
+	<l10n_template data_code="17861074" name="Brainstorm 2Lv"/>
+	<l10n_template data_code="17861075" name="Brainstorm 3Lv"/>
+	<l10n_template data_code="17864209" name="Sniping 1Lv"/>
+	<l10n_template data_code="17864210" name="Sniping 2Lv"/>
+	<l10n_template data_code="17864211" name="Sniping 3Lv"/>
+	<l10n_template data_code="17864225" name="Observation 1Lv" desc="주변을 탐색하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17864226" name="Observation 2Lv" desc="주변을 탐색하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17864227" name="Observation 3Lv" desc="주변을 탐색하여 숨어 있는 적을 찾아낼 때 사용합니다."/>
+	<l10n_template data_code="17864241" name="Flame Arrows 1Lv"/>
+	<l10n_template data_code="17864242" name="Flame Arrows 2Lv"/>
+	<l10n_template data_code="17864243" name="Flame Arrows 3Lv"/>
+	<l10n_template data_code="17864257" name="Fire Hell 1Lv"/>
+	<l10n_template data_code="17864258" name="Fire Hell 2Lv"/>
+	<l10n_template data_code="17864259" name="Fire Hell 3Lv"/>
+	<l10n_template data_code="17864273" name="Fire sea 1Lv"/>
+	<l10n_template data_code="17864274" name="Fire sea 2Lv"/>
+	<l10n_template data_code="17864275" name="Fire sea 3Lv"/>
+	<l10n_template data_code="17867409" name="Vengeance 1Lv"/>
+	<l10n_template data_code="17867410" name="Vengeance 2Lv"/>
+	<l10n_template data_code="17867411" name="Vengeance 3Lv"/>
+	<l10n_template data_code="17867425" name="Amputation 1Lv"/>
+	<l10n_template data_code="17867426" name="Amputation 2Lv"/>
+	<l10n_template data_code="17867427" name="Amputation 3Lv"/>
+	<l10n_template data_code="17867441" name="Infected Dagger 1Lv"/>
+	<l10n_template data_code="17867442" name="Infected Dagger 2Lv"/>
+	<l10n_template data_code="17867443" name="Infected Dagger 3Lv"/>
+	<l10n_template data_code="17867457" name="Sword Dancing 1Lv"/>
+	<l10n_template data_code="17867458" name="Sword Dancing 2Lv"/>
+	<l10n_template data_code="17867459" name="Sword Dancing 3Lv"/>
+	<l10n_template data_code="17867473" name="Shadow Shift 1Lv"/>
+	<l10n_template data_code="17867474" name="Shadow Shift 2Lv"/>
+	<l10n_template data_code="17867475" name="Shadow Shift 3Lv"/>
+	<l10n_template data_code="17867489" name="Assassination 1Lv"/>
+	<l10n_template data_code="17867490" name="Assassination 2Lv"/>
+	<l10n_template data_code="17867491" name="Assassination 3Lv"/>
+</l10n_table>

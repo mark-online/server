@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111041639">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_user_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_user_info
+GO
+
+CREATE PROCEDURE dbo.get_user_info
+  @account_id dbo.id_t
+AS
+
+  SET NOCOUNT ON
+    
+  -- character info.
+  SELECT c.id, c.nickname, c.class, c.zone_id, c.pos_x, c.pos_y, c.pos_z, c.pos_heading,
+    c.sex, c.current_level, c.level_step, c.exp, c.sp, c.hp, c.mp, c.cp, c.recovery_cp, c.character_state, 
+    c.chaotic, c.is_actionbar_lock, c.mercenary_point, ISNULL(gm.guild_id, 0), c.arena_point, c.public_quest_point, c.deserter_expired_at,
+    c.beginner_protection, c.max_bind_recall_count
+    FROM dbo.Characters AS c LEFT OUTER JOIN Guild_Members AS gm ON c.id = gm.character_id LEFT OUTER JOIN 
+    Guilds AS g ON g.id = gm.guild_id
+    WHERE c.account_id = @account_id AND c.delete_on = 0
+
+  -- last access character id
+  SELECT ISNULL(l.character_id, 0) 
+	FROM dbo.Last_Access_Characters AS l INNER JOIN dbo.Characters AS c ON l.character_id = c.id
+      WHERE l.account_id = @account_id AND c.delete_on = 0
+	
+  -- Quest Item
+  SELECT q.id, q.character_id, q.quest_item_code, q.usable_count, q.quest_code
+      FROM dbo.Quest_Inventories AS q INNER JOIN dbo.Characters AS c ON q.character_id = c.id
+      WHERE q.account_id = @account_id AND c.delete_on = 0
+	
+  -- inventory
+  SELECT i.id, i.character_id, i.inven_type, i.item_code, i.slot_id, i.item_count, i.expire_at
+    FROM dbo.Inventories AS i INNER JOIN dbo.Characters AS c ON i.character_id = c.id
+      WHERE i.account_id = @account_id AND c.delete_on = 0
+
+  -- equip item
+  SELECT e.character_id, e.inven_type, e.inventory_id, e.fragment_count, e.open_socket_count, e.socket_skill_code_1, e.socket_skill_code_2, e.socket_skill_code_3, e.socket_skill_code_4, e.socket_skill_code_5
+    FROM dbo.EquipItemInfos AS e INNER JOIN dbo.Characters AS c ON e.character_id = c.id
+      WHERE e.account_id = @account_id AND c.delete_on = 0
+	  	
+	
+  -- equipment
+  SELECT e.character_id, e.equip_part, e.inventory_id
+    FROM dbo.Equipments AS e INNER JOIN dbo.Characters AS c ON e.character_id = c.id
+      WHERE e.account_id = @account_id AND c.delete_on = 0
+
+  -- accessories
+  SELECT a.character_id, a.accessory_part, a.inventory_id
+    FROM dbo.Accessories AS a INNER JOIN dbo.Characters AS c ON a.character_id = c.id
+      WHERE a.account_id = @account_id AND c.delete_on = 0
+
+  -- skill
+  SELECT s.character_id, s.skill_code
+    FROM dbo.Skills AS s INNER JOIN dbo.Characters AS c ON s.character_id = c.id
+      WHERE s.account_id = @account_id AND c.delete_on = 0
+	
+  -- action bar
+  SELECT a.character_id, a.code_0, a.code_1, a.code_2, a.code_3, a.code_4, a.code_5, a.code_6, a.code_7, a.code_8, a.code_9, a.code_10, a.code_11
+    FROM dbo.ActionBars AS a INNER JOIN dbo.Characters AS c ON a.character_id = c.id
+      WHERE a.account_id = @account_id AND c.delete_on = 0
+	   ORDER BY a.character_id, a.count_id
+	
+  -- game money
+  SELECT g.character_id, g.game_money, g.bank_game_money, g.event_coin
+    FROM dbo.GameMonies AS g INNER JOIN dbo.Characters AS c ON g.character_id = c.id
+      WHERE g.account_id = @account_id AND c.delete_on = 0
+
+  -- bind recall
+  SELECT b.character_id, b.link_id, b.data_code, b.world_map_code, b.pos_x, b.pos_y, b.pos_z
+    FROM dbo.Bind_Recall_Infos AS b INNER JOIN dbo.Characters AS c ON b.character_id = c.id
+      WHERE b.account_id = @account_id AND c.delete_on = 0
+	
+  -- cooldown 
+  SELECT i.character_id, i.data_code, i.expire_at
+    FROM dbo.Cooldown_Infos AS i INNER JOIN dbo.Characters AS c ON i.character_id = c.id
+    WHERE i.account_id = @account_id AND c.delete_on = 0
+	
+
+  -- cooldown effect
+  SELECT i.character_id, i.effect_script_type, i.spell_group, i.value, i.tick, expire_activate_at
+    FROM dbo.Cooldown_Effect_Infos AS i INNER JOIN dbo.Characters AS c ON i.character_id = c.id
+    WHERE i.account_id = @account_id AND c.delete_on = 0
+
+
+  SET NOCOUNT OFF
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_user_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_user_info
+GO
+    </rollback>
+  </changeSet>
+  
+</databaseChangeLog>

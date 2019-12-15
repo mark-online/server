@@ -1,0 +1,2097 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\s2s">
+      <UniqueIdentifier>{112c7a2e-dadd-41f4-875e-112f98cfc267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\s2s\arena">
+      <UniqueIdentifier>{69ed2f28-b975-4c82-82d4-2486193a2409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{3e85d7e3-9b0c-4526-926e-ce90c1e37d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\gameobject">
+      <UniqueIdentifier>{281fd648-5a54-448e-8e8e-25eec0eaea2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\gameobject\ability">
+      <UniqueIdentifier>{e4d42006-31a6-4f43-ac30-39d6a1439135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\gameobject\ability\impl">
+      <UniqueIdentifier>{3102ea73-807a-43dc-84ac-0c51ad9db53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\gameobject\skilleffect">
+      <UniqueIdentifier>{c337000b-b196-43d1-b8a3-50df3edf6583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\gameobject\allocator">
+      <UniqueIdentifier>{dd3207e2-d797-4074-8e1e-34cfb7cf3ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\gameobject\building">
+      <UniqueIdentifier>{970d7bb9-34df-4ea8-ae53-454a65ec3763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\state">
+      <UniqueIdentifier>{ec8607c2-dd02-4e7a-91ac-de63bffd8f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\state\impl">
+      <UniqueIdentifier>{646c51e4-64d8-4de6-bba2-710f87ec11cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\item">
+      <UniqueIdentifier>{ce4eddb3-c823-42a8-bae7-e491c34cbbce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\item\impl">
+      <UniqueIdentifier>{18723244-8906-4a39-8df2-d7431942fe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\bank">
+      <UniqueIdentifier>{aeabe43a-e471-4f14-885a-f12d419e46b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\quest">
+      <UniqueIdentifier>{9d7cfa4b-06d7-4edf-8066-39cdc5535e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\time">
+      <UniqueIdentifier>{56af6ce5-e112-4844-9df0-05321bfef4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\c2s">
+      <UniqueIdentifier>{7a034df6-ea43-4655-940c-f78599e79f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world">
+      <UniqueIdentifier>{a57a9cdf-543d-47d7-8884-1dcac28f02fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world\region">
+      <UniqueIdentifier>{a423b1d8-fa2e-4140-ba67-c39077d62284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{e501c386-6cae-4386-984e-24e2df2bc4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\skill">
+      <UniqueIdentifier>{22e1937d-c155-4a7a-b7b0-9f71bc4fb9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\skill\helper">
+      <UniqueIdentifier>{01b688cf-b107-42f6-807f-1581c3272933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\time">
+      <UniqueIdentifier>{46b686e9-f54a-4a0f-9350-af9f1270e558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\spawn">
+      <UniqueIdentifier>{de04d2eb-a772-449d-ace8-69a7274b1a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\cheat">
+      <UniqueIdentifier>{6da0564a-a2c2-4459-924c-822300aa42d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\trade">
+      <UniqueIdentifier>{91704235-8faf-4034-b7cb-5dfb290df1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\inven">
+      <UniqueIdentifier>{9b27bc5a-ef2e-49d0-8cca-8746e6a37d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\teleport">
+      <UniqueIdentifier>{cad28bf4-2b9f-4cab-a198-e383995f7f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\party">
+      <UniqueIdentifier>{5f9ecf8f-124d-40a4-a427-739f2cebd540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\shard">
+      <UniqueIdentifier>{fb4ce54b-8cc3-43ea-8e75-f2d98e42e01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\anchor">
+      <UniqueIdentifier>{d5871038-4528-4748-953a-c211a5730ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\guild">
+      <UniqueIdentifier>{4ce9fc56-efd9-4bcc-bb44-6ffbdd8c7485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\mail">
+      <UniqueIdentifier>{bf485f8b-4461-4294-8cc3-cb7269fd7bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\auction">
+      <UniqueIdentifier>{458d4680-8553-4249-83f9-4c4c12e660a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\arena">
+      <UniqueIdentifier>{1e118930-4fc3-4279-bb7d-1900f2c8a160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\arena\mode">
+      <UniqueIdentifier>{dab14827-b0c2-4207-a83c-08997b0d80e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\user">
+      <UniqueIdentifier>{59a180c8-8363-4d88-b0dd-889ec1ea641c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\user\detail">
+      <UniqueIdentifier>{3622ee62-53c9-4c11-9d6e-cfa60df6c479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\formation">
+      <UniqueIdentifier>{daa8d83c-037d-4be2-9ede-1bd6171637cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\movement">
+      <UniqueIdentifier>{d89ff908-a696-4e8f-b9bf-b731c6f1856b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\distance">
+      <UniqueIdentifier>{c5ad06d3-f59b-4baf-b6f4-1ca29c9dfb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai">
+      <UniqueIdentifier>{e52cce5c-ef72-4ec1-b832-61fe2416960d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\state">
+      <UniqueIdentifier>{81779dfd-e5eb-4f7d-98a5-13fd33986fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\state\npc">
+      <UniqueIdentifier>{146cd828-51b5-4d3e-945a-b205faa3b817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\event">
+      <UniqueIdentifier>{2c0879dc-1a94-4a88-b7a1-14010115cab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\event\npc">
+      <UniqueIdentifier>{7ac132df-f185-4b69-b7e0-85ff131ef0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\evt">
+      <UniqueIdentifier>{4ea17bb7-9245-4715-90f6-a52be263ca42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\aggro">
+      <UniqueIdentifier>{545ac44b-b575-47a5-9aec-7fd316f4dd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helper">
+      <UniqueIdentifier>{4ce71b43-7f0f-4148-b9f6-26ee0fb9cf00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller">
+      <UniqueIdentifier>{5b89b450-a3bb-47e2-bbd2-f415534084e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\callback">
+      <UniqueIdentifier>{dafb637e-f2c3-4f08-91fb-af01d44e160d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\player">
+      <UniqueIdentifier>{80f1d081-f964-4752-8ad6-bb41b9af5460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller\npc">
+      <UniqueIdentifier>{6b404afd-0ff5-4584-9072-956f8d2ea19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\item">
+      <UniqueIdentifier>{4cff4c48-545e-4d67-a403-60f38059f5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\duel">
+      <UniqueIdentifier>{ff331edf-f38e-42fb-8428-9530bc284d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\state\building">
+      <UniqueIdentifier>{5b12a861-c2df-404b-86ae-8d5791ae3e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\world_event">
+      <UniqueIdentifier>{f631c496-2fdc-4acf-94f5-c872e52b5518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\world_event\state">
+      <UniqueIdentifier>{906becf4-9816-48ff-8838-b8fb6e944812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\world_event\callback">
+      <UniqueIdentifier>{abf85b66-9d9e-4955-89a7-450593137d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\gameobject\status">
+      <UniqueIdentifier>{4e7729dd-21da-4cc5-a674-47516a135517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\scripting">
+      <UniqueIdentifier>{0dbe2429-c94d-4d33-b4ab-d0ee5e1ec470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai\scripting\script">
+      <UniqueIdentifier>{e1e4a2f9-1778-48c6-b84d-dedd338efbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\achievement">
+      <UniqueIdentifier>{f2a7c89f-ee57-4e47-b675-25511ee0e911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model\environment">
+      <UniqueIdentifier>{30467e29-3cc9-4aa7-80ed-b7fe8d3f289f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\zoneserver\zoneserver_export.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ZoneServerApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ZoneServerPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ZoneService.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\s2s\ZoneArenaServerProxy.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\s2s\ZoneCommunityServerProxy.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\s2s\ZoneLoginServerProxy.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxy.h">
+      <Filter>Source Files\s2s\arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyFactory.h">
+      <Filter>Source Files\s2s\arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyManager.h">
+      <Filter>Source Files\s2s\arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Anchor.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Building.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Creature.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Device.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Dungeon.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Entity.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\EntityEvent.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\GameObject.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\GraveStone.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Harvest.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Npc.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Obelisk.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Player.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\RandomDungeon.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\StaticObject.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\Treasure.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ArenaMatchable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Buildable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Castable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CastCheckable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CastGameTimeable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Castnotificationable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Chaoable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ConsumeItemable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Dialogable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Effectable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\EntityAbility.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Factionable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Formable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\GliderMountable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\GraveStoneable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Guildable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Inventoryable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ItemCastable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Knowable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Liveable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Moveable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\OutsideInventoryable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Partyable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\PassiveSkillCastable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Positionable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Questable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\ResourcesProductionable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Rewardable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Skillable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SkillCastable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\StaticObjectCastable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\StaticObjectOwerable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Thinkable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Tickable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\VehicleMountable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastableImpl.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastNotificationableImpl.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\FactionableAbility.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\ItemCastableAbility.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\KnowableAbility.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\KnowableQueryFilter.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\SkillCastableAbility.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptApplier.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptCommand.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\EffectScriptApplier.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\EffectScriptCommand.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\EntityEffectScriptApplier.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkill.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkillApplierHelper.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptApplier.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptCommand.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\DeviceAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\EntityAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\HarvestAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\NpcAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\ObeliskAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\PlayerAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\RandomDungeonAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\TreasureAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingBuildState.h">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingCompleteState.h">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingFoundationState.h">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\building\BuildingState.h">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\CastState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\ChaoState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\CombatState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\CreatureState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\EntityStateAbility.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\GliderState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\HarvestState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\ItemManageState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\MoveState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\SkillCasterState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\TreasureState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\VehicleState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\impl\NpcState.h">
+      <Filter>Source Files\model\state\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\impl\PlayerState.h">
+      <Filter>Source Files\model\state\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\AccessoryInventory.h">
+      <Filter>Source Files\model\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\CastableItem.h">
+      <Filter>Source Files\model\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\EquipInventory.h">
+      <Filter>Source Files\model\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\Inventory.h">
+      <Filter>Source Files\model\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\PlayerInventories.h">
+      <Filter>Source Files\model\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\QuestInventory.h">
+      <Filter>Source Files\model\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\impl\CastableElementItem.h">
+      <Filter>Source Files\model\item\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\impl\CastableQuestItem.h">
+      <Filter>Source Files\model\item\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\bank\BankAccount.h">
+      <Filter>Source Files\model\bank</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\quest\AcceptedQuest.h">
+      <Filter>Source Files\model\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\quest\AcceptedRepeatQuest.h">
+      <Filter>Source Files\model\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\quest\CompletedQuest.h">
+      <Filter>Source Files\model\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\quest\CompletedRepeatQuest.h">
+      <Filter>Source Files\model\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\quest\Quest.h">
+      <Filter>Source Files\model\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\quest\QuestRepository.h">
+      <Filter>Source Files\model\quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\time\CastingTimer.h">
+      <Filter>Source Files\model\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\time\CoolDownTimer.h">
+      <Filter>Source Files\model\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\time\GlobalCoolDownTimer.h">
+      <Filter>Source Files\model\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\c2s\ZoneClientSession.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\c2s\ZoneClientSessionCallback.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\c2s\ZoneClientSessionFactory.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\Sector.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\SectorAddress.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\SectorDirection.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\World.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\WorldCallback.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\WorldClock.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\WorldMap.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\WorldMapCallback.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\WorldMapHelper.h">
+      <Filter>Source Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\region\MapRegion.h">
+      <Filter>Source Files\world\region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\region\NormalMapRegion.h">
+      <Filter>Source Files\world\region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\region\RegionTriggerManager.h">
+      <Filter>Source Files\world\region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\region\SpawnMapRegion.h">
+      <Filter>Source Files\world\region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\region\WorldMapSpawnMapRegion.h">
+      <Filter>Source Files\world\region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\CreatureSkill.h">
+      <Filter>Source Files\service\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\NpcSkill.h">
+      <Filter>Source Files\service\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\NpcSkillList.h">
+      <Filter>Source Files\service\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\PlayerSkill.h">
+      <Filter>Source Files\service\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\Skill.h">
+      <Filter>Source Files\service\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\SkillService.h">
+      <Filter>Source Files\service\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\StaticObjectSkill.h">
+      <Filter>Source Files\service\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\time\GameTimer.h">
+      <Filter>Source Files\service\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\spawn\EntityPool.h">
+      <Filter>Source Files\service\spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\spawn\SpawnService.h">
+      <Filter>Source Files\service\spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\trade\Trade.h">
+      <Filter>Source Files\service\trade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\trade\TradeManager.h">
+      <Filter>Source Files\service\trade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\inven\OrderInvenItemMoveService.h">
+      <Filter>Source Files\service\inven</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\teleport\TeleportService.h">
+      <Filter>Source Files\service\teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\party\Party.h">
+      <Filter>Source Files\service\party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\party\PartyPlayerHelper.h">
+      <Filter>Source Files\service\party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\party\PartyService.h">
+      <Filter>Source Files\service\party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\shard\ShardService.h">
+      <Filter>Source Files\service\shard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\anchor\AnchorService.h">
+      <Filter>Source Files\service\anchor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\anchor\BuildingMarkCallback.h">
+      <Filter>Source Files\service\anchor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\guild\Guild.h">
+      <Filter>Source Files\service\guild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\guild\GuildService.h">
+      <Filter>Source Files\service\guild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\mail\MailService.h">
+      <Filter>Source Files\service\mail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\auction\AuctionHouse.h">
+      <Filter>Source Files\service\auction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\auction\AuctionService.h">
+      <Filter>Source Files\service\auction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\ArenaService.h">
+      <Filter>Source Files\service\arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\ArenaServiceCallback.h">
+      <Filter>Source Files\service\arena</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\Arena.h">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaDualDeathMatchMode.h">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaEvents.h">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaMode.h">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaTeamDeathMatchMode.h">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\arena\mode\ArenaVSMode.h">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\user\ZoneUser.h">
+      <Filter>Source Files\service\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\user\ZoneUserAllocator.h">
+      <Filter>Source Files\service\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\user\ZoneUserManager.h">
+      <Filter>Source Files\service\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\user\detail\ZoneUserImpl.h">
+      <Filter>Source Files\service\user\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\formation\NpcFormation.h">
+      <Filter>Source Files\service\formation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\ChaseMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\ConfusedMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\FleeingMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\Movement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\MovementManager.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\PathMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\PointMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\ReturnMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\SeekAssistMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\WanderMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\distance\DistanceChecker.h">
+      <Filter>Source Files\service\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\Brain.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\BrainState.h">
+      <Filter>Source Files\ai\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\BrainStateMachine.h">
+      <Filter>Source Files\ai\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\GlobalBrainState.h">
+      <Filter>Source Files\ai\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\ActiveNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\AttackingNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\DialogNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\EvadingNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\FleeingNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\IdleNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\NpcBrainStateDef.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\NpcBrainStateFactory.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\RestingNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\SeekingAssistNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\npc\ThinkingNpcBrainState.h">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\BrainEvent.h">
+      <Filter>Source Files\ai\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\ActiveNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\AggressiveNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\AttackedNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\DialogRequestedNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\FearedNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\NothingTodoNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\NpcBrainEventDef.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\NpcBrainEventFactory.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\ReturnedNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\SeekAssistNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\ThreatedNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\event\npc\TiredNpcBrainEvent.h">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\Actions.h">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\Events.h">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\EventTrigger.h">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\EventTriggerDef.h">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\evt\EventTriggerManager.h">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\aggro\AggroList.h">
+      <Filter>Source Files\ai\aggro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\helper\CastEventCallback.h">
+      <Filter>Source Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\helper\InventoryHelper.h">
+      <Filter>Source Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\helper\RotatedRegionHelper.h">
+      <Filter>Source Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\AbstractAnchorController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\AnchorController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\BuildingController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\Controller.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\CreatureController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\CreatureEffectController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\DeviceController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\DungeonController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\EntityController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\GraveStoneController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\HarvestController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\MoveController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\NpcController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\ObeliskController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\PlayerController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\RandomDungeonController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\SkillController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\StaticObjectController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\TreasureController.h">
+      <Filter>Source Files\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AccessoryInventoryCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AnchorAbillityCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AnchorCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ArenaCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BotCommandCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildingStateCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildingTeleportCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CastCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ChaoCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ChatCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CheatCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CooldownCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CreatureEffectCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\DeviceCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\DialogCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EffectCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EmotionCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityControllerAbility.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EquipInventoryCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GliderCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GrowthCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GuildCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\HarvestCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\InterestAreaCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\InventoryCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\ItemCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\LifeStatusCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\MailCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\MovementCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\PartyCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\PassiveSkillCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\QuestCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\QuestInventoryCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\RewardCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\SkillCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\StaticObjectEffectCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\StatsCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\TeleportCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\TradeCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\TreasureCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\VehicleCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerAnchorController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerArenaController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerAuctionController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerBuildingController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerCastController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerDeviceController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerEffectController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerGraveStoneController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerGuildController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerHarvestController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerInventoryController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerItemController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerMailController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerMoveController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerNpcController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerOutsideInventoryController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerPartyController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerQuestController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerSkillController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerTeleportController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerTradeController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerTreasureController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\npc\NpcEffectController.h">
+      <Filter>Source Files\controller\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\npc\NpcMoveController.h">
+      <Filter>Source Files\controller\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\npc\NpcSkillController.h">
+      <Filter>Source Files\controller\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\helper\Utils.h">
+      <Filter>Source Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemCostService.h">
+      <Filter>Source Files\service\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\GraveStoneCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Moneyable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Protectionable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Networkable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Cheatable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Gliderable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Vehicleable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Teleportable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\AggroSendable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CombatStateable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Storeable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CharacterClassable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\cheat\CheatCommander.h">
+      <Filter>Source Files\service\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SOInventoryable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\item\LootItemInventory.h">
+      <Filter>Source Files\model\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\NpcTalkingCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerDuelController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\FieldDuelCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\state\FieldDuelState.h">
+      <Filter>Source Files\model\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\duel\DuelService.h">
+      <Filter>Source Files\service\duel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\duel\FieldDuel.h">
+      <Filter>Source Files\service\duel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\duel\DestoryDuelCallback.h">
+      <Filter>Source Files\service\duel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\FieldDuelable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SelectRecipeProductionable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\BuildingProductionInventoryable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\SelectProductionCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\BuildingProductionTaskCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Bankable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\SkillChecker.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\PlayerSkillChecker.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\StaticObjectSkillChecker.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\helper\CastChecker.h">
+      <Filter>Source Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\NpcSkillChecker.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\state\building\ActiveBuildingBrainState.h">
+      <Filter>Source Files\ai\state\building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\BuildingGuardable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\NpcHireable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEventService.h">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEvent.h">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEventMission.h">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventState.h">
+      <Filter>Source Files\service\world_event\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventWaitState.h">
+      <Filter>Source Files\service\world_event\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventPlayState.h">
+      <Filter>Source Files\service\world_event\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\world\region\WorldEventSpawnRegion.h">
+      <Filter>Source Files\world\region</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\WorldEventPhase.h">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\WorldEventable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\callback\WorldEventMissionCallback.h">
+      <Filter>Source Files\service\world_event\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerWorldEventController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\WorldEventCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\callback\WorldEventPlayCallback.h">
+      <Filter>Source Files\service\world_event\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\WorldEventPlayable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\state\WorldEventReadyState.h">
+      <Filter>Source Files\service\world_event\state</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\movement\IdleMovement.h">
+      <Filter>Source Files\service\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Marchable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\world_event\callback\WorldEventScoreCallback.h">
+      <Filter>Source Files\service\world_event\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Invadable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Summonable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\OutsideInventoryCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\StateBrain.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\BuildingStateBrain.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\NpcStateBrain.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemIdGenerator.h">
+      <Filter>Source Files\service\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\item\CastableItemService.h">
+      <Filter>Source Files\service\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CreatureStatusable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\CreatureStatus.h">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\NpcStatus.h">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\PlayerStatus.h">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\SOEffectHelper.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\NpcEffectHelper.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\PlayerEffectHelper.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\EffectHelper.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\skill\helper\CreatureEffectHelper.h">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\SkillLearnable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkillManager.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\PassiveEffectCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityActionCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemOptionService.h">
+      <Filter>Source Files\service\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\item\GraveStoneService.h">
+      <Filter>Source Files\service\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\service\item\ItemDropService.h">
+      <Filter>Source Files\service\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\helper\AddItemInfo.h">
+      <Filter>Source Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\ScriptedBrain.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\scripting\GameScriptManager.h">
+      <Filter>Source Files\ai\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\ai\BrainFactory.h">
+      <Filter>Source Files\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Craftable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CraftCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\helper\SkillTableHelper.h">
+      <Filter>Source Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\impl\AggroSendableImpl.h">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\TargetSelectable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityStatusCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\EntityEvents.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\WeaponUseable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\achievement\AchievementRepository.h">
+      <Filter>Source Files\model\achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerAchievementController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\AchievementCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\skilleffect\GuildSkillRepository.h">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\CharacterTitleable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\achievement\AchievementMission.h">
+      <Filter>Source Files\model\achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\achievement\AchievementHelper.h">
+      <Filter>Source Files\model\achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\ability\Achievementable.h">
+      <Filter>Source Files\model\gameobject\ability</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\player\PlayerCharacterTitleController.h">
+      <Filter>Source Files\controller\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\controller\callback\CharacterTitleCallback.h">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\AbstractAnchor.h">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\allocator\AnchorAllocator.h">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zoneserver\model\gameobject\status\StaticObjectStatus.h">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\zoneserver\ZoneServerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ZoneServerPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ZoneService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\s2s\ZoneArenaServerProxy.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\s2s\ZoneCommunityServerProxy.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\s2s\ZoneLoginServerProxy.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxy.cpp">
+      <Filter>Source Files\s2s\arena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyFactory.cpp">
+      <Filter>Source Files\s2s\arena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\s2s\arena\ArenaServerSideProxyManager.cpp">
+      <Filter>Source Files\s2s\arena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Anchor.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Building.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Creature.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Device.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Dungeon.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Entity.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\EntityEvent.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\GraveStone.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Harvest.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Npc.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Obelisk.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Player.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\RandomDungeon.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\StaticObject.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\Treasure.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastableImpl.cpp">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\CastNotificationableImpl.cpp">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\KnowableAbility.cpp">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptApplier.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\CreatureEffectScriptCommand.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\EffectScriptApplier.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkill.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptApplier.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\StaticObjectEffectScriptCommand.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\DeviceAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\HarvestAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\NpcAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\ObeliskAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\PlayerAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\RandomDungeonAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\TreasureAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingBuildState.cpp">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingCompleteState.cpp">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingFoundationState.cpp">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\state\impl\NpcState.cpp">
+      <Filter>Source Files\model\state\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\state\impl\PlayerState.cpp">
+      <Filter>Source Files\model\state\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\AccessoryInventory.cpp">
+      <Filter>Source Files\model\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\CastableItem.cpp">
+      <Filter>Source Files\model\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\EquipInventory.cpp">
+      <Filter>Source Files\model\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\Inventory.cpp">
+      <Filter>Source Files\model\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\PlayerInventories.cpp">
+      <Filter>Source Files\model\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\QuestInventory.cpp">
+      <Filter>Source Files\model\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\impl\CastableElementItem.cpp">
+      <Filter>Source Files\model\item\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\impl\CastableQuestItem.cpp">
+      <Filter>Source Files\model\item\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\bank\BankAccount.cpp">
+      <Filter>Source Files\model\bank</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\quest\AcceptedQuest.cpp">
+      <Filter>Source Files\model\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\quest\AcceptedRepeatQuest.cpp">
+      <Filter>Source Files\model\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\quest\QuestRepository.cpp">
+      <Filter>Source Files\model\quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\time\CastingTimer.cpp">
+      <Filter>Source Files\model\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\time\CoolDownTimer.cpp">
+      <Filter>Source Files\model\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\time\GlobalCoolDownTimer.cpp">
+      <Filter>Source Files\model\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\c2s\ZoneClientSession.cpp">
+      <Filter>Source Files\c2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\c2s\ZoneClientSessionFactory.cpp">
+      <Filter>Source Files\c2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\Sector.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\World.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\WorldClock.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\WorldMap.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\region\MapRegion.cpp">
+      <Filter>Source Files\world\region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\region\NormalMapRegion.cpp">
+      <Filter>Source Files\world\region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\region\RegionTriggerManager.cpp">
+      <Filter>Source Files\world\region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\region\SpawnMapRegion.cpp">
+      <Filter>Source Files\world\region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\region\WorldMapSpawnMapRegion.cpp">
+      <Filter>Source Files\world\region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\CreatureSkill.cpp">
+      <Filter>Source Files\service\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\NpcSkill.cpp">
+      <Filter>Source Files\service\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\PlayerSkill.cpp">
+      <Filter>Source Files\service\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\Skill.cpp">
+      <Filter>Source Files\service\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\SkillService.cpp">
+      <Filter>Source Files\service\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\StaticObjectSkill.cpp">
+      <Filter>Source Files\service\skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\time\GameTimer.cpp">
+      <Filter>Source Files\service\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\spawn\SpawnService.cpp">
+      <Filter>Source Files\service\spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\trade\Trade.cpp">
+      <Filter>Source Files\service\trade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\trade\TradeManager.cpp">
+      <Filter>Source Files\service\trade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\inven\OrderInvenItemMoveService.cpp">
+      <Filter>Source Files\service\inven</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\teleport\TeleportService.cpp">
+      <Filter>Source Files\service\teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\party\Party.cpp">
+      <Filter>Source Files\service\party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\party\PartyService.cpp">
+      <Filter>Source Files\service\party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\shard\ShardService.cpp">
+      <Filter>Source Files\service\shard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\anchor\AnchorService.cpp">
+      <Filter>Source Files\service\anchor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\guild\Guild.cpp">
+      <Filter>Source Files\service\guild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\guild\GuildService.cpp">
+      <Filter>Source Files\service\guild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\mail\MailService.cpp">
+      <Filter>Source Files\service\mail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\auction\AuctionHouse.cpp">
+      <Filter>Source Files\service\auction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\auction\AuctionService.cpp">
+      <Filter>Source Files\service\auction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\arena\ArenaService.cpp">
+      <Filter>Source Files\service\arena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\Arena.cpp">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaDualDeathMatchMode.cpp">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaMode.cpp">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaTeamDeathMatchMode.cpp">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\arena\mode\ArenaVSMode.cpp">
+      <Filter>Source Files\service\arena\mode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\user\ZoneUserManager.cpp">
+      <Filter>Source Files\service\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\user\detail\ZoneUserImpl.cpp">
+      <Filter>Source Files\service\user\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\formation\NpcFormation.cpp">
+      <Filter>Source Files\service\formation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\ChaseMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\ConfusedMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\FleeingMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\MovementManager.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\PathMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\PointMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\ReturnMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\SeekAssistMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\movement\WanderMovement.cpp">
+      <Filter>Source Files\service\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\distance\DistanceChecker.cpp">
+      <Filter>Source Files\service\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\Brain.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\state\BrainStateMachine.cpp">
+      <Filter>Source Files\ai\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\state\npc\NpcBrainStateFactory.cpp">
+      <Filter>Source Files\ai\state\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\event\npc\NpcBrainEventFactory.cpp">
+      <Filter>Source Files\ai\event\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\Actions.cpp">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\Events.cpp">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\EventTrigger.cpp">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\evt\EventTriggerManager.cpp">
+      <Filter>Source Files\ai\evt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\aggro\AggroList.cpp">
+      <Filter>Source Files\ai\aggro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\helper\RotatedRegionHelper.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\AbstractAnchorController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\AnchorController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\BuildingController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\CreatureController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\CreatureEffectController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\DeviceController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\DungeonController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\EntityController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\GraveStoneController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\HarvestController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\MoveController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\NpcController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\ObeliskController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\PlayerController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\RandomDungeonController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\SkillController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\StaticObjectController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\TreasureController.cpp">
+      <Filter>Source Files\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerAnchorController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerArenaController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerAuctionController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerBuildingController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerCastController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerDeviceController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerEffectController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerGraveStoneController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerGuildController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerHarvestController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerInventoryController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerItemController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerMailController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerMoveController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerNpcController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerOutsideInventoryController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerPartyController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerQuestController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerSkillController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerTeleportController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerTradeController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerTreasureController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\npc\NpcEffectController.cpp">
+      <Filter>Source Files\controller\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\npc\NpcMoveController.cpp">
+      <Filter>Source Files\controller\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\npc\NpcSkillController.cpp">
+      <Filter>Source Files\controller\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemCostService.cpp">
+      <Filter>Source Files\service\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\cheat\CheatCommander.cpp">
+      <Filter>Source Files\service\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\item\LootItemInventory.cpp">
+      <Filter>Source Files\model\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerDuelController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\duel\DuelService.cpp">
+      <Filter>Source Files\service\duel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\duel\FieldDuel.cpp">
+      <Filter>Source Files\service\duel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\building\BuildingState.cpp">
+      <Filter>Source Files\model\gameobject\building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\SkillChecker.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\PlayerSkillChecker.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\StaticObjectSkillChecker.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\helper\CastChecker.cpp">
+      <Filter>Source Files\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\NpcSkillChecker.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEventService.cpp">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEvent.cpp">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEventMission.cpp">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\state\WorldEventWaitState.cpp">
+      <Filter>Source Files\service\world_event\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\state\WorldEventPlayState.cpp">
+      <Filter>Source Files\service\world_event\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\world\region\WorldEventSpawnRegion.cpp">
+      <Filter>Source Files\world\region</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\WorldEventPhase.cpp">
+      <Filter>Source Files\service\world_event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerWorldEventController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\world_event\state\WorldEventReadyState.cpp">
+      <Filter>Source Files\service\world_event\state</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\StateBrain.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\BuildingStateBrain.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\NpcStateBrain.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\item\CastableItemService.cpp">
+      <Filter>Source Files\service\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemIdGenerator.cpp">
+      <Filter>Source Files\service\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\CreatureStatus.cpp">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\NpcStatus.cpp">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\PlayerStatus.cpp">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\NpcEffectHelper.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\PlayerEffectHelper.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\EffectHelper.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\SOEffectHelper.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\skill\helper\CreatureEffectHelper.cpp">
+      <Filter>Source Files\service\skill\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\PassiveSkillManager.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemOptionService.cpp">
+      <Filter>Source Files\service\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\item\GraveStoneService.cpp">
+      <Filter>Source Files\service\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\service\item\ItemDropService.cpp">
+      <Filter>Source Files\service\item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\ScriptedBrain.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\scripting\GameScriptManager.cpp">
+      <Filter>Source Files\ai\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\BrainFactory.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\ai\scripting\scripts\MedicNpcScript.cpp">
+      <Filter>Source Files\ai\scripting\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\ability\impl\AggroSendableImpl.cpp">
+      <Filter>Source Files\model\gameobject\ability\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\callback\EntityEvents.cpp">
+      <Filter>Source Files\controller\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\achievement\AchievementRepository.cpp">
+      <Filter>Source Files\model\achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerAchievementController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\skilleffect\GuildSkillRepository.cpp">
+      <Filter>Source Files\model\gameobject\skilleffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\achievement\AchievementMission.cpp">
+      <Filter>Source Files\model\achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\controller\player\PlayerCharacterTitleController.cpp">
+      <Filter>Source Files\controller\player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\AbstractAnchor.cpp">
+      <Filter>Source Files\model\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\allocator\AnchorAllocator.cpp">
+      <Filter>Source Files\model\gameobject\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zoneserver\model\gameobject\status\StaticObjectStatus.cpp">
+      <Filter>Source Files\model\gameobject\status</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

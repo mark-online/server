@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201205011320">
+    <createTable tableName="Bans" remarks="appearance table">
+      <column name="ban_mode" type="tinyint">
+        <constraints nullable="false"/>
+      </column>
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="ip_address" type="VARCHAR(30)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="begin_at" type="SMALLDATETIME">
+        <constraints nullable="false"/>
+      </column>
+      <column name="end_at" type="SMALLDATETIME">
+        <constraints nullable="false"/>
+      </column>
+      <column name="reason" type="VARCHAR(128)">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110311904" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.insert_mail') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.insert_mail
+GO
+
+
+CREATE PROCEDURE dbo.insert_mail
+    @mail_id dbo.id_t OUT,
+	@character_id dbo.id_t,
+	@sender_nickname NVARCHAR(10),
+	@sender_id dbo.id_t,
+	@sender_npc_code dbo.code_t,
+	@title NVARCHAR(25),
+	@body NVARCHAR(100),
+	@sent_at SMALLDATETIME, 
+	@game_money BIGINT, 
+	@mail_type TINYINT
+AS
+    SET NOCOUNT ON
+	SET @mail_id = 0
+	INSERT INTO dbo.Mails(character_id, sender_nickname, sender_id, sender_npc_code, title, body, sent_at, game_money, mail_type)
+		VALUES(@character_id, @sender_nickname, @sender_id, @sender_npc_code, @title, @body, @sent_at, @game_money, @mail_type)
+	SET @mail_id = @@IDENTITY
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.insert_mail') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.insert_mail
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

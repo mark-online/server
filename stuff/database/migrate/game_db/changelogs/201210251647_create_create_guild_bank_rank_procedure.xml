@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201210251647" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_guild_bank_right') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.create_guild_bank_right
+GO
+
+
+CREATE PROCEDURE dbo.create_guild_bank_right
+    @guild_id dbo.id_t,
+    @rank_id TINYINT,
+    @vault_id TINYINT,
+    @rights INT,
+    @item_withdrawal_per_day INT
+AS
+    SET NOCOUNT ON
+	
+	INSERT INTO dbo.Guild_Bank_Rights(guild_id, rank_id, vault_id, rights, item_withdrawal_per_day)
+	    VALUES(@guild_id, @rank_id, @vault_id, @rights, @item_withdrawal_per_day)
+	
+	SET NOCOUNT OFF
+	
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_guild_bank_right') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.create_guild_bank_right
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

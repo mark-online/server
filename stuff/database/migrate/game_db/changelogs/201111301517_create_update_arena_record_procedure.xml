@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111301517" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_arena_record') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_arena_record
+GO
+
+
+CREATE PROCEDURE dbo.update_arena_record
+    @character_id dbo.id_t,
+    @mode dbo.id_t,
+    @score INT,
+    @win INT,
+    @lose INT,
+    @draw INT
+AS
+    SET NOCOUNT ON
+	
+    IF EXISTS (SELECT * FROM dbo.Arena_Records WHERE character_id = @character_id AND mode = @mode)
+    BEGIN
+	UPDATE dbo.Arena_Records
+	SET score = @score, win = @win, lose = @lose, draw = @draw
+	WHERE character_id = @character_id
+    END
+    ELSE
+    BEGIN	
+	INSERT INTO dbo.Arena_Records(character_id, mode, rank, score, win, lose, draw)
+            VALUES(@character_id, @mode, 0, @score, @win, @lose, @draw)
+    END	
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_arena_record') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_arena_record
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

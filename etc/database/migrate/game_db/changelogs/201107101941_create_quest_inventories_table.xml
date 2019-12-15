@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201107101941">
+    <createTable tableName="Quest_Inventories" remarks="inventory table">
+      <column name="id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="quest_item_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="usable_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="quest_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Quest_Inventories" columnNames="id" tableName="Quest_Inventories"/>
+    <createIndex indexName="ix_Quest_Inventories_account_id" tableName="Quest_Inventories">
+      <column name="account_id"/>
+    </createIndex>
+    <createIndex indexName="ix_Quest_Inventories_character_id" tableName="Quest_Inventories">
+      <column name="character_id"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Quest_Inventories_Characters"
+        baseColumnNames="character_id" baseTableName="Quest_Inventories"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

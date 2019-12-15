@@ -1,0 +1,7 @@
+#liquibase.properties
+driver: oracle.jdbc.OracleDriver
+classpath: jdbc/ojdbc14.jar
+url: jdbc:oracle:thin:@localhost:1521:XE
+username: tbd
+password: tbd
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<harness_table>
+	<harness_template harness_code="503382016" harness_icon_name="Extend_Pack_Icon" apply_speed="-0.5" apply_resist="-1000" inven_count="10" sell_cost_type="0" sell_cost="0" buy_cost_type_1="0" buy_cost_1="0" buy_cost_type_2="0" buy_cost_2="0"/>
+	<harness_template harness_code="503447553" harness_icon_name="Cavalry_Saddle_Icon" apply_speed="1" apply_resist="0" inven_count="-10" sell_cost_type="0" sell_cost="0" buy_cost_type_1="0" buy_cost_1="0" buy_cost_type_2="0" buy_cost_2="0"/>
+	<harness_template harness_code="503513089" harness_icon_name="Pack_Saddle_Icon" apply_speed="-0.5" apply_resist="0" inven_count="10" sell_cost_type="0" sell_cost="0" buy_cost_type_1="0" buy_cost_1="0" buy_cost_type_2="0" buy_cost_2="0"/>
+</harness_table>

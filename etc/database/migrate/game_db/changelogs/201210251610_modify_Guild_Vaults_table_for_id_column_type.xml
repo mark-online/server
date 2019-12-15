@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201210251610">
+      <dropPrimaryKey tableName="Guild_Vaults" constraintName="pk_Guild_Vaults"/>
+      <dropColumn columnName="id" tableName="Guild_Vaults" />
+      <addColumn tableName="Guild_Vaults">
+           <column name="id" type="TINYINT">
+               <constraints nullable="false"/>
+           </column>
+      </addColumn>
+      <addPrimaryKey constraintName="pk_Guild_Vaults" columnNames="id, guild_id" tableName="Guild_Vaults"/>
+    
+  </changeSet>
+
+</databaseChangeLog>

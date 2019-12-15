@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201210091453" runOnChange="true">
+    <sql>
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_guild_skill') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+        DROP PROCEDURE dbo.remove_guild_skill
+GO
+
+
+      CREATE PROCEDURE dbo.remove_guild_skill
+        @guild_id dbo.id_t,
+        @skill_code dbo.code_t
+      AS
+      SET NOCOUNT ON
+
+	DELETE FROM dbo.Guild_Skills WHERE guild_id = @guild_id AND skill_code = @skill_code
+
+      SET NOCOUNT OFF
+    </sql>
+
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_guild_skill') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.remove_guild_skill
+GO
+
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201207171601">
+    <createTable tableName="Guild_Vaults" remarks="Guild Vaultt">
+      <column name="id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="guild_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column> 
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Guild_Vaults" columnNames="id, guild_id" tableName="Guild_Vaults"/>
+
+    <addForeignKeyConstraint constraintName="fk_Guild_Vaults_Guilds"
+        baseColumnNames="guild_id" baseTableName="Guild_Vaults"
+        referencedColumnNames="id" referencedTableName="Guilds"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

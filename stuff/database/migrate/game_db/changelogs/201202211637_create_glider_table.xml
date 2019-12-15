@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201202211637">
+    <createTable tableName="Glider_Infos" remarks="Glider table">
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="glider_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Glider_Infos" columnNames="id" tableName="Glider_Infos"/>
+    <createIndex indexName="ix_Glider_Infos_account_id" tableName="Glider_Infos">
+      <column name="account_id"/>
+    </createIndex>
+    <createIndex indexName="ix_Glider_Infos_character_id" tableName="Glider_Infos">
+      <column name="character_id"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Glider_Infos_Characters"
+        baseColumnNames="character_id" baseTableName="Glider_Infos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

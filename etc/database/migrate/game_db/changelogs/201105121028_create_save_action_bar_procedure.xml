@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105121028" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.save_action_bar') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.save_action_bar
+GO
+
+
+CREATE PROCEDURE dbo.save_action_bar
+    @character_id dbo.id_t,
+	@count_id TINYINT,
+    @position TINYINT,
+	@code dbo.code_t		
+AS
+    SET NOCOUNT ON
+	DECLARE @sql VARCHAR(255)
+	
+	SET @sql = 'UPDATE dbo.ActionBars SET code_' + CONVERT(VARCHAR(10), @position) + ' = ' +  CONVERT(VARCHAR(10), @code) +
+	' WHERE character_id = ' + CONVERT(VARCHAR(10), @character_id) + ' AND count_id = ' + CONVERT(VARCHAR(10), @count_id) 
+
+	exec (@sql)
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.save_action_bar') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.save_action_bar
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

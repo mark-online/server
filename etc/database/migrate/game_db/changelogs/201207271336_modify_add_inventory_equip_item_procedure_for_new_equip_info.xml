@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111851" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_inventory_equip_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_inventory_equip_item
+GO
+
+
+CREATE PROCEDURE dbo.add_inventory_equip_item
+    @account_id dbo.id_t,
+    @character_id dbo.id_t,
+    @item_id dbo.id_t,
+    @item_code dbo.code_t,
+    @slot_id TINYINT,
+    @item_count TINYINT,
+    @expire_at BIGINT,
+    @option_script_1 TINYINT,
+    @option_value_1 INT,
+    @option_script_2 TINYINT,
+    @option_value_2 INT,
+    @option_script_3 TINYINT,
+    @option_value_3 INT,
+    @socket_count TINYINT,
+    @inven_type TINYINT
+AS
+    SET NOCOUNT ON
+
+    BEGIN TRY
+        BEGIN TRANSACTION
+
+
+        INSERT INTO dbo.Inventories
+            (id, account_id, character_id, item_code,  slot_id, item_count, inven_type, expire_at) VALUES
+            (@item_id, @account_id, @character_id, @item_code, @slot_id, @item_count, @inven_type, @expire_at)
+		
+
+        INSERT INTO dbo.Equip_Item_Infos(account_id, character_id, inventory_id, socket_count, option_script_1, option_value_1, option_script_2, option_value_2, option_script_3, option_value_3)
+	    VALUES(@account_id, @character_id, @item_id, @socket_count, @option_script_1, @option_value_1, @option_script_2, @option_value_2, @option_script_3, @option_value_3)
+		
+
+        COMMIT
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+    END CATCH
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_inventory_equip_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_inventory_equip_item
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

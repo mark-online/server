@@ -1,0 +1,7 @@
+dynamic Logger Service_Object *
+  ACEd:_make_ACE_Logging_Strategy()
+  "-s log/community_server.log -f STDERR|OSTREAM -p DEBUG|INFO|ERROR|NOTICE|WARNING"
+
+dynamic CommunityServer_Service Service_Object *
+  CommunityServer.debug.dll:_make_CommunityServerApp()
+  "-k STDERR|OSTREAM|VERBOSE -c development/community_server.ini"

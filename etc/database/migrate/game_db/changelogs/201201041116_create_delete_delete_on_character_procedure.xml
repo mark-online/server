@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112191635" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_delete_on_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_delete_on_character
+GO
+
+
+CREATE PROCEDURE dbo.delete_delete_on_character
+    @building_id dbo.id_t
+AS
+    SET NOCOUNT ON
+
+DELETE FROM dbo.Accept_Quest_Missions WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Accept_Quests WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Accept_Repeat_Quest_Missions WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Accept_Repeat_Quests WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Complete_Repeat_Quests WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Complete_Quests WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Mercenary_Quests WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Quest_Inventories WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.ActionBars WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Character_Properties WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.EquipItemInfos WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.GameMonies WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Guild_Members WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Equipments WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Inventories WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Mail_Equip_Item_Infos WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Mail_Inventories WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+DELETE FROM dbo.Mails WHERE character_id IN (SELECT id FROM Characters WHERE delete_on = 1)
+
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_delete_on_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_delete_on_character
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

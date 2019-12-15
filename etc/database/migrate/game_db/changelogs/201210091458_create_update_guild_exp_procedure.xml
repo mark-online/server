@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201210091458" runOnChange="true">
+    <sql>
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_guild_exp') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+        DROP PROCEDURE dbo.update_guild_exp
+GO
+
+
+      CREATE PROCEDURE dbo.update_guild_exp
+        @guild_id dbo.id_t,
+        @guild_exp INT,
+        @day_add_exp INT,
+        @skill_point INT,
+        @last_update_at BIGINT
+      AS
+      SET NOCOUNT ON
+
+      UPDATE dbo.Guilds	
+          SET guild_exp = @guild_exp, day_add_exp = @day_add_exp, last_update_exp_at = @last_update_at, skill_point = @skill_point
+          WHERE id = @guild_id
+      SET NOCOUNT OFF
+    </sql>
+
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_guild_exp') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_guild_exp
+GO
+
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

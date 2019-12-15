@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" standalone="yes"?><glider_table>
+	<glider_template glider_code="469762049" glider_icon_name="Shabby_Glider_Icon" cast_time="2000" org_speed="10" glide_durability_sec="1800" repair_payment="1" glider_ready_anim="gliderCasting" glider_modeling_name="glider" glider_ready_sound="Glider_Ready" glider_flying_sound="Glider_Flying" glider_fold_sound="Glider_Fold" sell_cost_type="0" sell_cost="0" buy_cost_type_1="0" buy_cost_1="0" buy_cost_type_2="0" buy_cost_2="0"/>
+	<glider_template glider_code="469762050" glider_icon_name="Normal_Glider_Icon" cast_time="2000" org_speed="13" glide_durability_sec="3600" repair_payment="1" glider_ready_anim="gliderCasting" glider_modeling_name="glider" glider_ready_sound="Glider_Ready" glider_flying_sound="Glider_Flying" glider_fold_sound="Glider_Fold" sell_cost_type="0" sell_cost="0" buy_cost_type_1="0" buy_cost_1="0" buy_cost_type_2="0" buy_cost_2="0"/>
+</glider_table>

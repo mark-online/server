@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201207171041" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_event_log') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_event_log
+GO
+
+
+CREATE PROCEDURE dbo.get_guild_event_log
+    @guild_id dbo.id_t
+AS
+    SET NOCOUNT ON
+	
+    SELECT g.id, g.log_type, g.player1_id, ISNULL(c1.nickname, N''), g.player2_id, ISNULL(c2.nickname, N''), g.param1, g.log_at
+	FROM dbo.Guild_Event_Logs AS g LEFT OUTER JOIN dbo.Characters AS c1 ON g.player1_id = c1.id LEFT OUTER JOIN 
+        dbo.Characters AS c2 ON g.player2_id = c2.id
+        WHERE g.guild_id = @guild_id
+        ORDER BY g.log_at ASC
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_event_log') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_event_log
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201110191728" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+DROP PROCEDURE dbo.delete_character
+GO
+
+
+-- error_code_out:
+--   0: succeeded
+--   *: DB error
+CREATE PROCEDURE dbo.delete_character
+@character_id dbo.id_t
+AS
+  SET NOCOUNT ON
+
+  DECLARE @ec INT
+  SET @ec = 0
+
+  BEGIN TRY
+      BEGIN TRANSACTION
+	  DELETE FROM dbo.Guild_Members WHERE character_id = @character_id
+	  DELETE FROM dbo.Accept_Repeat_Quest_Missions WHERE character_id = @character_id
+	  DELETE FROM dbo.Accept_Repeat_Quests WHERE character_id = @character_id      
+      DELETE FROM dbo.Complete_Repeat_Quests WHERE character_id = @character_id
+
+	  DELETE FROM dbo.Mercenary_Quests WHERE character_id = @character_id
+	  DELETE FROM dbo.Accept_Quest_Missions WHERE character_id = @character_id
+	  DELETE FROM dbo.Accept_Quests WHERE character_id = @character_id      
+      DELETE FROM dbo.Complete_Quests WHERE character_id = @character_id
+	  DELETE FROM dbo.GameMonies WHERE character_id = @character_id
+	  DELETE FROM dbo.ActionBars WHERE character_id = @character_id      
+      DELETE FROM dbo.Skills WHERE character_id = @character_id
+	  DELETE FROM dbo.EquipItemInfos WHERE character_id = @character_id
+      DELETE FROM dbo.Equipments WHERE character_id = @character_id
+      DELETE FROM dbo.Inventories WHERE character_id = @character_id
+	  DELETE FROM dbo.Quest_Inventories WHERE character_id = @character_id
+      DELETE FROM dbo.Characters  WHERE id = @character_id
+
+      COMMIT
+  END TRY
+  BEGIN CATCH
+      SET @ec = ERROR_NUMBER()
+      IF @@TRANCOUNT > 0
+          ROLLBACK
+  END CATCH
+
+  SET NOCOUNT OFF
+
+RETURN (@ec)
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_character
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

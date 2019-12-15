@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201210091227">
+    <createTable tableName="Guild_Skills" remarks="Guild Skill table">
+      <column name="guild_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="skill_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Guild_Skills" columnNames="guild_id, skill_code" tableName="Guild_Skills"/>
+    
+    <addForeignKeyConstraint constraintName="fk_Guild_Skills_Guilds"
+        baseColumnNames="guild_id" baseTableName="Guild_Skills"
+        referencedColumnNames="id" referencedTableName="Guilds"
+        onDelete="NO ACTION" />
+
+
+
+  </changeSet>
+
+</databaseChangeLog>

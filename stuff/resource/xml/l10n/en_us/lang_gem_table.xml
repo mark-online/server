@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="150994945" name="Valor's Gem (inferiority)" desc="장비 아이템에 인챈트하면 전사 계열의 속성이 생성됩니다. 하급의 보석을 모아 보석 상인을 통해 제작하면 중급 보석을 제작할 수 있습니다."/>
+	<l10n_template data_code="150994946" name="Wind's Gem (inferiority)" desc="장비 아이템에 인챈트하면 궁수 계열의 속성이 생성됩니다. 하급의 보석을 모아 보석 상인을 통해 제작하면 중급 보석을 제작할 수 있습니다."/>
+	<l10n_template data_code="150994947" name="Mana Gem (inferiority)" desc="장비 아이템에 인챈트하면 마법사 계열의 속성이 생성됩니다. 하급의 보석을 모아 보석 상인을 통해 제작하면 중급 보석을 제작할 수 있습니다."/>
+	<l10n_template data_code="150994948" name="Valor's Gem (intermediate)" desc="장비 아이템에 인챈트하면 전사 계열의 속성이 생성됩니다. 중급의 보석을 모아 보석 상인을 통해 제작하면 상급 보석을 제작할 수 있습니다."/>
+	<l10n_template data_code="150994949" name="Wind's Gem (intermediate)" desc="장비 아이템에 인챈트하면 궁수 계열의 속성이 생성됩니다. 중급의 보석을 모아 보석 상인을 통해 제작하면 상급 보석을 제작할 수 있습니다."/>
+	<l10n_template data_code="150994950" name="Mana Gem (intermediate)" desc="장비 아이템에 인챈트하면 마법사 계열의 속성이 생성됩니다. 중급의 보석을 모아 보석 상인을 통해 제작하면 상급 보석을 제작할 수 있습니다."/>
+	<l10n_template data_code="150994951" name="Valor's Gem (Senior)" desc="장비 아이템에 인챈트하면 전사 계열의 속성이 생성됩니다."/>
+	<l10n_template data_code="150994952" name="Wind's Gem (Senior)" desc="장비 아이템에 인챈트하면 궁수 계열의 속성이 생성됩니다."/>
+	<l10n_template data_code="150994953" name="Mana Gem (Senior)" desc="장비 아이템에 인챈트하면 마법사 계열의 속성이 생성됩니다."/>
+</l10n_table>

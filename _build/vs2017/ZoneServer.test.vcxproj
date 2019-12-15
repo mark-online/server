@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD0C52FB-7DBD-462E-8057-36BA03F094E1}</ProjectGuid>
+    <RootNamespace>ZoneServer.test</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SNE_DEPENDENT_DIR)/xsd/libxsd;$(SNE_DEPENDENT_DIR)/xerces-c/include;$(SNE_DEPENDENT_DIR)/G3D/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerTestPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.debug.lib;sne.server.debug.lib;sne.database.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.exe</OutputFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SNE_DEPENDENT_DIR)/xsd/libxsd;$(SNE_DEPENDENT_DIR)/xerces-c/include;$(SNE_DEPENDENT_DIR)/G3D/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerTestPCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.debug.lib;sne.server.debug.lib;sne.database.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.exe</OutputFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>
+      </ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SNE_DEPENDENT_DIR)/xsd/libxsd;$(SNE_DEPENDENT_DIR)/xerces-c/include;$(SNE_DEPENDENT_DIR)/G3D/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerTestPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.lib;sne.server.lib;sne.database.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>
+      </ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SNE_DEPENDENT_DIR)/xsd/libxsd;$(SNE_DEPENDENT_DIR)/xerces-c/include;$(SNE_DEPENDENT_DIR)/G3D/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ZONESERVER_HAS_DLL;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ZoneServerTestPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.lib;sne.server.lib;sne.database.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>
+      </ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServer.test.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServerTestPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ZoneServerTestPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ZoneServerTestPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ZoneServerTestPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ZoneServerTestPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\GameTestFixture.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayer.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerAllocator.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneArenaServerProxy.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneCommunityServerProxy.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneLoginServerProxy.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneUser.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServiceTestFixture.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerAnchorController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerAuctionController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerBuildingController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerCastController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerEffectController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerGraveStoneController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerHarvestController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerInventoryController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerItemController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerMailController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerMoveController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerNpcController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerPartyController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerQuestController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerSkillController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerTeleportController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerTradeController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerTreasureController.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\AnchorTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\AreaSkillTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\AuctionTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\CheatTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\DataSizeTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\EquipmentTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\FieldTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\GameStatsTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\GameTimerTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\GliderTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\GrowthTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\HarvestTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\InventoryTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\ItemLootTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\ItemTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MagicAttackTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MailTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MeleeAttackTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\MonsterTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\ObserverTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\PartyTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\PassiveSkillTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\QuestTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\RandomDungeonTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\RangeAttackTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\RecoveryTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\ReviveTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\SkillTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\SkillTimerTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\StateTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\TeleportTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\TradeTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\TreasureTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\VehicleTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\WorldMapTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\WorldTest.cpp" />
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServiceTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\zoneserver.test\ZoneServerTestPCH.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\GameTestFixture.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockGameTimer.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockNpcController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayer.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerAllocator.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockSummonController.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockTaskScheduler.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneArenaServerProxy.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneClientSessionCallback.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneCommunityServerProxy.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneLoginServerProxy.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneUser.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\ZoneServiceTestFixture.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerAnchorController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerAuctionController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerBuildingController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerCastController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerEffectController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerGraveStoneController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerHarvestController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerInventoryController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerItemController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerMailController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerMoveController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerNpcController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerPartyController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerQuestController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerSkillController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerTeleportController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerTradeController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerTreasureController.h" />
+    <ClInclude Include="..\..\test\zoneserver.test\BuildingTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="serverbase.vcxproj">
+      <Project>{866d9020-fae0-49de-914c-0a302d13523e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="servertest.vcxproj">
+      <Project>{6fd28739-de0d-44a5-91c8-eeed191a7bb8}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="ZoneServer.vcxproj">
+      <Project>{860c8143-c973-4431-970c-04c32ce540b2}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

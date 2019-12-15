@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fixture">
+      <UniqueIdentifier>{9a20c56b-5aff-4bfa-b960-2f965be62609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fixture\player_controller">
+      <UniqueIdentifier>{71a1e460-4b53-432b-bacc-3911d2cc91dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{6e76d6ed-bf5e-485e-a5e5-8276623f1fb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServerTestPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\GameTestFixture.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayer.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerAllocator.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerController.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneArenaServerProxy.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneCommunityServerProxy.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneLoginServerProxy.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockZoneUser.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServiceTestFixture.cpp">
+      <Filter>fixture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerAnchorController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerAuctionController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerBuildingController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerCastController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerEffectController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerGraveStoneController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerHarvestController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerInventoryController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerItemController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerMailController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerMoveController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerNpcController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerPartyController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerQuestController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerSkillController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerTeleportController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerTradeController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MockPlayerTreasureController.cpp">
+      <Filter>fixture\player_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\AnchorTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\AreaSkillTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\AuctionTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\CheatTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\DataSizeTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\EquipmentTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\FieldTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\GameStatsTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\GameTimerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\GliderTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\GrowthTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\HarvestTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\InventoryTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\ItemLootTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\ItemTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MagicAttackTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MailTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MeleeAttackTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\MonsterTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\ObserverTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\PartyTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\PassiveSkillTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\QuestTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\RandomDungeonTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\RangeAttackTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\RecoveryTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\ReviveTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\SkillTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\SkillTimerTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\StateTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\TeleportTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\TradeTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\TreasureTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\VehicleTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\WorldMapTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\WorldTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\zoneserver.test\ZoneServiceTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\zoneserver.test\ZoneServerTestPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\GameTestFixture.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockGameTimer.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockNpcController.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayer.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerAllocator.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerController.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockSummonController.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockTaskScheduler.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneArenaServerProxy.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneClientSessionCallback.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneCommunityServerProxy.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneLoginServerProxy.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockZoneUser.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\ZoneServiceTestFixture.h">
+      <Filter>fixture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerAnchorController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerAuctionController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerBuildingController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerCastController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerEffectController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerGraveStoneController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerHarvestController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerInventoryController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerItemController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerMailController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerMoveController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerNpcController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerPartyController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerQuestController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerSkillController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerTeleportController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerTradeController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\MockPlayerTreasureController.h">
+      <Filter>fixture\player_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\zoneserver.test\BuildingTest.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

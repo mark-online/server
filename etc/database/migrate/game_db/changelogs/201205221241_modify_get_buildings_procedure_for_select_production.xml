@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112161331" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_buildings') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_buildings
+GO
+
+
+CREATE PROCEDURE dbo.get_buildings
+    @building_id dbo.id_t OUT,
+    @min_id dbo.id_t,
+    @max_id dbo.id_t
+AS
+    SET NOCOUNT ON
+
+    SELECT @building_id = ISNULL(MAX(id), @min_id) FROM dbo.Buildings WHERE id &gt;= @min_id AND id &lt;= @max_id	
+
+    SELECT b.id, b.building_code, b.pos_x, b.pos_y, b.pos_z, b.pos_heading, b.hp, b.state, b.build_at, b.expire_at, b.onwer_type, b.onwer_character_id, b.onwer_guild_id,
+        c.nickname, g.guild_name, g.guild_mark_code, b.create_at
+        FROM dbo.Buildings AS b LEFT OUTER JOIN dbo.Characters AS c ON b.onwer_character_id = c.id
+            LEFT OUTER JOIN Guilds AS g ON b.onwer_guild_id = g.id
+	WHERE b.id &gt;= @min_id AND b.id &lt;= @max_id
+    
+    SELECT building_id, item_id, item_code, slot_id, item_count, inven_type, expire_at
+	FROM dbo.Building_Inventories
+        WHERE building_id &gt;= @min_id AND building_id &lt;= @max_id 
+
+
+    SELECT building_id, item_id, inven_type, fragment_count, open_socket_count, socket_skill_code_1, socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5
+        FROM dbo.Building_Equip_Item_Infos
+        WHERE building_id &gt;= @min_id AND building_id &lt;= @max_id
+
+    SELECT building_id, recipe_code, count, complete_at
+        FROM dbo.Building_Select_Recipe_Production_Infos
+        WHERE building_id &gt;= @min_id AND building_id &lt;= @max_id
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_buildings') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_buildings
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

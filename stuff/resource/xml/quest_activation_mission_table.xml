@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" standalone="yes"?><quest_activation_mission_table>
+	<quest_activation_mission_template mission_code="369426433" map_code="184614915" region_code="201523213" goal_info="335549327" goal_value="1" marker_code_1="201523213" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426434" map_code="184614915" region_code="0" goal_info="419495937" goal_value="1" marker_code_1="419495937" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426435" map_code="184614915" region_code="0" goal_info="419495938" goal_value="1" marker_code_1="419495938" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426436" map_code="184614915" region_code="0" goal_info="419495940" goal_value="1" marker_code_1="419495940" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426437" map_code="184614915" region_code="0" goal_info="419495939" goal_value="1" marker_code_1="419495939" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426438" map_code="184614915" region_code="0" goal_info="419495941" goal_value="1" marker_code_1="419495941" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426439" map_code="184614915" region_code="0" goal_info="419495942" goal_value="1" marker_code_1="419495942" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426440" map_code="184614915" region_code="0" goal_info="419495943" goal_value="1" marker_code_1="419495943" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426441" map_code="184614915" region_code="0" goal_info="419495945" goal_value="1" marker_code_1="419495945" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426442" map_code="184614915" region_code="0" goal_info="419495947" goal_value="1" marker_code_1="419495947" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426443" map_code="184614915" region_code="0" goal_info="419495948" goal_value="1" marker_code_1="419495948" marker_code_2="0" marker_code_3="0"/>
+	<quest_activation_mission_template mission_code="369426444" map_code="184614915" region_code="0" goal_info="419495949" goal_value="1" marker_code_1="419495949" marker_code_2="0" marker_code_3="0"/>
+</quest_activation_mission_table>

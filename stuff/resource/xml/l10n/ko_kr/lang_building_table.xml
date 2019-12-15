@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="318767105" name="성벽"/>
+	<l10n_template data_code="318767106" name="마을집" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767107" name="농장 마을집"/>
+	<l10n_template data_code="318767108" name="풍차"/>
+	<l10n_template data_code="318767109" name="성문"/>
+	<l10n_template data_code="318767110" name="이코르 중심부"/>
+	<l10n_template data_code="318767111" name="감시탑"/>
+	<l10n_template data_code="318767112" name="우물"/>
+	<l10n_template data_code="318767113" name="광산"/>
+	<l10n_template data_code="318767114" name="벌목장"/>
+	<l10n_template data_code="318767115" name="천막"/>
+	<l10n_template data_code="318767116" name="모닥불"/>
+	<l10n_template data_code="318767117" name="성벽 탑"/>
+	<l10n_template data_code="318767118" name="공용 대장간"/>
+	<l10n_template data_code="318767119" name="대장간"/>
+	<l10n_template data_code="318767120" name="물레방앗간"/>
+	<l10n_template data_code="318767121" name="물류 창고"/>
+	<l10n_template data_code="318767122" name="은행" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767123" name="정제소" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767124" name="허름한 정제소" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767125" name="양봉장"/>
+	<l10n_template data_code="318767126" name="마구간" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767127" name="허름한 마구간" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767128" name="닭장" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767129" name="허름한 닭장" desc="목재/석재는 광산/벌목장에서 획득"/>
+	<l10n_template data_code="318767130" name="목장"/>
+	<l10n_template data_code="318767131" name="이민단"/>
+	<l10n_template data_code="318767132" name="건초 보관 창고"/>
+	<l10n_template data_code="318767133" name="임대 대장간"/>
+	<l10n_template data_code="318767134" name="텃밭"/>
+	<l10n_template data_code="318767135" name="허수아비"/>
+	<l10n_template data_code="318767136" name="제분기"/>
+	<l10n_template data_code="318767137" name="도가니"/>
+	<l10n_template data_code="318767138" name="자경단"/>
+	<l10n_template data_code="318767139" name="용병 훈련소"/>
+	<l10n_template data_code="318767140" name="용병 소개소"/>
+	<l10n_template data_code="318767141" name="이주 관리소"/>
+</l10n_table>

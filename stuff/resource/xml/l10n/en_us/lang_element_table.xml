@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="117440513" name="Skin" desc="무두질한 가죽을 만들때 필요한 재료입니다."/>
+	<l10n_template data_code="117440514" name="Meat of low rank" desc="하급고기를 사용하면 %caster_effect_value_1 의 체력을 회복합니다."/>
+	<l10n_template data_code="117440515" name="Meat of middle rank" desc="중급고기를 사용하면 %caster_effect_value_2 의 체력을 회복합니다."/>
+	<l10n_template data_code="117440516" name="Meat of high rank" desc="상급고기를 사용하면 %caster_effect_value_3 의 체력을 회복합니다."/>
+	<l10n_template data_code="117440517" name="Copper ore" desc="구리 조각을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440518" name="Iron ore" desc="철 조각을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440519" name="Silver ore" desc="은 조각을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440520" name="Gold ore" desc="금 조각을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440521" name="Bough" desc="막대기를 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440522" name="plants" desc="식물 줄기를 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440523" name="Wheat" desc="밀가루를 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440524" name="Glass Bottle" desc="상위단계의 물약을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440525" name="Sugar Cane" desc="설탕을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440526" name="Fabric" desc="고급 원단을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440527" name="Tannin" desc="강화 조각들을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440528" name="Dubbin" desc="강화 조각들을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440530" name="Tongs" desc="강화 조각들을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440531" name="Forging Hammer" desc="강화 조각들을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440532" name="Bone Chips" desc="뼈가루를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440533" name="Beast tooth" desc="맹수를 잡으면 얻을 수 있는 재료입니다."/>
+	<l10n_template data_code="117440534" name="Beast clow" desc="맹수를 잡으면 얻을 수 있는 재료입니다."/>
+	<l10n_template data_code="117440535" name="Crustacean fragments" desc="방어의 가루를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440536" name="Ruby" desc="상점에 판매할 수 있습니다."/>
+	<l10n_template data_code="117440537" name="Pockets of food" desc="식량이 든 주머니입니다."/>
+	<l10n_template data_code="117440538" name="deer antlers" desc="15분 동안 명중률이 5% 상승합니다."/>
+	<l10n_template data_code="117440539" name="Viangra" desc="아시지요?"/>
+	<l10n_template data_code="117440540" name="Vaccasu" desc="알지요?"/>
+	<l10n_template data_code="117440541" name="Mana crystal" desc="마법의 가루를 제작할 때 사용합니다."/>
+	<l10n_template data_code="117440542" name="Wine" desc="와인"/>
+	<l10n_template data_code="117440544" name="Chaos Fragment" desc="혼돈의 결정을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117440545" name="Red Feather" desc="10초 동안 20%의 이동 속도가 상승합니다."/>
+	<l10n_template data_code="117440546" name="Rat Meat" desc="쥐 고기를 사용하면 %caster_effect_value_1 의 체력을 회복합니다."/>
+	<l10n_template data_code="117440547" name="Fire heart" desc="정령에게서 얻을 수 있는 아이템입니다."/>
+	<l10n_template data_code="117440548" name="Poison Sac" desc="독 주머니를 던져 상대에게 %PD_MIN~%PD_MAX 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="117440549" name="Chicken" desc="닭을 잡으면 얻을 수 있는 재료입니다."/>
+	<l10n_template data_code="117440550" name="Egg" desc="닭을 잡으면 얻을 수 있는 재료입니다."/>
+	<l10n_template data_code="117440551" name="Linum" desc="식물의 꽃입니다."/>
+	<l10n_template data_code="117440552" name="Ore" desc="광물에게서 얻을 수 있는 재료입니다."/>
+	<l10n_template data_code="117440553" name="Feather" desc="10초 동안 20%의 이동 속도가 상승합니다."/>
+	<l10n_template data_code="117440554" name="Healing Potion(A)" desc="체력을 %caster_effect_value_1 올려주고 0.5초마다 3초동안 %{%caster_effect_value_2/10}%씩 증가합니다."/>
+	<l10n_template data_code="117440555" name="Mana Potion(A)" desc="체력을 %caster_effect_value_1 올려주고 0.5초마다 3초동안 %{%caster_effect_value_2/11}%씩 증가합니다."/>
+	<l10n_template data_code="117440556" name="Pile" desc="화살을 만들 때 사용하는 재료입니다."/>
+	<l10n_template data_code="117440557" name="Succubus Ring" desc="마계와 손을 잡은 존재의 맹약 증표입니다."/>
+	<l10n_template data_code="117440558" name="Elite Symbol" desc="겔본 제국의 정예병 증표입니다."/>
+	<l10n_template data_code="117440559" name="Healing Potion(B)"/>
+	<l10n_template data_code="117440560" name="Mana Potion(B)"/>
+	<l10n_template data_code="117443512" name="Copper" desc="강화된 구리를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443513" name="Iron Fragment" desc="강철을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443514" name="Silver Fragment" desc="은괴를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443515" name="Gold Fragment" desc="금괴를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443516" name="Leather" desc="강화 조각들을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443517" name="Wheat Flour" desc="각종 쿠키를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443518" name="prepared meat" desc="스튜를 제작할 때 사용합니다."/>
+	<l10n_template data_code="117443519" name="Sugar" desc="각종 쿠키를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443520" name="Fabric of high rank" desc="강화 조각들을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443521" name="Bone Meal" desc="특수한 성질의 가루를 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443522" name="Potion of Blessing(A)" desc="0.5초씩 2.5초 동안 마나와 체력이 %{%caster_effect_value_2/10}%씩 증가합니다."/>
+	<l10n_template data_code="117443523" name="wild powder" desc="10분 동안 물리 공격력이 2% 증가합니다."/>
+	<l10n_template data_code="117443524" name="Magic powder" desc="10분 동안 마법 공격력이 2% 증가합니다."/>
+	<l10n_template data_code="117443525" name="Chaos Crystal" desc="10분 동안 회피율이 2% 증가합니다."/>
+	<l10n_template data_code="117443526" name="Protection powder" desc="10분 동안 막기 능력이 2% 증가합니다."/>
+	<l10n_template data_code="117443527" name="Stem" desc="활줄을 만들 때 필요한 재료입니다."/>
+	<l10n_template data_code="117443528" name="Potion of Blessing(B)"/>
+	<l10n_template data_code="117445512" name="Enhanced Copper" desc="강화 조각을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117445513" name="Steel" desc="강화 조각을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117445514" name="Silver bar" desc="특별한 아이템을 강화할 때 사용합니다."/>
+	<l10n_template data_code="117445515" name="Gold bar" desc="고귀한한 아이템을 강화할 때 사용합니다."/>
+	<l10n_template data_code="117445516" name="Blade" desc="무기 조각을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117445517" name="Hilt" desc="무기 조각을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117445518" name="Bow Strings" desc="무기 조각을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117445519" name="Bow Limb" desc="무기 조각을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117445520" name="Pole" desc="무기 조각을 제작할 때 필요한 재료입니다."/>
+	<l10n_template data_code="117445521" name="wild Cookie" desc="10분 동안 물리 공격력이 5% 증가합니다."/>
+	<l10n_template data_code="117445522" name="Wisdom Cookie" desc="10분 동안 마법 공격력이 5% 증가합니다."/>
+	<l10n_template data_code="117445523" name="Protection Cookie" desc="10분 동안 회피율이 5% 증가합니다."/>
+	<l10n_template data_code="117445524" name="Fortune Cookie" desc="10분 동안 막기 능력이 5% 증가합니다."/>
+	<l10n_template data_code="117445525" name="Stew" desc="체력을 %caster_effect_value_1 올려주고 0.5초마다 3초동안 %{%caster_effect_value_2/10}%씩 증가합니다."/>
+</l10n_table>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="318767105" name="Castle Wall"/>
+	<l10n_template data_code="318767106" name="House" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767107" name="Farm House"/>
+	<l10n_template data_code="318767108" name="Windmill"/>
+	<l10n_template data_code="318767109" name="Castle Gate"/>
+	<l10n_template data_code="318767110" name="Ichor Core"/>
+	<l10n_template data_code="318767111" name="Watch Tower"/>
+	<l10n_template data_code="318767112" name="Well"/>
+	<l10n_template data_code="318767113" name="Mine"/>
+	<l10n_template data_code="318767114" name="Lumber Camp"/>
+	<l10n_template data_code="318767115" name="Tent"/>
+	<l10n_template data_code="318767116" name="Campfire"/>
+	<l10n_template data_code="318767117" name="Castle Tower"/>
+	<l10n_template data_code="318767118" name="Common Forge"/>
+	<l10n_template data_code="318767119" name="Forge"/>
+	<l10n_template data_code="318767120" name="Watermill"/>
+	<l10n_template data_code="318767121" name="Warehouse"/>
+	<l10n_template data_code="318767122" name="Bank" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767123" name="Refinery" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767124" name="Shabby Refinery" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767125" name="Apiary"/>
+	<l10n_template data_code="318767126" name="Stable" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767127" name="Shabby Stable" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767128" name="Chicken Coop" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767129" name="Shabby Chicken Coop" desc="Timber/stone exist on Lumber Camp/Mine"/>
+	<l10n_template data_code="318767130" name="Ranch"/>
+	<l10n_template data_code="318767131" name="Immigrant"/>
+	<l10n_template data_code="318767132" name="Hay Shed"/>
+	<l10n_template data_code="318767133" name="Rental Forge"/>
+	<l10n_template data_code="318767134" name="Vegetable Garden"/>
+	<l10n_template data_code="318767135" name="scarecrow"/>
+	<l10n_template data_code="318767136" name="mill"/>
+	<l10n_template data_code="318767137" name="Crucible"/>
+	<l10n_template data_code="318767138" name="Civil Militia"/>
+	<l10n_template data_code="318767139" name="Mercenary Training School"/>
+	<l10n_template data_code="318767140" name="Mercenary Agency"/>
+	<l10n_template data_code="318767141" name="Immigrant Management Office"/>
+</l10n_table>

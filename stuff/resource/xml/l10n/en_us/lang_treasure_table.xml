@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="268435457" name="Shabby Chest"/>
+	<l10n_template data_code="268435458" name="Dungeon Chest"/>
+	<l10n_template data_code="268435459" name="Normal Chest"/>
+	<l10n_template data_code="268435460" name="Rare Chest"/>
+	<l10n_template data_code="268435461" name="Unique Chest"/>
+	<l10n_template data_code="268435462" name="Silver Chest"/>
+	<l10n_template data_code="268435463" name="Gold Chest"/>
+</l10n_table>

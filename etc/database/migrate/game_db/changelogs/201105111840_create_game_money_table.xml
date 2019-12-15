@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111840">
+    <createTable tableName="GameMonies" remarks="game money table">
+	  <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="game_money" type="BIGINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="bank_game_money" type="BIGINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>	  
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_GameMoneis" columnNames="account_id, character_id" tableName="GameMonies"/>
+    
+    <createIndex indexName="ix_game_money_character_id" tableName="GameMonies">
+      <column name="character_id"/>
+    </createIndex>
+
+	<addForeignKeyConstraint constraintName="fk_GameMonies_Characters"
+        baseColumnNames="character_id" baseTableName="GameMonies"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

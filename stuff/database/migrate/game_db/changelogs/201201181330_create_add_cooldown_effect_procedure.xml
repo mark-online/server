@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201201181330" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_cooldown_effect') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_cooldown_effect
+GO
+
+
+CREATE PROCEDURE dbo.add_cooldown_effect
+    @acoount_id dbo.id_t,
+    @character_id dbo.id_t,    
+    @effect_script_type TINYINT,
+    @spell_group TINYINT,
+    @value REAL,
+    @tick INT,
+    @expire_activate_at BIGINT
+    
+AS
+    SET NOCOUNT ON
+	
+    INSERT INTO dbo.Cooldown_Effect_Infos(account_id, character_id, effect_script_type, spell_group, value, tick, expire_activate_at)  
+        VALUES(@acoount_id, @character_id, @effect_script_type, @spell_group, @value, @tick, @expire_activate_at)
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_cooldown_effect') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_cooldown_effect
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

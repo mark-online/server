@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="1" name="물리 평타" desc="공격 대상에게 무 속성으로 %{mFloor(%AP*%castee_effect_value_2/1000)}만큼 피해를 줍니다."/>
+	<l10n_template data_code="2" name="마법 평타" desc="공격 대상에게 무 속성으로 %{mFloor(%SP*%castee_effect_value_2/1000)}만큼 피해를 줍니다."/>
+	<l10n_template data_code="10" name="단순 물리 공격" desc="상대에게 무 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="20" name="단순 물리 공격" desc="상대에게 빛 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="30" name="단순 물리 공격" desc="상대에게 어둠 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="40" name="단순 물리 공격" desc="상대에게 불 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="41" name="단순 물리 공격" desc="상대에게 불 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 주고 %castee_activate_mil_sec_1초 동안 상대를 더욱 분노하게 만듭니다."/>
+	<l10n_template data_code="50" name="단순 물리 공격" desc="상대에게 얼음 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="60" name="단순 마법 공격" desc="상대에게 무 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="70" name="단순 마법 공격" desc="상대에게 빛 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="80" name="단순 마법 공격" desc="상대에게 어둠 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="90" name="단순 마법 공격" desc="상대에게 불 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="100" name="단순 마법 공격" desc="상대에게 얼음 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="110" name="이속감소/데미지" desc="공격 대상에게 무 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="120" name="이속감소/데미지" desc="공격 대상에게 빛 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="130" name="이속감소/데미지" desc="공격 대상에게 어둠 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="140" name="이속감소/데미지" desc="공격 대상에게 불 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="150" name="이속감소/데미지" desc="공격 대상에게 얼음 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="160" name="이속감소/데미지" desc="공격 대상에게 무 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="170" name="이속감소/데미지" desc="공격 대상에게 빛 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="180" name="이속감소/데미지" desc="공격 대상에게 어둠 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="190" name="이속감소/데미지" desc="공격 대상에게 불 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="200" name="이속감소/데미지" desc="공격 대상에게 얼음 속성으로 %{mFloor(%AP*%castee_effect_value_1/1000)}만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="200" name="이속감소/데미지" desc="공격 대상에게 얼음 속성으로 %MD_MIN_MAX_castee_effect_value_1 만큼 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 만큼 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="210" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 무 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="220" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 빛 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="230" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 어둠 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="240" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 불 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="241" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 불 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 주고 %castee_activate_mil_sec_1초 동안 상대를 더욱 분노하게 만듭니다."/>
+	<l10n_template data_code="250" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 얼음 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="260" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 무 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="270" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 빛 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="280" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 어둠 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="290" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 불 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="300" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 얼음 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="310" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 무 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="320" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 빛 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="330" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 어둠 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="340" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를  불 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="350" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 얼음 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="360" name="물리 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 무 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="370" name="물리 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 빛 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="380" name="물리 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 어둠 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="390" name="물리 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를  불 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="400" name="물리 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 얼음 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="410" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 무 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="420" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안빛 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="430" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안어둠 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="440" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안불 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="450" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안얼음 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="460" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안무 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="470" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안빛 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="480" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안어둠 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="490" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안불 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="500" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안얼음 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="510" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 무 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="520" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 빛 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="530" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안어둠 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="540" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 불 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="550" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 얼음 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="560" name="물리 지역 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 무 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="570" name="물리 지역 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안빛 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="580" name="물리 지역 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 어둠 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="590" name="물리 지역 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 불 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="600" name="물리 지역 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 얼음 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="610" name="이속 감소/자신 전방" desc="전방에 %castee_effect_value_1의 피해를 주고 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}%의 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="620" name="이동 불가/자신 전방" desc="자신 주변에 %castee_effect_value_1의 피해를 주고 %castee_activate_mil_sec_2초 동안 이동 불가 상태로 만듭니다."/>
+	<l10n_template data_code="630" name="스턴/자신 주변" desc="자신 주변에 %castee_effect_value_1의 피해를 주고 %castee_activate_mil_sec_2초 동안 스턴 상태로 만듭니다."/>
+	<l10n_template data_code="640" name="넉백/자신 주변" desc="자신 주변에 %castee_effect_value_1의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 밀어냅니다."/>
+	<l10n_template data_code="650" name="스턴/자신 주변" desc="자신 주변에 %PD_MIN_MAX_castee_effect_value_1의 피해를 주고 %castee_activate_mil_sec_2초 동안 스턴 상태로 만듭니다."/>
+	<l10n_template data_code="651" name="막기 감소" desc="선택된 지역의 대상을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}%만큼 막기 능력을 감소시키고 대상의 시야를 흐려 적에게서 자신의 존재감을 %castee_activate_mil_sec_2초 동안 희미하게 만듭니다."/>
+	<l10n_template data_code="660" name="넉백/자신 주변" desc="자신 주변에 %castee_effect_value_1의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 밀어냅니다."/>
+	<l10n_template data_code="670" name="넉백/단일 공격" desc="적에게 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 밀어냅니다."/>
+	<l10n_template data_code="680" name="대시/돌진/마비" desc="적에게 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주면서 접근합니다."/>
+	<l10n_template data_code="690" name="스턴/단일공격" desc="적에게 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 스턴 상태로 만듭니다."/>
+	<l10n_template data_code="700" name="은신" desc="자신의 마나를 소모해 %caster_activate_mil_sec_1초 동안 다른 차원으로 숨을 수 있습니다."/>
+	<l10n_template data_code="710" name="피해 없는 은신" desc="피해 없이 %caster_activate_mil_sec_2초 동안 다른 차원으로 숨을 수 있습니다."/>
+	<l10n_template data_code="720" name="은신 해제/후방공격" desc="은신 상태에서 상대의 등 뒤를 공격하면 은신의 후유증에서 벗날 수 있습니다."/>
+	<l10n_template data_code="721" name="감소계열/지속데미지" desc="대상에게 %castee_activate_interval_mil_sec_2초 간격으로 %castee_activate_mil_sec_2초 동안 빛 속성의 %PD_MIN_MAX_castee_effect_value_2 만큼 피해를 줍니다."/>
+	<l10n_template data_code="722" name="감소계열/지속데미지" desc="대상에게 %castee_activate_interval_mil_sec_2초 간격으로 %castee_activate_mil_sec_2초 동안 어둠 속성의 %PD_MIN_MAX_castee_effect_value_2 만큼 피해를 줍니다."/>
+	<l10n_template data_code="723" name="감소계열/지속데미지" desc="대상에게 %castee_activate_interval_mil_sec_2초 간격으로 %castee_activate_mil_sec_2초 동안 불 속성의 %PD_MIN_MAX_castee_effect_value_2 만큼 피해를 줍니다."/>
+	<l10n_template data_code="724" name="감소계열/지속데미지" desc="대상에게 %castee_activate_interval_mil_sec_2초 간격으로 %castee_activate_mil_sec_2초 동안 얼음 속성의 %PD_MIN_MAX_castee_effect_value_2 만큼 피해를 줍니다."/>
+	<l10n_template data_code="730" name="독계열/지속데미지" desc="대상에게 %PD_MIN_MAX_castee_effect_value_1의 피해를 주고 %castee_activate_interval_mil_sec_2초 간격으로 %castee_activate_mil_sec_2초 동안 무 속성의 %{%AP*(%castee_effect_value_2/1000)}의 지속성 피해를 줍니다."/>
+	<l10n_template data_code="740" name="마나감소/체력감소(전체 마나 사용)" desc="시전자 마나의 %{%castee_effect_value_1/10}%만큼 상대의 체력을 감소시키고 %{%castee_effect_value_2/10}%만큼 마나를 감소시킵니다."/>
+	<l10n_template data_code="750" name="마나감소/체력감소(전체 체력 사용)" desc="시전자 체력의 %{%castee_effect_value_1/10}%만큼 상대의 체력을 감소시키고 %{%castee_effect_value_2/10}%만큼 마나를 감소시킵니다."/>
+	<l10n_template data_code="760" name="공포" desc="적에게 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 공포 상태로 만듭니다."/>
+	<l10n_template data_code="761" name="체력 감소/변이" desc="공격 대상에게 %{%SP*(%castee_effect_value_1/1000)}만큼 피해를 입히고 %castee_activate_mil_sec_2초 동안 변이시킵니다."/>
+	<l10n_template data_code="762" name="변이" desc="대상을 %castee_activate_mil_sec_2초 동안 닭으로 변이시킵니다."/>
+	<l10n_template data_code="770" name="수면효과" desc="대상을 %castee_activate_mil_sec_2초 동안 잠 재웁니다."/>
+	<l10n_template data_code="771" name="수면효과" desc="대상을 %castee_activate_mil_sec_2초 동안 잠 재우고 %castee_activate_mil_sec_1초 동안 적에게 자신의 존재를 흐릿하게 만듭니다."/>
+	<l10n_template data_code="780" name="광분" desc="분노를 터트려  %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%의 공격력을 향상시킵니다."/>
+	<l10n_template data_code="790" name="이동불가" desc="%castee_activate_mil_sec_2초 동안 상대를 이동 불가 상태로 만듭니다."/>
+	<l10n_template data_code="800" name="이동불가/체력감소" desc="적에게 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 이동 불가 상태로 만듭니다."/>
+	<l10n_template data_code="801" name="이동불가/체력감소" desc="적에게 %{%SP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 이동 불가 상태로 만듭니다."/>
+	<l10n_template data_code="810" name="체력감소/체력흡수" desc="적에 %PD_MIN_MAX_castee_effect_value_1의 피해를 주고 적 체력의 %{%castee_effect_value_2/10}%를 흡수합니다."/>
+	<l10n_template data_code="820" name="마나흡수" desc="적에 %{%SP*(%castee_effect_value_1/1000)} 의 피해를 주고 적의 마나 %{%castee_effect_value_2/10}%를 흡수합니다."/>
+	<l10n_template data_code="830" name="체력감소/체력흡수" desc="적에 %{%SP*(%castee_effect_value_1/1000)} 의 피해를 주고 적 체력의 %{%castee_effect_value_2/10}%를 흡수합니다."/>
+	<l10n_template data_code="840" name="마비" desc="공격 대상에게 %{%SP*(%castee_effect_value_1/1000)}만큼 피해를 입히고 %castee_activate_mil_sec_2초 동안 이동불가 상태로 만듭니다."/>
+	<l10n_template data_code="841" name="자신 주변(보스용)" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안빛 속성으로 자신의 물리 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="842" name="이속감소/(보스용)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}%의 이동 속도를 감소 시킵니다."/>
+	<l10n_template data_code="843" name="이동불가/(보스용)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 이동 불가 상태로 만듭니다."/>
+	<l10n_template data_code="844" name="이동불가" desc="자신 주변에 %{%SP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 이동 불가 상태로 만듭니다."/>
+	<l10n_template data_code="850" name="넉백/자신 주변(보스용)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 밀어냅니다."/>
+	<l10n_template data_code="860" name="변이/자신 주변(보스용)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 변이 시킵니다."/>
+	<l10n_template data_code="870" name="공포/자신 주변(보스용)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 공포 상태로 만듭니다."/>
+	<l10n_template data_code="880" name="스턴/자신 주변(보스용)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 스턴 상태로 만듭니다."/>
+	<l10n_template data_code="881" name="넉백/자신 주변(일반몬스터)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 밀어냅니다."/>
+	<l10n_template data_code="882" name="변이/자신 주변(일반몬스터)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 변이 시킵니다."/>
+	<l10n_template data_code="883" name="공포/자신 주변(일반몬스터)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 공포 상태로 만듭니다."/>
+	<l10n_template data_code="884" name="스턴/자신 주변(일반몬스터)" desc="자신 주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고 %castee_activate_mil_sec_2초 동안 상대를 스턴 상태로 만듭니다."/>
+	<l10n_template data_code="890" name="감소계열 해제" desc="사용하려는 스킬 보다 동급 이하의 감소 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="900" name="독 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 독 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="910" name="신성 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 신성 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="920" name="저주 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 저주 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="930" name="육체 약화 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 육체 약화 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="940" name="정신력 강화 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 정신력 강화 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="950" name="정신력 약화 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 정신력 약화 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="960" name="상태 이상 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 상태 이상 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="970" name="봉인 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 봉인 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="980" name="속도 향상 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 속도 향상 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="990" name="속도 감소 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 속도 감소 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="1000" name="은신 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 은신 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="1010" name="흡수 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 흡수 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="1020" name="스턴 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 스턴 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="1021" name="이상 계열 해제(자신에게만)" desc="자신에게 걸린 정신력 약화, 봉인, 변이, 스턴 상태를 벗어날 수 있습니다. "/>
+	<l10n_template data_code="1030" name="변이 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 변이 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="1040" name="공격 불가 계열 해제" desc="사용하려는 스킬 보다 동급 이하의 공격 불가 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="1050" name="특수 해제(공포 해제/은신)" desc="사용하려는 스킬 보다 동급 이하의 특수 계열의 증상을 해제하는 기술입니다."/>
+	<l10n_template data_code="1060" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 무 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1070" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 빛 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1080" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 어둠 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1090" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 불 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1100" name="자신 전방 범위 공격" desc="전방에 있는 %effect_range_value 미터 범위 안의 대상에게 얼음 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1110" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 무 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1120" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 빛 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1130" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 어둠 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1140" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 불 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1150" name="자신 주변 범위 공격" desc="자신 주변에 있는 %effect_range_value 미터 범위 안의 대상에게 얼음 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1160" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 무 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1170" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 빛 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1180" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 어둠 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1190" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를  불 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1200" name="대상 범위 공격" desc="대상 주변의 %effect_range_value 미터 범위를 얼음 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1210" name="마법 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 무 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1220" name="마법 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 빛 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1230" name="마법 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 어둠 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1240" name="마법 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를  불 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1250" name="마법 지역 범위 공격" desc="선택된 %effect_range_value 미터 범위를 얼음 속성으로 %MD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="1260" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 무 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1270" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안빛 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1280" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안어둠 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1290" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안불 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1300" name="자신 전방 범위 공격" desc="전방 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안얼음 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1310" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 무 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1320" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 빛 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1330" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 어둠 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1340" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안불 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1350" name="자신 주변 범위 공격" desc="자신 주변 %effect_range_value 미터 범위 안의 대상에게 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 얼음 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1360" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 무 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1370" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 빛 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1380" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안어둠 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1390" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 불 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1400" name="대상 범위 공격" desc="선택된 대상 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 얼음 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1410" name="마법 지역 범위 공격" desc="선택된 지역 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 무 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1420" name="마법 지역 범위 공격" desc="선택된 지역 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안빛 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1430" name="마법 지역 범위 공격" desc="선택된 지역 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2초 간격으로 %castee_activate_mil_sec_2초 동안 어둠 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1440" name="마법 지역 범위 공격" desc="선택된 지역 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 불 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1450" name="마법 지역 범위 공격" desc="선택된 지역 %effect_range_value 미터 범위에 %castee_activate_interval_mil_sec_2 간격으로 %castee_activate_mil_sec_2초 동안 얼음 속성으로 자신의 마법 공격력에 %{%castee_effect_value_2/10}%의 피해를 줍니다."/>
+	<l10n_template data_code="1460" name="(자신)전체 체력 증가" desc="자신의 체력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1470" name="(자신)전체 마나 증가" desc="자신의 마나를 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1480" name="(자신)회피율 증가" desc="자신의 회피율을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1490" name="(자신)막기 증가" desc="자신의 막기 능력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1500" name="(자신)빛 속성 증가" desc="자신의 빛 속성력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1510" name="(자신)암흑 속성 증가" desc="자신의 암흑 속성력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1520" name="(자신)불 속성 증가" desc="자신의 불 속성력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1530" name="(자신)얼음 속성 증가" desc="자신의 얼음 속성력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1540" name="(자신)빛 저항력 증가" desc="자신의 빛 저항력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1550" name="(자신)암흑 저항력 증가" desc="자신의 임흑 저항력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1560" name="(자신)불 저항력" desc="자신의 불 저항력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1570" name="(자신)얼음 저항력 증가" desc="자신의 얼음 저항력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1580" name="(자신)물리 공격력 증가" desc="자신의 물리 공격력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1590" name="(자신)마법 공격력 증가" desc="자신의 마법 공격력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1600" name="(자신)방어력 증가" desc="자신의 방어력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1610" name="(자신)명중률 증가" desc="자신의 명중률을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1620" name="(자신)크리티컬 확률 증가" desc="자신의 크리티컬 확률을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1621" name="(자신)공격 증가/막기 감소" desc="%caster_activate_mil_sec_2초 동안 공격력을  %{%caster_effect_value_2/10}% 상승 시키고 %{%caster_effect_value_1/10}%만큼 막기능력을 포기합니다."/>
+	<l10n_template data_code="1622" name="(자신)이동 속도 증가" desc="%caster_activate_mil_sec_1초 동안 이동 속도를 향상 시킵니다."/>
+	<l10n_template data_code="1630" name="(상대)전체 체력 증가" desc="대상의 체력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1640" name="(상대)전체 마나 증가" desc="대상의 마나를 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1650" name="(상대)회피율 증가" desc="대상의 회피율을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1660" name="(상대)막기 증가" desc="대상의 막기 능력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1670" name="(상대)빛 속성 증가" desc="대상의 빛 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1680" name="(상대)암흑 속성 증가" desc="대상의 암흑 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1690" name="(상대)불 속성 증가" desc="대상의 불 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1700" name="(상대)얼음 속성 증가" desc="대상의 얼음 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1710" name="(상대)빛 저항력 증가" desc="대상의 빛 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1720" name="(상대)암흑 저항력 증가" desc="대상의 임흑 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1730" name="(상대)불 저항력" desc="대상의 불 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1740" name="(상대)얼음 저항력 증가" desc="대상의 얼음 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1750" name="(상대)물리 공격력 증가" desc="대상의 물리 공격력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1760" name="(상대)마법 공격력 증가" desc="대상의 마법 공격력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1770" name="(상대)방어력 증가" desc="대상의 방어력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1780" name="(상대)명중률 증가" desc="대상의 명중률을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1790" name="(상대)크리티컬 확률 증가" desc="대상의 크리티컬 확률을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1800" name="(상대)이동 속도 증가" desc="대상의 이동 속도를 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="1810" name="(상대)캐스팅 딜레이 감소" desc="대상의 케스팅 딜레이를 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1820" name="(상대)전체 체력 감소" desc="대상의 체력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1830" name="(상대)전체 마나 감소" desc="대상의 마나를 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1840" name="(상대)회피율 감소" desc="대상의 회피율을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1850" name="(상대)막기 감소" desc="대상의 막기 능력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1851" name="(상대)막기 감소" desc="대상의 막기 능력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시키고 %castee_activate_mil_sec_1초 동안 대상의 관심에서 멀어집니다."/>
+	<l10n_template data_code="1860" name="(상대)빛 속성 감소" desc="대상의 빛 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1870" name="(상대)암흑 속성 감소" desc="대상의 암흑 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1880" name="(상대)불 속성 감소" desc="대상의 불 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1890" name="(상대)얼음 속성 감소" desc="대상의 얼음 속성력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1900" name="(상대)빛 저항력 감소" desc="대상의 빛 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1910" name="(상대)암흑 저항력 감소" desc="대상의 임흑 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1920" name="(상대)불 저항력 감소" desc="대상의 불 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1930" name="(상대)얼음 저항력 감소" desc="대상의 얼음 저항력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1940" name="(상대)물리 공격력 감소" desc="대상의 물리 공격력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1950" name="(상대)마법 공격력 감소" desc="대상의 마법 공격력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1960" name="(상대)방어력 감소" desc="대상의 방어력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1961" name="(상대)체력감소/방어력 감소" desc="무 속성으로 %PD_MIN_MAX_castee_effect_value_1의 피해를 입히고 대상의 방어력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1970" name="(상대)명중률 감소" desc="대상의 명중률을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1980" name="(상대)크리티컬 확률 감소" desc="대상의 크리티컬 확률을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="1990" name="(상대)이동 속도 감소" desc="대상의 이동 속도를 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="2000" name="(상대)캐스팅 딜레이 증가" desc="대상의 케스팅 딜레이를 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 증가 시킵니다."/>
+	<l10n_template data_code="2010" name="(자신)전체 마나 증가/마공증가" desc="마나가 %caster_effect_value_1 증가하고 마법 공격력이 caster_effect_value_2 증가합니다."/>
+	<l10n_template data_code="2020" name="휴식스킬" desc="1초 마다 30초 동안 체력이 %{%caster_effect_value_1/10}% 회복되고 마나가 %{%caster_effect_value_2/10}% 회복됩니다."/>
+	<l10n_template data_code="2030" name="집행" desc="빈사 상태의 유저를 공격해서, 아이템을 강탈할기 위해 사용합니다."/>
+	<l10n_template data_code="2040" name="전투 전환" desc="기술을 사용하기 위해 전투 자세를 잡습니다."/>
+	<l10n_template data_code="2050" name="평화 전환" desc="전투 외에 다른 행동을 하기 위해서 무기를 집어넣습니다."/>
+	<l10n_template data_code="2060" name="건물 수리" desc="건물의 내구력을 %{%castee_effect_value_2/10}% 복구할 수 있습니다."/>
+	<l10n_template data_code="2070" name="충격파" desc="자신의 체력이 %{%check_point_value/10}%이하로 떨어지면, 주변에 충격 스크롤을 찢어 %castee_activate_mil_sec_2초 동안 상대를 스턴 상태로 만듭니다."/>
+	<l10n_template data_code="2080" name="(자신)체력 회복" desc="자신의 체력을 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="2081" name="(대상)체력 회복" desc="상대의 체력을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="2090" name="(자신)마나 회복" desc="자신의 마나를 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="2091" name="(대상)마나 회복" desc="상대의 마나를 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="2092" name="(대상)부활" desc="마나를 소모해 대상을 부활시킵니다."/>
+	<l10n_template data_code="2093" name="(자신)체력,마나 회복" desc=" %caster_activate_mil_sec_2초 동안 체력을 %{%caster_effect_value_1/10}%, 마나를 %{%caster_effect_value_2/10}% 회복 시킵니다."/>
+	<l10n_template data_code="2100" name="(자신)물리 공격력 증가/막기 감소" desc=" %caster_activate_mil_sec_2초 동안 물리 공격력을 %{%caster_effect_value_1/10}% 증가 시키고,  막기 능력을 %{%caster_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="2110" name="(자신)방어력 증가/공격력 감소" desc=" %caster_activate_mil_sec_2초 동안 방어력을 %{%caster_effect_value_1/10}% 증가 시키고,  체력을 %{%caster_effect_value_2/10}% 감소 시킵니다."/>
+	<l10n_template data_code="2120" name="(상대)회피율 감소/(자신)체력 감소" desc="상대의 회피율을 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}%만큼 감소 시키고 %castee_activate_mil_sec_1초 동안 자신에게 적의 관심을 자신에게 집중 시킵니다."/>
+	<l10n_template data_code="2121" name="(상대)회피율 감소/(자신)체력 감소" desc="전방 %effect_range_value 미터 범위 안의 대상에게 무 속성으로 %castee_effect_value_2 만큼의 피해를 주고 %castee_activate_mil_sec_1초 동안 자신에게 적의 관심을 집중시킵니다."/>
+	<l10n_template data_code="2122" name="(상대)회피율 감소/(자신)체력 감소" desc="전방 %effect_range_value 미터 범위 안의 대상에게 무 속성으로 %castee_effect_value_2 만큼의 피해를 주고 %castee_activate_mil_sec_1초 동안 자신에게 적의 관심을 집중시킵니다."/>
+	<l10n_template data_code="2123" name="(상대)회피율 감소/(자신)체력 감소" desc="전방 %effect_range_value 미터 범위 안의 대상에게 무 속성으로 %castee_effect_value_2 만큼의 피해를 주고 %castee_activate_mil_sec_1초 동안 자신에게 적의 관심을 집중시킵니다."/>
+	<l10n_template data_code="2130" name="HP 쉴드" desc="마나를 활성화시켜 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%의 체력을 만들어 상대의 공격을 방어합니다."/>
+	<l10n_template data_code="2140" name="MP 쉴드" desc="마나를 활성화시켜 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%의 마나를 만들어 상대의 공격을 방어합니다."/>
+	<l10n_template data_code="2150" name="(자신범위)체력회복" desc="자신 주변의 아군에게 체력을 %{%castee_effect_value_2/10}% 회복시킵니다."/>
+	<l10n_template data_code="2160" name="(자신 범위)마나 회복" desc="자신 주변의 아군에게 마나를 %{%castee_effect_value_2/10}% 회복시킵니다."/>
+	<l10n_template data_code="2161" name="물리/마법 공격력 증가" desc="주변의 아군에게 %castee_activate_mil_sec_2초 동안 물리/마법 공격력을 %{%castee_effect_value_2/10}% 향상시킵니다."/>
+	<l10n_template data_code="2162" name="방어력 증가" desc="주변의 아군에게 %castee_activate_mil_sec_2초 동안 방어력을 %{%castee_effect_value_2/10}% 향상시킵니다."/>
+	<l10n_template data_code="2170" name="상대체력감소" desc="상대에게 어둠 속성으로 %PD_MIN_MAX_castee_effect_value_2 만큼의 피해를 줍니다."/>
+	<l10n_template data_code="2180" name="자신 주변 범위 공격/방어력 감소" desc="주변에 %{%AP*(%castee_effect_value_1/1000)}의 피해를 주고, %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 의 방어력을 감소시킵니다."/>
+	<l10n_template data_code="2190" name="자신 주변 은신해제" desc="주변에 은신한 적들을 찾아냅니다."/>
+	<l10n_template data_code="2200" name="범위지정/체력감소/이동속도 감소" desc="선택된 지역 %effect_range_value 미터 범위에 얼음 속성으로 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 의 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="2210" name="자신주변/체력감소/이동속도 감소" desc="자신 주변에 얼음 속성으로 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 의 이동 속도를 감소시킵니다."/>
+	<l10n_template data_code="2220" name="범위지정/체력감소/방어력감소" desc="자신 주변에 얼음 속성으로 %castee_activate_mil_sec_2초 동안 %{%castee_effect_value_2/10}% 의 방어력을 감소시킵니다."/>
+	<l10n_template data_code="2230" name="방어력증가/물리,마법 공격력증가/명중" desc="자신의 방어력, 물리/마법 공격력, 명중률이  %caster_activate_mil_sec_2초 동안 지속됩니다."/>
+	<l10n_template data_code="10010" name="(자신)전체 체력 증가" desc="자신의 체력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10020" name="(자신)전체 마나 증가" desc="자신의 마나가 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10030" name="(자신)회피율 증가" desc="자신의 회피율이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10040" name="(자신)막기 증가" desc="자신의 막기 능력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10050" name="(자신)빛 속성 증가" desc="자신의 빛 속성이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10060" name="(자신)암흑 속성 증가" desc="자신의 암흑 속성이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10070" name="(자신)불 속성 증가" desc="자신의 불 속성이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10080" name="(자신)얼음 속성 증가" desc="자신의 얼음 속성이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10090" name="(자신)빛 저항력 증가" desc="자신의 빛 저항력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10100" name="(자신)암흑 저항력 증가" desc="자신의 암흑 저항력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10110" name="(자신)불 저항력" desc="자신의 불 저항력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10120" name="(자신)얼음 저항력 증가" desc="자신의 얼음 저항력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10130" name="(자신)물리 공격력 증가" desc="자신의 물리 공격력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10140" name="(자신)마법 공격력 증가" desc="자신의 마법 공격력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10150" name="(자신)방어력 증가" desc="자신의 방어력이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10160" name="(자신)명중률 증가" desc="자신의 명중률이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10170" name="(자신)크리티컬 확률 증가" desc="자신의 크리티컬 확률이 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10190" name="(자신)이동 속도 증가" desc="자신의 이동 속도가 %caster_effect_value_1만큼 증가합니다."/>
+	<l10n_template data_code="10200" name="(자신)전체 체력 증가" desc="자신의 체력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10210" name="(자신)전체 마나 증가" desc="자신의 마나가 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10220" name="(자신)회피율 증가" desc="자신의 회피율이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10230" name="(자신)막기 증가" desc="자신의 막기 능력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10240" name="(자신)빛 속성 증가" desc="자신의 빛 속성이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10250" name="(자신)암흑 속성 증가" desc="자신의 암흑 속성이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10260" name="(자신)불 속성 증가" desc="자신의 불 속성이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10270" name="(자신)얼음 속성 증가" desc="자신의 얼음 속성이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10280" name="(자신)빛 저항력 증가" desc="자신의 빛 저항력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10290" name="(자신)암흑 저항력 증가" desc="자신의 암흑 저항력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10300" name="(자신)불 저항력" desc="자신의 불 저항력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10310" name="(자신)얼음 저항력 증가" desc="자신의 얼음 저항력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10320" name="(자신)물리 공격력 증가" desc="자신의 물리 공격력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10330" name="(자신)마법 공격력 증가" desc="자신의 마법 공격력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10340" name="(자신)방어력 증가" desc="자신의 방어력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10350" name="(자신)명중률 증가" desc="명중률이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10360" name="(자신)크리티컬 확률 증가" desc="자신의 크리티컬 확률이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10370" name="(자신)체력 회복" desc="자신의 체력이 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10380" name="(자신)마나 회복" desc="자신의 마나가 %caster_activate_mil_sec_2초 동안 %{%caster_effect_value_2/10}%만큼 증가합니다."/>
+	<l10n_template data_code="10390" name="무적상태 스킬" desc="사악한 마법을 사용해 스스로를 건드릴 수 없는 존재로 만듭니다."/>
+	<l10n_template data_code="10400" name="자신 주변 범위 공격" desc="자신의 주변에 데미지를 입힙니다."/>
+	<l10n_template data_code="10410" name="자신 주변 범위 공격" desc="자신의 주변에 지속적으로 데미지를 입힙니다."/>
+	<l10n_template data_code="10420" name="자신 체력감소" desc="서서히 약해져 갑니다."/>
+	<l10n_template data_code="10430" name="광역"/>
+	<l10n_template data_code="10440" name="후방 공격" desc="상대의 뒤로 이동하는 기술입니다."/>
+</l10n_table>

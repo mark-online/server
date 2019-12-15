@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="201392129" name="유저 출현 001"/>
+	<l10n_template data_code="201457665" name="무덤 001"/>
+	<l10n_template data_code="201457667" name="무덤 003"/>
+	<l10n_template data_code="201457668" name="무덤 004"/>
+	<l10n_template data_code="201457670" name="무덤 006"/>
+	<l10n_template data_code="201457671" name="무덤 007"/>
+	<l10n_template data_code="201457672" name="무덤 008"/>
+	<l10n_template data_code="201457673" name="무덤 009"/>
+	<l10n_template data_code="201457674" name="무덤 010"/>
+	<l10n_template data_code="201457675" name="무덤 000"/>
+	<l10n_template data_code="201523201" name="거미 001"/>
+	<l10n_template data_code="201523202" name="해골 001"/>
+	<l10n_template data_code="201523203" name="겔본 노예병 001"/>
+	<l10n_template data_code="201523204" name="좀도둑 001"/>
+	<l10n_template data_code="201523205" name="해골 전사 001"/>
+	<l10n_template data_code="201523206" name="도둑 001"/>
+	<l10n_template data_code="201523207" name="오염된 쥐 001"/>
+	<l10n_template data_code="201523208" name="구울 001"/>
+	<l10n_template data_code="201523209" name="구울 002"/>
+	<l10n_template data_code="201523210" name="새끼 호랑이 001"/>
+	<l10n_template data_code="201523211" name="샐러맨더 001"/>
+	<l10n_template data_code="201523212" name="암호랑이 001"/>
+	<l10n_template data_code="201523213" name="숫호랑이 퀘스트"/>
+	<l10n_template data_code="201523214" name="바빌론 신병 001"/>
+	<l10n_template data_code="201523215" name="바빌론 인부 001"/>
+	<l10n_template data_code="201523216" name="바빌론 보병 001"/>
+	<l10n_template data_code="201523217" name="저항군 001"/>
+	<l10n_template data_code="201523218" name="상처입은 멧돼지 001"/>
+	<l10n_template data_code="201523219" name="멧돼지 001"/>
+	<l10n_template data_code="201523220" name="난폭한 멧돼지 001"/>
+	<l10n_template data_code="201523221" name="굶주린 멧돼지 001"/>
+	<l10n_template data_code="201523222" name="사나운 늑대 001"/>
+	<l10n_template data_code="201523223" name="바빌론 중갑 보급병 001"/>
+	<l10n_template data_code="201523224" name="바빌론 정찰병 001"/>
+	<l10n_template data_code="201523225" name="바빌론 중갑 보병 001"/>
+	<l10n_template data_code="201523226" name="바빌론 유격대원 001"/>
+	<l10n_template data_code="201523227" name="샤벨 타이거 001"/>
+	<l10n_template data_code="201523228" name="고릴라 001"/>
+	<l10n_template data_code="201523229" name="킹 코모도 001"/>
+	<l10n_template data_code="201523230" name="코모도 001"/>
+	<l10n_template data_code="201523231" name="바빌론 정예병 001"/>
+	<l10n_template data_code="201523232" name="카오스 타이거 001"/>
+	<l10n_template data_code="201523233" name="고릴라 002"/>
+	<l10n_template data_code="201523234" name="야수 조련사 001"/>
+	<l10n_template data_code="201523235" name="피난민 001"/>
+	<l10n_template data_code="201523236" name="대머리 독수리 001"/>
+	<l10n_template data_code="201523237" name="아브나스 001"/>
+	<l10n_template data_code="201523238" name="쟈칸 고블린 002"/>
+	<l10n_template data_code="201523239" name="바빌론 유격 훈련병 001"/>
+	<l10n_template data_code="201523240" name="바빌론 정예병 002"/>
+	<l10n_template data_code="201523241" name="불새 001"/>
+	<l10n_template data_code="201523242" name="불타는 위습 001"/>
+	<l10n_template data_code="201523243" name="검은 늑대 001"/>
+	<l10n_template data_code="201523244" name="독거미 001"/>
+	<l10n_template data_code="201523245" name="고블린 001"/>
+	<l10n_template data_code="201523246" name="고블린 전사 001"/>
+	<l10n_template data_code="201523247" name="고블린 마법사 001"/>
+	<l10n_template data_code="201523248" name="오염된 나무 정령 001"/>
+	<l10n_template data_code="201523249" name="쟈칸 고블린 001"/>
+	<l10n_template data_code="201523250" name="쟈칸 고블린 전사 001"/>
+	<l10n_template data_code="201523251" name="쟈칸 고블린 마법사 001"/>
+	<l10n_template data_code="201523252" name="쟈칸 고블린 전사 002"/>
+	<l10n_template data_code="201523253" name="고블린 전사 002"/>
+	<l10n_template data_code="201785345" name="거미 시체 001"/>
+	<l10n_template data_code="201785346" name="현무암 001"/>
+	<l10n_template data_code="201785347" name="나무 토막 001"/>
+	<l10n_template data_code="201785348" name="자스민 001"/>
+	<l10n_template data_code="201785349" name="허브 001"/>
+	<l10n_template data_code="201785350" name="게보닌 버섯 001"/>
+	<l10n_template data_code="201850881" name="보물 상자"/>
+	<l10n_template data_code="201981954" name="범죄자 무덤 002"/>
+	<l10n_template data_code="201981955" name="범죄자 무덤 003"/>
+	<l10n_template data_code="201981956" name="범죄자 무덤 004"/>
+	<l10n_template data_code="201981957" name="범죄자 무덤 005"/>
+	<l10n_template data_code="202047489" name="폐광"/>
+	<l10n_template data_code="202047490" name="탁자"/>
+	<l10n_template data_code="202047491" name="탁자"/>
+	<l10n_template data_code="202047492" name="용암근처"/>
+	<l10n_template data_code="202375169" name="겔본 돌격대"/>
+	<l10n_template data_code="202375170" name="테르센 마을"/>
+	<l10n_template data_code="202375171" name="몽클리 신전"/>
+	<l10n_template data_code="202375172" name="벨버트 성"/>
+	<l10n_template data_code="202375173" name="디오고 농장"/>
+	<l10n_template data_code="202375174" name="클렌트 마을"/>
+	<l10n_template data_code="202375175" name="돌격대 주둔지"/>
+	<l10n_template data_code="202375176" name="화산 지대"/>
+	<l10n_template data_code="202375177" name="겔본 건설 현장"/>
+	<l10n_template data_code="202375178" name="테렌스 벌목장"/>
+	<l10n_template data_code="202375179" name="겔본 보급 기지"/>
+	<l10n_template data_code="202375180" name="피난민 마을"/>
+	<l10n_template data_code="202375181" name="겔본 군단 사령부"/>
+	<l10n_template data_code="202440705" name="이동 도움말"/>
+	<l10n_template data_code="202440706" name="퀘스트 도움말"/>
+	<l10n_template data_code="202440707" name="퀘스트 목표 도움말"/>
+	<l10n_template data_code="202440708" name="채집 도움말"/>
+	<l10n_template data_code="202440709" name="스킬 도움말"/>
+	<l10n_template data_code="202440710" name="대장간 도움말"/>
+	<l10n_template data_code="202440711" name="오벨리스크 도움말"/>
+	<l10n_template data_code="202440712" name="이벤트 도움말"/>
+	<l10n_template data_code="201654273" name="To 할켄 늪지대 포탈"/>
+	<l10n_template data_code="201654274" name="From 할켄 늪지대 포탈"/>
+	<l10n_template data_code="201588737" name="인페르노(1Lv~5Lv)"/>
+	<l10n_template data_code="201588738" name="인페르노(6Lv~10Lv)"/>
+	<l10n_template data_code="201588739" name="인페르노(11Lv~15Lv)"/>
+	<l10n_template data_code="201588740" name="인페르노(16Lv~20Lv)"/>
+	<l10n_template data_code="202506241" name="디오고농장 월드 이벤트"/>
+	<l10n_template data_code="202506242" name="디오고농장 월드 이벤트(보스)"/>
+	<l10n_template data_code="202506243" name="클렌트마을 월드 이벤트"/>
+	<l10n_template data_code="202506244" name="클렌트마을 월드 이벤트(보스)"/>
+	<l10n_template data_code="202506245" name="카오스 거상 월드 이벤트(보스)"/>
+	<l10n_template data_code="202506246" name="커델 월드 이벤트(보스)"/>
+</l10n_table>

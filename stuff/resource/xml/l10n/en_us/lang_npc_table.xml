@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="100794373" name="Skeleton"/>
+	<l10n_template data_code="100794378" name="Polluted Spider"/>
+	<l10n_template data_code="100794383" name="Petty Thief"/>
+	<l10n_template data_code="100925460" name="Hen"/>
+	<l10n_template data_code="100794393" name="Skeleton Warrior"/>
+	<l10n_template data_code="100794398" name="Weak Wisp"/>
+	<l10n_template data_code="100794403" name="Rat"/>
+	<l10n_template data_code="100794408" name="deer"/>
+	<l10n_template data_code="101056557" name="Goblin" desc="( Destroyer )"/>
+	<l10n_template data_code="100794414" name="Sentry Goblin"/>
+	<l10n_template data_code="100794418" name="Infect Scorpion"/>
+	<l10n_template data_code="100794423" name="Desert Scorpion"/>
+	<l10n_template data_code="100794428" name="Polluted Rat"/>
+	<l10n_template data_code="100794433" name="Skeleton Commander" desc="( Destroyer )"/>
+	<l10n_template data_code="101056582" name="Followers" desc="( Destroyer )"/>
+	<l10n_template data_code="101056583" name="Devildom Followers" desc="( Destroyer )"/>
+	<l10n_template data_code="101056587" name="Devildom Corps Soldier" desc="( Destroyer )"/>
+	<l10n_template data_code="101056592" name="Goblin Warrior"/>
+	<l10n_template data_code="100794453" name="Thief"/>
+	<l10n_template data_code="100794458" name="Wounded Boar" desc="( Destroyer )"/>
+	<l10n_template data_code="101056607" name="Goblin Wizard"/>
+	<l10n_template data_code="100794468" name="Ghost"/>
+	<l10n_template data_code="100794473" name="Wolf"/>
+	<l10n_template data_code="100794478" name="Boar"/>
+	<l10n_template data_code="100794483" name="Gelbon Miscellaneous"/>
+	<l10n_template data_code="100794488" name="Skeleton Wizard" desc="( Destroyer )"/>
+	<l10n_template data_code="101056637" name="Ominous statue" desc="( Destroyer )"/>
+	<l10n_template data_code="101056642" name="Devildom Warrior"/>
+	<l10n_template data_code="100794503" name="Ghoul"/>
+	<l10n_template data_code="100794508" name="Poison Spider"/>
+	<l10n_template data_code="101056657" name="Devildom beast"/>
+	<l10n_template data_code="100794518" name="Chief Ghoul"/>
+	<l10n_template data_code="100794523" name="Tiger's Cub" desc="( Destroyer )"/>
+	<l10n_template data_code="101056672" name="Devildom Wizard" desc="( Destroyer )"/>
+	<l10n_template data_code="101056673" name="Devildom Summoner"/>
+	<l10n_template data_code="100794533" name="Jyakan Goblin"/>
+	<l10n_template data_code="100794534" name="Sentry Jyakan Goblin"/>
+	<l10n_template data_code="100794538" name="Lappet Faced Vulture"/>
+	<l10n_template data_code="100794543" name="Spider Queen"/>
+	<l10n_template data_code="100794548" name="Tigress" desc="( Destroyer )"/>
+	<l10n_template data_code="100794553" name="Black Wolf"/>
+	<l10n_template data_code="101056702" name="Secondary hunter"/>
+	<l10n_template data_code="101056707" name="Skoll"/>
+	<l10n_template data_code="100794568" name="Jyakan Goblin Warrior"/>
+	<l10n_template data_code="100794573" name="Weak Sand Spirit"/>
+	<l10n_template data_code="100794578" name="Tiger"/>
+	<l10n_template data_code="100794583" name="Gelbon Worker"/>
+	<l10n_template data_code="100794588" name="Poacher"/>
+	<l10n_template data_code="100794593" name="Jyakan Goblin Wizard"/>
+	<l10n_template data_code="100794598" name="Brown Bear Brotherhood"/>
+	<l10n_template data_code="100794603" name="Brown Bear Brotherhood Captain"/>
+	<l10n_template data_code="100794608" name="Brown Bear Brotherhood General"/>
+	<l10n_template data_code="100794613" name="Specter"/>
+	<l10n_template data_code="100794618" name="Salamander"/>
+	<l10n_template data_code="100794623" name="Wild Boar"/>
+	<l10n_template data_code="100794628" name="Officer" desc="( Destroyer )"/>
+	<l10n_template data_code="100794633" name="Tiger King" desc="( Destroyer )"/>
+	<l10n_template data_code="101056782" name="Human Hunters" desc="( Destroyer )"/>
+	<l10n_template data_code="101056787" name="Devildom Veteran Troop"/>
+	<l10n_template data_code="101056788" name="Devildom Soldier"/>
+	<l10n_template data_code="101056792" name="Darkness Skoll"/>
+	<l10n_template data_code="100794653" name="Gelbon Green Troop"/>
+	<l10n_template data_code="100794658" name="Avnas"/>
+	<l10n_template data_code="100794663" name="Desertfox"/>
+	<l10n_template data_code="100794668" name="Gelbon Foot Soldier"/>
+	<l10n_template data_code="100794673" name="Fire Bird"/>
+	<l10n_template data_code="100794678" name="Sand Spirit"/>
+	<l10n_template data_code="100794683" name="Burning Wisp"/>
+	<l10n_template data_code="100794688" name="Oswald Militia"/>
+	<l10n_template data_code="100794693" name="Fierce Wolf"/>
+	<l10n_template data_code="100794698" name="General Gelbon Foot Soldier" desc="( Destroyer )"/>
+	<l10n_template data_code="100860239" name="Militia Assasin"/>
+	<l10n_template data_code="101056852" name="Salamander trained"/>
+	<l10n_template data_code="100794713" name="Polluted Tree Spirit" desc="( Destroyer )"/>
+	<l10n_template data_code="100794718" name="Hungry Boar"/>
+	<l10n_template data_code="100794723" name="Soul Devilon"/>
+	<l10n_template data_code="100794728" name="Polluted Ifrit"/>
+	<l10n_template data_code="100794733" name="Gelbon Heavy Infantry"/>
+	<l10n_template data_code="100794738" name="Gelbon Heavy Ravitailleur" desc="( Destroyer )"/>
+	<l10n_template data_code="100794743" name="Chaos Ghoul"/>
+	<l10n_template data_code="101056892" name="Monster Trainer"/>
+	<l10n_template data_code="101056897" name="Amon"/>
+	<l10n_template data_code="101056902" name="Devildom Tree"/>
+	<l10n_template data_code="100794763" name="Komodo"/>
+	<l10n_template data_code="100794768" name="Gelbon Scout"/>
+	<l10n_template data_code="100794773" name="Chaos Stone Lump"/>
+	<l10n_template data_code="100794778" name="Gelbon Ranger Recruit"/>
+	<l10n_template data_code="100794783" name="King Cobra"/>
+	<l10n_template data_code="100794788" name="Gorilla"/>
+	<l10n_template data_code="100794793" name="Gelbon Ranger"/>
+	<l10n_template data_code="100794798" name="Gelbon Veteran Troop"/>
+	<l10n_template data_code="100794803" name="King Komodo"/>
+	<l10n_template data_code="100794808" name="Gelbon Sergeant"/>
+	<l10n_template data_code="100794813" name="Chaos Tiger"/>
+	<l10n_template data_code="100794818" name="Gelbon Skeleton"/>
+	<l10n_template data_code="101056967" name="Specter"/>
+	<l10n_template data_code="100794828" name="Gelbon Training Knight"/>
+	<l10n_template data_code="100794829" name="Gelbon Garrison soldier"/>
+	<l10n_template data_code="100794833" name="Trainer Of Wild Beast"/>
+	<l10n_template data_code="100794838" name="Stone Statue"/>
+	<l10n_template data_code="100794843" name="Magic Golem"/>
+	<l10n_template data_code="100794848" name="Curse Golem"/>
+	<l10n_template data_code="100794853" name="Gelbon Commander"/>
+	<l10n_template data_code="100794858" name="Saber Tiger"/>
+	<l10n_template data_code="100794863" name="Soul Destroyer "/>
+	<l10n_template data_code="101057012" name="Soul Devilon"/>
+	<l10n_template data_code="100794873" name="Brown Spider"/>
+	<l10n_template data_code="100794878" name="Golem"/>
+	<l10n_template data_code="100794883" name="Red Lappet Faced Vulture"/>
+	<l10n_template data_code="100794888" name="Lich King"/>
+	<l10n_template data_code="100794893" name="Swamp Scorpion"/>
+	<l10n_template data_code="100794898" name="Variety Komodo"/>
+	<l10n_template data_code="100794903" name="Cobra"/>
+	<l10n_template data_code="100794908" name="Specter"/>
+	<l10n_template data_code="100794913" name="Greenery of the Wolf"/>
+	<l10n_template data_code="100794918" name="Swamp Vulture"/>
+	<l10n_template data_code="100794923" name="Mutnat Chaos Tiger"/>
+	<l10n_template data_code="100794928" name="Dark Spiders"/>
+	<l10n_template data_code="101057077" name="Chaos Gigantic Statue"/>
+	<l10n_template data_code="100794938" name="Cursed Chaos Ghoul"/>
+	<l10n_template data_code="100794943" name="Gelbon Veteran Ranger"/>
+	<l10n_template data_code="100794948" name="Gelbon Knight"/>
+	<l10n_template data_code="100794953" name="Dazed Soul Destroyer "/>
+	<l10n_template data_code="100794958" name="Chaos Gorilla"/>
+	<l10n_template data_code="100794963" name="Mutnat Chaos Gorilla"/>
+	<l10n_template data_code="100794968" name="Dazed Avnas "/>
+	<l10n_template data_code="100794973" name="Minotaur"/>
+	<l10n_template data_code="100794978" name="Mutnat Gelbon Skeleton"/>
+	<l10n_template data_code="100794983" name="Ancient Golem"/>
+	<l10n_template data_code="100794988" name="Horrible Lich King"/>
+	<l10n_template data_code="100794993" name="Helpensenteu"/>
+	<l10n_template data_code="101057142" name="Ancient Gigantic Statue"/>
+	<l10n_template data_code="101057147" name="Keodel"/>
+	<l10n_template data_code="100795008" name="Scarecrow"/>
+	<l10n_template data_code="100795013" name="Orundia Empire soldier"/>
+	<l10n_template data_code="100795018" name="Gelbon Soldier"/>
+	<l10n_template data_code="101057167" name="Keodel(Illusion)"/>
+	<l10n_template data_code="100795028" name="Gelbon Slave soldiers"/>
+	<l10n_template data_code="100795029" name="Gelbon Archer"/>
+	<l10n_template data_code="100795033" name="Expedition Paladin"/>
+	<l10n_template data_code="100795038" name="Chief Gelbon Knight"/>
+	<l10n_template data_code="101057187" name="Skan"/>
+	<l10n_template data_code="101057192" name="Skanek"/>
+	<l10n_template data_code="101057197" name="Incomplete Helpensenteu"/>
+	<l10n_template data_code="100795058" name="Excommunicate Skanek"/>
+	<l10n_template data_code="100795063" name="Gelbon Slave soldiers"/>
+	<l10n_template data_code="100795068" name="Gelbon Slave soldiers"/>
+	<l10n_template data_code="100955445" name="Rat"/>
+	<l10n_template data_code="100955450" name="Cock"/>
+	<l10n_template data_code="100955455" name="Duck"/>
+	<l10n_template data_code="100955460" name="Horse"/>
+	<l10n_template data_code="100955465" name="Thoroughbred"/>
+	<l10n_template data_code="100889934" name="Extra"/>
+	<l10n_template data_code="100889939" name="Soldier"/>
+	<l10n_template data_code="100894909" name="Devilon Skeleton"/>
+	<l10n_template data_code="100894914" name="Skeleton Of Pita"/>
+	<l10n_template data_code="100763847" name="Erma"/>
+	<l10n_template data_code="100763852" name="Geoff"/>
+	<l10n_template data_code="100763857" name="Bram"/>
+	<l10n_template data_code="100763862" name="Axel"/>
+	<l10n_template data_code="100894939" name="Riitta"/>
+	<l10n_template data_code="100894944" name="Petra"/>
+	<l10n_template data_code="100763877" name="Gisbest"/>
+	<l10n_template data_code="100763882" name="Luka"/>
+	<l10n_template data_code="100763887" name="Birgit"/>
+	<l10n_template data_code="100763892" name="Paladin" desc=" "/>
+	<l10n_template data_code="100763897" name="Adria"/>
+	<l10n_template data_code="100763902" name="Diogo"/>
+	<l10n_template data_code="100763907" name="Sheridan"/>
+	<l10n_template data_code="100763912" name="Linton"/>
+	<l10n_template data_code="100763917" name="Miscellaneous Custodian"/>
+	<l10n_template data_code="100763922" name="Roland"/>
+	<l10n_template data_code="100763927" name="Spyridon"/>
+	<l10n_template data_code="100895004" name="Leopold "/>
+	<l10n_template data_code="100895009" name="Wilmer" desc=" "/>
+	<l10n_template data_code="100895014" name="Devan" desc=" "/>
+	<l10n_template data_code="100895019" name="Yemelyan" desc=" "/>
+	<l10n_template data_code="100895024" name="Praskovya"/>
+	<l10n_template data_code="100763957" name="Material Merchant"/>
+	<l10n_template data_code="100763962" name="Drillmaster"/>
+	<l10n_template data_code="100763967" name="Mercenary Leader"/>
+	<l10n_template data_code="100763972" name="Justin"/>
+	<l10n_template data_code="100763977" name="Randy"/>
+	<l10n_template data_code="100763982" name="Refugee"/>
+	<l10n_template data_code="100763987" name="Refugee"/>
+	<l10n_template data_code="100763992" name="Refugee"/>
+	<l10n_template data_code="100763997" name="Refugee" desc=" "/>
+	<l10n_template data_code="100895074" name="Jubello" desc=" "/>
+	<l10n_template data_code="100895079" name="Hainan"/>
+	<l10n_template data_code="100895084" name="Hogan"/>
+	<l10n_template data_code="100764017" name="Guild Custodian" desc="&lt;Guild Founding&gt;"/>
+	<l10n_template data_code="100895094" name="Groom" desc="&lt;Vehicle Sale&gt;"/>
+	<l10n_template data_code="100764027" name="Daly"/>
+	<l10n_template data_code="100764032" name="Lamont" desc=" "/>
+	<l10n_template data_code="100764037" name="Hyram"/>
+	<l10n_template data_code="100764042" name="Lester"/>
+	<l10n_template data_code="100764047" name="Antony"/>
+	<l10n_template data_code="100764052" name="caileigh"/>
+	<l10n_template data_code="100764057" name="Conway" desc=" "/>
+	<l10n_template data_code="100895134" name="Milly"/>
+	<l10n_template data_code="100895139" name="Inga"/>
+	<l10n_template data_code="100764072" name="Alina"/>
+	<l10n_template data_code="100764077" name="Redd Hal" desc="&lt;Auction&gt;"/>
+	<l10n_template data_code="100764082" name="Liz"/>
+	<l10n_template data_code="100764087" name="Grenville"/>
+	<l10n_template data_code="100764092" name="Vincent"/>
+	<l10n_template data_code="100764097" name="Oswald"/>
+	<l10n_template data_code="100764102" name="Runic Knight" desc=" "/>
+	<l10n_template data_code="100764107" name="Dell Daphne"/>
+	<l10n_template data_code="100764112" name="Whiker"/>
+	<l10n_template data_code="100764117" name="Jacpueline"/>
+	<l10n_template data_code="100764122" name="Blacksmith" desc="&lt;Item Enchant/ Reinforce/ Production&gt;"/>
+	<l10n_template data_code="100764127" name="Gilbert"/>
+	<l10n_template data_code="100764132" name="Terence"/>
+	<l10n_template data_code="100764137" name="Sullivan"/>
+	<l10n_template data_code="100764142" name="Cecily"/>
+	<l10n_template data_code="100764147" name="Everette"/>
+	<l10n_template data_code="100764152" name="Chip"/>
+	<l10n_template data_code="100764157" name="Germain"/>
+	<l10n_template data_code="100895234" name="Hudson" desc=" "/>
+	<l10n_template data_code="100764167" name="Arnold"/>
+	<l10n_template data_code="100764172" name="Cloud"/>
+	<l10n_template data_code="100764177" name="David"/>
+	<l10n_template data_code="100764182" name="Fulton" desc=" "/>
+	<l10n_template data_code="100764187" name="Kam"/>
+	<l10n_template data_code="100764192" name="Roslyn" desc=" "/>
+	<l10n_template data_code="100764197" name="Rick"/>
+	<l10n_template data_code="100764202" name="Hildebrand"/>
+	<l10n_template data_code="100764207" name="Balta"/>
+	<l10n_template data_code="100764212" name="Hagen" desc="&lt;Auction&gt;"/>
+	<l10n_template data_code="100764217" name="Jackson"/>
+	<l10n_template data_code="100764222" name="Leonard"/>
+	<l10n_template data_code="100764227" name="Nixon"/>
+	<l10n_template data_code="100764232" name="Guard"/>
+	<l10n_template data_code="100764237" name="Gem Ciseleur" desc="&lt;Gem Production&gt; "/>
+	<l10n_template data_code="100895314" name="Mauricio"/>
+	<l10n_template data_code="100895319" name="Tristin"/>
+	<l10n_template data_code="100895324" name="Arlen"/>
+	<l10n_template data_code="100764257" name="Walter" desc=" "/>
+	<l10n_template data_code="100764262" name="Ifrit"/>
+	<l10n_template data_code="100764267" name="Isabel"/>
+	<l10n_template data_code="100764272" name="Nastasia"/>
+	<l10n_template data_code="100764277" name="Arena Custidian" desc="&lt;Point Sale&gt;"/>
+	<l10n_template data_code="100764282" name="Maureen"/>
+	<l10n_template data_code="100764287" name="Line"/>
+	<l10n_template data_code="100764292" name="Tom"/>
+	<l10n_template data_code="100764297" name="Derak"/>
+	<l10n_template data_code="100764302" name="Carlo Alec De Mozota"/>
+	<l10n_template data_code="100764307" name="Keyineol"/>
+	<l10n_template data_code="100764312" name="Habeon"/>
+	<l10n_template data_code="100764317" name="Zera"/>
+	<l10n_template data_code="100764322" name="Jessica"/>
+	<l10n_template data_code="100764327" name="Catherine"/>
+	<l10n_template data_code="100764332" name="Kibalrie Edaim De Valois"/>
+	<l10n_template data_code="100764337" name="Chief Guard"/>
+	<l10n_template data_code="100764342" name="Ahmelra"/>
+	<l10n_template data_code="100764347" name="Peyiteureol"/>
+	<l10n_template data_code="100764352" name="Gundfried"/>
+	<l10n_template data_code="100764357" name="Equipment Recipe Merchant"/>
+	<l10n_template data_code="100764362" name="Material Recipe Merchant"/>
+	<l10n_template data_code="100764367" name="Equipment Fragment Merchant"/>
+	<l10n_template data_code="100764372" name="Fighter Drillmaster" desc=" "/>
+	<l10n_template data_code="100764377" name="Mage Drillmaster"/>
+	<l10n_template data_code="100764382" name="Rogue Drillmaster"/>
+	<l10n_template data_code="100764387" name="Elena Apollinariya"/>
+	<l10n_template data_code="100764392" name="Aaron Vasco"/>
+	<l10n_template data_code="100764397" name="Adolfito Von Bayern"/>
+	<l10n_template data_code="100895474" name="Modeste"/>
+	<l10n_template data_code="100895479" name="Heiko"/>
+	<l10n_template data_code="100764412" name="Zackary"/>
+	<l10n_template data_code="100764417" name="Meriel"/>
+	<l10n_template data_code="100764422" name="Vespera"/>
+	<l10n_template data_code="100764427" name="Fortune Custidian" desc="&lt;Bank&gt;"/>
+	<l10n_template data_code="100764432" name="Belgin"/>
+	<l10n_template data_code="100764437" name="Arkhip"/>
+	<l10n_template data_code="100764442" name="Severino"/>
+	<l10n_template data_code="100764447" name="Cooking researcher" desc="&lt;Potion Production/ Sale&gt;"/>
+	<l10n_template data_code="100764452" name="Tyannic Clothilde De Champagne"/>
+	<l10n_template data_code="100764457" name="Devin"/>
+	<l10n_template data_code="100764462" name="Colbert"/>
+	<l10n_template data_code="100764467" name="Zlata"/>
+	<l10n_template data_code="100764472" name="HELP NPC"/>
+	<l10n_template data_code="100764477" name="Florian"/>
+	<l10n_template data_code="100895554" name="Wanted List"/>
+	<l10n_template data_code="100764487" name="Peasants"/>
+	<l10n_template data_code="100764492" name="Peasants"/>
+	<l10n_template data_code="100895569" name="Auction House" desc="&lt;Construction Materials Sale&gt;"/>
+	<l10n_template data_code="100895574" name="Mailbox"/>
+	<l10n_template data_code="100764507" name="Accessory Merchant" desc="&lt;Accessory Sale&gt;"/>
+	<l10n_template data_code="100895584" name="Malcom"/>
+	<l10n_template data_code="100764517" name="Architect"/>
+	<l10n_template data_code="100895594" name="Wanted List(Halken)"/>
+	<l10n_template data_code="100764527" name="Archer Guard"/>
+	<l10n_template data_code="100895604" name="Surgeon"/>
+	<l10n_template data_code="100895609" name="Injured Soldier"/>
+	<l10n_template data_code="100895614" name="Injured Soldier II"/>
+	<l10n_template data_code="100764547" name="Defense soldiers"/>
+	<l10n_template data_code="100764552" name="Sniper"/>
+	<l10n_template data_code="100895629" name="Guardian statue"/>
+	<l10n_template data_code="100764562" name="Magic Defender"/>
+	<l10n_template data_code="100895639" name="Odd Goblin"/>
+	<l10n_template data_code="100764572" name="Cartoucan"/>
+	<l10n_template data_code="100783837" name="Canon Guard"/>
+	<l10n_template data_code="101045986" name="Militia" desc="Personal"/>
+	<l10n_template data_code="101045991" name="Men-at-arms" desc="Personal"/>
+	<l10n_template data_code="101045996" name="Archer" desc="Personal"/>
+	<l10n_template data_code="101046001" name="Guard" desc="Guild-only"/>
+	<l10n_template data_code="101046006" name="Men-at-arms" desc="Guild-only"/>
+	<l10n_template data_code="101046011" name="Archer" desc="Guild-only"/>
+	<l10n_template data_code="101046016" name="Tower Monitor" desc="Guild-only"/>
+</l10n_table>

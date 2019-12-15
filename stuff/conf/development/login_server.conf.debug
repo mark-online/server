@@ -1,0 +1,7 @@
+dynamic Logger Service_Object *
+  ACEd:_make_ACE_Logging_Strategy()
+  "-s log/login_server.log -f STDERR|OSTREAM -p DEBUG|INFO|ERROR|NOTICE|WARNING"
+
+dynamic LoginServer_Service Service_Object *
+  LoginServer.debug.dll:_make_LoginServerApp()
+  "-k STDERR|OSTREAM|VERBOSE -c development/login_server.ini"

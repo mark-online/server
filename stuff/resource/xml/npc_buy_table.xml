@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<npc_buy_table>
+	<npc_buy_template npc_code="100728852" item_code_type="5"/>
+</npc_buy_table>

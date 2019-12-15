@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<entity_path_table>
+
+  <entity_path_template entity_path_code="301989905" is_looping="1">
+    <path_node heading="59" rest_time="5000" x="218.516" y="258.28" z="1090.25"/>
+    <path_node heading="14" rest_time="5000" x="219.622" y="272.019" z="1090.25"/>
+    <path_node heading="173" rest_time="5000" x="207.705" y="265.913" z="1090.25"/>
+    <path_node heading="174" rest_time="5000" x="194.147" y="265.604" z="1090.25"/>
+    <path_node heading="119" rest_time="5000" x="182.357" y="260.641" z="1090.31"/>
+    <path_node heading="61" rest_time="5000" x="209.041" y="254.302" z="1090.25"/>
+  </entity_path_template>
+
+  <entity_path_template entity_path_code="301989906" is_looping="0">
+    <path_node heading="2" rest_time="300" x="509.886" y="66.4917" z="1086.73"/>
+    <path_node heading="7" rest_time="300" x="510.317" y="105.369" z="1087"/>
+    <path_node heading="7" rest_time="300" x="518.479" y="145.243" z="1085.52"/>
+    <path_node heading="159" rest_time="300" x="535.506" y="193.719" z="1085.92"/>
+    <path_node heading="145" rest_time="300" x="507.034" y="206.505" z="1085.47"/>
+    <path_node heading="133" rest_time="300" x="453.716" y="219.596" z="1085.78"/>
+    <path_node heading="133" rest_time="300" x="401.833" y="208.83" z="1077.22"/>
+    <path_node heading="141" rest_time="300" x="313.463" y="203.485" z="1068.64"/>
+    <path_node heading="151" rest_time="300" x="268.107" y="215.711" z="1085.39"/>
+    <path_node heading="159" rest_time="300" x="253.154" y="233.123" z="1090.24"/>
+    <path_node heading="142" rest_time="300" x="236.84" y="253.83" z="1090.25"/>
+    <path_node heading="142" rest_time="300" x="216.085" y="261.36" z="1090.25"/>
+    <path_node heading="1" rest_time="300" x="222.273" y="280.486" z="1090.25"/>
+    <path_node heading="107" rest_time="300" x="212.649" y="261.957" z="1090.25"/>
+    <path_node heading="123" rest_time="300" x="195.609" y="269.273" z="1090.25"/>
+    <path_node heading="107" rest_time="300" x="174.626" y="259.771" z="1090.26"/>
+    <path_node heading="87" rest_time="300" x="172.302" y="244.08" z="1090.25"/>
+    <path_node heading="24" rest_time="300" x="177.432" y="258.64" z="1090.32"/>
+    <path_node heading="29" rest_time="300" x="196.369" y="266.962" z="1090.25"/>
+  </entity_path_template>
+
+</entity_path_table>

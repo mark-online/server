@@ -1,0 +1,8 @@
+dynamic Logger Service_Object *
+  ACEd:_make_ACE_Logging_Strategy()
+  "-s log/database_proxy_server.log -f STDERR|OSTREAM -p DEBUG|INFO|ERROR|NOTICE|WARNING"
+
+dynamic DatabaseProxyServer_Service Service_Object *
+  DatabaseProxyServer.debug.dll:_make_DatabaseProxyServerApp()
+  "-k STDERR|OSTREAM|VERBOSE -c development/database_proxy_server.ini"
+

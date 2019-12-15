@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6FD28739-DE0D-44A5-91C8-EEED191A7BB8}</ProjectGuid>
+    <RootNamespace>servertest</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="test.props" />
+    <Import Project="xsd.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>GIDEON_SERVER_EXPORT;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerTestPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.debug.lib;sne.database.debug.lib;sne.server.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.dll</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>GIDEON_SERVER_EXPORT;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerTestPCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.debug.lib;sne.database.debug.lib;sne.server.debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).debug.dll</OutputFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>GIDEON_SERVER_EXPORT;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerTestPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.lib;sne.database.lib;sne.server.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>GIDEON_SERVER_EXPORT;GIDEON_SERVER_DLL;GIDEON_CS_DLL;SNE_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerTestPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>datatable.lib;sne.database.lib;sne.server.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\servertest\DatabaseTestFixture.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockCharacterStatusTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockGuildLevelTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockNpcActiveSkillTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockNpcTalkingTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockPlayerActiveSkillTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockPlayerPassiveSkillTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockSkillEffectTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockSOActiveSkillTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockWorldEventTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\MockAccountDatabase.cpp" />
+    <ClCompile Include="..\..\src\servertest\MockProxyGameDatabase.cpp" />
+    <ClCompile Include="..\..\src\servertest\ServerTestPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockAnchorTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockBuildingTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockDeviceSkillTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockElementTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockEquipTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockExpTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockFragmentTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockGliderTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockHarvestTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockNpcTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockPropertyTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestItemTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestKillMissionTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestObtainMissionTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestTransportMissionTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockRandomDungeonTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockRecipeTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockRegionCoordinates.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockRegionSpawnTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockRegionTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockSkillTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockTreasureTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockVehicleTable.cpp" />
+    <ClCompile Include="..\..\src\servertest\datatable\MockWorldMapTable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockCharacterStatusTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockGuildLevelTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockNpcActiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockNpcTalkingTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockPlayerActiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockPlayerPassiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockSkillEffectTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockSOActiveSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockWorldEventTable.h" />
+    <ClInclude Include="..\..\src\servertest\MockAccountDatabase.h" />
+    <ClInclude Include="..\..\src\servertest\ServerTestPCH.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\DatabaseTestFixture.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\MockConnection.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\MockProxyGameDatabase.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\DataCodes.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockAnchorTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockBuildingTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockElementTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockEquipTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockEventTriggerTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockExpTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockFactionTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockFragmentTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockGliderTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockHarvestTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockNpcTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockPropertyTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestItemTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestKillMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestObtainMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestTransportMissionTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRandomDungeonTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRecipeTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRegionCoordinates.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRegionSpawnTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRegionTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockSkillTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockTreasureTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockVehicleTable.h" />
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockWorldMapTable.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

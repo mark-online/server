@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  <property file="gideon.properties"/>
+  <changeSet author="kcando" id="201105111713" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_zone') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_zone
+GO
+
+
+CREATE PROCEDURE dbo.get_zone
+  @id INT OUT,
+  @global_world_map_code dbo.code_t OUT,
+  @shard_id INT OUT,
+  @is_first_zone BIT OUT,
+  @name VARCHAR(30)
+AS
+
+  SET NOCOUNT ON
+  
+  SELECT @id = id, @global_world_map_code = global_world_map_code, @shard_id = shard_id, @is_first_zone = is_first_zone
+    FROM ${account_db_name}.Zones
+    WHERE name = @name
+
+  SET NOCOUNT OFF
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_zone') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_zone
+GO
+    </rollback>
+  </changeSet>
+  
+</databaseChangeLog>

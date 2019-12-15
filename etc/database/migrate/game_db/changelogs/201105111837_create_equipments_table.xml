@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111837">
+    <createTable tableName="Equipments" remarks="equipment table">
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="equip_part" type="tinyint">
+        <constraints nullable="false"/>
+      </column>
+      <column name="inventory_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Equipments" columnNames="account_id, character_id, equip_part" tableName="Equipments"/>
+
+    <addForeignKeyConstraint constraintName="fk_Equipments_Characters"
+        baseColumnNames="character_id" baseTableName="Equipments"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+    <addForeignKeyConstraint constraintName="fk_Equipments_Inventories"
+        baseColumnNames="inventory_id" baseTableName="Equipments"
+        referencedColumnNames="id" referencedTableName="Inventories"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

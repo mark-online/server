@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="22020113" name="Healing Ward"/>
+	<l10n_template data_code="22020129" name="Thorny Totem"/>
+	<l10n_template data_code="22020145" name="Mana Filler"/>
+	<l10n_template data_code="22020161" name="Mana Vanisher"/>
+	<l10n_template data_code="22020177" name="Concentration Filler"/>
+	<l10n_template data_code="22020193" name="Concentration Vanisher"/>
+	<l10n_template data_code="22020209" name="Spike Trap"/>
+	<l10n_template data_code="22020225" name="Fire Trap"/>
+	<l10n_template data_code="22020241" name="Long Fire Trap"/>
+	<l10n_template data_code="22020257" name="Deterioration"/>
+</l10n_table>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201105111843" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.create_character
+GO
+
+
+-- error_code_out:
+--   0: succeeded
+--   547: invalid Account ID
+--   2601: duplicated nickname
+--   *: DB error
+CREATE PROCEDURE dbo.create_character
+    @character_id dbo.id_t OUT,
+    @account_id dbo.id_t,
+    @nickname NVARCHAR(10),
+    @class TINYINT,
+    @sex TINYINT,
+    @helmet_code dbo.code_t,
+    @shoulder_code dbo.code_t,
+    @armor_code dbo.code_t,
+    @waist_code dbo.code_t,
+    @trousers_code dbo.code_t,
+    @gaiters_code dbo.code_t,
+    @gloves_code dbo.code_t,
+    @shoes_code dbo.code_t,
+    @righthand_code dbo.code_t,
+    @lefthand_code dbo.code_t,
+    @bothhands_code dbo.code_t,
+    @helmet_id dbo.id_t,
+    @shoulder_id dbo.id_t,
+    @armor_id dbo.id_t,
+    @waist_id dbo.id_t,
+    @trousers_id dbo.id_t,
+    @gaiters_id dbo.id_t,
+    @gloves_id dbo.id_t,
+    @shoes_id dbo.id_t,
+    @righthand_id dbo.id_t,
+    @lefthand_id dbo.id_t,
+    @bothhands_id dbo.id_t,	
+    @zone_id INT,
+    @pos_x REAL,
+    @pos_y REAL,
+    @pos_z REAL,
+    @pos_heading TINYINT
+AS
+    SET NOCOUNT ON
+    
+    DECLARE @ec INT
+    SET @ec = 0
+    SET @character_id = 0
+    
+    BEGIN TRY
+        BEGIN TRANSACTION
+        
+        INSERT INTO dbo.Characters (account_id, nickname, class, sex, sp,
+            zone_id, pos_x, pos_y, pos_z, pos_heading) VALUES
+            (@account_id, @nickname, @class, @sex, 30,
+                @zone_id, @pos_x, @pos_y, @pos_z, @pos_heading)
+            SET @character_id = @@IDENTITY
+
+        -- default equipments
+        DECLARE @inventory_id dbo.id_t
+
+        IF @helmet_code != 0 AND @helmet_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@helmet_id, @account_id, @character_id, @helmet_code, 0, 1, 1)            
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 9, @helmet_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @helmet_id, 1, 0, 0, 0, 0, 0, 0, 1)
+        END
+
+        IF @shoulder_code != 0 AND @shoulder_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@shoulder_id, @account_id, @character_id, @shoulder_code, 0, 1, 1)
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 10, @shoulder_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @shoulder_id, 1, 0, 0, 0, 0, 0, 0, 1)				
+        END
+
+        IF @armor_code != 0 AND @armor_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@armor_id, @account_id, @character_id, @armor_code, 0, 1, 1)
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 11, @armor_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @armor_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+
+        IF @waist_code != 0 AND @waist_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@waist_id, @account_id, @character_id, @waist_code, 0, 1, 1)
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 12, @waist_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @waist_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+
+        IF @trousers_code != 0 and @trousers_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@trousers_id, @account_id, @character_id, @trousers_code, 0, 1, 1)
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 13, @trousers_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @trousers_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+
+        IF @gaiters_code != 0 AND @gaiters_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@gaiters_id, @account_id, @character_id, @gaiters_code, 0, 1, 1)
+            SET @inventory_id = @@IDENTITY
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 14, @gaiters_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @gaiters_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+
+        IF @gloves_code != 0 AND @gloves_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@gloves_id, @account_id, @character_id, @gloves_code, 0, 1, 1)
+            SET @inventory_id = @@IDENTITY
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 15, @gloves_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @gloves_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+
+        IF @shoes_code != 0 AND @shoes_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@shoes_id, @account_id, @character_id, @shoes_code, 0, 1, 1)
+            SET @inventory_id = @@IDENTITY
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 16, @shoes_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @shoes_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+
+        IF @righthand_code != 0 AND @righthand_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@righthand_id, @account_id, @character_id, @righthand_code, 0, 1, 1)            
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 17, @righthand_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @righthand_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+     
+        IF @lefthand_code != 0 AND @lefthand_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@lefthand_id, @account_id, @character_id, @lefthand_code, 0, 1, 1)
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 18, @lefthand_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @lefthand_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+     
+        IF @bothhands_code != 0 AND @bothhands_id != 0
+        BEGIN
+            INSERT INTO dbo.Inventories (id, account_id, character_id, item_code, slot_id, item_count, inven_type) VALUES
+                (@bothhands_id, @account_id, @character_id, @bothhands_code, 0, 1, 1)
+            INSERT INTO dbo.Equipments (account_id, character_id, equip_part, inventory_id) VALUES
+                (@account_id, @character_id, 19, @bothhands_id)
+			INSERT INTO dbo.EquipItemInfos(account_id, character_id, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, 
+				socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5, inven_type)
+				VALUES(@account_id, @character_id, @bothhands_id, 1, 0, 0, 0, 0, 0, 0, 1)	
+        END
+				
+	INSERT INTO dbo.Skills(account_id, character_id, skill_code) VALUES(@account_id, @character_id, 16783617)
+	INSERT INTO dbo.Skills(account_id, character_id, skill_code) VALUES(@account_id, @character_id, 16791041)	
+	    
+	-- action bars
+    INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 0)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 1)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 2)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 3)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 4)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 5)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 6)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 7)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 8)
+	INSERT INTO dbo.ActionBars (account_id, character_id, count_id) VALUES
+            (@account_id, @character_id, 9)
+        
+	-- GameMoney
+	INSERT INTO dbo.GameMonies (account_id, character_id) VALUES
+	    (@account_id, @character_id)
+			
+	COMMIT
+
+    END TRY
+    BEGIN CATCH
+        SET @ec = ERROR_NUMBER()
+        IF @@TRANCOUNT > 0
+            ROLLBACK
+    END CATCH
+    
+    SET NOCOUNT OFF
+
+    RETURN (@ec)
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.create_character
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

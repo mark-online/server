@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" standalone="yes"?><quest_contents_mission_table>
+	<quest_contents_mission_template mission_code="369491969" quest_contents_type="1" info="0" value="0" marker_code_1="0" marker_code_2="0" marker_code_3="0"/>
+	<quest_contents_mission_template mission_code="369491970" quest_contents_type="5" info="100795008" value="0" marker_code_1="100795008" marker_code_2="0" marker_code_3="0"/>
+	<quest_contents_mission_template mission_code="369491971" quest_contents_type="2" info="0" value="0" marker_code_1="100764122" marker_code_2="0" marker_code_3="0"/>
+	<quest_contents_mission_template mission_code="369491972" quest_contents_type="5" info="101056788" value="0" marker_code_1="101056788" marker_code_2="0" marker_code_3="0"/>
+</quest_contents_mission_table>

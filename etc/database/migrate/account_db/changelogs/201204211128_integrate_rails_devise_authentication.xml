@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201204211128_1">
+    <dropColumn tableName="Accounts" columnName="password"/>
+  </changeSet>
+
+  <changeSet author="kcando" id="201204211128_2">
+	<addColumn tableName="Accounts">
+      <column name="encrypted_password" type="VARCHAR(128)"/>
+      <column name="password_salt" type="VARCHAR(20)"/>
+    </addColumn>  </changeSet>
+
+</databaseChangeLog>

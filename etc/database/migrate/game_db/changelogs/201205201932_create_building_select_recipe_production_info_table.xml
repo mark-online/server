@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201205201932">
+    <createTable tableName="Building_Select_Recipe_Production_Infos" remarks="building select recipe production table">
+      <column name="building_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="recipe_code" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="count" type="tinyint">
+        <constraints nullable="false"/>
+      </column>
+      <column name="complete_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Building_Select_Recipe_Production_Infos" columnNames="building_id, recipe_code" tableName="Building_Select_Recipe_Production_Infos"/>
+
+    <addForeignKeyConstraint constraintName="fk_Building_Select_Recipe_Production_Infos_Buildings"
+        baseColumnNames="building_id" baseTableName="Building_Select_Recipe_Production_Infos"
+        referencedColumnNames="id" referencedTableName="Buildings"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

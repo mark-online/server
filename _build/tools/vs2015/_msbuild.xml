@@ -1,0 +1,64 @@
+﻿<!-- Reference: http://kaistizen.net/EE/index.php/weblog/comments/1443/ -->
+
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+      <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+      <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+      <BuildCondition>$(Configuration)|$(Platform)</BuildCondition>
+      <BaseDir>..\..\..</BaseDir>
+      <BinDir>$(BaseDir)\bin\$(Platform)</BinDir>
+      <SolutionFilePath>$(BaseDir)\_build\vs2015\GideonServer.sln</SolutionFilePath>
+      <TestBinSuffix Condition=" '$(Configuration)' == 'Debug' ">.debug</TestBinSuffix>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(BuildCondition)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(BuildCondition)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReferences Include="$(SolutionFilePath)">
+      <Configuration>$(Configuration)</Configuration>
+      <Platform>$(Platform)</Platform>
+    </ProjectReferences>
+  </ItemGroup>
+
+  <Target Name="Clean">
+    <Message Text="Target: Clean" />
+
+    <MSBuild Projects="@(ProjectReferences)"
+      Targets="Clean"
+      Properties="Configuration=%(ProjectReferences.Configuration);Platform=%(ProjectReferences.Platform)"
+      StopOnFirstFailure="true" />
+  </Target>
+
+  <Target Name="Build">
+    <Message Text="Target: Build" />
+    <Message Text="Build Condition: '$(BuildCondition)'" Importance="high" />
+
+    <MSBuild Projects="@(ProjectReferences)"
+      Properties="Configuration=%(ProjectReferences.Configuration);Platform=%(ProjectReferences.Platform)"
+      StopOnFirstFailure="true" />
+  </Target>
+
+  <Target Name="Rebuild" DependsOnTargets="Clean; Build">
+    <Message Text="Target: Rebuild" />
+  </Target>
+
+  <Target Name="UnitTest" DependsOnTargets="Build">
+    <Message Text="Target: UnitTest" />
+	
+    <Exec Command="$(BinDir)\serverbase.test$(TestBinSuffix).exe --gtest_output=xml:"
+      Timeout="30000" IgnoreExitCode="true" />
+
+    <Exec Command="$(BinDir)\LoginServer.test$(TestBinSuffix).exe --gtest_output=xml:"
+      Timeout="30000" IgnoreExitCode="true" />
+
+    <Exec Command="$(BinDir)\ZoneServer.test$(TestBinSuffix).exe --gtest_output=xml:"
+      Timeout="30000" IgnoreExitCode="true" />
+
+  </Target>
+
+</Project>

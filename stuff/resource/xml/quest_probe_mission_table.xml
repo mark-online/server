@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" standalone="yes"?><quest_probe_mission_table>
+	<quest_probe_mission_template mission_code="369360897" map_code="184614915" marker_code_1="202047489" marker_code_2="0" marker_code_3="0"/>
+	<quest_probe_mission_template mission_code="369360898" map_code="184614915" marker_code_1="202047490" marker_code_2="0" marker_code_3="0"/>
+	<quest_probe_mission_template mission_code="369360899" map_code="184614915" marker_code_1="202047491" marker_code_2="0" marker_code_3="0"/>
+	<quest_probe_mission_template mission_code="369360900" map_code="184614915" marker_code_1="202047492" marker_code_2="0" marker_code_3="0"/>
+</quest_probe_mission_table>

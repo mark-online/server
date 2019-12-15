@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112191357" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_building_state') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_building_state
+GO
+
+
+CREATE PROCEDURE dbo.update_building_state
+    @building_id dbo.id_t,
+    @state TINYINT,
+    @start_build_at BIGINT,	
+    @expire_at BIGINT,
+    @current_hp INT
+AS
+    SET NOCOUNT ON
+
+    UPDATE dbo.Buildings
+   	SET hp = @current_hp, state = @state, build_at = @start_build_at, expire_at = @expire_at
+        WHERE id =  @building_id       
+         
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_building_state') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_building_state
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

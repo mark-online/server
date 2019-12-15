@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111040045" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.has_not_read_mail') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.has_not_read_mail
+GO
+
+
+CREATE PROCEDURE dbo.has_not_read_mail
+	@character_id dbo.id_t
+AS
+    SET NOCOUNT ON
+	DECLARE @not_read_count INT
+	SET @not_read_count = 0
+	SELECT @not_read_count = COUNT(id)
+        FROM dbo.mails
+		    WHERE character_id = @character_id AND is_read = 0
+
+    SET NOCOUNT OFF
+	IF @not_read_count > 0
+	BEGIN
+	    return 1
+	END
+	ELSE
+	BEGIN
+	    return 0
+	END
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.has_not_read_mail') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.has_not_read_mail
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

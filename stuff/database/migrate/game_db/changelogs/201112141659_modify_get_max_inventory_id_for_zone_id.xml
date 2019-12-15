@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105121036" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_max_inventory_id') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_max_inventory_id
+GO
+
+CREATE PROCEDURE dbo.get_max_inventory_id
+  @item_id dbo.id_t OUT,
+  @min_id dbo.id_t,
+  @max_id dbo.id_t
+AS
+
+  SET NOCOUNT ON
+  DECLARE @inven_id dbo.id_t
+  DECLARE @quest_id dbo.id_t
+  DECLARE @building_inven_id dbo.id_t
+
+  SELECT @inven_id = ISNULL(MAX(id), @min_id) FROM dbo.Inventories WHERE id &gt;= @min_id AND id &lt;= @max_id 
+                                                                                                 
+  SELECT @quest_id = ISNULL(MAX(id), @min_id) FROM dbo.Quest_Inventories WHERE id &gt;= @min_id AND id &lt;= @max_id
+                                                                                                       
+  SELECT @building_inven_id = ISNULL(MAX(item_id), @min_id) FROM dbo.Building_Inventories WHERE item_id &gt;= @min_id AND item_id &lt;= @max_id
+
+  SET @item_id = @inven_id 
+  
+  IF @inven_id &lt; @quest_id
+  BEGIN
+	SET @item_id = @inven_id
+  END
+  
+  IF @item_id &lt; @building_inven_id 
+  BEGIN
+        SET @item_id = @building_inven_id
+  END
+    
+SET NOCOUNT OFF
+
+    </sql>
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_max_inventory_id') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_max_inventory_id
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

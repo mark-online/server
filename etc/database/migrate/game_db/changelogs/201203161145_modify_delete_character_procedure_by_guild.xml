@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201110191728" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+DROP PROCEDURE dbo.delete_character
+GO
+
+
+-- error_code_out:
+--   0: succeeded
+--   *: DB error
+CREATE PROCEDURE dbo.delete_character
+  @guild_id dbo.id_t OUTPUT,
+  @character_id dbo.id_t
+AS
+  SET NOCOUNT ON
+
+  
+  DECLARE @ec INT
+  SET @ec = 0
+
+  BEGIN TRY
+    BEGIN TRANSACTION
+
+    UPDATE dbo.Characters
+	SET delete_on = 1, delete_on_at = GETDATE()
+	WHERE id = @character_id
+
+
+    UPDATE dbo.Auctions
+	SET seller_id = 0
+	WHERE seller_id = @character_id
+
+    SELECT @guild_id = guild_id FROM dbo.Guild_Members WHERE character_id = @character_id
+
+      COMMIT
+  END TRY
+  BEGIN CATCH
+      SET @ec = ERROR_NUMBER()
+      IF @@TRANCOUNT > 0
+          ROLLBACK
+  END CATCH
+
+  SET NOCOUNT OFF
+
+  RETURN (@ec)		 
+
+  SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.delete_character') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.delete_character
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

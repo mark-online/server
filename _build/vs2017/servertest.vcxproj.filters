@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\datatable">
+      <UniqueIdentifier>{2f954613-3c52-497a-b4e8-d043452e55cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files\datatable">
+      <UniqueIdentifier>{cb2b803f-b20b-4d8d-a4b5-1615dc45a85c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\servertest\DatabaseTestFixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\MockAccountDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\MockProxyGameDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\ServerTestPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockAnchorTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockBuildingTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockDeviceSkillTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockElementTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockEquipTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockExpTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockFragmentTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockGliderTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockHarvestTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockNpcTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockPropertyTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestItemTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestKillMissionTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestObtainMissionTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockQuestTransportMissionTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockRandomDungeonTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockRecipeTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockRegionCoordinates.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockRegionSpawnTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockRegionTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockSkillTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockTreasureTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockVehicleTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockWorldMapTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockGuildLevelTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockPlayerActiveSkillTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockPlayerPassiveSkillTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockSOActiveSkillTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockSkillEffectTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockNpcActiveSkillTable.cpp">
+      <Filter>Include Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockNpcTalkingTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockWorldEventTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\servertest\datatable\MockCharacterStatusTable.cpp">
+      <Filter>Source Files\datatable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\servertest\MockAccountDatabase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\servertest\ServerTestPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\DatabaseTestFixture.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\MockConnection.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\MockProxyGameDatabase.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\DataCodes.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockAnchorTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockBuildingTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockElementTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockEquipTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockEventTriggerTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockExpTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockFactionTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockFragmentTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockGliderTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockHarvestTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockNpcTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockPropertyTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestItemTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestKillMissionTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestObtainMissionTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockQuestTransportMissionTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRandomDungeonTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRecipeTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRegionCoordinates.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRegionSpawnTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockRegionTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockSkillTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockTreasureTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockVehicleTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockWorldMapTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockGuildLevelTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockPlayerActiveSkillTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockPlayerPassiveSkillTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockSOActiveSkillTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockSkillEffectTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockNpcActiveSkillTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockNpcTalkingTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockWorldEventTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\gideon\servertest\datatable\MockCharacterStatusTable.h">
+      <Filter>Include Files\datatable</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

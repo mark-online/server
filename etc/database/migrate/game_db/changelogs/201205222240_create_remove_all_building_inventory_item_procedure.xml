@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201205222240" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_all_building_inventory_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.remove_all_building_inventory_item
+GO
+
+
+CREATE PROCEDURE remove_all_building_inventory_item
+    @building_id dbo.id_t,
+    @invenType TINYINT
+AS
+    SET NOCOUNT ON
+
+    DELETE FROM dbo.Building_Equip_Item_Infos
+	WHERE building_id =  @building_id AND inven_type =  @invenType
+		
+    DELETE FROM dbo.Building_Inventories
+        WHERE building_id =  @building_id AND inven_type =  @invenType
+
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_all_building_inventory_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.remove_all_building_inventory_item
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

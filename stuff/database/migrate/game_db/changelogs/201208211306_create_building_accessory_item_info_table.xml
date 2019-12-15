@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208211306">
+    <createTable tableName="Building_Accessory_Item_Infos" remarks="Building Accessory item info table">
+      <column name="building_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_1" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_1" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_2" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_2" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_3" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_3" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+    <addPrimaryKey constraintName="pk_Building_Accessory_Item_Infos" columnNames="item_id" tableName="Building_Accessory_Item_Infos"/>
+    
+    <createIndex indexName="ix_Accessory_item_info_building_id" tableName="Building_Accessory_Item_Infos">
+      <column name="building_id"/>
+    </createIndex>
+	
+    <addForeignKeyConstraint constraintName="fk_Building_Accessory_Item_Infos_Buildings"
+        baseColumnNames="building_id" baseTableName="Building_Accessory_Item_Infos"
+        referencedColumnNames="id" referencedTableName="Buildings"
+        onDelete="NO ACTION" />
+		
+    <addForeignKeyConstraint constraintName="fk_Building_Accessory_Item_Infos_Building_Inventories"
+        baseColumnNames="item_id" baseTableName="Building_Accessory_Item_Infos"
+        referencedColumnNames="item_id" referencedTableName="Building_Inventories"
+        onDelete="NO ACTION" />	
+
+  </changeSet>
+
+</databaseChangeLog>

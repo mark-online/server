@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" standalone="yes"?><region_spawn_table>
+	<region_spawn_template region_code="0" entity_code="268435458" pool="3" min_spawn_delay="0" max_spawn_delay="0" min_spawn_interval="0" max_spawn_interval="0" min_despawn_interval="0" max_despawn_interval="0"/>
+	<region_spawn_template region_code="0" entity_code="268435462" pool="1" min_spawn_delay="0" max_spawn_delay="0" min_spawn_interval="0" max_spawn_interval="0" min_despawn_interval="0" max_despawn_interval="0"/>
+	<region_spawn_template region_code="0" entity_code="100794618" pool="7" min_spawn_delay="0" max_spawn_delay="7000" min_spawn_interval="0" max_spawn_interval="0" min_despawn_interval="0" max_despawn_interval="0"/>
+	<region_spawn_template region_code="0" entity_code="100794673" pool="5" min_spawn_delay="0" max_spawn_delay="8000" min_spawn_interval="0" max_spawn_interval="0" min_despawn_interval="0" max_despawn_interval="0"/>
+	<region_spawn_template region_code="0" entity_code="100794658" pool="4" min_spawn_delay="0" max_spawn_delay="4000" min_spawn_interval="0" max_spawn_interval="0" min_despawn_interval="0" max_despawn_interval="0"/>
+	<region_spawn_template region_code="0" entity_code="100794728" pool="1" min_spawn_delay="0" max_spawn_delay="0" min_spawn_interval="0" max_spawn_interval="0" min_despawn_interval="0" max_despawn_interval="0"/>
+	<region_spawn_template region_code="0" entity_code="268435463" pool="1" min_spawn_delay="0" max_spawn_delay="0" min_spawn_interval="0" max_spawn_interval="0" min_despawn_interval="0" max_despawn_interval="0"/>
+</region_spawn_table>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201203191641">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_buddies') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_buddies
+GO
+
+CREATE PROCEDURE dbo.get_buddies
+  @charater_id dbo.id_t
+AS
+
+  SET NOCOUNT ON
+ 
+   
+  SELECT c.account_id, c.id, c.nickname
+    FROM dbo.Buddy_Infos AS b INNER JOIN Characters AS c ON b.buddy_2_id = c.id
+    WHERE b.buddy_1_id = @charater_id
+
+  SELECT c.account_id, c.id, c.nickname
+    FROM dbo.Buddy_Infos AS b INNER JOIN Characters AS c ON b.buddy_1_id = c.id
+    WHERE b.buddy_2_id = @charater_id
+
+  SET NOCOUNT OFF
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_buddies') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	DROP PROCEDURE dbo.get_buddies
+GO
+    </rollback>
+  </changeSet>
+  
+</databaseChangeLog>

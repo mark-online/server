@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" standalone="yes"?><npc_formation_table>
+	<npc_formation_template leader_npc_code="101057077" member_npc_code="101057077" max_distance="0" angle="0" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057077" member_npc_code="100794888" max_distance="700" angle="180" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057077" member_npc_code="100794813" max_distance="1000" angle="100" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057077" member_npc_code="100794813" max_distance="1000" angle="160" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057077" member_npc_code="100794813" max_distance="1000" angle="230" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057142" member_npc_code="101057142" max_distance="0" angle="0" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057142" member_npc_code="100794928" max_distance="1000" angle="90" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057142" member_npc_code="100794928" max_distance="1000" angle="270" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057142" member_npc_code="100794913" max_distance="1000" angle="135" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057142" member_npc_code="100794813" max_distance="1000" angle="180" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057142" member_npc_code="100794813" max_distance="1000" angle="235" react_type="2"/>
+	<npc_formation_template leader_npc_code="101056637" member_npc_code="101056637" max_distance="0" angle="0" react_type="1"/>
+	<npc_formation_template leader_npc_code="101056637" member_npc_code="101056582" max_distance="300" angle="135" react_type="1"/>
+	<npc_formation_template leader_npc_code="101056637" member_npc_code="101056582" max_distance="300" angle="225" react_type="1"/>
+	<npc_formation_template leader_npc_code="101056782" member_npc_code="101056782" max_distance="0" angle="0" react_type="1"/>
+	<npc_formation_template leader_npc_code="101056782" member_npc_code="101056702" max_distance="300" angle="135" react_type="1"/>
+	<npc_formation_template leader_npc_code="101056782" member_npc_code="101056702" max_distance="300" angle="225" react_type="1"/>
+	<npc_formation_template leader_npc_code="101056892" member_npc_code="101056892" max_distance="0" angle="0" react_type="2"/>
+	<npc_formation_template leader_npc_code="101056892" member_npc_code="101056852" max_distance="300" angle="135" react_type="2"/>
+	<npc_formation_template leader_npc_code="101056892" member_npc_code="101056852" max_distance="300" angle="225" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057012" member_npc_code="101057012" max_distance="0" angle="0" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057012" member_npc_code="101056967" max_distance="300" angle="135" react_type="2"/>
+	<npc_formation_template leader_npc_code="101057012" member_npc_code="101056967" max_distance="300" angle="225" react_type="2"/>
+</npc_formation_table>

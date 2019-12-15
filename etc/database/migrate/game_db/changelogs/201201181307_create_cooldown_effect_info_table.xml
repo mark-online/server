@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201201181307">
+    <createTable tableName="Cooldown_Effect_Infos" remarks="Cooldown Effect table">
+      <column name="id" type="dbo.id_t" autoIncrement="true">
+        <constraints nullable="false"/>
+      </column>
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="effect_script_type" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="spell_group" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="value" type="REAL">
+        <constraints nullable="false"/>
+      </column>
+      <column name="tick" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="expire_activate_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Cooldown_Effect_Infos" columnNames="id" tableName="Cooldown_Effect_Infos"/>
+    <createIndex indexName="ix_Cooldown_Effect_Infos_account_id" tableName="Cooldown_Effect_Infos">
+      <column name="account_id"/>
+    </createIndex>
+    <createIndex indexName="ix_Cooldown_Effect_Infos_character_id" tableName="Cooldown_Effect_Infos">
+      <column name="character_id"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Cooldown_Effect_Infos_Characters"
+        baseColumnNames="character_id" baseTableName="Cooldown_Effect_Infos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

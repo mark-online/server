@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="620822629" name="10 레벨!" desc="10 레벨 달성하기"/>
+	<l10n_template data_code="620822630" name="20 레벨!" desc="20 레벨 달성하기"/>
+	<l10n_template data_code="620822631" name="30 레벨!" desc="30 레벨 달성하기"/>
+	<l10n_template data_code="620822632" name="40 레벨!" desc="40 레벨 달성하기"/>
+	<l10n_template data_code="620822729" name="친구 추가" desc="친구 30명 추가하기"/>
+	<l10n_template data_code="620822829" name="서민 탈출" desc="은행에 10골드 모으기"/>
+	<l10n_template data_code="620822830" name="이래서 솔로?" desc="은행에 100골드 모으기"/>
+	<l10n_template data_code="620822930" name="허름한 상자" desc="허름한 상자 100개 열기"/>
+	<l10n_template data_code="620822931" name="평범한 상자" desc="평범한 상자 90개 열기"/>
+	<l10n_template data_code="620822932" name="진귀한 상자" desc="진귀한 상자 80개 열기"/>
+	<l10n_template data_code="620822933" name="특별한 상자" desc="특별한 상자 70개 열기"/>
+	<l10n_template data_code="620822934" name="은 상자" desc="은 상자 60개 열기"/>
+	<l10n_template data_code="620822935" name="황금 상자" desc="황금 상자 50개 열기"/>
+	<l10n_template data_code="620823029" name="영웅 장비" desc="영웅급 장비 6개 착용하기"/>
+	<l10n_template data_code="620954201" name="던전 상자" desc="던전 상자 50개 열기"/>
+	<l10n_template data_code="621019837" name="PK 30번 당하기" desc="PK 30번 당하기"/>
+	<l10n_template data_code="621019838" name="PK 연속 20번 당하기" desc="PK 연속 20번 당하기"/>
+	<l10n_template data_code="621019839" name="PK 30번 제압하기" desc="PK 30번 제압하기"/>
+	<l10n_template data_code="621019840" name="PK 연속 20번 제압하기" desc="PK 연속 20번 제압하기"/>
+	<l10n_template data_code="621019841" name="집행 50번" desc="집행 50번 하기"/>
+	<l10n_template data_code="621019937" name="1:1 대결 30번 승리" desc="1:1 대결에서 30번 승리하기"/>
+	<l10n_template data_code="621019938" name="1:1 대결 20번 연속 승리" desc="1:1 대결에서 20번 연속 승리하기"/>
+	<l10n_template data_code="621085573" name="몬스터 100마리 잡기" desc="몬스터 100마리 잡기"/>
+	<l10n_template data_code="621085574" name="몬스터 300마리 잡기" desc="몬스터 300마리 잡기"/>
+	<l10n_template data_code="621085575" name="카오스 거상 10번 사냥" desc="카오스 거상 10번 사냥하기"/>
+	<l10n_template data_code="621151209" name="퀘스트 1개" desc="퀘스트 1개 완료하기"/>
+	<l10n_template data_code="621151210" name="퀘스트 50개" desc="퀘스트 50개 완료하기"/>
+	<l10n_template data_code="621151211" name="퀘스트 100개" desc="퀘스트 100개 완료하기"/>
+	<l10n_template data_code="621151212" name="퀘스트 150개" desc="퀘스트 150개 완료하기"/>
+	<l10n_template data_code="621151213" name="퀘스트 200개" desc="퀘스트 200개 완료하기"/>
+</l10n_table>

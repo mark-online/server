@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201202211636">
+    <createTable tableName="Harness_Infos" remarks="Harness table">
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="vehicle_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="harness_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="exprie_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Harness_Infos" columnNames="vehicle_id" tableName="Harness_Infos"/>
+    <createIndex indexName="ix_Harness_Infos_account_id" tableName="Harness_Infos">
+      <column name="account_id"/>
+    </createIndex>
+    <createIndex indexName="ix_Harness_Infos_character_id" tableName="Harness_Infos">
+      <column name="character_id"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Harness_Infos_Vehicles"
+        baseColumnNames="vehicle_id" baseTableName="Harness_Infos"
+        referencedColumnNames="id" referencedTableName="Vehicle_Infos"
+        onDelete="NO ACTION" />
+
+    <addForeignKeyConstraint constraintName="fk_Harness_Infos_Characters"
+        baseColumnNames="character_id" baseTableName="Harness_Infos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

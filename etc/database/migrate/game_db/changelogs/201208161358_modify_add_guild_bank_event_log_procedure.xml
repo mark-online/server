@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201208161358" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.remove_guild_bank_event_log') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.remove_guild_bank_event_log
+GO
+
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_guild_bank_event_log') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_guild_bank_event_log
+GO
+
+
+CREATE PROCEDURE dbo.add_guild_bank_event_log
+    @id INT,
+    @guild_id dbo.id_t,
+    @vault_id TINYINT, 
+    @log_type TINYINT, 
+    @player_id dbo.id_t, 
+    @param1 INT, 
+    @param2 INT
+AS
+    SET NOCOUNT ON
+	
+    UPDATE dbo.Guild_Bank_Event_Logs SET valult_id = @vault_id,
+        log_type = @log_type, player_id = @player_id, param1 = @param1, param2 = @param2, log_at = GETDATE() WHERE id = @id AND guild_id = @guild_id
+    IF @@ROWCOUNT = 0
+    BEGIN
+        INSERT INTO dbo.Guild_Bank_Event_Logs (id, guild_id, valult_id, log_type, player_id, param1, param2, log_at)
+            VALUES(@id, @guild_id, @vault_id, @log_type, @player_id, @param1, @param2, GETDATE()) 
+    END
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_guild_bank_event_log') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_guild_bank_event_log
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cache">
+      <UniqueIdentifier>{64750180-70d8-4621-880a-e869450aacf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cache\account">
+      <UniqueIdentifier>{0c45d6b9-9199-44ff-8750-f56eb86ec75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cache\account\detail">
+      <UniqueIdentifier>{a36cf648-c42c-45dc-9455-611a38ad0c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\s2s">
+      <UniqueIdentifier>{45b338e9-d4e7-4efc-9bbf-d83d0aead9b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\databaseproxyserver\databaseproxyserver_export.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\databaseproxyserver\DatabaseProxyServerApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\databaseproxyserver\DatabaseProxyServerPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\databaseproxyserver\cache\account\AccountCache.h">
+      <Filter>Source Files\cache\account</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\databaseproxyserver\cache\account\AccountCacheManager.h">
+      <Filter>Source Files\cache\account</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\databaseproxyserver\cache\account\detail\AccountCacheImpl.h">
+      <Filter>Source Files\cache\account\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\databaseproxyserver\s2s\DatabaseProxyServerSideRpcExtension.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\databaseproxyserver\s2s\DatabaseProxyServerSideSessionFactory.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\databaseproxyserver\DatabaseProxyServerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\databaseproxyserver\DatabaseProxyServerPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\databaseproxyserver\cache\account\AccountCacheManager.cpp">
+      <Filter>Source Files\cache\account</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\databaseproxyserver\cache\account\detail\AccountCacheImpl.cpp">
+      <Filter>Source Files\cache\account\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\databaseproxyserver\s2s\DatabaseProxyServerSideRpcExtension.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\databaseproxyserver\s2s\DatabaseProxyServerSideSessionFactory.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

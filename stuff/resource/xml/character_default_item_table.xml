@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" standalone="yes"?><character_default_item_table>
+	<character_default_item_template character_class="1" defence_item_code_1="50921483" defence_item_code_2="51062545" defence_item_code_3="51198627" defence_item_code_4="51410555" main_weapon_item_code_1="51480771" main_weapon_item_code_2="51482091" main_weapon_item_code_3="51613483" main_weapon_item_code_4="51612843" sub_weapon_item_code_1="51536667"/>
+	<character_default_item_template character_class="2" defence_item_code_1="50921843" defence_item_code_2="51062865" defence_item_code_3="51198947" defence_item_code_4="51410435" main_weapon_item_code_1="51612523" main_weapon_item_code_2="0" main_weapon_item_code_3="0" main_weapon_item_code_4="0" sub_weapon_item_code_1="0"/>
+	<character_default_item_template character_class="3" defence_item_code_1="50922083" defence_item_code_2="51062705" defence_item_code_3="51198787" defence_item_code_4="51410235" main_weapon_item_code_1="51612203" main_weapon_item_code_2="0" main_weapon_item_code_3="0" main_weapon_item_code_4="0" sub_weapon_item_code_1="0"/>
+</character_default_item_table>

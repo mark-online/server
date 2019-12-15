@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201106081336" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_shard') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.get_shard
+GO
+      
+CREATE PROCEDURE dbo.get_shard
+  @shard_id INT
+AS
+  SET NOCOUNT ON
+
+  SELECT z.id, z.global_world_map_code, z.is_first_zone, z.enabled, s.listening_address, s.listening_port 
+    FROM ${account_db_name}.Zones AS z
+      INNER JOIN ${account_db_name}.Server_Specs AS s ON s.name = z.name
+    WHERE z.shard_id = @shard_id
+
+  SET NOCOUNT OFF
+    </sql>
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_shard') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.get_shard
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

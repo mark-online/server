@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201208131257">
+    <createTable tableName="Guild_Accessory_Item_Infos" remarks="guild accessory item info table">
+      <column name="item_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="guild_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_1" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_1" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_2" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_2" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_3" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_3" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Guild_Accessory_Item_Infos" columnNames="item_id" tableName="Guild_Accessory_Item_Infos"/>
+    <addForeignKeyConstraint constraintName="fk_Guild_Accessory_Item_Infos_Guild_Inventories"
+        baseColumnNames="item_id" baseTableName="Guild_Accessory_Item_Infos"
+        referencedColumnNames="id" referencedTableName="Guild_Inventories"
+        onDelete="NO ACTION" />
+    <addForeignKeyConstraint constraintName="fk_Guild_Accessory_Item_Infos_Guilds"
+        baseColumnNames="guild_id" baseTableName="Guild_Accessory_Item_Infos"
+        referencedColumnNames="id" referencedTableName="Guilds"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

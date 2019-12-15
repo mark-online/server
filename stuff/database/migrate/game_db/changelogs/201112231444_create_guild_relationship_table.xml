@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112231444">
+    <createTable tableName="Guild_Relationship_Infos" remarks="bind recall table">
+      <column name="owner_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="target_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="relationship_type" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="relationship_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Guild_Relationship_Infos" columnNames="owner_id, target_id" tableName="Guild_Relationship_Infos"/>
+
+    <addForeignKeyConstraint constraintName="fk_Guild_Relationship_Infos_Guilds_1"
+        baseColumnNames="owner_id" baseTableName="Guild_Relationship_Infos"
+        referencedColumnNames="id" referencedTableName="Guilds"
+        onDelete="NO ACTION" />
+    <addForeignKeyConstraint constraintName="fk_Guild_Relationship_Infos_Guilds_2"
+        baseColumnNames="target_id" baseTableName="Guild_Relationship_Infos"
+        referencedColumnNames="id" referencedTableName="Guilds"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

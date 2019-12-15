@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  <preConditions>
+    <dbms type="mssql"/>
+  </preConditions>
+
+  <include file="changelogs/201105101449_create_link_account_server.xml"/>
+  <include file="changelogs/201105110730_create_types.xml"/>
+  <include file="changelogs/201105110732_create_get_properties_procedure.xml"/>
+  <include file="changelogs/201105110740_create_characters_table.xml"/>
+  <include file="changelogs/201105110741_create_last_access_characters_table.xml"/>
+  <include file="changelogs/201105111710_create_get_server_spec_procedure.xml"/>
+  <include file="changelogs/201105111713_create_get_zone_procedure.xml"/>
+  <include file="changelogs/201105111714_create_get_zone_list_procedure.xml"/>
+  <include file="changelogs/201105111808_create_inventories_table.xml"/>
+  <include file="changelogs/201105111837_create_equipments_table.xml"/>
+  <include file="changelogs/201105111839_create_equip_item_infos_table.xml"/>
+  <include file="changelogs/201105111840_create_game_money_table.xml"/>
+  <include file="changelogs/201105111841_create_action_bars_table.xml"/>
+  <include file="changelogs/201105111842_create_skills_table.xml"/>
+  <include file="changelogs/201105111843_create_create_character_procedure.xml"/>
+  <include file="changelogs/201105111846_create_get_user_info_procedure.xml"/>
+  <include file="changelogs/201105111847_create_get_character_info_procedure.xml"/>
+  <include file="changelogs/201105111849_create_save_character_stats_procedure.xml"/>
+  <include file="changelogs/201105111851_create_add_inventory_equip_item_procedure.xml"/>
+  <include file="changelogs/201105111852_create_add_inventory_item_procedure.xml"/>
+  <include file="changelogs/201105111855_create_change_equip_item_info_procedure.xml"/>
+  <include file="changelogs/201105111856_create_remove_inventory_item_procedure.xml"/>
+  <include file="changelogs/201105111857_create_update_equip_item_procedure.xml"/>
+  <include file="changelogs/201105121027_create_change_character_state_procedure.xml"/>
+  <include file="changelogs/201105121028_create_save_action_bar_procedure.xml"/>
+  <include file="changelogs/201105121036_create_get_max_inventory_id.xml"/>
+  <include file="changelogs/201105121037_create_learn_skill_procedure.xml"/>
+  <include file="changelogs/201105121038_create_move_inventory_item_procedure.xml"/>
+  <include file="changelogs/201105121040_create_replace_inventory_item_with_equip_item_procedure.xml"/>
+  <include file="changelogs/201105121041_create_switch_inventory_item_procedure.xml"/>
+  <include file="changelogs/201105121043_create_unequip_item_procedure.xml"/>
+  <include file="changelogs/201105121045_create_update_inventory_item_count_procedure.xml"/>
+  <include file="changelogs/201105181446_create_update_character_points_procedure.xml"/>
+  <include file="changelogs/201105181448_create_equip_item_procedure.xml"/>
+  <include file="changelogs/201105181450_create_delete_character_procedure.xml"/>
+  <include file="changelogs/201105311402_create_world_times_table.xml"/>
+  <include file="changelogs/201105311403_create_get_world_time_procedure.xml"/>
+  <include file="changelogs/201105311511_create_update_world_time_procedure.xml"/>
+  <include file="changelogs/201106011106_create_complete_quest_table.xml"/>
+  <include file="changelogs/201106011115_create_accept_quest_table.xml"/>
+  <include file="changelogs/201106013115_create_accept_quest_mission_table.xml"/>
+  <include file="changelogs/201106021221_create_get_quests_procedure.xml"/>
+  <include file="changelogs/201106021350_create_accept_quest_procedure.xml"/>
+  <include file="changelogs/201106021353_create_cancel_quest_procedure.xml"/>
+  <include file="changelogs/201106021356_create_complete_quest_procedure.xml"/>
+  <include file="changelogs/201106021359_create_insert_quest_mission_procedure.xml"/>
+  <include file="changelogs/201106021400_create_update_quest_mission_procedure.xml"/>
+  <include file="changelogs/201106081336_create_get_shard_procedure.xml"/>
+  <include file="changelogs/201106231300_create_get_recent_login_user_list_procedure.xml"/>
+  <include file="changelogs/201107101941_create_quest_inventories_table.xml"/>
+  <include file="changelogs/201107102215_create_add_quest_item_procedure.xml"/>
+  <include file="changelogs/201107102216_create_remove_quest_item_procedure.xml"/>
+  <include file="changelogs/201107102218_create_update_quest_item_usable_count_procedure.xml"/>
+  <include file="changelogs/201107221213_create_update_equip_item_enchant_skill_procedure.xml"/>
+  <include file="changelogs/201108261043_create_mercenary_quest_table.xml"/>
+  <include file="changelogs/201108261058_modify_get_quests_procedure_by_mercenaray_quest.xml"/>
+  <include file="changelogs/201108261101_create_update_mercenary_quest_mission_procedure.xml"/>
+  <include file="changelogs/201108261348_modify_delete_character_procedure_by_mercenary_quest.xml"/>
+  <include file="changelogs/201108261349_modify_create_character_procedure_by_mercenary_quest.xml"/>
+  <include file="changelogs/201108271252_create_update_mercenary_quest_mission_value_procedure.xml"/>
+  <include file="changelogs/201108301023_modify_characters_table_for_mercenary_point.xml"/>
+  <include file="changelogs/201108301026_modify_get_user_info_procedure_for_mercenary_point.xml"/>
+  <include file="changelogs/201108301027_modify_get_character_info_procedure_for_mercenary_point.xml"/>
+  <include file="changelogs/201108301031_modify_save_character_stats_procedure_mercenary_point.xml"/>
+  <include file="changelogs/201109021159_modify_replace_inventory_item_with_equip_item_procedure_for_bug_fix.xml"/>
+
+  <include file="changelogs/201109021422_create_guild_table.xml"/>
+  <include file="changelogs/201109021423_create_guild_member_table.xml"/>
+  <include file="changelogs/201109061342_create_create_guild_procedure.xml"/>
+  <include file="changelogs/201109061343_create_add_guild_member_procedure.xml"/>
+  <include file="changelogs/201109071350_create_get_guild_infos.xml"/>
+  <include file="changelogs/201109071353_create_get_guild_member_infos.xml"/>
+  <include file="changelogs/201109061559_create_get_max_guild_id.xml"/>
+  <include file="changelogs/201109062201_modify_get_character_info_procedure_for_guild_info.xml"/>
+  <include file="changelogs/201109062202_modify_get_user_info_procedure_for_quest_info.xml"/>
+  <include file="changelogs/201109062223_modify_delete_character_procedure_by_quest_info.xml"/>
+  <include file="changelogs/201109101200_create_remove_skill_procedure.xml"/>
+  <include file="changelogs/201109271726_modify_get_user_info_procedure_for_quest_info.xml"/>
+  <include file="changelogs/201109271732_modify_get_character_info_procedure_for_guild_info.xml"/>
+  <include file="changelogs/201109291512_modify_save_character_stats_procedure_character_class.xml"/>
+  <include file="changelogs/201110051643_create_remove_guild_procedure.xml"/>
+  <include file="changelogs/201110031056_create_remove_guild_member_procedure.xml"/>
+  <include file="changelogs/201110131436_create_character_properties_table.xml"/>
+  <include file="changelogs/201110131439_create_save_character_properties_procedure.xml"/>
+  <include file="changelogs/201110131658_create_load_character_properties_procedure.xml"/>
+  
+  <include file="changelogs/201110191047_create_complete_repeat_quest_table.xml"/>
+  <include file="changelogs/201110191059_create_accept_repeat_quest_table.xml"/>
+  <include file="changelogs/201110191100_create_accept_repeat_quest_mission_table.xml"/>
+  <include file="changelogs/201110191526_create_get_repeat_quests_procedure.xml"/>
+  <include file="changelogs/201110191531_create_accept_repeat_quest_procedure.xml"/>
+  <include file="changelogs/201110191535_create_cancel_repeat_quest_procedure.xml"/>
+  <include file="changelogs/201110191536_create_complete_repeat_quest_procedure.xml"/>
+  <include file="changelogs/201110191538_create_insert_repeat_quest_mission_procedure.xml"/>
+  <include file="changelogs/201110191539_create_update_quest_mission_procedure.xml"/>
+  <include file="changelogs/201110191624_create_remove_complete_repeat_quest_procedure.xml"/>
+  <include file="changelogs/201110191636_create_update_complete_repeat_quest_procedure.xml"/>
+  <include file="changelogs/201110191728_modify_delete_character_procedure_by_repeat_quest_info.xml"/>
+
+  <include file="changelogs/201110310621_create_get_character_id_procedure.xml"/>
+  <include file="changelogs/201110311626_create_mail_table.xml"/>
+  <include file="changelogs/201110311807_create_mail_inventories_table.xml"/>
+  <include file="changelogs/201110311817_create_mail_equip_item_infos_table.xml"/>
+  <include file="changelogs/201110311903_create_get_mails_procedure.xml"/>
+  <include file="changelogs/201110311904_create_insert_mail_procedure.xml"/>
+  <include file="changelogs/201110311910_create_add_mail_item_procedure.xml"/>
+  <include file="changelogs/201110311938_create_add_mail_equip_item_procedure.xml"/>
+  <include file="changelogs/201110311958_create_delete_mail_item_procedure.xml"/>
+  <include file="changelogs/201110311959_create_delete_mail_procedure.xml"/>
+  <include file="changelogs/201110312000_create_read_mail_procedure.xml"/>
+  <include file="changelogs/201110312238_modify_delete_character_procedure_by_mail.xml"/>
+  
+  <include file="changelogs/201111031055_create_auction_table.xml"/>
+  <include file="changelogs/201111031057_create_auction_inventories_table.xml"/>
+  <include file="changelogs/201111031059_create_auction_equip_item_infos_table.xml"/>
+  <include file="changelogs/201111031111_create_get_auctions_procedure.xml"/>
+  <include file="changelogs/201111031240_create_insert_auction_procedure.xml"/>
+  <include file="changelogs/201111031250_create_add_auction_equip_info_procedure.xml"/>
+  <include file="changelogs/201111031254_create_update_bid_procedure.xml"/>
+  <include file="changelogs/201111031257_create_delete_auction_procedure.xml"/>
+  <include file="changelogs/201111040045_create_has_not_read_mail_procedure.xml"/>
+  <include file="changelogs/201111041619_modify_action_bars_table_for_column_add.xml"/>
+  <include file="changelogs/201111041627_modify_get_character_info_procedure_for_action_bar.xml"/>
+  <include file="changelogs/201111041639_modify_get_user_info_procedure_for_action_bar"/>
+  <include file="changelogs/201111051513_create_check_duplicate_nickname_procedure.xml"/>
+  
+  <include file="changelogs/201111051900_modify_characters_table_for_column_add.xml"/>
+  <include file="changelogs/201111051940_insert_unusalble_character.xml"/>
+  <include file="changelogs/201111051942_modify_delete_character_procedure_by_undelete.xml"/>
+  <include file="changelogs/201111061059_modify_get_character_info_procedure_for_delete.xml"/>
+  <include file="changelogs/201111061100_modify_get_user_info_procedure_for_delete.xml"/>
+  <include file="changelogs/201111071202_modify_create_character_procedure_by_skill.xml"/>
+  
+  <include file="changelogs/201111161833_modify_equip_item_infos_by_open_socket.xml"/>
+  <include file="changelogs/201111301343_create_arena_record_table.xml"/>
+  <include file="changelogs/201111301355_modify_characters_table_for_arena_point_column_add.xml"/>
+  <include file="changelogs/201111301507_create_update_arena_point_procedure.xml"/>
+  <include file="changelogs/201111301517_create_update_arena_record_procedure.xml"/>
+  <include file="changelogs/201111301759_modify_get_character_info_procedure_for_arean_point.xml"/>
+  <include file="changelogs/201111301801_modify_get_user_info_procedure_for_arena_point.xml"/>
+  <include file="changelogs/201111301803_create_get_character_arena_records_procedure.xml"/>
+  <include file="changelogs/201112011408_modify_save_character_stats_procedure_arena_point.xml"/>
+
+  <include file="changelogs/201112011430_modify_inventory_for_expire_at_column_add.xml"/>	
+  <include file="changelogs/201112011441_modify_get_user_info_procedure_for_item_time.xml"/>
+  <include file="changelogs/201112011443_modify_get_character_info_procedure_for_item_time.xml"/>
+  <include file="changelogs/201112011518_modify_add_inventory_item_procedure_for_expire_at.xml"/>
+  <include file="changelogs/201112011519_modify_add_inventory_equip_item_procedure_for_expire_at.xml"/>
+  <include file="changelogs/201112011554_modify_create_character_procedure_by_item_expire_at.xml"/>
+  <include file="changelogs/201112011753_modify_get_user_info_procedure_for_del_guild_mark.xml"/>
+  <include file="changelogs/201112011756_modify_get_character_info_procedure_for_del_guild_mark.xml"/>
+
+  <include file="changelogs/201112021512_create_accessory_table.xml"/>
+  <include file="changelogs/201112021933_create_equip_accessory_item_procedure.xml"/>
+  <include file="changelogs/201112021935_create_replace_inventory_item_with_accessory_item_procedure.xml"/>
+  <include file="changelogs/201112021937_create_unequip_accessory_item_procedure.xml"/>
+  <include file="changelogs/201112021943_modify_get_user_info_procedure_for_accessory.xml"/>
+  <include file="changelogs/201112021945_modify_get_character_info_procedure_for_accessory.xml"/>
+  <include file="changelogs/201112051053_modify_character_for_deserter_at_column_add.xml"/>
+  <include file="changelogs/201112051111_modify_get_character_info_procedure_for_deserter_at.xml"/>
+  <include file="changelogs/201112051112_modify_get_user_info_procedure_for_deserter_at.xml"/>
+  <include file="changelogs/201112051113_create_update_deserter_at_procedure.xml"/>
+  <include file="changelogs/201112051605_modify_update_arena_point_procedure.xml"/>
+  <include file="changelogs/201112141521_create_buildings_table.xml"/>
+  <include file="changelogs/201112141536_create_building_inventories_table.xml"/>
+  <include file="changelogs/201112141540_create_building_equip_item_infos_table.xml"/>
+  <include file="changelogs/201112141659_modify_get_max_inventory_id_for_zone_id.xml"/>
+
+  <include file="changelogs/201112161121_create_create_building_procedure.xml"/>
+  <include file="changelogs/201112161331_create_get_buildings_procedure.xml"/>
+  <include file="changelogs/201112161403_create_add_building_inventory_equip_item_procedure.xml"/>
+  <include file="changelogs/201112161404_create_update_building_inventory_item_count_procedure.xml"/>
+  <include file="changelogs/201112161405_create_switch_building_inventory_item_procedure.xml"/>
+  <include file="changelogs/201112161406_create_move_building_inventory_item_procedure.xml"/>
+  <include file="changelogs/201112161407_create_remove_building_inventory_item_procedure.xml"/>
+  <include file="changelogs/201112161408_create_add_building_inventory_item_procedure.xml"/>
+  <include file="changelogs/201112191357_create_update_building_state_procedure.xml"/>	
+  <include file="changelogs/201112191447_create_update_building_owner_procedure.xml"/>
+  <include file="changelogs/201112191635_create_remove_building_procedure.xml"/>
+  <include file="changelogs/201112201900_create_bind_racall_table.xml"/>
+
+  <include file="changelogs/201112202100_create_add_bind_recall_info_procedure.xml"/>
+  <include file="changelogs/201112202101_create_remove_bind_recall_info_procedure.xml"/>
+  <include file="changelogs/201112202128_modify_get_character_info_procedure_for_bind_recall.xml"/>
+  <include file="changelogs/201112202129_modify_get_user_info_procedure_for_bind_recall.xml"/>
+
+  <include file="changelogs/201112211600_modify_characters_table_for_beginner_protection.xml"/>
+  <include file="changelogs/201112211621_modify_get_character_info_procedure_for_beginner_protection.xml"/>
+  <include file="changelogs/201112211622_modify_get_user_info_procedure_for_beginner_protection.xml"/>
+  <include file="changelogs/201112211623_create_release_beginner_protection_procedure.xml"/>
+
+
+  <include file="changelogs/201112231444_create_guild_relationship_table.xml"/>
+  <include file="changelogs/201112231455_create_remove_guild_relationship_procedure.xml"/>
+  <include file="changelogs/201112231457_create_add_guild_relationship_procedure.xml"/>
+  <include file="changelogs/201112231501_modify_get_guild_infos_for_relationship.xml"/>
+  <include file="changelogs/201112231505_create_get_guild_relationship.xml"/>
+  <include file="changelogs/201112231721_modify_remove_guild_procedure_for_relationship.xml"/>
+  <include file="changelogs/201111301847_create_update_arena_rank_procedure.xml"/>
+  <include file="changelogs/201201031319_modify_remove_building_procedure_for_bindrecall.xml"/>
+
+  <include file="changelogs/201201131642_modify_building_table_for_create_time.xml"/>
+  <include file="changelogs/201201131647_modify_create_building_procedure_for_create_at.xml"/>
+  <include file="changelogs/201201131658_modify_get_buildings_procedure_for_create_at.xml"/>
+
+  <include file="changelogs/201201131909_create_cooldown_info_table.xml"/>
+  <include file="changelogs/201201131918_create_add_cooldown_procedure.xml"/>
+  <include file="changelogs/201201131919_create_remove_cooldown_procedure.xml"/>
+  <include file="changelogs/201201131924_modify_get_character_info_procedure_for_cooldown.xml"/>
+  <include file="changelogs/201201131926_modify_get_user_info_procedure_for_cooldown.xml"/>
+  <include file="changelogs/201201171645_modify_Cooltime_Infos_table_for_remove_id.xml"/>
+
+  <include file="changelogs/201201181307_create_cooldown_effect_info_table.xml"/>
+  <include file="changelogs/201201181330_create_add_cooldown_effect_procedure.xml"/>
+  <include file="changelogs/201201181337_create_remove_cooldown_effect_procedure.xml"/>
+  <include file="changelogs/201201181515_modify_get_character_info_procedure_for_cooldown_effect.xml"/>
+  <include file="changelogs/201201181517_modify_get_user_info_procedure_for_cooldown_effect.xml"/>
+  <include file="changelogs/201202021030_create_remove_all_cooldown_effect_procedure.xml"/>
+  <include file="changelogs/201202021031_create_remove_all_cooldown_procedure.xml"/>
+  <include file="changelogs/201202021149_modify_characters_table_for_public_quest_point_column_add.xml"/>
+  <include file="changelogs/201202021200_modify_game_money_table_for_event_coin_column_add.xml"/>
+  <include file="changelogs/201202021213_modify_get_character_info_procedure_for_public_quest.xml"/>
+  <include file="changelogs/201202021213_modify_get_user_info_procedure_for_public_quest.xml"/>
+  <include file="changelogs/201202021334_modify_save_character_stats_procedure_public_quest.xml"/>
+
+  <include file="changelogs/201202131212_create_character_inventory_info_table.xml"/>
+  <include file="changelogs/201202131218_modify_get_user_info_procedure_for_inventory_info.xml"/>
+  <include file="changelogs/201202131219_modify_get_character_info_procedure_for_inventory_info.xml"/>
+  <include file="changelogs/201202131328_modify_create_character_procedure_by_inventory_info.xml"/>
+  <include file="changelogs/201202131413_create_update_character_inventory_info_procedure.xml"/>
+
+  <include file="changelogs/201202151300_modify_quest_inventories_for_stack_count_column_add.xml"/>
+  <include file="changelogs/201202151305_create_update_quest_item_count_procedure.xml"/>
+  <include file="changelogs/201202151309_modify_add_quest_item_procedure_for_stack_count.xml"/>
+  <include file="changelogs/201202151315_modify_get_character_info_procedure_for_quest_item_stack.xml"/>
+  <include file="changelogs/201202151316_modify_get_user_info_procedure_for_quest_item_stack.xml"/>
+
+  <include file="changelogs/201202211636_create_vehicle_table.xml"/>
+  <include file="changelogs/201202211637_create_glider_table.xml"/>
+  <include file="changelogs/201202211648_create_create_vehicle_info.xml"/>
+  <include file="changelogs/201202211649_create_create_glider_info.xml"/>
+  <include file="changelogs/201202211650_create_delete_vehicle_info.xml"/>
+  <include file="changelogs/201202211651_create_delete_glider_info.xml"/>
+  <include file="changelogs/201202221145_modify_get_character_info_procedure_for_vehicle_and_glider.xml"/>
+  <include file="changelogs/201202221146_modify_get_user_info_procedure_for_vehicle_and_glider.xml"/>
+
+  <include file="changelogs/201202241728_create_harness_table.xml"/>
+  <include file="changelogs/201202241729_create_common_harness_table.xml"/>
+  <include file="changelogs/201202251610_modify_vehicle_infos_table_for_birth_day_and_peak_day_column_add.xml"/>
+  <include file="changelogs/201202271120_modify_characters_table_for_public_vehicle_column_add.xml"/>
+  <include file="changelogs/201202271203_modify_get_character_info_procedure_for_harness.xml"/>
+  <include file="changelogs/201202271204_modify_get_user_info_procedure_for_harness.xml"/>
+  <include file="changelogs/201202271827_create_select_vehicle_procedure.xml"/>
+  <include file="changelogs/201202281417_create_select_glider_procedure.xml"/>
+  <include file="changelogs/201202281418_modify_delete_vehicle_info_for_harness.xml"/>
+  <include file="changelogs/201202281626_modify_create_vehicle_info.xml"/>
+  <include file="changelogs/201203071816_modify_glider_infos_table_for_durability_column_add.xml"/>
+  <include file="changelogs/201203071818_modify_create_glider_info_for_durability.xml"/>
+  <include file="changelogs/201203071819_modify_get_character_info_procedure_for_glider_durability.xml"/>
+  <include file="changelogs/201203071820_modify_get_user_info_procedure_for_glider_durability.xml"/>
+  <include file="changelogs/201203071841_create_update_glider_durability.xml"/>
+
+  <include file="changelogs/201203161145_modify_delete_character_procedure_by_guild.xml"/>
+  <include file="changelogs/201203161405_create_change_guild_member_grade.xml"/>
+
+  <include file="changelogs/201203191638_create_buddy_info_table.xml"/>
+  <include file="changelogs/201203191641_create_get_buddies_procedure.xml"/>
+  <include file="changelogs/201203191654_create_add_buddy_procedure.xml"/>
+  <include file="changelogs/201203191657_create_remove_buddy_procedure.xml"/>
+
+  <include file="changelogs/201203201703_modify_EquipItemInfos_table_for_upgrade_rate_column_add.xml"/>
+  <include file="changelogs/201203201706_create_update_rate_procedure.xml"/>
+  <include file="changelogs/201203201724_modify_get_character_info_procedure_for_upgrade_rate.xml"/>
+  <include file="changelogs/201203201725_modify_get_user_info_procedure_for_upgrade_rate.xml"/>
+
+  <include file="changelogs/201203211823_modify_game_money_table_for_forge_coin_column_add.xml"/>
+  <include file="changelogs/201203211824_modify_get_character_info_procedure_for_forge_coin.xml"/>
+  <include file="changelogs/201203211825_modify_get_user_info_procedure_for_forge_coin.xml"/>
+  <include file="changelogs/201203211827_modify_save_character_stats_procedure_for_forge_coin.xml"/>
+  <include file="changelogs/201204050441_create_remove_complete_quest_procedure.xml"/>
+
+  <include file="changelogs/201204061215_modify_character_table_for_public_quest_point_column_drop.xml"/>
+  <include file="changelogs/201204061235_modify_save_character_stats_procedure_for_public_quest_point_drop.xml"/>
+  <include file="changelogs/201204061236_modify_get_character_info_procedure_for_public_quest_point_drop.xml"/>
+  <include file="changelogs/201204061237_modify_get_user_info_procedure_for_public_quest_point_drop.xml"/>
+  <include file="changelogs/201205011320_create_character_appearance_info_table.xml"/>
+  <include file="changelogs/201205011325_modify_get_character_info_procedure_for_character_appearance.xml"/>
+  <include file="changelogs/201205011326_modify_get_user_info_procedure_for__character_appearance.xml"/>
+  <include file="changelogs/201205011353_modify_create_character_procedure_by_character_appearance.xml"/>
+  <include file="changelogs/201205060416_create_remove_all_cooldown_effect_procedure.xml"/>
+  <include file="changelogs/201205071530_create_character_blocks_table.xml"/>
+  <include file="changelogs/201205071536_modify_get_buddies_procedure.xml"/>
+  <include file="changelogs/201205071548_create_add_block_procedure.xml"/>
+  <include file="changelogs/201205071556_create_remove_block_procedure.xml"/>
+
+  <include file="changelogs/201205201932_create_building_select_recipe_production_info_table.xml"/>
+  <include file="changelogs/201205201937_create_add_select_recipe_production_procedure.xml"/>
+  <include file="changelogs/201205201941_create_remove_select_recipe_production_procedure.xml"/>
+  <include file="changelogs/201205221241_modify_get_buildings_procedure_for_select_production.xml"/>
+  <include file="changelogs/201205221249_create_remove_building_procedure_for_select_production.xml"/>
+  <include file="changelogs/201205222240_create_remove_all_building_inventory_item_procedure.xml"/>
+  <include file="changelogs/201205231507_create_update_select_recipe_production_procedure .xml"/>
+  <include file="changelogs/201205291648_modify_accept_repeat_quest_procedure.xml"/>
+
+  <include file="changelogs/201205311420_create_building_guard_table.xml"/>
+  <include file="changelogs/201205311421_modify_get_buildings_procedure_for_guard.xml"/>
+  <include file="changelogs/201205311432_create_add_building_guard_procedure.xml"/>
+  <include file="changelogs/201205311438_create_remove_building_guard_procedure.xml"/>
+  <include file="changelogs/201205311543_create_remove_building_procedure_for_guard.xml"/>
+  <include file="changelogs/201206081139_create_create_building_procedure.xml"/>
+
+  <include file="changelogs/201207051356_create_guild_applicant_table.xml"/>
+  <include file="changelogs/201207051818_create_get_guild_applicants.xml"/>
+  <include file="changelogs/201207101238_create_add_guild_applicant.xml"/>
+  <include file="changelogs/201207101239_create_remove_guild_applicant.xml"/>
+  <include file="changelogs/201207101723_modify_GuildMember_table_for_column_remove.xml"/>
+  <include file="changelogs/201207101724_modify_GuildMember_table_for_column_add.xml"/>
+  <include file="changelogs/201207101802_modify_get_guild_member_infos_for_column_add.xml"/>
+  <include file="changelogs/201207101807_modify_add_guild_member_procedure_for_add_column.xml"/>
+  <include file="changelogs/201207101850_create_modify_guild_abillity.xml"/>
+  <include file="changelogs/201207111248_modify_guild_table_for_column_add.xml"/>  
+  <include file="changelogs/201207111337_create_modify_guild_introduction.xml"/>
+  <include file="changelogs/201207111338_create_modify_guild_notice.xml"/>
+  <include file="changelogs/201207111340_modify_get_guild_infos_for_add_column.xml"/>
+
+  <include file="changelogs/201207121004_create_guild_log_table.xml"/>
+  <include file="changelogs/201207121356_create_guild_inventories_table.xml"/>
+  <include file="changelogs/201207121400_create_guild_equip_item_infos_table.xml"/>
+  <include file="changelogs/201207121403_create_add_guild_inventory_equip_item_procedure.xml"/>
+  <include file="changelogs/201207121404_create_add_guild_inventory_item_procedure.xml"/>
+  <include file="changelogs/201207121416_create_remove_guild_inventory_item_procedure.xml"/>
+  <include file="changelogs/201207121441_create_update_guild_inventory_item_count_procedure.xml"/>
+  <include file="changelogs/201207121448_create_remove_guild_procedure_for_guild_inventory.xml"/>
+  <include file="changelogs/201207121506_create_switch_guild_inventory_item_procedure.xml"/>
+  <include file="changelogs/201207121511_create_move_guild_inventory_item_procedure.xml"/>
+  <include file="changelogs/201207121515_create_get_guild_inventory_procedure.xml"/>
+
+  <include file="changelogs/201207131822_modify_guild_table_for_column_inventory_count.xml"/>
+  <include file="changelogs/201207131825_modify_get_guild_infos_for_add_inventory_count.xml"/>
+  <include file="changelogs/201207131856_modify_inventories_table_for_slot_id.xml"/>
+  <include file="changelogs/201207131857_modify_building_inventories_table_for_slot_id.xml"/>
+
+  <include file="changelogs/201207131914_modify_move_inventory_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131915_modify_switch_inventory_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131916_modify_add_inventory_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131917_modify_add_inventory_equip_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131918_modify_update_equip_item_enchant_skill_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131920_modify_unequip_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131921_modify_replace_inventory_item_with_equip_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131922_modify_unequip_accessory_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131924_modify_replace_inventory_item_with_accessory_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131926_modify_switch_building_inventory_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131927_modify_add_building_inventory_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207131928_modify_add_building_inventory_equip_item_procedure_for_slot_id.xml"/>
+  <include file="changelogs/201207161050_modify_guild_table_for_column_game_money.xml"/>
+  <include file="changelogs/201207161055_modify_get_guild_infos_for_add_game_money_column.xml"/>
+  <include file="changelogs/201207161250_create_update_guild_game_money_procedure.xml"/>
+
+  <include file="changelogs/201207171024_create_guild_event_log_table.xml"/>
+  <include file="changelogs/201207171027_create_guild_bank_event_log_table.xml"/>
+  <include file="changelogs/201207171041_create_get_guild_event_log_procedure.xml"/>
+  <include file="changelogs/201207171042_create_get_guild_bank_event_log_procedure.xml"/>
+  <include file="changelogs/201207171100_create_add_guild_bank_event_log_procedure.xml"/>
+  <include file="changelogs/201207171101_create_remove_guild_bank_event_log_procedure.xml"/>
+  <include file="changelogs/201207171118_create_add_guild_event_log_procedure.xml"/>
+  <include file="changelogs/201207171151_create_remove_guild_event_log_procedure.xml"/>
+  <include file="changelogs/201207171601_create_guild_vaults_table.xml"/>
+  <include file="changelogs/201207171609_create_add_guild_vaults_procedure.xml"/>
+  <include file="changelogs/201207171628_create_get_guild_vaults_procedure.xml"/>
+  <include file="changelogs/201207171635_modify_create_guild_procedure.xml"/>
+  <include file="changelogs/201207181024_create_guild_game_money_event_log_table.xml"/>
+  <include file="changelogs/201207181041_create_get_guild_game_money_event_log_procedure.xml"/>
+  <include file="changelogs/201207181626_create_add_guild_game_money_event_log_procedure.xml"/>
+  <include file="changelogs/201207181628_create_remove_guild_game_money_event_log_procedure.xml"/>
+  <include file="changelogs/201207181755_modify_guild_inventory_table_for_column_vaultId_add.xml"/>
+  <include file="changelogs/201207181933_modify_get_guild_inventory_procedure_for_add_vault_id.xml"/>
+  <include file="changelogs/201207181934_modify_move_guild_inventory_item_procedure_for_add_vault_id.xml"/>
+  <include file="changelogs/201207181935_modify_switch_guild_inventory_item_procedure_for_add_vault_id.xml"/>
+  <include file="changelogs/201207181936_modify_add_guild_inventory_item_procedure_for_add_vault_id.xml"/>
+  <include file="changelogs/201207181937_modify_add_guild_inventory_equip_item_procedure_for_add_vault_id.xml"/>
+  
+  <include file="changelogs/201207191036_modify_guild_table_for_column_remove.xml"/>
+  <include file="changelogs/201207191040_modify_get_guild_infos_for_max_wirhdraw_column.xml"/>
+  <include file="changelogs/201207191045_create_update_guild_max_withdraw_procedure.xml"/>
+  <include file="changelogs/201207191445_modify_guild_meber_table_for_column_withdraw.xml"/>
+  <include file="changelogs/201207191447_modify_get_guild_member_infos_for_column_withdraw.xml"/>
+  <include file="changelogs/201207191453_modify_guild_vaults_table_for_column_name.xml"/>
+  <include file="changelogs/201207191541_modify_add_guild_vaults_procedure_for_name.xml"/>
+  <include file="changelogs/201207191541_modify_get_guild_vaults_procedure_for_name.xml"/>
+  <include file="changelogs/201207191544_create_update_guild_member_withdraw_procedure.xml"/>
+  <include file="changelogs/201207191844_create_update_guild_vault_name_procedure.xml"/>
+  <include file="changelogs/201207201208_modify_guild_event_log_table_param1.xml"/>
+
+  <include file="changelogs/201207201541_modify_add_guild_vaults_procedure_for_name.xml"/>
+  <include file="changelogs/201207201622_modify_remove_guild_procedure.xml"/>
+
+  <include file="changelogs/201207241301_modify_character_table_for_column_remove_cp.xml"/>
+  <include file="changelogs/201207271055_create_equip_item_socket_info_table.xml"/>
+  <include file="changelogs/201207271232_drop_EquipItemInfos_table.xml"/>
+  <include file="changelogs/201207271233_create_equip_item_info_table.xml"/>
+  <include file="changelogs/201207271258_modify_get_character_info_procedure_for_remove_cp_and_new_equip.xml"/>
+  <include file="changelogs/201207271259_modify_get_user_info_procedure_for_remove_cp_and_new_equip.xml"/>
+  <include file="changelogs/201207271336_modify_add_inventory_equip_item_procedure_for_new_equip_info.xml"/>
+  <include file="changelogs/201207271613_modify_create_character_procedure_for_new_equip.xml"/>
+   
+  <include file="changelogs/201208131240_drop_Guild_Equip_Item_Infos_table.xml"/>
+  <include file="changelogs/201208131252_create_guild_equip_item_socket_info_table.xml"/>
+  <include file="changelogs/201208131256_create_guild_equip_item_infos_table.xml"/>
+  <include file="changelogs/201208131257_create_guild_assessory_item_info_table.xml"/>
+  <include file="changelogs/201208131258_create_add_guild_inventory_equip_item_procedure.xml"/>
+  <include file="changelogs/201208131259_create_add_guild_inventory_assessory_item_procedure.xml"/>  
+
+  <include file="changelogs/201208131400_create_accssory_item_info_table.xml"/>  
+  <include file="changelogs/201208131403_modify_get_character_info_procedure_for_accessory_info.xml"/>  
+  <include file="changelogs/201208131408_modify_get_user_info_procedure_for_accessory.xml"/>  
+  <include file="changelogs/201208131451_create_add_inventory_assessory_item_procedure.xml"/>  
+
+  <include file="changelogs/201208131528_modify_get_guild_inventory_procedure_for_add_accessory_info.xml"/>  
+  <include file="changelogs/201208131553_modify_change_equip_item_info_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208131617_modify_remove_guild_inventory_item_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208131619_modify_remove_inventory_item_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208131620_drop_Mail_Equip_Item_Infos_table.xml"/>
+  <include file="changelogs/201208131621_drop_Mail_Inventories_table.xml"/>
+  <include file="changelogs/201208131622_create_mail_inventories_table.xml"/>
+  <include file="changelogs/201208131623_create_mail_equip_item_socket_info_table.xml"/>
+  <include file="changelogs/201208131624_create_mail_equip_item_info_table.xml"/>
+  <include file="changelogs/201208131625_create_mail_accessory_item_info_table.xml"/>
+  <include file="changelogs/201208131631_modify_add_mail_equip_item_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208131646_modify_get_mails_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208131656_modify_delete_mail_item_procedure_for_new_equip.xml"/>
+
+  <include file="changelogs/201208131750_create_auction_accessory_item_info_table.xml"/>
+  <include file="changelogs/201208131801_drop_Auction_Equip_Item_Info_table.xml"/>
+  <include file="changelogs/201208131802_create_auction_equip_item_info_table.xml"/>
+  <include file="changelogs/201208131803_create_auction_equip_item_socket_info_table.xml"/>
+  <include file="changelogs/201208131805_modify_add_auction_equip_item_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208131822_modify_get_auctions_procedure.xml"/>
+  <include file="changelogs/201208131833_modify_delete_auction_procedure_for_new_equip.xml"/>
+
+  <include file="changelogs/201208131915_create_add_auction_accessory_item_procedure.xml"/>
+  <include file="changelogs/201208131919_create_add_guild_inventory_accessory_item_procedure.xml"/>
+  <include file="changelogs/201208131920_create_add_inventory_accessory_item_procedure.xml"/>
+  <include file="changelogs/201208131922_create_add_mail_accessory_item_procedure.xml"/>
+
+  <include file="changelogs/201208151425_create_guild_ranks_table.xml"/>
+  <include file="changelogs/201208151445_create_create_guild_rank_procedure.xml"/>
+  <include file="changelogs/201208151536_modify_remove_guild_procedure.xml"/>
+  <include file="changelogs/201208151642_create_get_guild_ranks_procedure.xml"/>
+  <include file="changelogs/201208161010_modify_guild_members_table_to_add_rank_id.xml"/>
+  <include file="changelogs/201208161011_modify_add_guild_member_procedure_to_add_rank_id.xml"/>
+  <include file="changelogs/201208161012_delete_modify_guild_abillity_procedure.xml"/>
+  <include file="changelogs/201208161117_modify_guild_event_log_table_to_modify_log_at_type.xml"/>
+  <include file="changelogs/201208161119_modify_add_guild_event_log_procedure.xml"/>
+  <include file="changelogs/201208161220_modify_get_guild_member_infos_for_column_rank_id.xml"/>
+  <include file="changelogs/201208161357_modify_guild_bank_event_log_table_to_modify_log_at_type.xml"/>
+  <include file="changelogs/201208161358_modify_add_guild_bank_event_log_procedure.xml"/>
+  <include file="changelogs/201208161423_modify_guild_game_money_event_log_table_to_modify_log_at_type.xml"/>
+  <include file="changelogs/201208161424_modify_add_guild_game_money_event_log_procedure.xml"/>
+
+  <include file="changelogs/201208161338_create_remove_equip_socket_options_procedure.xml"/>
+  <include file="changelogs/201208161339_create_add_equip_socket_options_procedure.xml"/>
+  <include file="changelogs/201208161340_create_add_acution_equip_socket_options_procedure.xml"/>
+  <include file="changelogs/201208161341_create_add_guild_equip_socket_options_procedure.xml"/>
+  <include file="changelogs/201208161342_create_add_mail_equip_socket_options_procedure.xml"/>
+
+  <include file="changelogs/201208171154_drop_Cooldown_Effect_Info_table.xml"/>
+  <include file="changelogs/201208171155_create_remain_effect_infos_table.xml"/>
+  <include file="changelogs/201208171211_remove_add_effect_procedure.xml"/>
+  <include file="changelogs/201208171212_create_add_remain_effect_procedure.xml"/>
+  <include file="changelogs/201208171216_remove_remove_all_cooldown_effect_procedure.xml"/>
+  <include file="changelogs/201208171217_create_remove_all_remain_effect_procedure.xml"/>
+  <include file="changelogs/201208171218_remove_remove_cooldown_effect_procedure.xml"/>
+  <include file="changelogs/201208171509_modify_character_table_for_column_remove.xml"/>
+  <include file="changelogs/201208171514_modify_get_character_info_procedure_for_remain_effect_info.xml"/>
+  <include file="changelogs/201208171516_modify_get_user_info_procedure_for_remain_effect.xml"/>
+
+  <include file="changelogs/201208201121_add_update_guild_rank_name_procedure.xml"/>
+  <include file="changelogs/201208201824_add_update_guild_rank_rights_procedure.xml"/>
+  <include file="changelogs/201208211258_drop_building_equip_item_infos_table.xml"/>
+  <include file="changelogs/201208211300_create_building_equip_item_info_table.xml"/>
+  <include file="changelogs/201208211302_create_building_equip_item_socket_info_table.xml"/>
+  <include file="changelogs/201208211306_create_building_accessory_item_info_table.xml"/>
+  <include file="changelogs/201208211310_modify_get_buildings_procedure_for_guard_new_equip.xml"/>
+  <include file="changelogs/201208211455_modify_remove_building_inventory_item_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208211506_modify_add_building_inventory_equip_item_procedure_for_new_equip.xml"/>
+  <include file="changelogs/201208211509_create_add_building_inventory_accessory_item_procedure.xml"/>
+  <include file="changelogs/201208211516_create_add_building_equip_socket_options_procedure.xml"/>
+  <include file="changelogs/201208211617_modify_get_character_info_procedure_for_error.xml"/>
+  <include file="changelogs/201208211622_modify_get_user_info_procedure_for_error.xml"/>
+  <include file="changelogs/202108211757_modify_save_character_stats_procedure_for_new_status.xml"/>
+  <include file="changelogs/201208211445_add_update_guild_member_rank_procedure.xml"/>
+  <include file="changelogs/201208211832_add_delete_guild_rank_procedure.xml"/>
+  <include file="changelogs/201208221117_add_swap_guild_rank_procedure.xml"/>
+
+  <include file="changelogs/201208281822_modify_remain_effect_table_for_column_add.xml"/>
+  <include file="changelogs/201208281830_modify_get_character_info_procedure_for_remain_effect.xml"/>
+  <include file="changelogs/201208281831_modify_get_user_info_procedure_for_remain_effect.xml"/>
+  <include file="changelogs/201208281854_modify_add_remain_effect_procedure_for_is_caster.xml"/>
+
+  <include file="changelogs/201208301351_modify_Auction_Equip_Item_Socket_Infos_table_for_column_add_gem_code.xml"/>
+  <include file="changelogs/201208301352_modify_Building_Equip_Item_Socket_Infos_table_for_column_add_gem_code .xml"/>
+  <include file="changelogs/201208301353_modify_Guild_Equip_Item_Scoket_Infos_table_for_column_add_gem_code .xml"/>
+  <include file="changelogs/201208301354_modify_Mail_Equip_Item_Scoket_Infos_table_for_column_add_gem_code.xml"/>
+  <include file="changelogs/201208301355_modify_Equip_Item_Scoket_Infos_table_for_column_add_gem_code.xml"/>
+
+  <include file="changelogs/201208301400_modify_add_building_equip_socket_options_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301411_modify_add_acution_equip_socket_options_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301412_modify_add_mail_equip_socket_options_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301413_modify_add_guild_equip_socket_options_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301414_modify_add_equip_socket_options_procedure_for_gem_code.xml"/>
+
+  <include file="changelogs/201208301430_modify_get_character_info_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301431_modify_get_user_info_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301432_modify_get_guild_inventory_procedure_for_get_code.xml"/>
+  <include file="changelogs/201208301433_modify_get_mails_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301434_modify_get_auctions_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201208301435_modify_get_buildings_procedure_for_gem_code.xml"/>
+  <include file="changelogs/201209111624_modify_create_character_procedure_for_sp.xml"/>
+
+  <include file="changelogs/201209131020_modify_characters_table_for_select_equip_type_column_add.xml"/>
+  <include file="changelogs/201209131030_modify_create_character_procedure_for_equip_type.xml"/>
+  <include file="changelogs/201209131034_modify_get_character_info_procedure_for_select_equip_type.xml"/>
+  <include file="changelogs/201209131035_modify_get_user_info_procedure_for_select_equip_type.xml"/>
+  <include file="changelogs/201209131657_create_remove_all_skill_procedure.xml"/>
+
+  <include file="changelogs/201210051000_modify_characters_table_for_achievement_point_column_add.xml"/>
+  <include file="changelogs/201210051001_modify_get_character_info_procedure_for_achievement_point.xml"/>
+  <include file="changelogs/201210051002_modify_get_user_info_procedure_for_achievement_point.xml"/>
+  <include file="changelogs/201210051143_create_character_title_table.xml"/>
+  <include file="changelogs/201210051405_create_complete_achievement_table.xml"/>
+  <include file="changelogs/201210051407_create_process_achievement_table.xml"/>
+  <include file="changelogs/201210051435_create_get_precess_achievements_procedure.xml"/>
+  <include file="changelogs/201210051436_create_get_complete_achievements_procedure.xml"/>
+  <include file="changelogs/201210051438_create_get_character_titles_procedure.xml"/>
+
+  <include file="changelogs/201210051604_create_add_character_title_procedure.xml"/>
+  <include file="changelogs/201210051605_create_add_process_achievement_procedure.xml"/>
+  <include file="changelogs/201210051606_create_update_process_achievement_procedure.xml"/>
+  <include file="changelogs/201210051607_create_complete_achievement_procedure.xml"/>
+
+  <include file="changelogs/201210091216_modify_guild_table_for_guild_level_add.xml"/>
+  <include file="changelogs/201210091227_create_guild_skill_table.xml"/>
+  <include file="changelogs/201210091327_create_get_guild_skills_procedure.xml"/>
+  <include file="changelogs/201210091329_modify_get_guild_infos_for_level_column.xml"/>
+  <include file="changelogs/201210091453_create_remove_guild_skill_procedure.xml"/>
+  <include file="changelogs/201210091454_create_add_guild_skill_procedure.xml"/>
+  <include file="changelogs/201210091458_create_update_guild_exp_procedure.xml"/>
+
+  <include file="changelogs/201210111406_modify_characters_table_for_select_title_code_column_add.xml"/>
+  <include file="changelogs/201210111407_modify_get_character_info_procedure_for_select_tiltle_code.xml"/>
+  <include file="changelogs/201210111409_modify_get_user_info_procedure_for_select_title_code.xml"/>
+  <include file="changelogs/201210111410_create_save_select_character_title_procedure.xml"/>
+
+  <include file="changelogs/201210141519_modify_Process_Achivements_table_for_mission_code_column_drop.xml"/>
+  <include file="changelogs/201210141545_modify_get_precess_achievements_procedure_for_drop_column.xml"/>
+  <include file="changelogs/201210141546_create_update_process_achievement_procedure_for_drop_colmun.xml"/>
+  <include file="changelogs/201210151454_modify_add_process_achievement_procedure_for_mission_code.xml"/>
+  <include file="changelogs/201210151652_modify_Process_Achivements_table_for_param_column_type.xml"/>
+  <include file="changelogs/201210151655_modify_update_process_achievement_procedure_for_param_column_type.xml"/>
+  <include file="changelogs/201210151657_modify_add_process_achievement_procedure_for_param_column_type.xml"/>
+ 
+  <include file="changelogs/201210221536_create_remove_all_guild_skilsl_procedure.xml"/>
+  <include file="changelogs/201210251610_modify_Guild_Vaults_table_for_id_column_type.xml"/>
+  <include file="changelogs/201210251620_create_guild_bank_rights_table.xml"/>
+  <include file="changelogs/201210251644_create_get_guild_bank_rights_procedure.xml"/>
+  <include file="changelogs/201210251647_create_create_guild_bank_rank_procedure.xml"/>
+  <include file="changelogs/201210251716_modify_delete_guild_rank_procedure_for_guild_rank.xml"/>
+  <include file="changelogs/201210251717_add_update_guild_bank_rank_rights_procedure.xml"/>
+  <include file="changelogs/201210261647_modify_complete_repeat_quest_procedure_for_error.xml"/>
+  <include file="changelogs/201210262119_modify_remove_guild_procedure_for_guild_bank.xml"/>
+  
+  <include file="changelogs/201210271343_modify_get_guild_infos_for_max_withdraw_column.xml"/>
+  <include file="changelogs/201210271333_remove_update_guild_max_withdraw_procedure.xml"/>
+  <include file="changelogs/201211051143_create_remove_all_cooldown_procedure.xml"/>
+
+  <include file="changelogs/201211081359_modify_get_guild_member_infos_for_column_level.xml"/>
+  <include file="changelogs/201211091601_create_dbo.remove_all_cooldown_procedure.xml"/>
+  <include file="changelogs/201211121707_modify_remove_guild_procedure_for_procedure_bug.xml"/>
+</databaseChangeLog>

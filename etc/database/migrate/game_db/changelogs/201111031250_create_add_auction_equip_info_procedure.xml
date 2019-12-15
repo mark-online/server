@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111031250" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_auction_equip_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_auction_equip_info
+GO
+
+
+CREATE PROCEDURE dbo.add_auction_equip_info
+    @auction_id dbo.id_t,
+    @zone_id dbo.id_t,
+	@fragment_count TINYINT,
+	@open_socket_count TINYINT,
+	@skill_code_1 dbo.code_t,
+	@skill_code_2 dbo.code_t,
+	@skill_code_3 dbo.code_t,
+	@skill_code_4 dbo.code_t,
+	@skill_code_5 dbo.code_t
+AS
+    SET NOCOUNT ON
+
+	INSERT INTO dbo.Auction_Equip_Item_Infos(auction_id, zone_id, fragment_count, open_socket_count, socket_skill_code_1,
+		socket_skill_code_2,socket_skill_code_3,socket_skill_code_4, socket_skill_code_5)
+		VALUES(@auction_id, @zone_id, @fragment_count, @open_socket_count, @skill_code_1, @skill_code_2, @skill_code_3, @skill_code_4, @skill_code_5)
+
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_auction_equip_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_auction_equip_info
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

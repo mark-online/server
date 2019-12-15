@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112141536">
+    <createTable tableName="Building_Inventories" remarks="building inventory table">
+      <column name="building_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="slot_id" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="item_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="inven_type" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="expire_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Building_Inventories" columnNames="item_id" tableName="Building_Inventories"/>
+    <createIndex indexName="ix_Building_Inventories_Building_id" tableName="Building_Inventories">
+      <column name="building_id"/>
+    </createIndex>
+
+
+    <addForeignKeyConstraint constraintName="fk_Building_Inventories_Buildings"
+        baseColumnNames="building_id" baseTableName="Building_Inventories"
+        referencedColumnNames="id" referencedTableName="Buildings"
+        onDelete="NO ACTION" />
+		
+
+  </changeSet>
+
+</databaseChangeLog>

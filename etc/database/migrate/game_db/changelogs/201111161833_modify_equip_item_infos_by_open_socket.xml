@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111161833">
+    <sql>
+		ALTER TABLE dbo.EquipItemInfos  DROP CONSTRAINT DF_EquipItemInfos_open_socket_count
+        ALTER TABLE dbo.EquipItemInfos ALTER COLUMN open_socket_count TINYINT
+    </sql>
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110131439" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.save_character_properties') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.save_character_properties
+GO
+
+
+CREATE PROCEDURE dbo.save_character_properties
+    @account_id dbo.id_t,
+    @character_id dbo.id_t,
+    @config VARCHAR(8000),
+    @prefs VARCHAR(8000)
+AS
+    SET NOCOUNT ON
+
+    UPDATE dbo.Character_Properties
+      SET config = @config, prefs = @prefs
+      WHERE character_id = @character_id
+    IF @@ROWCOUNT = 0
+    BEGIN
+      INSERT INTO dbo.Character_Properties
+        (character_id, config, prefs) VALUES (@character_id, @config, @prefs)
+    END
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.save_character_properties') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.save_character_properties
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

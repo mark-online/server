@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="22020113" name="힐링 워드"/>
+	<l10n_template data_code="22020129" name="가시 토템"/>
+	<l10n_template data_code="22020145" name="마나 감응 촉"/>
+	<l10n_template data_code="22020161" name="마나 분산기"/>
+	<l10n_template data_code="22020177" name="집중의 돌"/>
+	<l10n_template data_code="22020193" name="집중 분산기"/>
+	<l10n_template data_code="22020209" name="가시 트랩"/>
+	<l10n_template data_code="22020225" name="불 트랩"/>
+	<l10n_template data_code="22020241" name="긴 불 트랩"/>
+	<l10n_template data_code="22020257" name="노후화"/>
+</l10n_table>

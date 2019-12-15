@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112161121" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_building') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.create_building
+GO
+
+
+CREATE PROCEDURE dbo.create_building
+    @building_id dbo.id_t,
+    @building_code dbo.code_t,
+    @pos_x REAL,
+    @pos_y REAL,
+    @pos_z REAL,
+    @pos_heading TINYINT,
+    @current_hp INT,
+    @state TINYINT,
+    @build_at BIGINT,
+    @expire_at BIGINT,
+    @owner_type TINYINT,
+    @onwer_character_id dbo.id_t,
+    @onwer_guild_id dbo.id_t
+AS
+    SET NOCOUNT ON
+	
+    INSERT INTO dbo.Buildings(id, building_code, pos_x, pos_y, pos_z, pos_heading, hp, state, build_at, expire_at, onwer_type, onwer_character_id, onwer_guild_id)  
+        VALUES(@building_id, @building_code, @pos_x, @pos_y, @pos_z, @pos_heading, @current_hp, @state, @build_at, @expire_at, @owner_type, @onwer_character_id, @onwer_guild_id)
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.create_building') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.create_building
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

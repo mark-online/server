@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201207171628" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_vaults') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_vaults
+GO
+
+
+CREATE PROCEDURE dbo.get_guild_vaults
+    @guild_id dbo.id_t
+AS
+    SET NOCOUNT ON
+
+    SELECT COUNT(id) FROM dbo.Guild_Vaults WHERE guild_id = @guild_id
+	
+    SELECT id FROM dbo.Guild_Vaults WHERE guild_id = @guild_id ORDER BY id ASC
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_guild_vaults') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.get_guild_vaults
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

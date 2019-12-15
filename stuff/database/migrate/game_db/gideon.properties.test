@@ -1,0 +1,4 @@
+account_ls_address: localhost
+account_ls_name: account_link_server_test
+account_server_name: Gideon_account_test
+account_db_name: account_link_server_test.Gideon_account_test.dbo

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" standalone="yes"?><world_maps>
+	<map_template map_code="184614915" ko_name="오룬디아" en_name="Orundia" x_sector_count="163" y_sector_count="163" z_sector_count="163" sector_length="40" aggressive_level_diff="15" world_type="1"/>
+	<map_template map_code="184614916" ko_name="할켄 늪지대" en_name="Halken Swamps" x_sector_count="163" y_sector_count="163" z_sector_count="163" sector_length="40" aggressive_level_diff="0" world_type="3"/>
+	<map_template map_code="184811775" ko_name="투기장" en_name="Arena" x_sector_count="163" y_sector_count="163" z_sector_count="163" sector_length="40" aggressive_level_diff="0" world_type="0"/>
+</world_maps>

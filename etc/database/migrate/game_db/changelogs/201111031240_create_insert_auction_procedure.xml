@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111031240" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.insert_auction') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.insert_auction
+GO
+
+
+CREATE PROCEDURE dbo.insert_auction
+    @auction_id dbo.id_t,
+	  @zone_id dbo.id_t,
+	  @npc_code dbo.code_t,
+	  @seller_id dbo.id_t,
+	  @current_bid_money BIGINT,
+	  @buyout_money BIGINT,
+	  @deposit_fee BIGINT,
+	  @expire_at SMALLDATETIME,
+	  @item_id dbo.id_t,
+	  @item_code dbo.code_t,
+	  @item_count TINYINT
+AS
+    SET NOCOUNT ON
+	  BEGIN TRANSACTION
+	  BEGIN TRY
+	    INSERT INTO dbo.Auctions(id, zone_id, npc_code, seller_id, buyer_id, current_bid_money, buyout_money, deposit_fee, expire_at)
+		    VALUES(@auction_id, @zone_id, @npc_code, @seller_id, 0, @current_bid_money, @buyout_money, @deposit_fee, @expire_at)
+	
+	    INSERT INTO dbo.Auction_Inventories(auction_id, zone_id, item_id, item_code, item_count)
+	      VALUES (@auction_id, @zone_id,  @item_id, @item_code, @item_count)
+		
+        COMMIT
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+    END CATCH
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.insert_auction') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.insert_auction
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

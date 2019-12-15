@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mercenary_table>
+	<mercenary_template mercenary_code="536870913" npc_code="0" day_cost="0" check_building_code="0" check_building_distance="0"/>
+</mercenary_table>

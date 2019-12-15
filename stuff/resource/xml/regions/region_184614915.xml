@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<region_coordinates>
+
+  <coordinates radius="2" region_code="201392129" x="-596.581" x1="0" x2="0" y="701.77" y1="0" y2="0" z="2260.58"/>
+
+  <coordinates radius="2" region_code="201457675" x="-596.917" x1="0" x2="0" y="701.779" y1="0" y2="0" z="2260.59"/>
+
+  <coordinates radius="5" region_code="201457665" x="-400.129" x1="0" x2="0" y="689.64" y1="0" y2="0" z="2254.49"/>
+
+  <coordinates radius="4" region_code="201457667" x="-192.498" x1="0" x2="0" y="436.898" y1="0" y2="0" z="2237.63"/>
+
+  <coordinates radius="4" region_code="201457668" x="-269.511" x1="0" x2="0" y="283.098" y1="0" y2="0" z="2265.09"/>
+
+  <coordinates radius="4" region_code="201457670" x="-267.692" x1="0" x2="0" y="-286.135" y1="0" y2="0" z="2238.91"/>
+
+  <coordinates radius="4" region_code="201457671" x="317.398" x1="0" x2="0" y="-471.894" y1="0" y2="0" z="2261.91"/>
+
+  <coordinates radius="4" region_code="201457672" x="537.242" x1="0" x2="0" y="-257.874" y1="0" y2="0" z="2259.7"/>
+
+  <coordinates radius="4" region_code="201457673" x="482.736" x1="0" x2="0" y="137.454" y1="0" y2="0" z="2242.73"/>
+
+  <coordinates radius="4" region_code="201457674" x="257.018" x1="0" x2="0" y="593.232" y1="0" y2="0" z="2209.37"/>
+
+  <coordinates radius="4" region_code="201981954" x="-313.791" x1="0" x2="0" y="205.526" y1="0" y2="0" z="2282.89"/>
+
+  <coordinates radius="4" region_code="201981955" x="-207.264" x1="0" x2="0" y="-277.001" y1="0" y2="0" z="2273.67"/>
+
+  <coordinates radius="4" region_code="201981956" x="292.658" x1="0" x2="0" y="-561.844" y1="0" y2="0" z="2260.14"/>
+
+  <coordinates radius="4" region_code="201981957" x="415.955" x1="0" x2="0" y="272.948" y1="0" y2="0" z="2224.7"/>
+
+  <coordinates radius="12" region_code="201523243" x="-180.509" x1="0" x2="0" y="396.85" y1="0" y2="0" z="2251.87"/>
+
+  <coordinates radius="13" region_code="201523201" x="-456.065" x1="0" x2="0" y="708.659" y1="0" y2="0" z="2260.83"/>
+
+  <coordinates radius="10" region_code="201523201" x="-510.054" x1="0" x2="0" y="736.219" y1="0" y2="0" z="2262.97"/>
+
+  <coordinates radius="17" region_code="201523201" x="-488.2" x1="0" x2="0" y="736.086" y1="0" y2="0" z="2260.56"/>
+
+  <coordinates radius="17" region_code="201523201" x="-481.026" x1="0" x2="0" y="660.489" y1="0" y2="0" z="2258.9"/>
+
+  <coordinates radius="20" region_code="201785345" x="-492.23" x1="0" x2="0" y="727.909" y1="0" y2="0" z="2261.48"/>
+
+  <coordinates radius="12" region_code="201785345" x="-488.029" x1="0" x2="0" y="726.756" y1="0" y2="0" z="2260.6"/>
+
+  <coordinates radius="15" region_code="201523202" x="-306.367" x1="0" x2="0" y="722.457" y1="0" y2="0" z="2243.8"/>
+
+  <coordinates radius="10" region_code="201785345" x="-447.335" x1="0" x2="0" y="699.952" y1="0" y2="0" z="2258.63"/>
+
+  <coordinates radius="11" region_code="201523202" x="-330" x1="0" x2="0" y="726" y1="0" y2="0" z="2246"/>
+
+  <coordinates radius="11" region_code="201523202" x="-305" x1="0" x2="0" y="704" y1="0" y2="0" z="2244.72"/>
+
+  <coordinates radius="11" region_code="201523202" x="-287" x1="0" x2="0" y="706" y1="0" y2="0" z="2243.78"/>
+
+  <coordinates radius="12" region_code="201523205" x="-299.724" x1="0" x2="0" y="743.572" y1="0" y2="0" z="2241.68"/>
+
+  <coordinates radius="10" region_code="201523245" x="-246.82" x1="0" x2="0" y="622.817" y1="0" y2="0" z="2235"/>
+
+  <coordinates radius="10" region_code="201523245" x="-246.82" x1="0" x2="0" y="639" y1="0" y2="0" z="2235"/>
+
+  <coordinates radius="10" region_code="201523245" x="-248" x1="0" x2="0" y="606" y1="0" y2="0" z="2237"/>
+
+  <coordinates radius="12" region_code="201523206" x="-184.766" x1="0" x2="0" y="698.632" y1="0" y2="0" z="2240"/>
+
+  <coordinates radius="6" region_code="201523206" x="-203" x1="0" x2="0" y="707" y1="0" y2="0" z="2240"/>
+
+  <coordinates radius="5" region_code="201523206" x="-235" x1="0" x2="0" y="695.137" y1="0" y2="0" z="2234"/>
+
+  <coordinates radius="15" region_code="201523207" x="-161.406" x1="0" x2="0" y="663.356" y1="0" y2="0" z="2234.24"/>
+
+  <coordinates radius="15" region_code="201523207" x="-165.822" x1="0" x2="0" y="680.634" y1="0" y2="0" z="2234.24"/>
+
+  <coordinates radius="10" region_code="201523207" x="-146" x1="0" x2="0" y="648" y1="0" y2="0" z="2235"/>
+
+  <coordinates radius="13" region_code="201523208" x="-250.19" x1="0" x2="0" y="424.462" y1="0" y2="0" z="2240.03"/>
+
+  <coordinates radius="10" region_code="201523208" x="-247" x1="0" x2="0" y="397" y1="0" y2="0" z="2248"/>
+
+  <coordinates radius="8" region_code="201523208" x="-277" x1="0" x2="0" y="413" y1="0" y2="0" z="2243"/>
+
+  <coordinates radius="9" region_code="201523208" x="-288" x1="0" x2="0" y="427" y1="0" y2="0" z="2243"/>
+
+  <coordinates radius="8" region_code="201523208" x="-230" x1="0" x2="0" y="432" y1="0" y2="0" z="2242"/>
+
+  <coordinates radius="8" region_code="201523209" x="-208.978" x1="0" x2="0" y="417.749" y1="0" y2="0" z="2243"/>
+
+  <coordinates radius="8" region_code="201523209" x="-205.129" x1="0" x2="0" y="418.626" y1="0" y2="0" z="2243.99"/>
+
+  <coordinates radius="25" region_code="201523210" x="-208.577" x1="0" x2="0" y="204.986" y1="0" y2="0" z="2307.1"/>
+
+  <coordinates radius="15" region_code="201523212" x="-347.665" x1="0" x2="0" y="344.239" y1="0" y2="0" z="2254.19"/>
+
+  <coordinates radius="15" region_code="201523212" x="-358.968" x1="0" x2="0" y="318.02" y1="0" y2="0" z="2256.92"/>
+
+  <coordinates radius="15" region_code="201523212" x="-366.241" x1="0" x2="0" y="339.57" y1="0" y2="0" z="2255.58"/>
+
+  <coordinates radius="11" region_code="201523213" x="-366.608" x1="0" x2="0" y="289.208" y1="0" y2="0" z="2263.57"/>
+
+  <coordinates radius="18" region_code="201523211" x="-455.344" x1="0" x2="0" y="190.905" y1="0" y2="0" z="2279.95"/>
+
+  <coordinates radius="23" region_code="201523211" x="-432.668" x1="0" x2="0" y="192.769" y1="0" y2="0" z="2279.3"/>
+
+  <coordinates radius="20" region_code="201523211" x="-404.607" x1="0" x2="0" y="182.011" y1="0" y2="0" z="2279.47"/>
+
+  <coordinates radius="12" region_code="201523211" x="-415.558" x1="0" x2="0" y="217.219" y1="0" y2="0" z="2280.07"/>
+
+  <coordinates radius="7" region_code="201785346" x="-520.227" x1="0" x2="0" y="746.143" y1="0" y2="0" z="2262.43"/>
+
+  <coordinates radius="10" region_code="201523214" x="-179.914" x1="0" x2="0" y="-263.419" y1="0" y2="0" z="2273.92"/>
+
+  <coordinates radius="10" region_code="201523214" x="-151.975" x1="0" x2="0" y="-231.334" y1="0" y2="0" z="2274.48"/>
+
+  <coordinates radius="10" region_code="201523214" x="-167.07" x1="0" x2="0" y="-243.684" y1="0" y2="0" z="2275.13"/>
+
+  <coordinates radius="8" region_code="201523217" x="-186.711" x1="0" x2="0" y="-258.27" y1="0" y2="0" z="2275.22"/>
+
+  <coordinates radius="8" region_code="201523217" x="-157.82" x1="0" x2="0" y="-223.946" y1="0" y2="0" z="2273.71"/>
+
+  <coordinates radius="8" region_code="201523217" x="-173.113" x1="0" x2="0" y="-239.968" y1="0" y2="0" z="2274.32"/>
+
+  <coordinates radius="15" region_code="201523215" x="-90.9187" x1="0" x2="0" y="-298.314" y1="0" y2="0" z="2274.91"/>
+
+  <coordinates radius="18" region_code="201523215" x="-107.931" x1="0" x2="0" y="-338.824" y1="0" y2="0" z="2274.91"/>
+
+  <coordinates radius="15" region_code="201523215" x="-154.547" x1="0" x2="0" y="-312.232" y1="0" y2="0" z="2274.91"/>
+
+  <coordinates radius="15" region_code="201523215" x="-114.447" x1="0" x2="0" y="-275.018" y1="0" y2="0" z="2272.95"/>
+
+  <coordinates radius="15" region_code="201523215" x="-108.072" x1="0" x2="0" y="-301.299" y1="0" y2="0" z="2273.81"/>
+
+  <coordinates radius="12" region_code="201523216" x="-21.2279" x1="0" x2="0" y="-443.307" y1="0" y2="0" z="2271.61"/>
+
+  <coordinates radius="12" region_code="201523216" x="-10.6174" x1="0" x2="0" y="-473.991" y1="0" y2="0" z="2277.78"/>
+
+  <coordinates radius="8" region_code="201523216" x="-35.6957" x1="0" x2="0" y="-485.888" y1="0" y2="0" z="2277.78"/>
+
+  <coordinates radius="6" region_code="201523216" x="-42.0131" x1="0" x2="0" y="-465.222" y1="0" y2="0" z="2274.18"/>
+
+  <coordinates radius="10" region_code="201523216" x="-41.4426" x1="0" x2="0" y="-440.266" y1="0" y2="0" z="2273.84"/>
+
+  <coordinates radius="6" region_code="201523216" x="-32.5534" x1="0" x2="0" y="-415.318" y1="0" y2="0" z="2273.92"/>
+
+  <coordinates radius="18" region_code="201523218" x="-180.527" x1="0" x2="0" y="591.116" y1="0" y2="0" z="2234.2"/>
+
+  <coordinates radius="10" region_code="201523218" x="-129.081" x1="0" x2="0" y="542.813" y1="0" y2="0" z="2234.88"/>
+
+  <coordinates radius="10" region_code="201523218" x="-150.645" x1="0" x2="0" y="559.151" y1="0" y2="0" z="2232.17"/>
+
+  <coordinates radius="10" region_code="201523219" x="-163.637" x1="0" x2="0" y="581.422" y1="0" y2="0" z="2231.65"/>
+
+  <coordinates radius="8" region_code="201523219" x="-136.813" x1="0" x2="0" y="526.899" y1="0" y2="0" z="2234.55"/>
+
+  <coordinates radius="13" region_code="201523219" x="-160.346" x1="0" x2="0" y="570.605" y1="0" y2="0" z="2234.2"/>
+
+  <coordinates radius="20" region_code="201523220" x="-388.189" x1="0" x2="0" y="335.233" y1="0" y2="0" z="2266.59"/>
+
+  <coordinates radius="8" region_code="201523221" x="209.533" x1="0" x2="0" y="-378.16" y1="0" y2="0" z="2272.74"/>
+
+  <coordinates radius="15" region_code="201523221" x="255.626" x1="0" x2="0" y="-369.515" y1="0" y2="0" z="2272.74"/>
+
+  <coordinates radius="12" region_code="201523248" x="228.462" x1="0" x2="0" y="-373.021" y1="0" y2="0" z="2272.74"/>
+
+  <coordinates radius="13" region_code="201523248" x="234.638" x1="0" x2="0" y="-483.792" y1="0" y2="0" z="2263.84"/>
+
+  <coordinates radius="10" region_code="201523248" x="205.817" x1="0" x2="0" y="-512.389" y1="0" y2="0" z="2264.29"/>
+
+  <coordinates radius="18" region_code="201523244" x="-158.005" x1="0" x2="0" y="269.867" y1="0" y2="0" z="2305.23"/>
+
+  <coordinates radius="20" region_code="201523222" x="209.134" x1="0" x2="0" y="-441.566" y1="0" y2="0" z="2268.07"/>
+
+  <coordinates radius="10" region_code="201523223" x="348.136" x1="0" x2="0" y="-425.887" y1="0" y2="0" z="2261.95"/>
+
+  <coordinates radius="10" region_code="201523223" x="363.207" x1="0" x2="0" y="-413.243" y1="0" y2="0" z="2260.18"/>
+
+  <coordinates radius="10" region_code="201523223" x="345.756" x1="0" x2="0" y="-398.985" y1="0" y2="0" z="2261.7"/>
+
+  <coordinates radius="10" region_code="201523224" x="544.025" x1="0" x2="0" y="-292.724" y1="0" y2="0" z="2261.75"/>
+
+  <coordinates radius="10" region_code="201523224" x="520.836" x1="0" x2="0" y="-295.517" y1="0" y2="0" z="2260.31"/>
+
+  <coordinates radius="15" region_code="201523225" x="421.808" x1="0" x2="0" y="-321.066" y1="0" y2="0" z="2257.93"/>
+
+  <coordinates radius="15" region_code="201523225" x="445.976" x1="0" x2="0" y="-293.694" y1="0" y2="0" z="2256.77"/>
+
+  <coordinates radius="15" region_code="201523225" x="443.275" x1="0" x2="0" y="-320.656" y1="0" y2="0" z="2257.16"/>
+
+  <coordinates radius="20" region_code="201523226" x="488.722" x1="0" x2="0" y="-269.63" y1="0" y2="0" z="2258.21"/>
+
+  <coordinates radius="20" region_code="201523226" x="445.041" x1="0" x2="0" y="-272.183" y1="0" y2="0" z="2260.53"/>
+
+  <coordinates radius="20" region_code="201523226" x="467.869" x1="0" x2="0" y="-286.617" y1="0" y2="0" z="2255.71"/>
+
+  <coordinates radius="7" region_code="201523227" x="415.508" x1="0" x2="0" y="21.4115" y1="0" y2="0" z="2285.15"/>
+
+  <coordinates radius="25" region_code="201523228" x="342.049" x1="0" x2="0" y="97.7056" y1="0" y2="0" z="2222.78"/>
+
+  <coordinates radius="13" region_code="201523228" x="312.775" x1="0" x2="0" y="104.944" y1="0" y2="0" z="2231.36"/>
+
+  <coordinates radius="20" region_code="201523228" x="336.933" x1="0" x2="0" y="141.762" y1="0" y2="0" z="2223.85"/>
+
+  <coordinates radius="20" region_code="201523228" x="324.736" x1="0" x2="0" y="117.374" y1="0" y2="0" z="2223.85"/>
+
+  <coordinates radius="17" region_code="201523229" x="288.515" x1="0" x2="0" y="154.85" y1="0" y2="0" z="2218.57"/>
+
+  <coordinates radius="15" region_code="201523230" x="397.544" x1="0" x2="0" y="83.9078" y1="0" y2="0" z="2217.63"/>
+
+  <coordinates radius="15" region_code="201523230" x="379.251" x1="0" x2="0" y="106.982" y1="0" y2="0" z="2217.63"/>
+
+  <coordinates radius="15" region_code="201523230" x="368.081" x1="0" x2="0" y="135.794" y1="0" y2="0" z="2217.63"/>
+
+  <coordinates radius="15" region_code="201523230" x="363.527" x1="0" x2="0" y="168.977" y1="0" y2="0" z="2217.63"/>
+
+  <coordinates radius="15" region_code="201523230" x="367.849" x1="0" x2="0" y="198.329" y1="0" y2="0" z="2217.63"/>
+
+  <coordinates radius="8" region_code="201523231" x="247.04" x1="0" x2="0" y="473.4" y1="0" y2="0" z="2215.2"/>
+
+  <coordinates radius="5" region_code="201523231" x="241.538" x1="0" x2="0" y="457.567" y1="0" y2="0" z="2216.19"/>
+
+  <coordinates radius="5" region_code="201523231" x="234.08" x1="0" x2="0" y="479.518" y1="0" y2="0" z="2214.43"/>
+
+  <coordinates radius="8" region_code="201523231" x="208.76" x1="0" x2="0" y="467.78" y1="0" y2="0" z="2214.43"/>
+
+  <coordinates radius="6" region_code="201523231" x="219.431" x1="0" x2="0" y="479.432" y1="0" y2="0" z="2214.43"/>
+
+  <coordinates radius="12" region_code="201523231" x="288.812" x1="0" x2="0" y="482.547" y1="0" y2="0" z="2220.01"/>
+
+  <coordinates radius="12" region_code="201523231" x="294.57" x1="0" x2="0" y="522.291" y1="0" y2="0" z="2220.01"/>
+
+  <coordinates radius="10" region_code="201523231" x="252.814" x1="0" x2="0" y="535.739" y1="0" y2="0" z="2207.81"/>
+
+  <coordinates radius="13" region_code="201523231" x="226.944" x1="0" x2="0" y="505.998" y1="0" y2="0" z="2207.81"/>
+
+  <coordinates radius="10" region_code="201523232" x="36.9034" x1="0" x2="0" y="502.439" y1="0" y2="0" z="2208.85"/>
+
+  <coordinates radius="10" region_code="201523232" x="55.3463" x1="0" x2="0" y="486.174" y1="0" y2="0" z="2211.33"/>
+
+  <coordinates radius="10" region_code="201523233" x="64.9119" x1="0" x2="0" y="520.709" y1="0" y2="0" z="2205.03"/>
+
+  <coordinates radius="10" region_code="201523233" x="94.4477" x1="0" x2="0" y="509.558" y1="0" y2="0" z="2205.36"/>
+
+  <coordinates radius="10" region_code="201523233" x="33.0668" x1="0" x2="0" y="522.62" y1="0" y2="0" z="2210.25"/>
+
+  <coordinates radius="10" region_code="201523234" x="45.5825" x1="0" x2="0" y="544.591" y1="0" y2="0" z="2203.99"/>
+
+  <coordinates radius="20" region_code="201523239" x="300.191" x1="0" x2="0" y="208.402" y1="0" y2="0" z="2228.07"/>
+
+  <coordinates radius="20" region_code="201523239" x="295.905" x1="0" x2="0" y="250.925" y1="0" y2="0" z="2224.55"/>
+
+  <coordinates radius="20" region_code="201523239" x="328.832" x1="0" x2="0" y="222.99" y1="0" y2="0" z="2226.38"/>
+
+  <coordinates radius="15" region_code="201523240" x="350.973" x1="0" x2="0" y="268.958" y1="0" y2="0" z="2227.07"/>
+
+  <coordinates radius="15" region_code="201523240" x="322.751" x1="0" x2="0" y="256.226" y1="0" y2="0" z="2228.48"/>
+
+  <coordinates radius="15" region_code="201523240" x="336.953" x1="0" x2="0" y="242.627" y1="0" y2="0" z="2229.77"/>
+
+  <coordinates radius="25" region_code="201523238" x="-305.33" x1="0" x2="0" y="331.764" y1="0" y2="0" z="2251.08"/>
+
+  <coordinates radius="20" region_code="201523242" x="205.184" x1="0" x2="0" y="-448.887" y1="0" y2="0" z="2268.17"/>
+
+  <coordinates radius="20" region_code="201523241" x="-307.083" x1="0" x2="0" y="-99.6864" y1="0" y2="0" z="2272.4"/>
+
+  <coordinates radius="20" region_code="201523241" x="-305.396" x1="0" x2="0" y="-51.1114" y1="0" y2="0" z="2281.51"/>
+
+  <coordinates radius="20" region_code="201523241" x="-279.739" x1="0" x2="0" y="-121.395" y1="0" y2="0" z="2268.87"/>
+
+  <coordinates radius="20" region_code="201523241" x="-260.409" x1="0" x2="0" y="-103.65" y1="0" y2="0" z="2275.27"/>
+
+  <coordinates radius="12" region_code="201523237" x="-307.18" x1="0" x2="0" y="28.1956" y1="0" y2="0" z="2282.17"/>
+
+  <coordinates radius="12" region_code="201523237" x="-314.23" x1="0" x2="0" y="-3.83351" y1="0" y2="0" z="2283.71"/>
+
+  <coordinates radius="12" region_code="201523237" x="-304.358" x1="0" x2="0" y="48.7318" y1="0" y2="0" z="2280.16"/>
+
+  <coordinates radius="20" region_code="201523237" x="-323.158" x1="0" x2="0" y="92.4297" y1="0" y2="0" z="2281.68"/>
+
+  <coordinates radius="6" region_code="201523245" x="-415.089" x1="0" x2="0" y="557.264" y1="0" y2="0" z="2256.26"/>
+
+  <coordinates radius="6" region_code="201523245" x="-432.969" x1="0" x2="0" y="551.307" y1="0" y2="0" z="2255.26"/>
+
+  <coordinates radius="6" region_code="201523245" x="-411.361" x1="0" x2="0" y="563.733" y1="0" y2="0" z="2255.11"/>
+
+  <coordinates radius="20" region_code="201523246" x="-374.47" x1="0" x2="0" y="680.289" y1="0" y2="0" z="2251.61"/>
+
+  <coordinates radius="10" region_code="201523247" x="-241.835" x1="0" x2="0" y="606.526" y1="0" y2="0" z="2236.74"/>
+
+  <coordinates radius="18" region_code="201523249" x="-159.982" x1="0" x2="0" y="269.72" y1="0" y2="0" z="2312.05"/>
+
+  <coordinates radius="10" region_code="201523249" x="-191.384" x1="0" x2="0" y="212.77" y1="0" y2="0" z="2314.14"/>
+
+  <coordinates radius="10" region_code="201523250" x="-225.624" x1="0" x2="0" y="216.088" y1="0" y2="0" z="2312.98"/>
+
+  <coordinates radius="20" region_code="201523236" x="-111.801" x1="0" x2="0" y="188.245" y1="0" y2="0" z="2347.19"/>
+
+  <coordinates radius="10" region_code="201523249" x="-102.545" x1="0" x2="0" y="206.599" y1="0" y2="0" z="2347.68"/>
+
+  <coordinates radius="10" region_code="201523250" x="-110.351" x1="0" x2="0" y="183.3" y1="0" y2="0" z="2351.03"/>
+
+  <coordinates radius="10" region_code="201523251" x="-92.8349" x1="0" x2="0" y="190.836" y1="0" y2="0" z="2353.85"/>
+
+  <coordinates radius="25" region_code="201523252" x="-328.8" x1="0" x2="0" y="336.727" y1="0" y2="0" z="2252.39"/>
+
+  <coordinates radius="20" region_code="201523253" x="-374.854" x1="0" x2="0" y="720.142" y1="0" y2="0" z="2251.24"/>
+
+  <coordinates radius="15" region_code="201523203" x="-485.535" x1="0" x2="0" y="598.35" y1="0" y2="0" z="2255.17"/>
+
+  <coordinates radius="10" region_code="201523203" x="-503.078" x1="0" x2="0" y="609.539" y1="0" y2="0" z="2259.47"/>
+
+  <coordinates radius="10" region_code="201523203" x="-469.628" x1="0" x2="0" y="643.539" y1="0" y2="0" z="2257.56"/>
+
+  <coordinates radius="10" region_code="201523203" x="-487.266" x1="0" x2="0" y="630.524" y1="0" y2="0" z="2259.42"/>
+
+  <coordinates radius="7" region_code="201523204" x="195.345" x1="0" x2="0" y="586.62" y1="0" y2="0" z="2207.21"/>
+
+  <coordinates radius="7" region_code="201523204" x="188.333" x1="0" x2="0" y="600.911" y1="0" y2="0" z="2205.95"/>
+
+  <coordinates radius="7" region_code="201523204" x="182.89" x1="0" x2="0" y="620.915" y1="0" y2="0" z="2205.93"/>
+
+  <coordinates radius="7" region_code="201523204" x="160.292" x1="0" x2="0" y="614.199" y1="0" y2="0" z="2203.4"/>
+
+  <coordinates radius="20" region_code="201850881" x="-498.922" x1="0" x2="0" y="622.757" y1="0" y2="0" z="2262.43"/>
+
+  <coordinates radius="20" region_code="201850881" x="-490.299" x1="0" x2="0" y="731.182" y1="0" y2="0" z="2261.38"/>
+
+  <coordinates radius="20" region_code="201850881" x="-406.39" x1="0" x2="0" y="681.041" y1="0" y2="0" z="2259.8"/>
+
+  <coordinates radius="15" region_code="201850881" x="-523.172" x1="0" x2="0" y="626.44" y1="0" y2="0" z="2263.13"/>
+
+  <coordinates radius="15" region_code="201850881" x="-369.641" x1="0" x2="0" y="646.49" y1="0" y2="0" z="2253.21"/>
+
+  <coordinates radius="20" region_code="201850881" x="-332.998" x1="0" x2="0" y="648.943" y1="0" y2="0" z="2250.76"/>
+
+  <coordinates radius="13" region_code="201850881" x="-296.887" x1="0" x2="0" y="629.055" y1="0" y2="0" z="2246.19"/>
+
+  <coordinates radius="13" region_code="201850881" x="-300.048" x1="0" x2="0" y="656.521" y1="0" y2="0" z="2246.19"/>
+
+  <coordinates radius="20" region_code="201850881" x="-299.865" x1="0" x2="0" y="688.183" y1="0" y2="0" z="2246.19"/>
+
+  <coordinates radius="30" region_code="201850881" x="-296.807" x1="0" x2="0" y="731.316" y1="0" y2="0" z="2246.19"/>
+
+  <coordinates radius="15" region_code="201850881" x="-175.218" x1="0" x2="0" y="686.908" y1="0" y2="0" z="2238.93"/>
+
+  <coordinates radius="12" region_code="201850881" x="-247.689" x1="0" x2="0" y="642.445" y1="0" y2="0" z="2233.27"/>
+
+  <coordinates radius="15" region_code="201850881" x="-243.616" x1="0" x2="0" y="613.109" y1="0" y2="0" z="2234.14"/>
+
+  <coordinates radius="12" region_code="201850881" x="-222.982" x1="0" x2="0" y="604.722" y1="0" y2="0" z="2240.01"/>
+
+  <coordinates radius="12" region_code="201850881" x="-215.772" x1="0" x2="0" y="631.571" y1="0" y2="0" z="2236.11"/>
+
+  <coordinates radius="15" region_code="201850881" x="-199.055" x1="0" x2="0" y="593.338" y1="0" y2="0" z="2237.82"/>
+
+  <coordinates radius="25" region_code="201850881" x="-153.814" x1="0" x2="0" y="635.041" y1="0" y2="0" z="2236.02"/>
+
+  <coordinates radius="25" region_code="201850881" x="-157.314" x1="0" x2="0" y="585.288" y1="0" y2="0" z="2232.63"/>
+
+  <coordinates radius="20" region_code="201850881" x="-135.591" x1="0" x2="0" y="554.884" y1="0" y2="0" z="2239.33"/>
+
+  <coordinates radius="15" region_code="201850881" x="-143.659" x1="0" x2="0" y="512.523" y1="0" y2="0" z="2242.35"/>
+
+  <coordinates radius="10" region_code="201850881" x="-119.792" x1="0" x2="0" y="509.017" y1="0" y2="0" z="2252.52"/>
+
+  <coordinates radius="25" region_code="201850881" x="-158.363" x1="0" x2="0" y="468.175" y1="0" y2="0" z="2251.7"/>
+
+  <coordinates radius="30" region_code="201850881" x="-181.168" x1="0" x2="0" y="432.771" y1="0" y2="0" z="2251.7"/>
+
+  <coordinates radius="30" region_code="201850881" x="-216.502" x1="0" x2="0" y="401.183" y1="0" y2="0" z="2251.7"/>
+
+  <coordinates radius="25" region_code="201850881" x="-268.667" x1="0" x2="0" y="431.639" y1="0" y2="0" z="2244.41"/>
+
+  <coordinates radius="30" region_code="201850881" x="-291.217" x1="0" x2="0" y="325.614" y1="0" y2="0" z="2260.43"/>
+
+  <coordinates radius="50" region_code="201850881" x="-347.236" x1="0" x2="0" y="328.47" y1="0" y2="0" z="2257.14"/>
+
+  <coordinates radius="15" region_code="201850881" x="-293.596" x1="0" x2="0" y="265.536" y1="0" y2="0" z="2267.3"/>
+
+  <coordinates radius="20" region_code="201850881" x="-326.05" x1="0" x2="0" y="250.465" y1="0" y2="0" z="2277.35"/>
+
+  <coordinates radius="50" region_code="201850881" x="-350.291" x1="0" x2="0" y="179.386" y1="0" y2="0" z="2283.13"/>
+
+  <coordinates radius="20" region_code="201850881" x="-365.529" x1="0" x2="0" y="233.322" y1="0" y2="0" z="2279.82"/>
+
+  <coordinates radius="35" region_code="201850881" x="-428.061" x1="0" x2="0" y="193.607" y1="0" y2="0" z="2276.37"/>
+
+  <coordinates radius="30" region_code="201850881" x="-478.095" x1="0" x2="0" y="195.254" y1="0" y2="0" z="2278.61"/>
+
+  <coordinates radius="35" region_code="201850881" x="-320.509" x1="0" x2="0" y="100.482" y1="0" y2="0" z="2279.22"/>
+
+  <coordinates radius="15" region_code="201850881" x="-306.045" x1="0" x2="0" y="47.2935" y1="0" y2="0" z="2280.18"/>
+
+  <coordinates radius="25" region_code="201850881" x="-293.548" x1="0" x2="0" y="14.5421" y1="0" y2="0" z="2281.34"/>
+
+  <coordinates radius="42" region_code="201850881" x="-302.897" x1="0" x2="0" y="-56.6736" y1="0" y2="0" z="2284.16"/>
+
+  <coordinates radius="30" region_code="201850881" x="-261.595" x1="0" x2="0" y="-125.179" y1="0" y2="0" z="2272"/>
+
+  <coordinates radius="35" region_code="201850881" x="-224.125" x1="0" x2="0" y="-197.351" y1="0" y2="0" z="2270.67"/>
+
+  <coordinates radius="33" region_code="201850881" x="-223.784" x1="0" x2="0" y="-192.475" y1="0" y2="0" z="2274.08"/>
+
+  <coordinates radius="46" region_code="201850881" x="-167.743" x1="0" x2="0" y="-269.122" y1="0" y2="0" z="2271.82"/>
+
+  <coordinates radius="40" region_code="201850881" x="-109.754" x1="0" x2="0" y="-314.355" y1="0" y2="0" z="2271.24"/>
+
+  <coordinates radius="25" region_code="201850881" x="-74.5146" x1="0" x2="0" y="-381.854" y1="0" y2="0" z="2278.75"/>
+
+  <coordinates radius="25" region_code="201850881" x="-36.6913" x1="0" x2="0" y="-428.606" y1="0" y2="0" z="2272.17"/>
+
+  <coordinates radius="23" region_code="201850881" x="-21.6203" x1="0" x2="0" y="-475.107" y1="0" y2="0" z="2277.16"/>
+
+  <coordinates radius="48" region_code="201850881" x="253.29" x1="0" x2="0" y="-509.284" y1="0" y2="0" z="2260.66"/>
+
+  <coordinates radius="50" region_code="201850881" x="230.684" x1="0" x2="0" y="-441.5" y1="0" y2="0" z="2256.06"/>
+
+  <coordinates radius="47" region_code="201850881" x="250.816" x1="0" x2="0" y="-395.655" y1="0" y2="0" z="2261.16"/>
+
+  <coordinates radius="42" region_code="201850881" x="297.421" x1="0" x2="0" y="-441.433" y1="0" y2="0" z="2257.63"/>
+
+  <coordinates radius="45" region_code="201850881" x="319.868" x1="0" x2="0" y="-393.945" y1="0" y2="0" z="2255.74"/>
+
+  <coordinates radius="30" region_code="201850881" x="346.964" x1="0" x2="0" y="-397.739" y1="0" y2="0" z="2258.13"/>
+
+  <coordinates radius="50" region_code="201850881" x="439.199" x1="0" x2="0" y="-295.826" y1="0" y2="0" z="2259.85"/>
+
+  <coordinates radius="45" region_code="201850881" x="506.313" x1="0" x2="0" y="-273.466" y1="0" y2="0" z="2259.85"/>
+
+  <coordinates radius="25" region_code="201850881" x="467.708" x1="0" x2="0" y="28.2885" y1="0" y2="0" z="2276.56"/>
+
+  <coordinates radius="14" region_code="201850881" x="508.162" x1="0" x2="0" y="81.9638" y1="0" y2="0" z="2284.87"/>
+
+  <coordinates radius="120" region_code="201850881" x="370.644" x1="0" x2="0" y="188.38" y1="0" y2="0" z="2191.43"/>
+
+  <coordinates radius="40" region_code="201850881" x="61.4907" x1="0" x2="0" y="530.285" y1="0" y2="0" z="2197.89"/>
+
+  <coordinates radius="40" region_code="201850881" x="106.852" x1="0" x2="0" y="486.809" y1="0" y2="0" z="2197.89"/>
+
+  <coordinates radius="40" region_code="201850881" x="159.781" x1="0" x2="0" y="469.584" y1="0" y2="0" z="2197.89"/>
+
+  <coordinates radius="40" region_code="201850881" x="207.778" x1="0" x2="0" y="494.392" y1="0" y2="0" z="2197.89"/>
+
+  <coordinates radius="40" region_code="201850881" x="271.085" x1="0" x2="0" y="470.338" y1="0" y2="0" z="2197.89"/>
+
+  <coordinates radius="40" region_code="201850881" x="273.475" x1="0" x2="0" y="530.198" y1="0" y2="0" z="2197.89"/>
+
+  <coordinates radius="40" region_code="201850881" x="249.944" x1="0" x2="0" y="593.46" y1="0" y2="0" z="2197.89"/>
+
+  <coordinates radius="20" region_code="202506241" x="-169.784" x1="0" x2="0" y="680.999" y1="0" y2="0" z="2230.13"/>
+
+  <coordinates radius="1" region_code="202506242" x="-221.487" x1="0" x2="0" y="631.239" y1="0" y2="0" z="2235.58"/>
+
+  <coordinates radius="15" region_code="202506243" x="-169.205" x1="0" x2="0" y="422.112" y1="0" y2="0" z="2254.29"/>
+
+  <coordinates radius="1" region_code="202506244" x="-172.315" x1="0" x2="0" y="393.129" y1="0" y2="0" z="2253.84"/>
+
+  <coordinates radius="1" region_code="202506245" x="-358.284" x1="0" x2="0" y="-104.988" y1="0" y2="0" z="2269.2"/>
+
+  <coordinates radius="1" region_code="202506246" x="-482.656" x1="0" x2="0" y="663.1" y1="0" y2="0" z="2257.5"/>
+
+  <coordinates radius="13" region_code="202506247" x="265.26" x1="0" x2="0" y="-456.569" y1="0" y2="0" z="2264.47"/>
+
+  <coordinates radius="20" region_code="202506248" x="263.772" x1="0" x2="0" y="212.841" y1="0" y2="0" z="2231.3"/>
+
+  <coordinates radius="25" region_code="202375169" x="-483.436" x1="0" x2="0" y="606.48" y1="0" y2="0" z="2257.91"/>
+
+  <coordinates radius="40" region_code="202375170" x="-400.171" x1="0" x2="0" y="585.237" y1="0" y2="0" z="2250.17"/>
+
+  <coordinates radius="50" region_code="202375171" x="-324.18" x1="0" x2="0" y="684.688" y1="0" y2="0" z="2268.33"/>
+
+  <coordinates radius="50" region_code="202375172" x="-577.411" x1="0" x2="0" y="679.079" y1="0" y2="0" z="2254.66"/>
+
+  <coordinates radius="80" region_code="202375173" x="-186.492" x1="0" x2="0" y="637.278" y1="0" y2="0" z="2242.16"/>
+
+  <coordinates radius="55" region_code="202375174" x="-236.5" x1="0" x2="0" y="421.104" y1="0" y2="0" z="2239.07"/>
+
+  <coordinates radius="90" region_code="202375175" x="-326.421" x1="0" x2="0" y="322.272" y1="0" y2="0" z="2271.44"/>
+
+  <coordinates radius="270" region_code="202375176" x="-481.474" x1="0" x2="0" y="3.50067" y1="0" y2="0" z="2238.78"/>
+
+  <coordinates radius="120" region_code="202375177" x="-114.546" x1="0" x2="0" y="-313.706" y1="0" y2="0" z="2269.73"/>
+
+  <coordinates radius="100" region_code="202375178" x="252.43" x1="0" x2="0" y="-426.463" y1="0" y2="0" z="2264.56"/>
+
+  <coordinates radius="90" region_code="202375179" x="468.414" x1="0" x2="0" y="-297.683" y1="0" y2="0" z="2257.64"/>
+
+  <coordinates radius="120" region_code="202375180" x="406.985" x1="0" x2="0" y="167.841" y1="0" y2="0" z="2221.42"/>
+
+  <coordinates radius="160" region_code="202375181" x="192.161" x1="0" x2="0" y="556.414" y1="0" y2="0" z="2217.88"/>
+
+  <coordinates radius="12" region_code="201523235" x="463.324" x1="0" x2="0" y="161.662" y1="0" y2="0" z="2223.98"/>
+
+  <coordinates radius="15" region_code="202047489" x="-169.222" x1="0" x2="0" y="673.035" y1="0" y2="0" z="2232.54"/>
+
+  <coordinates radius="5" region_code="202047490" x="-31.9777" x1="0" x2="0" y="-485.681" y1="0" y2="0" z="2277.1"/>
+
+  <coordinates radius="5" region_code="202047491" x="129.353" x1="0" x2="0" y="657.331" y1="0" y2="0" z="2204.57"/>
+
+  <coordinates radius="15" region_code="202047492" x="-414.341" x1="0" x2="0" y="152.68" y1="0" y2="0" z="2270.91"/>
+
+  <coordinates radius="7" region_code="201654273" x="248.701" x1="0" x2="0" y="746.992" y1="0" y2="0" z="2211"/>
+
+  <coordinates radius="5" region_code="201654274" x="179.43" x1="0" x2="0" y="681.514" y1="0" y2="0" z="2203.86"/>
+
+  <coordinates radius="20" region_code="201588737" x="-391.854" x1="0" x2="0" y="577.696" y1="0" y2="0" z="2257.21"/>
+
+  <coordinates radius="15" region_code="201588738" x="-157.761" x1="0" x2="0" y="632.424" y1="0" y2="0" z="2237.02"/>
+
+  <coordinates radius="15" region_code="201588739" x="-168.164" x1="0" x2="0" y="-237.366" y1="0" y2="0" z="2273.77"/>
+
+  <coordinates radius="15" region_code="201588739" x="213.676" x1="0" x2="0" y="-460.519" y1="0" y2="0" z="2265.45"/>
+
+  <coordinates radius="15" region_code="201588740" x="219.755" x1="0" x2="0" y="534.114" y1="0" y2="0" z="2207.45"/>
+
+  <coordinates radius="15" region_code="201588740" x="358.757" x1="0" x2="0" y="276.986" y1="0" y2="0" z="2224.82"/>
+
+  <coordinates radius="10" region_code="201785349" x="-274.826" x1="0" x2="0" y="324.712" y1="0" y2="0" z="2263.14"/>
+
+  <coordinates radius="15" region_code="201785347" x="-194.8" x1="0" x2="0" y="592.309" y1="0" y2="0" z="2238.52"/>
+
+  <coordinates radius="10" region_code="201785347" x="-174.446" x1="0" x2="0" y="582.577" y1="0" y2="0" z="2236.04"/>
+
+  <coordinates radius="15" region_code="201785347" x="-226.144" x1="0" x2="0" y="605.915" y1="0" y2="0" z="2238.61"/>
+
+  <coordinates radius="12" region_code="201785348" x="-246.505" x1="0" x2="0" y="392.488" y1="0" y2="0" z="2248.47"/>
+
+  <coordinates radius="16" region_code="201785350" x="481.197" x1="0" x2="0" y="186.373" y1="0" y2="0" z="2219.69"/>
+
+</region_coordinates>

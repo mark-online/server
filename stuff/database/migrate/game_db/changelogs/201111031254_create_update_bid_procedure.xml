@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201111031254" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_bid') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_bid
+GO
+
+
+CREATE PROCEDURE dbo.update_bid
+    @auction_id dbo.id_t,
+	@zone_id dbo.id_t,
+	@buyer_id dbo.id_t,
+    @current_bid_money BIGINT
+AS
+    SET NOCOUNT ON
+	
+	UPDATE dbo.Auctions
+	SET buyer_id = @buyer_id, current_bid_money = @current_bid_money
+	WHERE id = @auction_id AND zone_id = @zone_id
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_bid') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_bid
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

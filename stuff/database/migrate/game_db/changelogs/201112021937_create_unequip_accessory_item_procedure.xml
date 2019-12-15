@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112021937" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.unequip_accessory_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.unequip_accessory_item
+GO
+
+
+CREATE PROCEDURE dbo.unequip_accessory_item
+    @account_id dbo.id_t,
+    @character_id dbo.id_t,
+    @item_id dbo.id_t,
+    @slot_id TINYINT,
+    @unequip_part TINYINT
+AS
+    SET NOCOUNT ON
+
+    BEGIN TRY
+        BEGIN TRANSACTION
+
+        UPDATE dbo.Inventories
+            SET slot_id = @slot_id
+            WHERE id = @item_id
+
+        DELETE FROM dbo.Accessories
+            WHERE account_id = @account_id AND character_id = @character_id AND
+                accessory_part = @unequip_part
+
+        COMMIT
+    END TRY
+    BEGIN CATCH
+        ROLLBACK
+    END CATCH
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.unequip_accessory_item') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.unequip_accessory_item
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

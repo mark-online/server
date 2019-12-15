@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112202100" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_bind_recall_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_bind_recall_info
+GO
+
+
+CREATE PROCEDURE dbo.add_bind_recall_info
+    @account_id dbo.id_t,
+    @character_id dbo.id_t,
+    @link_id dbo.id_t, 
+    @data_code dbo.code_t,
+    @world_map_code dbo.code_t, 
+    @pos_x REAL,
+    @pos_y REAL,
+    @pos_z REAL
+AS
+    SET NOCOUNT ON
+    
+    INSERT INTO dbo.Bind_Recall_Infos(account_id, character_id, link_id, data_code, world_map_code, pos_x, pos_y, pos_z)
+        VALUES(@account_id, @character_id, @link_id, @data_code, @world_map_code, @pos_x, @pos_y, @pos_z)
+
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.add_bind_recall_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.add_bind_recall_info
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

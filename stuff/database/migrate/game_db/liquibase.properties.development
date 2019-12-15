@@ -1,0 +1,10 @@
+#liquibase.properties
+classpath: ../jdbc/sqljdbc4.jar
+#url=jdbc:sqlserver://gideon_db_server\\SQLEXPRESS;databaseName=Gideon_game_development
+url=jdbc:sqlserver://gideon_db_server;databaseName=Gideon_game_development
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+logLevel=SEVERE
+
+username: sa
+password:
+

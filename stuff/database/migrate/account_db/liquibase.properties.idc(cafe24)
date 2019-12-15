@@ -1,0 +1,9 @@
+#liquibase.properties
+classpath: ../jdbc/sqljdbc4.jar
+url=jdbc:sqlserver://bsgamesdb.cafe24.com;databaseName=bsgamesdb
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+logLevel=SEVERE
+
+username: bsgamesdb
+password: Rkakstnaltn59
+

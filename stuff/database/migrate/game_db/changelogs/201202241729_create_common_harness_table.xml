@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201202241729">
+    <createTable tableName="Common_Harness_Infos" remarks="Common Harness table">
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="harness_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="exprie_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Common_Harness_Infos" columnNames="character_id" tableName="Common_Harness_Infos"/>
+    <createIndex indexName="ix_Common_Harness_Infos_account_id" tableName="Common_Harness_Infos">
+      <column name="account_id"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Common_Harness_Infos_Characters"
+        baseColumnNames="character_id" baseTableName="Common_Harness_Infos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

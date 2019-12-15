@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201203191638">
+    <createTable tableName="Buddy_Infos" remarks="Vehicle table">
+      <column name="buddy_1_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="buddy_2_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Buddy_Infos" columnNames="buddy_1_id, buddy_2_id" tableName="Buddy_Infos"/>
+
+    <addForeignKeyConstraint constraintName="fk_Buddy_Infos_Characters_1"
+        baseColumnNames="buddy_1_id" baseTableName="Buddy_Infos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+    <addForeignKeyConstraint constraintName="fk_Buddy_Infos_Characters_2"
+        baseColumnNames="buddy_2_id" baseTableName="Buddy_Infos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

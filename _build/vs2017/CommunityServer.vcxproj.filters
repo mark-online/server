@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\s2s">
+      <UniqueIdentifier>{84e85359-a859-4ba5-b284-121d7ef3e3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\c2s">
+      <UniqueIdentifier>{0d312475-9df0-461a-b55f-1bc339c7023a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\user">
+      <UniqueIdentifier>{f38b9dc5-8bd9-4f66-b166-b80d93ea5ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\user\detail">
+      <UniqueIdentifier>{77d5f6ba-bedb-4d71-8643-a6bbaded3ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\channel">
+      <UniqueIdentifier>{fd10cc14-5e4c-4403-bf52-cfe3572c00aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\party">
+      <UniqueIdentifier>{9b91bfd0-dc4f-4251-a37f-0ce9c383776b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\guild">
+      <UniqueIdentifier>{c0198a8f-f603-40b8-ae60-f798aac35c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dominion">
+      <UniqueIdentifier>{96a74cf5-3216-467a-abbc-1d92a8269855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\buddy">
+      <UniqueIdentifier>{0f03fa71-2415-43fe-80f1-cda5e1ff2b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\guild\inventory">
+      <UniqueIdentifier>{0e197bf0-6095-4c2d-9ce5-d0600695acc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\communityserver\communityserver_export.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\CommunityServerApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\CommunityServerPCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\CommunityService.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityLoginServerProxy.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityServerSideProxy.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityServerSideProxyFactory.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\s2s\CommunityServerSideProxyManager.h">
+      <Filter>Source Files\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\c2s\CommunityClientSession.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\c2s\CommunityClientSessionCallback.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\c2s\CommunityClientSessionFactory.h">
+      <Filter>Source Files\c2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUser.h">
+      <Filter>Source Files\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUserAllocator.h">
+      <Filter>Source Files\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUserHelper.h">
+      <Filter>Source Files\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\user\CommunityUserManager.h">
+      <Filter>Source Files\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\user\detail\CommunityUserImpl.h">
+      <Filter>Source Files\user\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\channel\WorldMapChannel.h">
+      <Filter>Source Files\channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\channel\WorldMapChannelManager.h">
+      <Filter>Source Files\channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\party\CommunityParty.h">
+      <Filter>Source Files\party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\party\CommunityPartyManager.h">
+      <Filter>Source Files\party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\guild\CommunityGuild.h">
+      <Filter>Source Files\guild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\guild\CommunityGuildManager.h">
+      <Filter>Source Files\guild</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\dominion\CommunityDominionManager.h">
+      <Filter>Source Files\dominion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\buddy\CommunityBuddyManager.h">
+      <Filter>Source Files\buddy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\guild\inventory\GuildInventory.h">
+      <Filter>Source Files\guild\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\guild\inventory\GuildInventoryCallback.h">
+      <Filter>Source Files\guild\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\party\Party.h">
+      <Filter>Source Files\party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\party\SoloParty.h">
+      <Filter>Source Files\party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\communityserver\party\GroupParty.h">
+      <Filter>Source Files\party</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\communityserver\CommunityServerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\CommunityServerPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\CommunityService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityLoginServerProxy.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityServerSideProxy.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityServerSideProxyFactory.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\s2s\CommunityServerSideProxyManager.cpp">
+      <Filter>Source Files\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\c2s\CommunityClientSession.cpp">
+      <Filter>Source Files\c2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\c2s\CommunityClientSessionFactory.cpp">
+      <Filter>Source Files\c2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\user\CommunityUserManager.cpp">
+      <Filter>Source Files\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\user\detail\CommunityUserImpl.cpp">
+      <Filter>Source Files\user\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\channel\WorldMapChannel.cpp">
+      <Filter>Source Files\channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\channel\WorldMapChannelManager.cpp">
+      <Filter>Source Files\channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\party\CommunityParty.cpp">
+      <Filter>Source Files\party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\party\CommunityPartyManager.cpp">
+      <Filter>Source Files\party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\guild\CommunityGuild.cpp">
+      <Filter>Source Files\guild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\guild\CommunityGuildManager.cpp">
+      <Filter>Source Files\guild</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\dominion\CommunityDominionManager.cpp">
+      <Filter>Source Files\dominion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\buddy\CommunityBuddyManager.cpp">
+      <Filter>Source Files\buddy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\guild\inventory\GuildInventory.cpp">
+      <Filter>Source Files\guild\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\party\Party.cpp">
+      <Filter>Source Files\party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\party\GroupParty.cpp">
+      <Filter>Source Files\party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\communityserver\party\SoloParty.cpp">
+      <Filter>Source Files\party</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

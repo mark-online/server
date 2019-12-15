@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <changeSet author="kcando" id="201207271233">
+    <createTable tableName="Equip_Item_Infos" remarks="equip item info table">
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="inventory_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_1" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="socket_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_1" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_2" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_2" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_script_3" type="TINYINT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+      <column name="option_value_3" type="INT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Equip_Item_Infos" columnNames="account_id, character_id, inventory_id" tableName="Equip_Item_Infos"/>
+
+    <createIndex indexName="ix_equip_item_info_character_id" tableName="Equip_Item_Infos">
+      <column name="character_id"/>
+    </createIndex>
+
+    <addForeignKeyConstraint constraintName="fk_Equip_Item_Infos_Characters"
+          baseColumnNames="character_id" baseTableName="Equip_Item_Infos"
+          referencedColumnNames="id" referencedTableName="Characters"
+          onDelete="NO ACTION" />
+
+    <addForeignKeyConstraint constraintName="fk_Equip_Item_Infos_Inventories"
+          baseColumnNames="inventory_id" baseTableName="Equip_Item_Infos"
+          referencedColumnNames="id" referencedTableName="Inventories"
+          onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

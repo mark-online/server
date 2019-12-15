@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201109062201">
+  <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_character_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.get_character_info
+GO
+
+
+CREATE PROCEDURE dbo.get_character_info
+  @character_id dbo.id_t
+AS
+  SET NOCOUNT ON
+
+  -- character info.
+
+	SELECT c.nickname, c.class, c.zone_id, c.pos_x, c.pos_y, c.pos_z, c.pos_heading,
+        c.sex, c.current_level, c.level_step, c.exp, c.sp, c.hp, c.mp, c.cp, c.recovery_cp, c.character_state, 
+        c.chaotic, c.is_actionbar_lock, c.mercenary_point, ISNULL(gm.guild_id, 0), ISNULL(g.guild_mark_code, 0)
+        FROM dbo.Characters AS c LEFT OUTER JOIN Guild_Members AS gm ON c.id = gm.character_id LEFT OUTER JOIN 
+        Guilds AS g ON g.id = gm.guild_id
+        WHERE c.id = @character_id	  
+	  
+  -- Quest Item
+  SELECT id, quest_item_code, usable_count, quest_code
+      FROM dbo.Quest_Inventories
+      WHERE character_id = @character_id	  
+	  
+  -- inventory
+  SELECT inven_type, id, item_code, slot_id, item_count
+      FROM dbo.Inventories
+      WHERE character_id = @character_id
+
+  -- equip item
+  SELECT inven_type, inventory_id, fragment_count, open_socket_count, socket_skill_code_1, socket_skill_code_2, socket_skill_code_3, socket_skill_code_4, socket_skill_code_5
+    FROM dbo.EquipItemInfos
+    WHERE character_id = @character_id
+
+  -- equipment
+  SELECT equip_part, inventory_id
+      FROM dbo.Equipments
+      WHERE character_id = @character_id
+
+  -- skill
+  SELECT skill_code
+    FROM dbo.Skills
+    WHERE character_id = @character_id
+
+  -- action bar
+  SELECT code_0, code_1, code_2, code_3, code_4, code_5, code_6, code_7, code_8, code_9
+    FROM dbo.ActionBars
+    WHERE character_id = @character_id
+       ORDER BY count_id 
+
+  -- game money
+  SELECT game_money, bank_game_money
+    FROM dbo.GameMonies
+    WHERE character_id = @character_id	   
+	   
+  SET NOCOUNT OFF
+
+  </sql>
+
+  <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.get_character_info') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+  DROP PROCEDURE dbo.get_character_info
+GO
+  </rollback>
+  </changeSet>
+
+</databaseChangeLog>

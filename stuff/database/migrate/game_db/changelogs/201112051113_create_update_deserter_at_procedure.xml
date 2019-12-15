@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201112051113" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_deserter_expired_at') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_deserter_expired_at
+GO
+
+
+CREATE PROCEDURE dbo.update_deserter_expired_at
+    @character_id dbo.id_t,
+    @deserter_expired_at BIGINT
+AS
+    SET NOCOUNT ON
+	
+	UPDATE dbo.Characters
+	    SET deserter_expired_at = @deserter_expired_at
+	        WHERE id = @character_id
+	
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.update_deserter_expired_at') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.update_deserter_expired_at
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

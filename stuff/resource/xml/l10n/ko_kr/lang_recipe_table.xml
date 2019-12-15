@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="83906080" name="구리 조각 제작"/>
+	<l10n_template data_code="83906081" name="철 조각 제작"/>
+	<l10n_template data_code="83906082" name="은 조각 제작"/>
+	<l10n_template data_code="83906083" name="금 조각 제작"/>
+	<l10n_template data_code="83906084" name="무두질한 가죽 제작"/>
+	<l10n_template data_code="83906085" name="밀가루 제작"/>
+	<l10n_template data_code="83906086" name="손질된 고기 제작"/>
+	<l10n_template data_code="83906087" name="설탕 제작"/>
+	<l10n_template data_code="83906088" name="고급 원단 제작"/>
+	<l10n_template data_code="83906089" name="뼈가루 제작"/>
+	<l10n_template data_code="83906090" name="축복의 물약(A) 제작"/>
+	<l10n_template data_code="83906091" name="야성의 가루 제작"/>
+	<l10n_template data_code="83906092" name="마법의 가루 제작"/>
+	<l10n_template data_code="83906093" name="혼돈의 결정 제작"/>
+	<l10n_template data_code="83906094" name="방어의 가루 제작"/>
+	<l10n_template data_code="83906095" name="식물 줄기 제작"/>
+	<l10n_template data_code="83906096" name="강화된 구리 제작"/>
+	<l10n_template data_code="83906097" name="강철 제작"/>
+	<l10n_template data_code="83906098" name="은괴 제작"/>
+	<l10n_template data_code="83906099" name="금괴 제작"/>
+	<l10n_template data_code="83906100" name="날 제작"/>
+	<l10n_template data_code="83906101" name="손잡이 제작"/>
+	<l10n_template data_code="83906102" name="활 줄 제작"/>
+	<l10n_template data_code="83906103" name="활 대 제작"/>
+	<l10n_template data_code="83906104" name="막대기 제작"/>
+	<l10n_template data_code="83906105" name="야성의 쿠키(A) 제작"/>
+	<l10n_template data_code="83906106" name="지혜의 쿠키(A) 제작"/>
+	<l10n_template data_code="83906107" name="수호의 쿠키(A) 제작"/>
+	<l10n_template data_code="83906108" name="행운의 쿠키(A) 제작"/>
+	<l10n_template data_code="83906109" name="스튜 제작"/>
+	<l10n_template data_code="83906110" name="천 조각 제조법"/>
+	<l10n_template data_code="83906111" name="가죽 조각 제조법"/>
+	<l10n_template data_code="83906112" name="판금 조각 제조법"/>
+	<l10n_template data_code="83906113" name="한손 검류 조각 제조법"/>
+	<l10n_template data_code="83906114" name="양손 검류 조각 제조법"/>
+	<l10n_template data_code="83906115" name="한손 타격류 조각 제조법"/>
+	<l10n_template data_code="83906116" name="양손 타격류 조각 제조법"/>
+	<l10n_template data_code="83906117" name="이도 류 조각 제조법"/>
+	<l10n_template data_code="83906118" name="지팡이 류 조각 제조법"/>
+	<l10n_template data_code="83906119" name="장궁 류 조각 제조법"/>
+	<l10n_template data_code="83906121" name="방패 류 조각 제조법"/>
+	<l10n_template data_code="83906122" name="용맹의 보석(하급) 제작"/>
+	<l10n_template data_code="83906123" name="바람의 보석(하급) 제작"/>
+	<l10n_template data_code="83906124" name="마법의 보석(하급) 제작"/>
+	<l10n_template data_code="83906125" name="용맹의 보석(중급) 제작"/>
+	<l10n_template data_code="83906126" name="바람의 보석(중급) 제작"/>
+	<l10n_template data_code="83906127" name="마법의 보석(중급) 제작"/>
+	<l10n_template data_code="83906128" name="용맹의 보석(상급) 제작"/>
+	<l10n_template data_code="83906129" name="바람의 보석(상급) 제작"/>
+	<l10n_template data_code="83906130" name="마법의 보석(상급) 제작"/>
+	<l10n_template data_code="83906131" name="축복의 물약(B) 제작"/>
+	<l10n_template data_code="83886081" name="로마 투구 제조법"/>
+	<l10n_template data_code="83886082" name="견고한 로마 투구 제조법"/>
+	<l10n_template data_code="83886083" name="특별한 로마 투구 제조법"/>
+	<l10n_template data_code="83886084" name="고귀한 로마 투구 제조법"/>
+	<l10n_template data_code="83886085" name="장교용 투구 제조법"/>
+	<l10n_template data_code="83886086" name="견고한 장교용 투구 제조법"/>
+	<l10n_template data_code="83886087" name="특별한 장교용 투구 제조법"/>
+	<l10n_template data_code="83886088" name="고귀한 장교용 투구 제조법"/>
+	<l10n_template data_code="83886089" name="철 투구 제조법"/>
+	<l10n_template data_code="83886090" name="견고한 철 투구 제조법"/>
+	<l10n_template data_code="83886091" name="특별한 철 투구 제조법"/>
+	<l10n_template data_code="83886092" name="고귀한 철 투구 제조법"/>
+	<l10n_template data_code="83886093" name="강철 투구 제조법"/>
+	<l10n_template data_code="83886094" name="견고한 강철 투구 제조법"/>
+	<l10n_template data_code="83886095" name="특별한 강철 투구 제조법"/>
+	<l10n_template data_code="83886096" name="고귀한 강철 투구 제조법"/>
+	<l10n_template data_code="83886097" name="판금 투구 제조법"/>
+	<l10n_template data_code="83886098" name="견고한 판금 투구 제조법"/>
+	<l10n_template data_code="83886099" name="특별한 판금 투구 제조법"/>
+	<l10n_template data_code="83886100" name="고귀한 판금 투구 제조법"/>
+	<l10n_template data_code="83886101" name="합금 투구 제조법"/>
+	<l10n_template data_code="83886102" name="견고한 합금 투구 제조법"/>
+	<l10n_template data_code="83886103" name="특별한 합금 투구 제조법"/>
+	<l10n_template data_code="83886104" name="고귀한 합금 투구 제조법"/>
+	<l10n_template data_code="83886105" name="성기사 투구 제조법"/>
+	<l10n_template data_code="83886106" name="견고한 성기사 투구 제조법"/>
+	<l10n_template data_code="83886107" name="특별한 성기사 투구 제조법"/>
+	<l10n_template data_code="83886108" name="고귀한 성기사 투구 제조법"/>
+	<l10n_template data_code="83886109" name="사슬 투구 제조법"/>
+	<l10n_template data_code="83886110" name="견고한 사슬 투구 제조법"/>
+	<l10n_template data_code="83886111" name="특별한 사슬 투구 제조법"/>
+	<l10n_template data_code="83886112" name="고귀한 사슬 투구 제조법"/>
+	<l10n_template data_code="83886113" name="마케스 투구 제조법"/>
+	<l10n_template data_code="83886114" name="견고한 마케스 투구 제조법"/>
+	<l10n_template data_code="83886115" name="특별한 마케스 투구 제조법"/>
+	<l10n_template data_code="83886116" name="고귀한 마케스 투구 제조법"/>
+	<l10n_template data_code="83886117" name="두건 제조법"/>
+	<l10n_template data_code="83886118" name="견고한 두건 제조법"/>
+	<l10n_template data_code="83886119" name="특별한 두건 제조법"/>
+	<l10n_template data_code="83886120" name="고귀한 두건 제조법"/>
+	<l10n_template data_code="83886121" name="전투 두건 제조법"/>
+	<l10n_template data_code="83886122" name="견고한 전투 두건 제조법"/>
+	<l10n_template data_code="83886123" name="특별한 전투 두건 제조법"/>
+	<l10n_template data_code="83886124" name="고귀한 전투 두건 제조법"/>
+	<l10n_template data_code="83886125" name="현자의 두건 제조법"/>
+	<l10n_template data_code="83886126" name="견고한 현자의 두건 제조법"/>
+	<l10n_template data_code="83886127" name="특별한 현자의 두건 제조법"/>
+	<l10n_template data_code="83886128" name="고귀한 현자의 두건 제조법"/>
+	<l10n_template data_code="83886129" name="마법의 두건 제조법"/>
+	<l10n_template data_code="83886130" name="견고한 마법의 두건 제조법"/>
+	<l10n_template data_code="83886131" name="특별한 마법의 두건 제조법"/>
+	<l10n_template data_code="83886132" name="고귀한 마법의 두건 제조법"/>
+	<l10n_template data_code="83886133" name="냉기의 두건 제조법"/>
+	<l10n_template data_code="83886134" name="견고한 냉기의 두건 제조법"/>
+	<l10n_template data_code="83886135" name="특별한 냉기의 두건 제조법"/>
+	<l10n_template data_code="83886136" name="고귀한 냉기의 두건 제조법"/>
+	<l10n_template data_code="83886137" name="영웅의 두건 제조법"/>
+	<l10n_template data_code="83886138" name="견고한 영웅의 두건 제조법"/>
+	<l10n_template data_code="83886139" name="특별한 영웅의 두건 제조법"/>
+	<l10n_template data_code="83886140" name="고귀한 영웅의 두건 제조법"/>
+	<l10n_template data_code="83886141" name="가죽 모자 제조법"/>
+	<l10n_template data_code="83886142" name="견고한 가죽 모자 제조법"/>
+	<l10n_template data_code="83886143" name="특별한 가죽 모자 제조법"/>
+	<l10n_template data_code="83886144" name="고귀한 가죽 모자 제조법"/>
+	<l10n_template data_code="83886145" name="가죽 투구 제조법"/>
+	<l10n_template data_code="83886146" name="견고한 가죽 투구 제조법"/>
+	<l10n_template data_code="83886147" name="특별한 가죽 투구 제조법"/>
+	<l10n_template data_code="83886148" name="고귀한 가죽 투구 제조법"/>
+	<l10n_template data_code="83886149" name="고급 가죽 투구 제조법"/>
+	<l10n_template data_code="83886150" name="견고한 고급 가죽 투구 제조법"/>
+	<l10n_template data_code="83886151" name="특별한 고급 가죽 투구 제조법"/>
+	<l10n_template data_code="83886152" name="고귀한 고급 가죽 투구 제조법"/>
+	<l10n_template data_code="83886153" name="용맹의 가죽 투구 제조법"/>
+	<l10n_template data_code="83886154" name="견고한 용맹의 가죽 투구 제조법"/>
+	<l10n_template data_code="83886155" name="특별한 용맹의 가죽 투구 제조법"/>
+	<l10n_template data_code="83886156" name="고귀한 용맹의 가죽 투구 제조법"/>
+	<l10n_template data_code="83886157" name="암살자 후드 제조법"/>
+	<l10n_template data_code="83886158" name="견고한 암살자 후드 제조법"/>
+	<l10n_template data_code="83886159" name="특별한 암살자 후드 제조법"/>
+	<l10n_template data_code="83886160" name="고귀한 암살자 후드 제조법"/>
+	<l10n_template data_code="83886161" name="마인 후드 제조법"/>
+	<l10n_template data_code="83886162" name="견고한 마인 후드 제조법"/>
+	<l10n_template data_code="83886163" name="특별한 마인 후드 제조법"/>
+	<l10n_template data_code="83886164" name="고귀한 마인 후드 제조법"/>
+	<l10n_template data_code="83886165" name="공포의 후드 제조법"/>
+	<l10n_template data_code="83886166" name="견고한 공포의 후드 제조법"/>
+	<l10n_template data_code="83886167" name="특별한 공포의 후드 제조법"/>
+	<l10n_template data_code="83886168" name="고귀한 공포의 후드 제조법"/>
+	<l10n_template data_code="83886169" name="하번의 후드 제조법"/>
+	<l10n_template data_code="83886170" name="견고한 하번의 후드 제조법"/>
+	<l10n_template data_code="83886171" name="특별한 하번의 후드 제조법"/>
+	<l10n_template data_code="83886172" name="고귀한 하번의 후드 제조법"/>
+	<l10n_template data_code="83886173" name="가디언 투구 제조법"/>
+	<l10n_template data_code="83886174" name="견고한 가디언 투구 제조법"/>
+	<l10n_template data_code="83886175" name="특별한 가디언 투구 제조법"/>
+	<l10n_template data_code="83886176" name="고귀한 가디언 투구 제조법"/>
+	<l10n_template data_code="83886177" name="불꽃 모자 제조법"/>
+	<l10n_template data_code="83886178" name="견고한 불꽃 모자 제조법"/>
+	<l10n_template data_code="83886179" name="특별한 불꽃 모자 제조법"/>
+	<l10n_template data_code="83886180" name="고귀한 불꽃 모자 제조법"/>
+	<l10n_template data_code="83886181" name="각성의 두건 제조법"/>
+	<l10n_template data_code="83886182" name="견고한 각성의 두건 제조법"/>
+	<l10n_template data_code="83886183" name="특별한 각성의 두건 제조법"/>
+	<l10n_template data_code="83886184" name="고귀한 각성의 두건 제조법"/>
+	<l10n_template data_code="83888080" name="로마 견갑 제조법"/>
+	<l10n_template data_code="83888081" name="견고한 로마 견갑 제조법"/>
+	<l10n_template data_code="83888082" name="특별한 로마 견갑 제조법"/>
+	<l10n_template data_code="83888083" name="고귀한 로마 견갑 제조법"/>
+	<l10n_template data_code="83888084" name="정예병 견갑 제조법"/>
+	<l10n_template data_code="83888085" name="견고한 정예병 견갑 제조법"/>
+	<l10n_template data_code="83888086" name="특별한 정예병 견갑 제조법"/>
+	<l10n_template data_code="83888087" name="고귀한 정예병 견갑 제조법"/>
+	<l10n_template data_code="83888088" name="전투 견갑 제조법"/>
+	<l10n_template data_code="83888089" name="견고한 전투 견갑 제조법"/>
+	<l10n_template data_code="83888090" name="특별한 전투 견갑 제조법"/>
+	<l10n_template data_code="83888091" name="고귀한 전투 견갑 제조법"/>
+	<l10n_template data_code="83888092" name="기사의 견갑 제조법"/>
+	<l10n_template data_code="83888093" name="견고한 기사의 견갑 제조법"/>
+	<l10n_template data_code="83888094" name="특별한 기사의 견갑 제조법"/>
+	<l10n_template data_code="83888095" name="고귀한 기사의 견갑 제조법"/>
+	<l10n_template data_code="83888096" name="투사의 견갑 제조법"/>
+	<l10n_template data_code="83888097" name="견고한 투사의 견갑 제조법"/>
+	<l10n_template data_code="83888098" name="특별한 투사의 견갑 제조법"/>
+	<l10n_template data_code="83888099" name="고귀한 투사의 견갑 제조법"/>
+	<l10n_template data_code="83888100" name="승리의 견갑 제조법"/>
+	<l10n_template data_code="83888101" name="견고한 승리의 견갑 제조법"/>
+	<l10n_template data_code="83888102" name="특별한 승리의 견갑 제조법"/>
+	<l10n_template data_code="83888103" name="고귀한 승리의 견갑 제조법"/>
+	<l10n_template data_code="83888104" name="가디언 견갑 제조법"/>
+	<l10n_template data_code="83888105" name="견고한 가디언 견갑 제조법"/>
+	<l10n_template data_code="83888106" name="특별한 가디언 견갑 제조법"/>
+	<l10n_template data_code="83888107" name="고귀한 가디언 견갑 제조법"/>
+	<l10n_template data_code="83888108" name="하번의 견갑 제조법"/>
+	<l10n_template data_code="83888109" name="견고한 하번의 견갑 제조법"/>
+	<l10n_template data_code="83888110" name="특별한 하번의 견갑 제조법"/>
+	<l10n_template data_code="83888111" name="고귀한 하번의 견갑 제조법"/>
+	<l10n_template data_code="83888112" name="불꽃 견갑 제조법"/>
+	<l10n_template data_code="83888113" name="견고한 불꽃 견갑 제조법"/>
+	<l10n_template data_code="83888114" name="특별한 불꽃 견갑 제조법"/>
+	<l10n_template data_code="83888115" name="고귀한 불꽃 견갑 제조법"/>
+	<l10n_template data_code="83888116" name="솜 견갑 제조법"/>
+	<l10n_template data_code="83888117" name="견고한 솜 견갑 제조법"/>
+	<l10n_template data_code="83888118" name="특별한 솜 견갑 제조법"/>
+	<l10n_template data_code="83888119" name="고귀한 솜 견갑 제조법"/>
+	<l10n_template data_code="83888120" name="질긴 솜 견갑 제조법"/>
+	<l10n_template data_code="83888121" name="견고한 질긴 솜 견갑 제조법"/>
+	<l10n_template data_code="83888122" name="특별한 질긴 솜 견갑 제조법"/>
+	<l10n_template data_code="83888123" name="고귀한 질긴 솜 견갑 제조법"/>
+	<l10n_template data_code="83888124" name="수련 견갑 제조법"/>
+	<l10n_template data_code="83888125" name="견고한 수련 견갑 제조법"/>
+	<l10n_template data_code="83888126" name="특별한 수련 견갑 제조법"/>
+	<l10n_template data_code="83888127" name="고귀한 수련 견갑 제조법"/>
+	<l10n_template data_code="83888128" name="고뇌의 견갑 제조법"/>
+	<l10n_template data_code="83888129" name="견고한 고뇌의 견갑 제조법"/>
+	<l10n_template data_code="83888130" name="특별한 고뇌의 견갑 제조법"/>
+	<l10n_template data_code="83888131" name="고귀한 고뇌의 견갑 제조법"/>
+	<l10n_template data_code="83888132" name="현자의 견갑 제조법"/>
+	<l10n_template data_code="83888133" name="견고한 현자의 견갑 제조법"/>
+	<l10n_template data_code="83888134" name="특별한 현자의 견갑 제조법"/>
+	<l10n_template data_code="83888135" name="고귀한 현자의 견갑 제조법"/>
+	<l10n_template data_code="83888136" name="각성의 견갑 제조법"/>
+	<l10n_template data_code="83888137" name="견고한 각성의 견갑 제조법"/>
+	<l10n_template data_code="83888138" name="특별한 각성의 견갑 제조법"/>
+	<l10n_template data_code="83888139" name="고귀한 각성의 견갑 제조법"/>
+	<l10n_template data_code="83888140" name="가죽 견갑 제조법"/>
+	<l10n_template data_code="83888141" name="견고한 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888142" name="특별한 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888143" name="고귀한 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888144" name="질긴 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888145" name="견고한 질긴 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888146" name="특별한 질긴 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888147" name="고귀한 질긴 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888148" name="용맹의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888149" name="견고한 용맹의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888150" name="특별한 용맹의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888151" name="고귀한 용맹의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888152" name="암살자 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888153" name="견고한 암살자 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888154" name="특별한 암살자 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888155" name="고귀한 암살자 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888156" name="공포의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888157" name="견고한 공포의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888158" name="특별한 공포의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888159" name="고귀한 공포의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888160" name="혼돈의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888161" name="견고한 혼돈의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888162" name="특별한 혼돈의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83888163" name="고귀한 혼돈의 가죽 견갑 제조법"/>
+	<l10n_template data_code="83890080" name="로마 갑옷 제조법"/>
+	<l10n_template data_code="83890081" name="견고한 로마 갑옷 제조법"/>
+	<l10n_template data_code="83890082" name="특별한 로마 갑옷 제조법"/>
+	<l10n_template data_code="83890083" name="고귀한 로마 갑옷 제조법"/>
+	<l10n_template data_code="83890084" name="장교용 갑옷 제조법"/>
+	<l10n_template data_code="83890085" name="견고한 장교용 갑옷 제조법"/>
+	<l10n_template data_code="83890086" name="특별한 장교용 갑옷 제조법"/>
+	<l10n_template data_code="83890087" name="고귀한 장교용 갑옷 제조법"/>
+	<l10n_template data_code="83890088" name="사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890089" name="견고한 사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890090" name="특별한 사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890091" name="고귀한 사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890092" name="전투 사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890093" name="견고한 전투 사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890094" name="특별한 전투 사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890095" name="고귀한 전투 사슬 갑옷 제조법"/>
+	<l10n_template data_code="83890096" name="가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890097" name="견고한 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890098" name="특별한 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890099" name="고귀한 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890100" name="신성의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890101" name="견고한 신성의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890102" name="특별한 신성의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890103" name="고귀한 신성의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890104" name="판금 갑옷 제조법"/>
+	<l10n_template data_code="83890105" name="견고한 판금 갑옷 제조법"/>
+	<l10n_template data_code="83890106" name="특별한 판금 갑옷 제조법"/>
+	<l10n_template data_code="83890107" name="고귀한 판금 갑옷 제조법"/>
+	<l10n_template data_code="83890108" name="강화 판금 갑옷 제조법"/>
+	<l10n_template data_code="83890109" name="견고한 강화 판금 갑옷 제조법"/>
+	<l10n_template data_code="83890110" name="특별한 강화 판금 갑옷 제조법"/>
+	<l10n_template data_code="83890111" name="고귀한 강화 판금 갑옷 제조법"/>
+	<l10n_template data_code="83890112" name="천옷 제조법"/>
+	<l10n_template data_code="83890113" name="견고한 천옷 제조법"/>
+	<l10n_template data_code="83890114" name="특별한 천옷 제조법"/>
+	<l10n_template data_code="83890115" name="고귀한 천옷 제조법"/>
+	<l10n_template data_code="83890116" name="고뇌의 튜닉 제조법"/>
+	<l10n_template data_code="83890117" name="견고한 고뇌의 튜닉 제조법"/>
+	<l10n_template data_code="83890118" name="특별한 고뇌의 튜닉 제조법"/>
+	<l10n_template data_code="83890119" name="고귀한 고뇌의 튜닉 제조법"/>
+	<l10n_template data_code="83890120" name="성기사 갑옷 제조법"/>
+	<l10n_template data_code="83890121" name="견고한 성기사 갑옷 제조법"/>
+	<l10n_template data_code="83890122" name="특별한 성기사 갑옷 제조법"/>
+	<l10n_template data_code="83890123" name="고귀한 성기사 갑옷 제조법"/>
+	<l10n_template data_code="83890124" name="혼돈의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890125" name="견고한 혼돈의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890126" name="특별한 혼돈의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890127" name="고귀한 혼돈의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890128" name="강화 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890129" name="견고한 강화 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890130" name="특별한 강화 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890131" name="고귀한 강화 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890132" name="전투 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890133" name="견고한 전투 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890134" name="특별한 전투 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890135" name="고귀한 전투 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890136" name="투지의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890137" name="견고한 투지의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890138" name="특별한 투지의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890139" name="고귀한 투지의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890140" name="암살자 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890141" name="견고한 암살자 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890142" name="특별한 암살자 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890143" name="고귀한 암살자 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890144" name="강화 천옷 제조법"/>
+	<l10n_template data_code="83890145" name="견고한 강화 천옷 제조법"/>
+	<l10n_template data_code="83890146" name="특별한 강화 천옷 제조법"/>
+	<l10n_template data_code="83890147" name="고귀한 강화 천옷 제조법"/>
+	<l10n_template data_code="83890148" name="수련의 튜닉 제조법"/>
+	<l10n_template data_code="83890149" name="견고한 수련의 튜닉 제조법"/>
+	<l10n_template data_code="83890150" name="특별한 수련의 튜닉 제조법"/>
+	<l10n_template data_code="83890151" name="고귀한 수련의 튜닉 제조법"/>
+	<l10n_template data_code="83890152" name="의문의 튜닉 제조법"/>
+	<l10n_template data_code="83890153" name="견고한 의문의 튜닉 제조법"/>
+	<l10n_template data_code="83890154" name="특별한 의문의 튜닉 제조법"/>
+	<l10n_template data_code="83890155" name="고귀한 의문의 튜닉 제조법"/>
+	<l10n_template data_code="83890156" name="현자의 튜닉 제조법"/>
+	<l10n_template data_code="83890157" name="견고한 현자의 튜닉 제조법"/>
+	<l10n_template data_code="83890158" name="특별한 현자의 튜닉 제조법"/>
+	<l10n_template data_code="83890159" name="고귀한 현자의 튜닉 제조법"/>
+	<l10n_template data_code="83890160" name="마인 튜닉 제조법"/>
+	<l10n_template data_code="83890161" name="견고한 마인 튜닉 제조법"/>
+	<l10n_template data_code="83890162" name="특별한 마인 튜닉 제조법"/>
+	<l10n_template data_code="83890163" name="고귀한 마인 튜닉 제조법"/>
+	<l10n_template data_code="83890164" name="불꽃 튜닉 제조법"/>
+	<l10n_template data_code="83890165" name="견고한 불꽃 튜닉 제조법"/>
+	<l10n_template data_code="83890166" name="특별한 불꽃 튜닉 제조법"/>
+	<l10n_template data_code="83890167" name="고귀한 불꽃 튜닉 제조법"/>
+	<l10n_template data_code="83890168" name="하번의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890169" name="견고한 하번의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890170" name="특별한 하번의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890171" name="고귀한 하번의 가죽 갑옷 제조법"/>
+	<l10n_template data_code="83890172" name="가디언 갑옷 제조법"/>
+	<l10n_template data_code="83890173" name="견고한 가디언 갑옷 제조법"/>
+	<l10n_template data_code="83890174" name="특별한 가디언 갑옷 제조법"/>
+	<l10n_template data_code="83890175" name="고귀한 가디언 갑옷 제조법"/>
+	<l10n_template data_code="83892080" name="로마 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892081" name="견고한 로마 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892082" name="특별한 로마 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892083" name="고귀한 로마 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892084" name="장교용 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892085" name="견고한 장교용 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892086" name="특별한 장교용 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892087" name="고귀한 장교용 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892088" name="사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892089" name="견고한 사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892090" name="특별한 사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892091" name="고귀한 사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892092" name="전투 사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892093" name="견고한 전투 사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892094" name="특별한 전투 사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892095" name="고귀한 전투 사슬 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892096" name="가죽 바지 제조법"/>
+	<l10n_template data_code="83892097" name="견고한 가죽 바지 제조법"/>
+	<l10n_template data_code="83892098" name="특별한 가죽 바지 제조법"/>
+	<l10n_template data_code="83892099" name="고귀한 가죽 바지 제조법"/>
+	<l10n_template data_code="83892100" name="신성의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892101" name="견고한 신성의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892102" name="특별한 신성의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892103" name="고귀한 신성의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892104" name="판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892105" name="견고한 판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892106" name="특별한 판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892107" name="고귀한 판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892108" name="강화 판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892109" name="견고한 강화 판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892110" name="특별한 강화 판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892111" name="고귀한 강화 판금 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892112" name="천 바지 제조법"/>
+	<l10n_template data_code="83892113" name="견고한 천 바지 제조법"/>
+	<l10n_template data_code="83892114" name="특별한 천 바지 제조법"/>
+	<l10n_template data_code="83892115" name="고귀한 천 바지 제조법"/>
+	<l10n_template data_code="83892116" name="고뇌의 바지 제조법"/>
+	<l10n_template data_code="83892117" name="견고한 고뇌의 바지 제조법"/>
+	<l10n_template data_code="83892118" name="특별한 고뇌의 바지 제조법"/>
+	<l10n_template data_code="83892119" name="고귀한 고뇌의 바지 제조법"/>
+	<l10n_template data_code="83892120" name="성기사 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892121" name="견고한 성기사 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892122" name="특별한 성기사 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892123" name="고귀한 성기사 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892124" name="혼돈의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892125" name="견고한 혼돈의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892126" name="특별한 혼돈의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892127" name="고귀한 혼돈의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892128" name="강화 가죽 바지 제조법"/>
+	<l10n_template data_code="83892129" name="견고한 강화 가죽 바지 제조법"/>
+	<l10n_template data_code="83892130" name="특별한 강화 가죽 바지 제조법"/>
+	<l10n_template data_code="83892131" name="고귀한 강화 가죽 바지 제조법"/>
+	<l10n_template data_code="83892132" name="전투 가죽 바지 제조법"/>
+	<l10n_template data_code="83892133" name="견고한 전투 가죽 바지 제조법"/>
+	<l10n_template data_code="83892134" name="특별한 전투 가죽 바지 제조법"/>
+	<l10n_template data_code="83892135" name="고귀한 전투 가죽 바지 제조법"/>
+	<l10n_template data_code="83892136" name="투지의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892137" name="견고한 투지의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892138" name="특별한 투지의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892139" name="고귀한 투지의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892140" name="암살자 가죽 바지 제조법"/>
+	<l10n_template data_code="83892141" name="견고한 암살자 가죽 바지 제조법"/>
+	<l10n_template data_code="83892142" name="특별한 암살자 가죽 바지 제조법"/>
+	<l10n_template data_code="83892143" name="고귀한 암살자 가죽 바지 제조법"/>
+	<l10n_template data_code="83892144" name="강화 천 바지 제조법"/>
+	<l10n_template data_code="83892145" name="견고한 강화 천 바지 제조법"/>
+	<l10n_template data_code="83892146" name="특별한 강화 천 바지 제조법"/>
+	<l10n_template data_code="83892147" name="고귀한 강화 천 바지 제조법"/>
+	<l10n_template data_code="83892148" name="수련의 바지 제조법"/>
+	<l10n_template data_code="83892149" name="견고한 수련의 바지 제조법"/>
+	<l10n_template data_code="83892150" name="특별한 수련의 바지 제조법"/>
+	<l10n_template data_code="83892151" name="고귀한 수련의 바지 제조법"/>
+	<l10n_template data_code="83892152" name="의문의 바지 제조법"/>
+	<l10n_template data_code="83892153" name="견고한 의문의 바지 제조법"/>
+	<l10n_template data_code="83892154" name="특별한 의문의 바지 제조법"/>
+	<l10n_template data_code="83892155" name="고귀한 의문의 바지 제조법"/>
+	<l10n_template data_code="83892156" name="현자의 바지 제조법"/>
+	<l10n_template data_code="83892157" name="견고한 현자의 바지 제조법"/>
+	<l10n_template data_code="83892158" name="특별한 현자의 바지 제조법"/>
+	<l10n_template data_code="83892159" name="고귀한 현자의 바지 제조법"/>
+	<l10n_template data_code="83892160" name="마인 바지 제조법"/>
+	<l10n_template data_code="83892161" name="견고한 마인 바지 제조법"/>
+	<l10n_template data_code="83892162" name="특별한 마인 바지 제조법"/>
+	<l10n_template data_code="83892163" name="고귀한 마인 바지 제조법"/>
+	<l10n_template data_code="83892164" name="불꽃 바지 제조법"/>
+	<l10n_template data_code="83892165" name="견고한 불꽃 바지 제조법"/>
+	<l10n_template data_code="83892166" name="특별한 불꽃 바지 제조법"/>
+	<l10n_template data_code="83892167" name="고귀한 불꽃 바지 제조법"/>
+	<l10n_template data_code="83892168" name="하번의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892169" name="견고한 하번의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892170" name="특별한 하번의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892171" name="고귀한 하번의 가죽 바지 제조법"/>
+	<l10n_template data_code="83892172" name="가디언 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892173" name="견고한 가디언 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892174" name="특별한 가디언 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83892175" name="고귀한 가디언 하반신 갑옷 제조법"/>
+	<l10n_template data_code="83894080" name="로마 장갑 제조법"/>
+	<l10n_template data_code="83894081" name="견고한 로마 장갑 제조법"/>
+	<l10n_template data_code="83894082" name="특별한 로마 장갑 제조법"/>
+	<l10n_template data_code="83894083" name="고귀한 로마 장갑 제조법"/>
+	<l10n_template data_code="83894084" name="전사의 장갑 제조법"/>
+	<l10n_template data_code="83894085" name="견고한 전사의 장갑 제조법"/>
+	<l10n_template data_code="83894086" name="특별한 전사의 장갑 제조법"/>
+	<l10n_template data_code="83894087" name="고귀한 전사의 장갑 제조법"/>
+	<l10n_template data_code="83894088" name="철 장갑 제조법"/>
+	<l10n_template data_code="83894089" name="견고한 철 장갑 제조법"/>
+	<l10n_template data_code="83894090" name="특별한 철 장갑 제조법"/>
+	<l10n_template data_code="83894091" name="고귀한 철 장갑 제조법"/>
+	<l10n_template data_code="83894092" name="용맹의 장갑 제조법"/>
+	<l10n_template data_code="83894093" name="견고한 용맹의 장갑 제조법"/>
+	<l10n_template data_code="83894094" name="특별한 용맹의 장갑 제조법"/>
+	<l10n_template data_code="83894095" name="고귀한 용맹의 장갑 제조법"/>
+	<l10n_template data_code="83894096" name="판금 장갑 제조법"/>
+	<l10n_template data_code="83894097" name="견고한 판금 장갑 제조법"/>
+	<l10n_template data_code="83894098" name="특별한 판금 장갑 제조법"/>
+	<l10n_template data_code="83894099" name="고귀한 판금 장갑 제조법"/>
+	<l10n_template data_code="83894100" name="전투 장갑 제조법"/>
+	<l10n_template data_code="83894101" name="견고한 전투 장갑 제조법"/>
+	<l10n_template data_code="83894102" name="특별한 전투 장갑 제조법"/>
+	<l10n_template data_code="83894103" name="고귀한 전투 장갑 제조법"/>
+	<l10n_template data_code="83894104" name="강철 장갑 제조법"/>
+	<l10n_template data_code="83894105" name="견고한 강철 장갑 제조법"/>
+	<l10n_template data_code="83894106" name="특별한 강철 장갑 제조법"/>
+	<l10n_template data_code="83894107" name="고귀한 강철 장갑 제조법"/>
+	<l10n_template data_code="83894108" name="투지의 장갑 제조법"/>
+	<l10n_template data_code="83894109" name="견고한 투지의 장갑 제조법"/>
+	<l10n_template data_code="83894110" name="특별한 투지의 장갑 제조법"/>
+	<l10n_template data_code="83894111" name="고귀한 투지의 장갑 제조법"/>
+	<l10n_template data_code="83894112" name="스큐툼 제조법"/>
+	<l10n_template data_code="83894113" name="견고한 스큐툼 제조법"/>
+	<l10n_template data_code="83894114" name="특별한 스큐툼 제조법"/>
+	<l10n_template data_code="83894115" name="고귀한 스큐툼 제조법"/>
+	<l10n_template data_code="83894116" name="라운드 쉴드 제조법"/>
+	<l10n_template data_code="83894117" name="견고한 라운드 쉴드 제조법"/>
+	<l10n_template data_code="83894118" name="특별한 라운드 쉴드 제조법"/>
+	<l10n_template data_code="83894119" name="고귀한 라운드 쉴드 제조법"/>
+	<l10n_template data_code="83894120" name="카이트 쉴드 제조법"/>
+	<l10n_template data_code="83894121" name="견고한 카이트 쉴드 제조법"/>
+	<l10n_template data_code="83894122" name="특별한 카이트 쉴드 제조법"/>
+	<l10n_template data_code="83894123" name="고귀한 카이트 쉴드 제조법"/>
+	<l10n_template data_code="83894124" name="저주의 방패 제조법"/>
+	<l10n_template data_code="83894125" name="견고한 저주의 방패 제조법"/>
+	<l10n_template data_code="83894126" name="특별한 저주의 방패 제조법"/>
+	<l10n_template data_code="83894127" name="고귀한 저주의 방패 제조법"/>
+	<l10n_template data_code="83894128" name="호플론 제조법"/>
+	<l10n_template data_code="83894129" name="견고한 호플론 제조법"/>
+	<l10n_template data_code="83894130" name="특별한 호플론 제조법"/>
+	<l10n_template data_code="83894131" name="고귀한 호플론 제조법"/>
+	<l10n_template data_code="83894132" name="펠타 제조법"/>
+	<l10n_template data_code="83894133" name="견고한 펠타 제조법"/>
+	<l10n_template data_code="83894134" name="특별한 펠타 제조법"/>
+	<l10n_template data_code="83894135" name="고귀한 펠타 제조법"/>
+	<l10n_template data_code="83894136" name="버클러 제조법"/>
+	<l10n_template data_code="83894137" name="견고한 버클러 제조법"/>
+	<l10n_template data_code="83894138" name="특별한 버클러 제조법"/>
+	<l10n_template data_code="83894139" name="고귀한 버클러 제조법"/>
+	<l10n_template data_code="83894140" name="클리페스 제조법"/>
+	<l10n_template data_code="83894141" name="견고한 클리페스 제조법"/>
+	<l10n_template data_code="83894142" name="특별한 클리페스 제조법"/>
+	<l10n_template data_code="83894143" name="고귀한 클리페스 제조법"/>
+	<l10n_template data_code="83894144" name="금속 허리띠 제조법"/>
+	<l10n_template data_code="83894145" name="견고한 금속 허리띠 제조법"/>
+	<l10n_template data_code="83894146" name="특별한 금속 허리띠 제조법"/>
+	<l10n_template data_code="83894147" name="고귀한 금속 허리띠 제조법"/>
+	<l10n_template data_code="83894148" name="투지의 허리띠 제조법"/>
+	<l10n_template data_code="83894149" name="견고한 투지의 허리띠 제조법"/>
+	<l10n_template data_code="83894150" name="특별한 투지의 허리띠 제조법"/>
+	<l10n_template data_code="83894151" name="고귀한 투지의 허리띠 제조법"/>
+	<l10n_template data_code="83894152" name="진실의 허리띠 제조법"/>
+	<l10n_template data_code="83894153" name="견고한 진실의 허리띠 제조법"/>
+	<l10n_template data_code="83894154" name="특별한 진실의 허리띠 제조법"/>
+	<l10n_template data_code="83894155" name="고귀한 진실의 허리띠 제조법"/>
+	<l10n_template data_code="83894156" name="용맹의 허리띠 제조법"/>
+	<l10n_template data_code="83894157" name="견고한 용맹의 허리띠 제조법"/>
+	<l10n_template data_code="83894158" name="특별한 용맹의 허리띠 제조법"/>
+	<l10n_template data_code="83894159" name="고귀한 용맹의 허리띠 제조법"/>
+	<l10n_template data_code="83894160" name="용사의 허리띠 제조법"/>
+	<l10n_template data_code="83894161" name="견고한 용사의 허리띠 제조법"/>
+	<l10n_template data_code="83894162" name="특별한 용사의 허리띠 제조법"/>
+	<l10n_template data_code="83894163" name="고귀한 용사의 허리띠 제조법"/>
+	<l10n_template data_code="83894164" name="가죽 허리띠 제조법"/>
+	<l10n_template data_code="83894165" name="견고한 가죽 허리띠 제조법"/>
+	<l10n_template data_code="83894166" name="특별한 가죽 허리띠 제조법"/>
+	<l10n_template data_code="83894167" name="고귀한 가죽 허리띠 제조법"/>
+	<l10n_template data_code="83894168" name="모험가 허리띠 제조법"/>
+	<l10n_template data_code="83894169" name="견고한 모험가 허리띠 제조법"/>
+	<l10n_template data_code="83894170" name="특별한 모험가 허리띠 제조법"/>
+	<l10n_template data_code="83894171" name="고귀한 모험가 허리띠 제조법"/>
+	<l10n_template data_code="83894172" name="파멸의 허리띠 제조법"/>
+	<l10n_template data_code="83894173" name="견고한 파멸의 허리띠 제조법"/>
+	<l10n_template data_code="83894174" name="특별한 파멸의 허리띠 제조법"/>
+	<l10n_template data_code="83894175" name="고귀한 파멸의 허리띠 제조법"/>
+	<l10n_template data_code="83894176" name="영광의 허리띠 제조법"/>
+	<l10n_template data_code="83894177" name="견고한 영광의 허리띠 제조법"/>
+	<l10n_template data_code="83894178" name="특별한 영광의 허리띠 제조법"/>
+	<l10n_template data_code="83894179" name="고귀한 영광의 허리띠 제조법"/>
+	<l10n_template data_code="83894180" name="신비의 허리띠 제조법"/>
+	<l10n_template data_code="83894181" name="견고한 신비의 허리띠 제조법"/>
+	<l10n_template data_code="83894182" name="특별한 신비의 허리띠 제조법"/>
+	<l10n_template data_code="83894183" name="고귀한 신비의 허리띠 제조법"/>
+	<l10n_template data_code="83894184" name="천 허리띠 제조법"/>
+	<l10n_template data_code="83894185" name="견고한 천 허리띠 제조법"/>
+	<l10n_template data_code="83894186" name="특별한 천 허리띠 제조법"/>
+	<l10n_template data_code="83894187" name="고귀한 천 허리띠 제조법"/>
+	<l10n_template data_code="83894188" name="마법의 허리띠 제조법"/>
+	<l10n_template data_code="83894189" name="견고한 마법의 허리띠 제조법"/>
+	<l10n_template data_code="83894190" name="특별한 마법의 허리띠 제조법"/>
+	<l10n_template data_code="83894191" name="고귀한 마법의 허리띠 제조법"/>
+	<l10n_template data_code="83894192" name="진리의 허리띠 제조법"/>
+	<l10n_template data_code="83894193" name="견고한 진리의 허리띠 제조법"/>
+	<l10n_template data_code="83894194" name="특별한 진리의 허리띠 제조법"/>
+	<l10n_template data_code="83894195" name="고귀한 진리의 허리띠 제조법"/>
+	<l10n_template data_code="83894196" name="파괴의 허리띠 제조법"/>
+	<l10n_template data_code="83894197" name="견고한 파괴의 허리띠 제조법"/>
+	<l10n_template data_code="83894198" name="특별한 파괴의 허리띠 제조법"/>
+	<l10n_template data_code="83894199" name="고귀한 파괴의 허리띠 제조법"/>
+	<l10n_template data_code="83894200" name="현자의 허리띠 제조법"/>
+	<l10n_template data_code="83894201" name="견고한 현자의 허리띠 제조법"/>
+	<l10n_template data_code="83894202" name="특별한 현자의 허리띠 제조법"/>
+	<l10n_template data_code="83894203" name="고귀한 현자의 허리띠 제조법"/>
+	<l10n_template data_code="83894204" name="불꽃 장갑 제조법"/>
+	<l10n_template data_code="83894205" name="견고한 불꽃 장갑 제조법"/>
+	<l10n_template data_code="83894206" name="특별한 불꽃 장갑 제조법"/>
+	<l10n_template data_code="83894207" name="고귀한 불꽃 장갑 제조법"/>
+	<l10n_template data_code="83894208" name="하번의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894209" name="견고한 하번의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894210" name="특별한 하번의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894211" name="고귀한 하번의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894212" name="가디언 장갑 제조법"/>
+	<l10n_template data_code="83894213" name="견고한 가디언 장갑 제조법"/>
+	<l10n_template data_code="83894214" name="특별한 가디언 장갑 제조법"/>
+	<l10n_template data_code="83894215" name="고귀한 가디언 장갑 제조법"/>
+	<l10n_template data_code="83894216" name="천 장갑 제조법"/>
+	<l10n_template data_code="83894217" name="견고한 천 장갑 제조법"/>
+	<l10n_template data_code="83894218" name="특별한 천 장갑 제조법"/>
+	<l10n_template data_code="83894219" name="고귀한 천 장갑 제조법"/>
+	<l10n_template data_code="83894220" name="질긴 천 장갑 제조법"/>
+	<l10n_template data_code="83894221" name="견고한 질긴 천 장갑 제조법"/>
+	<l10n_template data_code="83894222" name="특별한 질긴 천 장갑 제조법"/>
+	<l10n_template data_code="83894223" name="고귀한 질긴 천 장갑 제조법"/>
+	<l10n_template data_code="83894224" name="수련 장갑 제조법"/>
+	<l10n_template data_code="83894225" name="견고한 수련 장갑 제조법"/>
+	<l10n_template data_code="83894226" name="특별한 수련 장갑 제조법"/>
+	<l10n_template data_code="83894227" name="고귀한 수련 장갑 제조법"/>
+	<l10n_template data_code="83894228" name="고뇌의 장갑 제조법"/>
+	<l10n_template data_code="83894229" name="견고한 고뇌의 장갑 제조법"/>
+	<l10n_template data_code="83894230" name="특별한 고뇌의 장갑 제조법"/>
+	<l10n_template data_code="83894231" name="고귀한 고뇌의 장갑 제조법"/>
+	<l10n_template data_code="83894232" name="현자의 장갑 제조법"/>
+	<l10n_template data_code="83894233" name="견고한 현자의 장갑 제조법"/>
+	<l10n_template data_code="83894234" name="특별한 현자의 장갑 제조법"/>
+	<l10n_template data_code="83894235" name="고귀한 현자의 장갑 제조법"/>
+	<l10n_template data_code="83894236" name="마인 장갑 제조법"/>
+	<l10n_template data_code="83894237" name="견고한 마인 장갑 제조법"/>
+	<l10n_template data_code="83894238" name="특별한 마인 장갑 제조법"/>
+	<l10n_template data_code="83894239" name="고귀한 마인 장갑 제조법"/>
+	<l10n_template data_code="83894240" name="각성의 장갑 제조법"/>
+	<l10n_template data_code="83894241" name="견고한 각성의 장갑 제조법"/>
+	<l10n_template data_code="83894242" name="특별한 각성의 장갑 제조법"/>
+	<l10n_template data_code="83894243" name="고귀한 각성의 장갑 제조법"/>
+	<l10n_template data_code="83894244" name="혼돈의 장갑 제조법"/>
+	<l10n_template data_code="83894245" name="견고한 혼돈의 장갑 제조법"/>
+	<l10n_template data_code="83894246" name="특별한 혼돈의 장갑 제조법"/>
+	<l10n_template data_code="83894247" name="고귀한 혼돈의 장갑 제조법"/>
+	<l10n_template data_code="83894248" name="가죽 장갑 제조법"/>
+	<l10n_template data_code="83894249" name="견고한 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894250" name="특별한 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894251" name="고귀한 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894252" name="강화 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894253" name="견고한 강화 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894254" name="특별한 강화 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894255" name="고귀한 강화 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894256" name="전투 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894257" name="견고한 전투 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894258" name="특별한 전투 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894259" name="고귀한 전투 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894260" name="혼돈의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894261" name="견고한 혼돈의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894262" name="특별한 혼돈의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894263" name="고귀한 혼돈의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894264" name="신성의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894265" name="견고한 신성의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894266" name="특별한 신성의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894267" name="고귀한 신성의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894268" name="용맹의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894269" name="견고한 용맹의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894270" name="특별한 용맹의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894271" name="고귀한 용맹의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894272" name="암살자 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894273" name="견고한 암살자 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894274" name="특별한 암살자 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894275" name="고귀한 암살자 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894276" name="정령의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894277" name="견고한 정령의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894278" name="특별한 정령의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894279" name="고귀한 정령의 가죽 장갑 제조법"/>
+	<l10n_template data_code="83894280" name="칼칸 제조법"/>
+	<l10n_template data_code="83894281" name="견고한 칼칸 제조법"/>
+	<l10n_template data_code="83894282" name="특별한 칼칸 제조법"/>
+	<l10n_template data_code="83894283" name="고귀한 칼칸 제조법"/>
+	<l10n_template data_code="83898080" name="가죽끈 신발 제조법"/>
+	<l10n_template data_code="83898081" name="견고한 가죽끈 신발 제조법"/>
+	<l10n_template data_code="83898082" name="특별한 가죽끈 신발 제조법"/>
+	<l10n_template data_code="83898083" name="고귀한 가죽끈 신발 제조법"/>
+	<l10n_template data_code="83898084" name="가죽 신발 제조법"/>
+	<l10n_template data_code="83898085" name="견고한 가죽 신발 제조법"/>
+	<l10n_template data_code="83898086" name="특별한 가죽 신발 제조법"/>
+	<l10n_template data_code="83898087" name="고귀한 가죽 신발 제조법"/>
+	<l10n_template data_code="83898088" name="세공된 가죽 신발 제조법"/>
+	<l10n_template data_code="83898089" name="견고한 세공된 가죽 신발 제조법"/>
+	<l10n_template data_code="83898090" name="특별한 세공된 가죽 신발 제조법"/>
+	<l10n_template data_code="83898091" name="고귀한 세공된 가죽 신발 제조법"/>
+	<l10n_template data_code="83898092" name="사바톤 제조법"/>
+	<l10n_template data_code="83898093" name="견고한 사바톤 제조법"/>
+	<l10n_template data_code="83898094" name="특별한 사바톤 제조법"/>
+	<l10n_template data_code="83898095" name="고귀한 사바톤 제조법"/>
+	<l10n_template data_code="83898096" name="기사의 사바톤 제조법"/>
+	<l10n_template data_code="83898097" name="견고한 기사의 사바톤 제조법"/>
+	<l10n_template data_code="83898098" name="특별한 기사의 사바톤 제조법"/>
+	<l10n_template data_code="83898099" name="고귀한 기사의 사바톤 제조법"/>
+	<l10n_template data_code="83898100" name="신발 제조법"/>
+	<l10n_template data_code="83898101" name="견고한 신발 제조법"/>
+	<l10n_template data_code="83898102" name="특별한 신발 제조법"/>
+	<l10n_template data_code="83898103" name="고귀한 신발 제조법"/>
+	<l10n_template data_code="83898104" name="마법의 신발 제조법"/>
+	<l10n_template data_code="83898105" name="견고한 마법의 신발 제조법"/>
+	<l10n_template data_code="83898106" name="특별한 마법의 신발 제조법"/>
+	<l10n_template data_code="83898107" name="고귀한 마법의 신발 제조법"/>
+	<l10n_template data_code="83898108" name="용맹의 사바톤 제조법"/>
+	<l10n_template data_code="83898109" name="견고한 용맹의 사바톤 제조법"/>
+	<l10n_template data_code="83898110" name="특별한 용맹의 사바톤 제조법"/>
+	<l10n_template data_code="83898111" name="고귀한 용맹의 사바톤 제조법"/>
+	<l10n_template data_code="83898112" name="사슬 사바톤 제조법"/>
+	<l10n_template data_code="83898113" name="견고한 사슬 사바톤 제조법"/>
+	<l10n_template data_code="83898114" name="특별한 사슬 사바톤 제조법"/>
+	<l10n_template data_code="83898115" name="고귀한 사슬 사바톤 제조법"/>
+	<l10n_template data_code="83898116" name="고급 가죽 신발 제조법"/>
+	<l10n_template data_code="83898117" name="견고한 고급 가죽 신발 제조법"/>
+	<l10n_template data_code="83898118" name="특별한 고급 가죽 신발 제조법"/>
+	<l10n_template data_code="83898119" name="고귀한 고급 가죽 신발 제조법"/>
+	<l10n_template data_code="83898120" name="장인의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898121" name="견고한 장인의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898122" name="특별한 장인의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898123" name="고귀한 장인의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898124" name="암살자 가죽 신발 제조법"/>
+	<l10n_template data_code="83898125" name="견고한 암살자 가죽 신발 제조법"/>
+	<l10n_template data_code="83898126" name="특별한 암살자 가죽 신발 제조법"/>
+	<l10n_template data_code="83898127" name="고귀한 암살자 가죽 신발 제조법"/>
+	<l10n_template data_code="83898128" name="침묵의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898129" name="견고한 침묵의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898130" name="특별한 침묵의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898131" name="고귀한 침묵의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898132" name="어둠의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898133" name="견고한 어둠의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898134" name="특별한 어둠의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898135" name="고귀한 어둠의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898136" name="강철 사바톤 제조법"/>
+	<l10n_template data_code="83898137" name="견고한 강철 사바톤 제조법"/>
+	<l10n_template data_code="83898138" name="특별한 강철 사바톤 제조법"/>
+	<l10n_template data_code="83898139" name="고귀한 강철 사바톤 제조법"/>
+	<l10n_template data_code="83898140" name="전사의 사바톤 제조법"/>
+	<l10n_template data_code="83898141" name="견고한 전사의 사바톤 제조법"/>
+	<l10n_template data_code="83898142" name="특별한 전사의 사바톤 제조법"/>
+	<l10n_template data_code="83898143" name="고귀한 전사의 사바톤 제조법"/>
+	<l10n_template data_code="83898144" name="승리의 사바톤 제조법"/>
+	<l10n_template data_code="83898145" name="견고한 승리의 사바톤 제조법"/>
+	<l10n_template data_code="83898146" name="특별한 승리의 사바톤 제조법"/>
+	<l10n_template data_code="83898147" name="고귀한 승리의 사바톤 제조법"/>
+	<l10n_template data_code="83898148" name="공포의 사바톤 제조법"/>
+	<l10n_template data_code="83898149" name="견고한 공포의 사바톤 제조법"/>
+	<l10n_template data_code="83898150" name="특별한 공포의 사바톤 제조법"/>
+	<l10n_template data_code="83898151" name="고귀한 공포의 사바톤 제조법"/>
+	<l10n_template data_code="83898152" name="고급 신발 제조법"/>
+	<l10n_template data_code="83898153" name="견고한 고급 신발 제조법"/>
+	<l10n_template data_code="83898154" name="특별한 고급 신발 제조법"/>
+	<l10n_template data_code="83898155" name="고귀한 고급 신발 제조법"/>
+	<l10n_template data_code="83898156" name="수련의 신발 제조법"/>
+	<l10n_template data_code="83898157" name="견고한 수련의 신발 제조법"/>
+	<l10n_template data_code="83898158" name="특별한 수련의 신발 제조법"/>
+	<l10n_template data_code="83898159" name="고귀한 수련의 신발 제조법"/>
+	<l10n_template data_code="83898160" name="정령의 신발 제조법"/>
+	<l10n_template data_code="83898161" name="견고한 정령의 신발 제조법"/>
+	<l10n_template data_code="83898162" name="특별한 정령의 신발 제조법"/>
+	<l10n_template data_code="83898163" name="고귀한 정령의 신발 제조법"/>
+	<l10n_template data_code="83898164" name="축복의 신발 제조법"/>
+	<l10n_template data_code="83898165" name="견고한 축복의 신발 제조법"/>
+	<l10n_template data_code="83898166" name="특별한 축복의 신발 제조법"/>
+	<l10n_template data_code="83898167" name="고귀한 축복의 신발 제조법"/>
+	<l10n_template data_code="83898168" name="마력의 신발 제조법"/>
+	<l10n_template data_code="83898169" name="견고한 마력의 신발 제조법"/>
+	<l10n_template data_code="83898170" name="특별한 마력의 신발 제조법"/>
+	<l10n_template data_code="83898171" name="고귀한 마력의 신발 제조법"/>
+	<l10n_template data_code="83898172" name="예지의 신발 제조법"/>
+	<l10n_template data_code="83898173" name="견고한 예지의 신발 제조법"/>
+	<l10n_template data_code="83898174" name="특별한 예지의 신발 제조법"/>
+	<l10n_template data_code="83898175" name="고귀한 예지의 신발 제조법"/>
+	<l10n_template data_code="83898176" name="불꽃 신발 제조법"/>
+	<l10n_template data_code="83898177" name="견고한 불꽃 신발 제조법"/>
+	<l10n_template data_code="83898178" name="특별한 불꽃 신발 제조법"/>
+	<l10n_template data_code="83898179" name="고귀한 불꽃 신발 제조법"/>
+	<l10n_template data_code="83898180" name="하번의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898181" name="견고한 하번의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898182" name="특별한 하번의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898183" name="고귀한 하번의 가죽 신발 제조법"/>
+	<l10n_template data_code="83898184" name="가디언 사바톤 제조법"/>
+	<l10n_template data_code="83898185" name="견고한 가디언 사바톤 제조법"/>
+	<l10n_template data_code="83898186" name="특별한 가디언 사바톤 제조법"/>
+	<l10n_template data_code="83898187" name="고귀한 가디언 사바톤 제조법"/>
+	<l10n_template data_code="83900080" name="그라디우스 제조법"/>
+	<l10n_template data_code="83900081" name="견고한 그라디우스 제조법"/>
+	<l10n_template data_code="83900082" name="특별한 그라디우스 제조법"/>
+	<l10n_template data_code="83900083" name="고귀한 그라디우스 제조법"/>
+	<l10n_template data_code="83900084" name="바이킹 도끼 제조법"/>
+	<l10n_template data_code="83900085" name="견고한 바이킹 도끼 제조법"/>
+	<l10n_template data_code="83900086" name="특별한 바이킹 도끼 제조법"/>
+	<l10n_template data_code="83900087" name="고귀한 바이킹 도끼 제조법"/>
+	<l10n_template data_code="83900088" name="바람의 그라디우스 제조법"/>
+	<l10n_template data_code="83900089" name="견고한 바람의 그라디우스 제조법"/>
+	<l10n_template data_code="83900090" name="특별한 바람의 그라디우스 제조법"/>
+	<l10n_template data_code="83900091" name="고귀한 바람의 그라디우스 제조법"/>
+	<l10n_template data_code="83900092" name="롱소드 제조법"/>
+	<l10n_template data_code="83900093" name="견고한 롱소드 제조법"/>
+	<l10n_template data_code="83900094" name="특별한 롱소드 제조법"/>
+	<l10n_template data_code="83900095" name="고귀한 롱소드 제조법"/>
+	<l10n_template data_code="83900096" name="템플러 소드 제조법"/>
+	<l10n_template data_code="83900097" name="견고한 템플러 소드 제조법"/>
+	<l10n_template data_code="83900098" name="특별한 템플러 소드 제조법"/>
+	<l10n_template data_code="83900099" name="고귀한 템플러 소드 제조법"/>
+	<l10n_template data_code="83900100" name="단검 제조법"/>
+	<l10n_template data_code="83900101" name="견고한 단검 제조법"/>
+	<l10n_template data_code="83900102" name="특별한 단검 제조법"/>
+	<l10n_template data_code="83900103" name="고귀한 단검 제조법"/>
+	<l10n_template data_code="83900104" name="화염의 템플러 소드 제조법"/>
+	<l10n_template data_code="83900105" name="견고한 화염의 템플러 소드 제조법"/>
+	<l10n_template data_code="83900106" name="특별한 화염의 템플러 소드 제조법"/>
+	<l10n_template data_code="83900107" name="고귀한 화염의 템플러 소드 제조법"/>
+	<l10n_template data_code="83900108" name="저주받은 검 제조법"/>
+	<l10n_template data_code="83900109" name="견고한 저주받은 검 제조법"/>
+	<l10n_template data_code="83900110" name="특별한 저주받은 검 제조법"/>
+	<l10n_template data_code="83900111" name="고귀한 저주받은 검 제조법"/>
+	<l10n_template data_code="83900112" name="용사의 검 제조법"/>
+	<l10n_template data_code="83900113" name="견고한 용사의 검 제조법"/>
+	<l10n_template data_code="83900114" name="특별한 용사의 검 제조법"/>
+	<l10n_template data_code="83900115" name="고귀한 용사의 검 제조법"/>
+	<l10n_template data_code="83900116" name="사냥꾼 활 제조법"/>
+	<l10n_template data_code="83900117" name="견고한 사냥꾼 활 제조법"/>
+	<l10n_template data_code="83900118" name="특별한 사냥꾼 활 제조법"/>
+	<l10n_template data_code="83900119" name="고귀한 사냥꾼 활 제조법"/>
+	<l10n_template data_code="83900120" name="사냥꾼 석궁 제조법"/>
+	<l10n_template data_code="83900121" name="견고한 사냥꾼 석궁 제조법"/>
+	<l10n_template data_code="83900122" name="특별한 사냥꾼 석궁 제조법"/>
+	<l10n_template data_code="83900123" name="고귀한 사냥꾼 석궁 제조법"/>
+	<l10n_template data_code="83900124" name="수련자의 활 제조법"/>
+	<l10n_template data_code="83900125" name="견고한 수련자의 활 제조법"/>
+	<l10n_template data_code="83900126" name="특별한 수련자의 활 제조법"/>
+	<l10n_template data_code="83900127" name="고귀한 수련자의 활 제조법"/>
+	<l10n_template data_code="83900128" name="수련자의 석궁 제조법"/>
+	<l10n_template data_code="83900129" name="견고한 수련자의 석궁 제조법"/>
+	<l10n_template data_code="83900130" name="특별한 수련자의 석궁 제조법"/>
+	<l10n_template data_code="83900131" name="고귀한 수련자의 석궁 제조법"/>
+	<l10n_template data_code="83900132" name="장궁 제조법"/>
+	<l10n_template data_code="83900133" name="견고한 장궁 제조법"/>
+	<l10n_template data_code="83900134" name="특별한 장궁 제조법"/>
+	<l10n_template data_code="83900135" name="고귀한 장궁 제조법"/>
+	<l10n_template data_code="83900136" name="저주받은 활 제조법"/>
+	<l10n_template data_code="83900137" name="견고한 저주받은 활 제조법"/>
+	<l10n_template data_code="83900138" name="특별한 저주받은 활 제조법"/>
+	<l10n_template data_code="83900139" name="고귀한 저주받은 활 제조법"/>
+	<l10n_template data_code="83900140" name="저주받은 석궁 제조법"/>
+	<l10n_template data_code="83900141" name="견고한 저주받은 석궁 제조법"/>
+	<l10n_template data_code="83900142" name="특별한 저주받은 석궁 제조법"/>
+	<l10n_template data_code="83900143" name="고귀한 저주받은 석궁 제조법"/>
+	<l10n_template data_code="83900144" name="극한의 활 제조법"/>
+	<l10n_template data_code="83900145" name="견고한 극한의 활 제조법"/>
+	<l10n_template data_code="83900146" name="특별한 극한의 활 제조법"/>
+	<l10n_template data_code="83900147" name="고귀한 극한의 활 제조법"/>
+	<l10n_template data_code="83900148" name="독수리 지팡이 제조법"/>
+	<l10n_template data_code="83900149" name="견고한 독수리 지팡이 제조법"/>
+	<l10n_template data_code="83900150" name="특별한 독수리 지팡이 제조법"/>
+	<l10n_template data_code="83900151" name="고귀한 독수리 지팡이 제조법"/>
+	<l10n_template data_code="83900152" name="마력의 지팡이 제조법"/>
+	<l10n_template data_code="83900153" name="견고한 마력의 지팡이 제조법"/>
+	<l10n_template data_code="83900154" name="특별한 마력의 지팡이 제조법"/>
+	<l10n_template data_code="83900155" name="고귀한 마력의 지팡이 제조법"/>
+	<l10n_template data_code="83900156" name="미늘창 제조법"/>
+	<l10n_template data_code="83900157" name="견고한 미늘창 제조법"/>
+	<l10n_template data_code="83900158" name="특별한 미늘창 제조법"/>
+	<l10n_template data_code="83900159" name="고귀한 미늘창 제조법"/>
+	<l10n_template data_code="83900160" name="마법의 지팡이 제조법"/>
+	<l10n_template data_code="83900161" name="견고한 마법의 지팡이 제조법"/>
+	<l10n_template data_code="83900162" name="특별한 마법의 지팡이 제조법"/>
+	<l10n_template data_code="83900163" name="고귀한 마법의 지팡이 제조법"/>
+	<l10n_template data_code="83900164" name="각성의 지팡이 제조법"/>
+	<l10n_template data_code="83900165" name="견고한 각성의 지팡이 제조법"/>
+	<l10n_template data_code="83900166" name="특별한 각성의 지팡이 제조법"/>
+	<l10n_template data_code="83900167" name="고귀한 각성의 지팡이 제조법"/>
+	<l10n_template data_code="83900168" name="저주받은 창 제조법"/>
+	<l10n_template data_code="83900169" name="견고한 저주받은 창 제조법"/>
+	<l10n_template data_code="83900170" name="특별한 저주받은 창 제조법"/>
+	<l10n_template data_code="83900171" name="고귀한 저주받은 창 제조법"/>
+	<l10n_template data_code="83900172" name="현자의 지팡이 제조법"/>
+	<l10n_template data_code="83900173" name="견고한 현자의 지팡이 제조법"/>
+	<l10n_template data_code="83900174" name="특별한 현자의 지팡이 제조법"/>
+	<l10n_template data_code="83900175" name="고귀한 현자의 지팡이 제조법"/>
+	<l10n_template data_code="83900176" name="정령의 지팡이 제조법"/>
+	<l10n_template data_code="83900177" name="견고한 정령의 지팡이 제조법"/>
+	<l10n_template data_code="83900178" name="특별한 정령의 지팡이 제조법"/>
+	<l10n_template data_code="83900179" name="고귀한 정령의 지팡이 제조법"/>
+	<l10n_template data_code="83900180" name="츠바이한더 제조법"/>
+	<l10n_template data_code="83900181" name="견고한 츠바이한더 제조법"/>
+	<l10n_template data_code="83900182" name="특별한 츠바이한더 제조법"/>
+	<l10n_template data_code="83900183" name="고귀한 츠바이한더 제조법"/>
+	<l10n_template data_code="83900184" name="양날 도끼 제조법"/>
+	<l10n_template data_code="83900185" name="견고한 양날 도끼 제조법"/>
+	<l10n_template data_code="83900186" name="특별한 양날 도끼 제조법"/>
+	<l10n_template data_code="83900187" name="고귀한 양날 도끼 제조법"/>
+	<l10n_template data_code="83900188" name="바스타드 소드 제조법"/>
+	<l10n_template data_code="83900189" name="견고한 바스타드 소드 제조법"/>
+	<l10n_template data_code="83900190" name="특별한 바스타드 소드 제조법"/>
+	<l10n_template data_code="83900191" name="고귀한 바스타드 소드 제조법"/>
+	<l10n_template data_code="83900192" name="클레이모어 제조법"/>
+	<l10n_template data_code="83900193" name="견고한 클레이모어 제조법"/>
+	<l10n_template data_code="83900194" name="특별한 클레이모어 제조법"/>
+	<l10n_template data_code="83900195" name="고귀한 클레이모어 제조법"/>
+	<l10n_template data_code="83900196" name="화염의 바스타드 소드 제조법"/>
+	<l10n_template data_code="83900197" name="견고한 화염의 바스타드 소드 제조법"/>
+	<l10n_template data_code="83900198" name="특별한 화염의 바스타드 소드 제조법"/>
+	<l10n_template data_code="83900199" name="고귀한 화염의 바스타드 소드 제조법"/>
+	<l10n_template data_code="83900200" name="고통의 클레이모어 제조법"/>
+	<l10n_template data_code="83900201" name="견고한 고통의 클레이모어 제조법"/>
+	<l10n_template data_code="83900202" name="특별한 고통의 클레이모어 제조법"/>
+	<l10n_template data_code="83900203" name="고귀한 고통의 클레이모어 제조법"/>
+	<l10n_template data_code="83900204" name="시미터 제조법"/>
+	<l10n_template data_code="83900205" name="견고한 시미터 제조법"/>
+	<l10n_template data_code="83900206" name="특별한 시미터 제조법"/>
+	<l10n_template data_code="83900207" name="고귀한 시미터 제조법"/>
+	<l10n_template data_code="83900208" name="저주받은 대검 제조법"/>
+	<l10n_template data_code="83900209" name="견고한 저주받은 대검 제조법"/>
+	<l10n_template data_code="83900210" name="특별한 저주받은 대검 제조법"/>
+	<l10n_template data_code="83900211" name="고귀한 저주받은 대검 제조법"/>
+	<l10n_template data_code="83900212" name="스파이크드 클럽 제조법"/>
+	<l10n_template data_code="83900213" name="견고한 스파이크드 클럽 제조법"/>
+	<l10n_template data_code="83900214" name="특별한 스파이크드 클럽 제조법"/>
+	<l10n_template data_code="83900215" name="고귀한 스파이크드 클럽 제조법"/>
+	<l10n_template data_code="83900216" name="워해머 제조법"/>
+	<l10n_template data_code="83900217" name="견고한 워해머 제조법"/>
+	<l10n_template data_code="83900218" name="특별한 워해머 제조법"/>
+	<l10n_template data_code="83900219" name="고귀한 워해머 제조법"/>
+	<l10n_template data_code="83900220" name="모닝스타 제조법"/>
+	<l10n_template data_code="83900221" name="견고한 모닝스타 제조법"/>
+	<l10n_template data_code="83900222" name="특별한 모닝스타 제조법"/>
+	<l10n_template data_code="83900223" name="고귀한 모닝스타 제조법"/>
+	<l10n_template data_code="83900224" name="메이스 제조법"/>
+	<l10n_template data_code="83900225" name="견고한 메이스 제조법"/>
+	<l10n_template data_code="83900226" name="특별한 메이스 제조법"/>
+	<l10n_template data_code="83900227" name="고귀한 메이스 제조법"/>
+	<l10n_template data_code="83900228" name="대지의 워해머 제조법"/>
+	<l10n_template data_code="83900229" name="견고한 대지의 워해머 제조법"/>
+	<l10n_template data_code="83900230" name="특별한 대지의 워해머 제조법"/>
+	<l10n_template data_code="83900231" name="고귀한 대지의 워해머 제조법"/>
+	<l10n_template data_code="83900232" name="파괴의 모닝스타 제조법"/>
+	<l10n_template data_code="83900233" name="견고한 파괴의 모닝스타 제조법"/>
+	<l10n_template data_code="83900234" name="특별한 파괴의 모닝스타 제조법"/>
+	<l10n_template data_code="83900235" name="고귀한 파괴의 모닝스타 제조법"/>
+	<l10n_template data_code="83900236" name="저주받은 모닝스타 제조법"/>
+	<l10n_template data_code="83900237" name="견고한 저주받은 모닝스타 제조법"/>
+	<l10n_template data_code="83900238" name="특별한 저주받은 모닝스타 제조법"/>
+	<l10n_template data_code="83900239" name="고귀한 저주받은 모닝스타 제조법"/>
+	<l10n_template data_code="83900240" name="성기사 메이스 제조법"/>
+	<l10n_template data_code="83900241" name="견고한 성기사 메이스 제조법"/>
+	<l10n_template data_code="83900242" name="특별한 성기사 메이스 제조법"/>
+	<l10n_template data_code="83900243" name="고귀한 성기사 메이스 제조법"/>
+	<l10n_template data_code="83900244" name="강철 망치 제조법"/>
+	<l10n_template data_code="83900245" name="견고한 강철 망치 제조법"/>
+	<l10n_template data_code="83900246" name="특별한 강철 망치 제조법"/>
+	<l10n_template data_code="83900247" name="고귀한 강철 망치 제조법"/>
+	<l10n_template data_code="83900248" name="나무 망치 제조법"/>
+	<l10n_template data_code="83900249" name="견고한 나무 망치 제조법"/>
+	<l10n_template data_code="83900250" name="특별한 나무 망치 제조법"/>
+	<l10n_template data_code="83900251" name="고귀한 나무 망치 제조법"/>
+	<l10n_template data_code="83900252" name="워엑스 제조법"/>
+	<l10n_template data_code="83900253" name="견고한 워엑스 제조법"/>
+	<l10n_template data_code="83900254" name="특별한 워엑스 제조법"/>
+	<l10n_template data_code="83900255" name="고귀한 워엑스 제조법"/>
+	<l10n_template data_code="83900256" name="구르즈 제조법"/>
+	<l10n_template data_code="83900257" name="견고한 구르즈 제조법"/>
+	<l10n_template data_code="83900258" name="특별한 구르즈 제조법"/>
+	<l10n_template data_code="83900259" name="고귀한 구르즈 제조법"/>
+	<l10n_template data_code="83900260" name="저주받은 망치 제조법"/>
+	<l10n_template data_code="83900261" name="견고한 저주받은 망치 제조법"/>
+	<l10n_template data_code="83900262" name="특별한 저주받은 망치 제조법"/>
+	<l10n_template data_code="83900263" name="고귀한 저주받은 망치 제조법"/>
+	<l10n_template data_code="83900264" name="공포의 전투 망치 제조법"/>
+	<l10n_template data_code="83900265" name="견고한 공포의 전투 망치 제조법"/>
+	<l10n_template data_code="83900266" name="특별한 공포의 전투 망치 제조법"/>
+	<l10n_template data_code="83900267" name="고귀한 공포의 전투 망치 제조법"/>
+	<l10n_template data_code="83900268" name="통한의 구르즈 제조법"/>
+	<l10n_template data_code="83900269" name="견고한 통한의 구르즈 제조법"/>
+	<l10n_template data_code="83900270" name="특별한 통한의 구르즈 제조법"/>
+	<l10n_template data_code="83900271" name="고귀한 통한의 구르즈 제조법"/>
+	<l10n_template data_code="83900272" name="승리의 전투 망치 제조법"/>
+	<l10n_template data_code="83900273" name="견고한 승리의 전투 망치 제조법"/>
+	<l10n_template data_code="83900274" name="특별한 승리의 전투 망치 제조법"/>
+	<l10n_template data_code="83900275" name="고귀한 승리의 전투 망치 제조법"/>
+	<l10n_template data_code="83900276" name="불꽃 단검 제조법"/>
+	<l10n_template data_code="83900277" name="견고한 불꽃 단검 제조법"/>
+	<l10n_template data_code="83900278" name="특별한 불꽃 단검 제조법"/>
+	<l10n_template data_code="83900279" name="고귀한 불꽃 단검 제조법"/>
+	<l10n_template data_code="83900280" name="정령의 단검 제조법"/>
+	<l10n_template data_code="83900281" name="견고한 정령의 단검 제조법"/>
+	<l10n_template data_code="83900282" name="특별한 정령의 단검 제조법"/>
+	<l10n_template data_code="83900283" name="고귀한 정령의 단검 제조법"/>
+	<l10n_template data_code="83900284" name="공포의 구르즈 제조법"/>
+	<l10n_template data_code="83900285" name="견고한 공포의 구르즈 제조법"/>
+	<l10n_template data_code="83900286" name="특별한 공포의 구르즈 제조법"/>
+	<l10n_template data_code="83900287" name="고귀한 공포의 구르즈 제조법"/>
+</l10n_table>

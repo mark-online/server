@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111614">
+    <createTable tableName="Server_Specs" remarks="servers specification">
+      <column name="name" type="VARCHAR(30)">
+        <constraints nullable="false" primaryKey="true" primaryKeyName="pk_Server_Specs"/>
+      </column>
+      <column name="host_name" type="VARCHAR(30)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="listening_address" type="VARCHAR(30)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="listening_port" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="monitor_port" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="worker_thread_count" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="session_pool_size" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="max_user_count" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="packet_cipher" type="VARCHAR(10)">
+        <constraints nullable="false"/>
+      </column>
+      <column name="cipher_key_time_limit" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="authentication_timeout" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="heartbeat_timeout" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="max_bytes_per_second" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="seconds_for_throttling" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="max_pendable_packet_count" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="certificate" type="VARCHAR(10)" defaultValue="change_me">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addForeignKeyConstraint constraintName="fk_Hosts_Server_Specs"
+        baseColumnNames="host_name" baseTableName="Server_Specs"
+        referencedColumnNames="name" referencedTableName="Hosts"
+        onDelete="CASCADE" />
+
+  </changeSet>
+  
+</databaseChangeLog>

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="100794373" name="해골"/>
+	<l10n_template data_code="100794378" name="오염된 거미"/>
+	<l10n_template data_code="100794383" name="좀도둑"/>
+	<l10n_template data_code="100925460" name="암탉"/>
+	<l10n_template data_code="100794393" name="해골 전사"/>
+	<l10n_template data_code="100794398" name="허약한 위습"/>
+	<l10n_template data_code="100794403" name="쥐"/>
+	<l10n_template data_code="100794408" name="사슴"/>
+	<l10n_template data_code="101056557" name="고블린" desc="( 파괴자 )"/>
+	<l10n_template data_code="100794414" name="고블린 보초병"/>
+	<l10n_template data_code="100794418" name="감염된 늪지 전갈"/>
+	<l10n_template data_code="100794423" name="사막 전갈"/>
+	<l10n_template data_code="100794428" name="오염된 쥐"/>
+	<l10n_template data_code="100794433" name="지휘관 해골" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056582" name="추종자" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056583" name="마계 추종자" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056587" name="마계 군단병" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056592" name="고블린 전사"/>
+	<l10n_template data_code="100794453" name="도둑"/>
+	<l10n_template data_code="100794458" name="상처입은 멧돼지" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056607" name="고블린 마법사"/>
+	<l10n_template data_code="100794468" name="망령"/>
+	<l10n_template data_code="100794473" name="늑대"/>
+	<l10n_template data_code="100794478" name="멧돼지"/>
+	<l10n_template data_code="100794483" name="겔본 잡부"/>
+	<l10n_template data_code="100794488" name="해골 마법사" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056637" name="불길한 석상" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056642" name="마계 전사"/>
+	<l10n_template data_code="100794503" name="구울"/>
+	<l10n_template data_code="100794508" name="독거미"/>
+	<l10n_template data_code="101056657" name="마수"/>
+	<l10n_template data_code="100794518" name="우두머리 구울"/>
+	<l10n_template data_code="100794523" name="새끼 호랑이" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056672" name="마계 법사" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056673" name="마계 소환수"/>
+	<l10n_template data_code="100794533" name="쟈칸 고블린"/>
+	<l10n_template data_code="100794534" name="쟈칸 고블린 보초병"/>
+	<l10n_template data_code="100794538" name="대머리 독수리"/>
+	<l10n_template data_code="100794543" name="여왕거미"/>
+	<l10n_template data_code="100794548" name="암호랑이" desc="( 파괴자 )"/>
+	<l10n_template data_code="100794553" name="검은 늑대"/>
+	<l10n_template data_code="101056702" name="보조 사냥꾼"/>
+	<l10n_template data_code="101056707" name="스콜"/>
+	<l10n_template data_code="100794568" name="쟈칸 고블린 전사"/>
+	<l10n_template data_code="100794573" name="약한 모래 정령"/>
+	<l10n_template data_code="100794578" name="숫호랑이"/>
+	<l10n_template data_code="100794583" name="겔본 인부"/>
+	<l10n_template data_code="100794588" name="밀렵꾼"/>
+	<l10n_template data_code="100794593" name="쟈칸 고블린 마법사"/>
+	<l10n_template data_code="100794598" name="불곰 도적단"/>
+	<l10n_template data_code="100794603" name="불곰 도적단 조장"/>
+	<l10n_template data_code="100794608" name="불곰 도적단 대장"/>
+	<l10n_template data_code="100794613" name="유령"/>
+	<l10n_template data_code="100794618" name="샐러맨더"/>
+	<l10n_template data_code="100794623" name="난폭한 멧돼지"/>
+	<l10n_template data_code="100794628" name="책임관" desc="( 파괴자 )"/>
+	<l10n_template data_code="100794633" name="대왕 호랑이" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056782" name="인간 사냥꾼" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056787" name="마계 정예병" desc="( 파괴자 )"/>
+	<l10n_template data_code="101056788" name="마계병"/>
+	<l10n_template data_code="101056792" name="암흑의 스콜"/>
+	<l10n_template data_code="100794653" name="겔본 신병"/>
+	<l10n_template data_code="100794658" name="아브나스"/>
+	<l10n_template data_code="100794663" name="사막 여우"/>
+	<l10n_template data_code="100794668" name="겔본 보병"/>
+	<l10n_template data_code="100794673" name="불새"/>
+	<l10n_template data_code="100794678" name="모래 정령"/>
+	<l10n_template data_code="100794683" name="불타는 위습"/>
+	<l10n_template data_code="100794688" name="저항군"/>
+	<l10n_template data_code="100794693" name="사나운 늑대"/>
+	<l10n_template data_code="100794698" name="겔본 보병대장" desc="( 파괴자 )"/>
+	<l10n_template data_code="100860239" name="저항군 암살자"/>
+	<l10n_template data_code="101056852" name="조련된 샐러맨더"/>
+	<l10n_template data_code="100794713" name="오염된 나무 정령" desc="( 파괴자 )"/>
+	<l10n_template data_code="100794718" name="굶주린 멧돼지"/>
+	<l10n_template data_code="100794723" name="데비론의 영혼"/>
+	<l10n_template data_code="100794728" name="오염된 이프리트"/>
+	<l10n_template data_code="100794733" name="겔본 중갑 보병"/>
+	<l10n_template data_code="100794738" name="겔본 중갑 보급병" desc="( 파괴자 )"/>
+	<l10n_template data_code="100794743" name="카오스 구울"/>
+	<l10n_template data_code="101056892" name="괴수 조련사"/>
+	<l10n_template data_code="101056897" name="아몬"/>
+	<l10n_template data_code="101056902" name="마계 나무"/>
+	<l10n_template data_code="100794763" name="코모도"/>
+	<l10n_template data_code="100794768" name="겔본 정찰병"/>
+	<l10n_template data_code="100794773" name="카오스 바위 덩이"/>
+	<l10n_template data_code="100794778" name="겔본 유격훈련병"/>
+	<l10n_template data_code="100794783" name="킹 코브라"/>
+	<l10n_template data_code="100794788" name="고릴라"/>
+	<l10n_template data_code="100794793" name="겔본 유격대원"/>
+	<l10n_template data_code="100794798" name="겔본 정예병"/>
+	<l10n_template data_code="100794803" name="킹 코모도"/>
+	<l10n_template data_code="100794808" name="겔본 하사관"/>
+	<l10n_template data_code="100794813" name="카오스 타이거"/>
+	<l10n_template data_code="100794818" name="겔본 해골"/>
+	<l10n_template data_code="101056967" name="유령"/>
+	<l10n_template data_code="100794828" name="겔본 수련 기사"/>
+	<l10n_template data_code="100794829" name="겔본 제국 주둔병"/>
+	<l10n_template data_code="100794833" name="야수 조련사"/>
+	<l10n_template data_code="100794838" name="석상"/>
+	<l10n_template data_code="100794843" name="마력 골렘"/>
+	<l10n_template data_code="100794848" name="저주받은 골렘"/>
+	<l10n_template data_code="100794853" name="겔본 지휘관"/>
+	<l10n_template data_code="100794858" name="샤벨 타이거"/>
+	<l10n_template data_code="100794863" name="영혼 파괴자"/>
+	<l10n_template data_code="101057012" name="데비론의 영혼"/>
+	<l10n_template data_code="100794873" name="갈색 거미"/>
+	<l10n_template data_code="100794878" name="골렘"/>
+	<l10n_template data_code="100794883" name="붉은 머리 독수리"/>
+	<l10n_template data_code="100794888" name="리치킹"/>
+	<l10n_template data_code="100794893" name="늪지 전갈"/>
+	<l10n_template data_code="100794898" name="변종 코모도"/>
+	<l10n_template data_code="100794903" name="코브라"/>
+	<l10n_template data_code="100794908" name="유령"/>
+	<l10n_template data_code="100794913" name="푸른 숲의 늑대"/>
+	<l10n_template data_code="100794918" name="늪지 독수리"/>
+	<l10n_template data_code="100794923" name="변종 카오스 타이거"/>
+	<l10n_template data_code="100794928" name="어둠의 거미"/>
+	<l10n_template data_code="101057077" name="카오스 거상"/>
+	<l10n_template data_code="100794938" name="저주받은 카오스 구울"/>
+	<l10n_template data_code="100794943" name="겔본 정예 유격병"/>
+	<l10n_template data_code="100794948" name="겔본 기사"/>
+	<l10n_template data_code="100794953" name="현혹된 영혼 파괴자"/>
+	<l10n_template data_code="100794958" name="카오스 고릴라"/>
+	<l10n_template data_code="100794963" name="변종 카오스 고릴라"/>
+	<l10n_template data_code="100794968" name="현혹된 아브나스"/>
+	<l10n_template data_code="100794973" name="미노타우로스"/>
+	<l10n_template data_code="100794978" name="변종 겔본 해골"/>
+	<l10n_template data_code="100794983" name="고대 골렘"/>
+	<l10n_template data_code="100794988" name="추악한 리치킹"/>
+	<l10n_template data_code="100794993" name="헬펜센트"/>
+	<l10n_template data_code="101057142" name="고대 거상"/>
+	<l10n_template data_code="101057147" name="커델"/>
+	<l10n_template data_code="100795008" name="허수아비"/>
+	<l10n_template data_code="100795013" name="오룬디아 제국군"/>
+	<l10n_template data_code="100795018" name="겔본 병사"/>
+	<l10n_template data_code="101057167" name="커델 분신"/>
+	<l10n_template data_code="100795028" name="겔본 노예병"/>
+	<l10n_template data_code="100795029" name="겔본 화살병"/>
+	<l10n_template data_code="100795033" name="성기사 원정대"/>
+	<l10n_template data_code="100795038" name="겔본 기사 대장"/>
+	<l10n_template data_code="101057187" name="스켄"/>
+	<l10n_template data_code="101057192" name="스케이넥"/>
+	<l10n_template data_code="101057197" name="불완전한 헬펜센트"/>
+	<l10n_template data_code="100795058" name="추방당한 스케이넥"/>
+	<l10n_template data_code="100795063" name="겔본 노예병"/>
+	<l10n_template data_code="100795068" name="겔본 노예병"/>
+	<l10n_template data_code="100955445" name="쥐"/>
+	<l10n_template data_code="100955450" name="수탉"/>
+	<l10n_template data_code="100955455" name="오리"/>
+	<l10n_template data_code="100955460" name="말"/>
+	<l10n_template data_code="100955465" name="서러브레드"/>
+	<l10n_template data_code="100889934" name="엑스트라"/>
+	<l10n_template data_code="100889939" name="투석병"/>
+	<l10n_template data_code="100894909" name="데비론의 해골"/>
+	<l10n_template data_code="100894914" name="피타의 해골"/>
+	<l10n_template data_code="100763847" name="엘마"/>
+	<l10n_template data_code="100763852" name="제프"/>
+	<l10n_template data_code="100763857" name="브람"/>
+	<l10n_template data_code="100763862" name="악셀"/>
+	<l10n_template data_code="100894939" name="리따"/>
+	<l10n_template data_code="100894944" name="페트라"/>
+	<l10n_template data_code="100763877" name="기스버트"/>
+	<l10n_template data_code="100763882" name="루카"/>
+	<l10n_template data_code="100763887" name="비르깃"/>
+	<l10n_template data_code="100763892" name="성기사"/>
+	<l10n_template data_code="100763897" name="아드리아" desc=" "/>
+	<l10n_template data_code="100763902" name="디오고"/>
+	<l10n_template data_code="100763907" name="셰리던"/>
+	<l10n_template data_code="100763912" name="린튼"/>
+	<l10n_template data_code="100763917" name="잡화 관리인" desc="&lt;잡화 제작/ 판매&gt;"/>
+	<l10n_template data_code="100763922" name="롤랜드"/>
+	<l10n_template data_code="100763927" name="스피리던"/>
+	<l10n_template data_code="100895004" name="레오폴드"/>
+	<l10n_template data_code="100895009" name="윌머"/>
+	<l10n_template data_code="100895014" name="데반" desc=" "/>
+	<l10n_template data_code="100895019" name="예밀리언" desc=" "/>
+	<l10n_template data_code="100895024" name="쁘라스코브요"/>
+	<l10n_template data_code="100763957" name="재료 상인"/>
+	<l10n_template data_code="100763962" name="훈련 교관"/>
+	<l10n_template data_code="100763967" name="용병 조장"/>
+	<l10n_template data_code="100763972" name="저스틴"/>
+	<l10n_template data_code="100763977" name="랜디"/>
+	<l10n_template data_code="100763982" name="피난민"/>
+	<l10n_template data_code="100763987" name="피난민"/>
+	<l10n_template data_code="100763992" name="피난민"/>
+	<l10n_template data_code="100763997" name="피난민"/>
+	<l10n_template data_code="100895074" name="주벨로" desc=" "/>
+	<l10n_template data_code="100895079" name="하이난" desc=" "/>
+	<l10n_template data_code="100895084" name="호간"/>
+	<l10n_template data_code="100764017" name="길드 관리인" desc="&lt;길드 창설&gt;"/>
+	<l10n_template data_code="100895094" name="마구간지기" desc="&lt;탈것 판매&gt;"/>
+	<l10n_template data_code="100764027" name="댈리"/>
+	<l10n_template data_code="100764032" name="래몬트" desc=" "/>
+	<l10n_template data_code="100764037" name="히램"/>
+	<l10n_template data_code="100764042" name="레스터"/>
+	<l10n_template data_code="100764047" name="안토니"/>
+	<l10n_template data_code="100764052" name="케일리"/>
+	<l10n_template data_code="100764057" name="콘웨이" desc=" "/>
+	<l10n_template data_code="100895134" name="밀리"/>
+	<l10n_template data_code="100895139" name="잉가"/>
+	<l10n_template data_code="100764072" name="알리나"/>
+	<l10n_template data_code="100764077" name="레드 할" desc="&lt;경매장&gt;"/>
+	<l10n_template data_code="100764082" name="리즈"/>
+	<l10n_template data_code="100764087" name="그렌빌"/>
+	<l10n_template data_code="100764092" name="빈센트"/>
+	<l10n_template data_code="100764097" name="오스왈드"/>
+	<l10n_template data_code="100764102" name="룬의 기사" desc=" "/>
+	<l10n_template data_code="100764107" name="델 다프네"/>
+	<l10n_template data_code="100764112" name="와이커"/>
+	<l10n_template data_code="100764117" name="재클린"/>
+	<l10n_template data_code="100764122" name="대장장이" desc="&lt;아이템 강화/ 인첸트/ 제작&gt;"/>
+	<l10n_template data_code="100764127" name="길버트"/>
+	<l10n_template data_code="100764132" name="테렌스"/>
+	<l10n_template data_code="100764137" name="설리반"/>
+	<l10n_template data_code="100764142" name="세실리"/>
+	<l10n_template data_code="100764147" name="에버레트"/>
+	<l10n_template data_code="100764152" name="칩"/>
+	<l10n_template data_code="100764157" name="제르맹"/>
+	<l10n_template data_code="100895234" name="허드슨" desc=" "/>
+	<l10n_template data_code="100764167" name="아놀드"/>
+	<l10n_template data_code="100764172" name="클라우드"/>
+	<l10n_template data_code="100764177" name="데이비드"/>
+	<l10n_template data_code="100764182" name="풀톤" desc=" "/>
+	<l10n_template data_code="100764187" name="캠"/>
+	<l10n_template data_code="100764192" name="로즐린"/>
+	<l10n_template data_code="100764197" name="릭"/>
+	<l10n_template data_code="100764202" name="힐디브란드"/>
+	<l10n_template data_code="100764207" name="발타"/>
+	<l10n_template data_code="100764212" name="하겐" desc="&lt;경매장&gt;"/>
+	<l10n_template data_code="100764217" name="잭슨"/>
+	<l10n_template data_code="100764222" name="레너드"/>
+	<l10n_template data_code="100764227" name="닉슨"/>
+	<l10n_template data_code="100764232" name="경비병"/>
+	<l10n_template data_code="100764237" name="보석 세공사" desc="&lt;보석 제작/ 분해&gt;"/>
+	<l10n_template data_code="100895314" name="마르시오"/>
+	<l10n_template data_code="100895319" name="트리스틴"/>
+	<l10n_template data_code="100895324" name="알렌"/>
+	<l10n_template data_code="100764257" name="월터" desc=" "/>
+	<l10n_template data_code="100764262" name="이프리트"/>
+	<l10n_template data_code="100764267" name="이자벨"/>
+	<l10n_template data_code="100764272" name="나스타샤"/>
+	<l10n_template data_code="100764277" name="투기장 관리인" desc="&lt;포인트 상점&gt;"/>
+	<l10n_template data_code="100764282" name="모린"/>
+	<l10n_template data_code="100764287" name="라인"/>
+	<l10n_template data_code="100764292" name="톰"/>
+	<l10n_template data_code="100764297" name="데락"/>
+	<l10n_template data_code="100764302" name="카를로 알렉 드 므주타"/>
+	<l10n_template data_code="100764307" name="케이널"/>
+	<l10n_template data_code="100764312" name="하번"/>
+	<l10n_template data_code="100764317" name="제라"/>
+	<l10n_template data_code="100764322" name="제시카"/>
+	<l10n_template data_code="100764327" name="캐서린"/>
+	<l10n_template data_code="100764332" name="키발리에 에다임 드 발루아"/>
+	<l10n_template data_code="100764337" name="수석 경비병"/>
+	<l10n_template data_code="100764342" name="아멜라"/>
+	<l10n_template data_code="100764347" name="페이트럴"/>
+	<l10n_template data_code="100764352" name="군트프리트"/>
+	<l10n_template data_code="100764357" name="장비 제조법 상인"/>
+	<l10n_template data_code="100764362" name="재료 제조법 상인"/>
+	<l10n_template data_code="100764367" name="공통 패시브"/>
+	<l10n_template data_code="100764372" name="전사 훈련 교관" desc=" "/>
+	<l10n_template data_code="100764377" name="마법사 훈련 교관"/>
+	<l10n_template data_code="100764382" name="도둑 훈련 교관"/>
+	<l10n_template data_code="100764387" name="엘레나 에폴리네이아"/>
+	<l10n_template data_code="100764392" name="아론 바스코"/>
+	<l10n_template data_code="100764397" name="아돌피토 폰 바이에른"/>
+	<l10n_template data_code="100895474" name="모데스트"/>
+	<l10n_template data_code="100895479" name="헤이코"/>
+	<l10n_template data_code="100764412" name="자케리"/>
+	<l10n_template data_code="100764417" name="멜리얼"/>
+	<l10n_template data_code="100764422" name="베스페라"/>
+	<l10n_template data_code="100764427" name="재산 관리인" desc="&lt;은행&gt;"/>
+	<l10n_template data_code="100764432" name="벨긴"/>
+	<l10n_template data_code="100764437" name="아르크힢"/>
+	<l10n_template data_code="100764442" name="세브리노"/>
+	<l10n_template data_code="100764447" name="요리 연구가" desc="&lt;물약 제작/ 판매&gt;"/>
+	<l10n_template data_code="100764452" name="야닉 크롯틸드 드 상파뉴"/>
+	<l10n_template data_code="100764457" name="데빈"/>
+	<l10n_template data_code="100764462" name="콜버트"/>
+	<l10n_template data_code="100764467" name="즈라타"/>
+	<l10n_template data_code="100764472" name="도우미 NPC"/>
+	<l10n_template data_code="100764477" name="플로리안"/>
+	<l10n_template data_code="100895554" name="지명 수배자 명단"/>
+	<l10n_template data_code="100764487" name="소작인"/>
+	<l10n_template data_code="100764492" name="소작인"/>
+	<l10n_template data_code="100895569" name="경매장" desc="&lt;경매장&gt;"/>
+	<l10n_template data_code="100895574" name="우체통"/>
+	<l10n_template data_code="100764507" name="장신구 상인" desc="&lt;악세서리 판매&gt;"/>
+	<l10n_template data_code="100895584" name="말콤"/>
+	<l10n_template data_code="100764517" name="건축가" desc="&lt;건축물 판매&gt;"/>
+	<l10n_template data_code="100895594" name="지명 수배자 명단(할켄)"/>
+	<l10n_template data_code="100764527" name="궁수 경비병"/>
+	<l10n_template data_code="100895604" name="치료사"/>
+	<l10n_template data_code="100895609" name="부상병 1"/>
+	<l10n_template data_code="100895614" name="부상병 2"/>
+	<l10n_template data_code="100764547" name="수비병"/>
+	<l10n_template data_code="100764552" name="저격병"/>
+	<l10n_template data_code="100895629" name="수호상"/>
+	<l10n_template data_code="100764562" name="마법 수비병"/>
+	<l10n_template data_code="100895639" name="이상한 고블린"/>
+	<l10n_template data_code="100764572" name="카르투칸"/>
+	<l10n_template data_code="100783837" name="카논 경비병"/>
+	<l10n_template data_code="101045986" name="민병대" desc="개인용"/>
+	<l10n_template data_code="101045991" name="검술병" desc="개인용"/>
+	<l10n_template data_code="101045996" name="궁수병" desc="개인용"/>
+	<l10n_template data_code="101046001" name="성문 경비병" desc="길드 고용"/>
+	<l10n_template data_code="101046006" name="검술병" desc="길드 고용"/>
+	<l10n_template data_code="101046011" name="궁수병" desc="길드 고용"/>
+	<l10n_template data_code="101046016" name="탑지기" desc="길드 고용"/>
+	<l10n_template data_code="100849413" name="만렙 쥐" desc="나 잡아봐라"/>
+	<l10n_template data_code="100849418" name="만렙 수탉" desc="나 잡아봐라"/>
+	<l10n_template data_code="100849423" name="만렙 오리" desc="나 잡아봐라"/>
+</l10n_table>

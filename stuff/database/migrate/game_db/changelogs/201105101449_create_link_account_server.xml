@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+  <property file="gideon.properties"/>
+  
+  <changeSet author="kcando" id="201105171449" runOnChange="true">
+    <sql>
+	IF '${account_ls_name}' != ''
+	BEGIN
+		EXEC sp_dropserver '${account_ls_name}'
+
+		EXEC sp_addlinkedserver
+			@server='${account_ls_name}',
+			@srvproduct = '',
+			@provider = 'SQLOLEDB',
+			@datasrc = '${account_ls_address}',
+			@provstr='',
+			@catalog='${account_server_name}'
+	END
+    </sql>
+  <rollback>
+	IF '${account_ls_name}' != ''
+	BEGIN
+		EXEC sp_dropserver '${account_ls_name}'
+	END
+  </rollback>
+  </changeSet>
+  
+ 
+</databaseChangeLog>

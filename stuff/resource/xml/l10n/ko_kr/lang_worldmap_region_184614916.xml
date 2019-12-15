@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" standalone="yes"?><l10n_table>
+	<l10n_template data_code="201392129" name="유저 출현 001"/>
+	<l10n_template data_code="201457665" name="무덤 001"/>
+	<l10n_template data_code="201523201" name="변종 코모도 001"/>
+	<l10n_template data_code="201523202" name="늪지 전갈 001"/>
+	<l10n_template data_code="201523203" name="바빌론 정예 유격병 001"/>
+	<l10n_template data_code="201523204" name="변종 바빌론 해골 001"/>
+	<l10n_template data_code="201523205" name="저주받은 카오스 구울 001"/>
+	<l10n_template data_code="201523206" name="변종 카오스 타이거 001"/>
+	<l10n_template data_code="201523207" name="늪지 독수리 001"/>
+	<l10n_template data_code="201523208" name="골램 001"/>
+	<l10n_template data_code="201523209" name="변종 코모도 001"/>
+	<l10n_template data_code="201523210" name="코브라 001"/>
+	<l10n_template data_code="201523211" name="바빌론 기사 001"/>
+	<l10n_template data_code="201523212" name="유령 001"/>
+	<l10n_template data_code="201523213" name="변종 카오스 고릴라 001"/>
+	<l10n_template data_code="201850881" name="보물 상자"/>
+	<l10n_template data_code="201981953" name="범죄자 무덤 001"/>
+	<l10n_template data_code="201523214" name="추악한 리치킹 001"/>
+	<l10n_template data_code="202375169" name="할켄 늪지대"/>
+	<l10n_template data_code="202375170" name="바빌론 야영지"/>
+	<l10n_template data_code="202375171" name="하머스틴 성터"/>
+	<l10n_template data_code="202375172" name="죽음의 땅"/>
+	<l10n_template data_code="202375173" name="카오스 오염 지역"/>
+	<l10n_template data_code="202375174" name="정령의 숲"/>
+	<l10n_template data_code="202375175" name="마법 시험장"/>
+	<l10n_template data_code="202375176" name="카논 마을"/>
+	<l10n_template data_code="201654273" name="To 오룬디아 포탈"/>
+	<l10n_template data_code="201654274" name="From 오룬디아 포탈"/>
+</l10n_table>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105111611">
+    <sql>
+      IF TYPE_ID(N'dbo.id_t') IS NULL
+        CREATE TYPE dbo.id_t FROM bigint NOT NULL;
+
+      <!-- http://www.sqlservercentral.com/Forums/Topic10373-9-1.aspx -->
+      IF TYPE_ID(N'dbo.code_t') IS NULL
+        CREATE TYPE dbo.code_t FROM bigint NULL;
+
+      --IF OBJECT_ID(N'dbo.code_t_rule') IS NULL
+      --BEGIN
+      --  CREATE RULE dbo.code_t_rule AS @value BETWEEN 0 AND 4294967295;
+      --  EXEC sp_bindrule 'dbo.code_t_rule', 'dbo.code_t';
+      --END
+    </sql>
+
+    <rollback>
+      IF OBJECT_ID(N'dbo.code_t_rule') IS NOT NULL
+        DROP RULE dbo.code_t_rule;
+      IF TYPE_ID(N'dbo.code_t') IS NULL
+        DROP TYPE dbo.code_t;
+      IF TYPE_ID(N'dbo.id_t') IS NULL
+        DROP TYPE dbo.id_t;
+    </rollback>
+  </changeSet>
+  
+</databaseChangeLog>

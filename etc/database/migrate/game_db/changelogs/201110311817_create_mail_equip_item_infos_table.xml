@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110311817">
+    <createTable tableName="Mail_Equip_Item_Infos" remarks="equip item info table">
+      <column name="mail_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="item_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="fragment_count" type="TINYINT">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="open_socket_count" type="BIT" defaultValueNumeric="0">
+        <constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_1" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_2" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_3" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_4" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  <column name="socket_skill_code_5" type="dbo.code_t" defaultValueNumeric="0">
+		<constraints nullable="false"/>
+      </column>
+	  </createTable>
+
+    <addPrimaryKey constraintName="pk_Mail_Equip_Item_Infos" columnNames="mail_id, character_id, item_id" tableName="Mail_Equip_Item_Infos"/>
+    
+    <createIndex indexName="ix_mail_equip_item_info_character_id" tableName="Mail_Equip_Item_Infos">
+      <column name="character_id"/>
+    </createIndex>
+	
+	<addForeignKeyConstraint constraintName="fk_Mail_Equip_Item_Infos_Characters"
+        baseColumnNames="character_id" baseTableName="Mail_Equip_Item_Infos"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+  </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201210051407">
+    <createTable tableName="Process_Achievements" remarks="Process Achievement table">
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="achievement_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="mission_code" type="dbo.code_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="param_1" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="param_2" type="INT">
+        <constraints nullable="false"/>
+      </column>
+      <column name="last_update_at" type="BIGINT">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+    <addPrimaryKey constraintName="pk_Process_Achievements" columnNames="character_id, achievement_code, mission_code" tableName="Process_Achievements"/>
+    
+
+    <addForeignKeyConstraint constraintName="fk_Process_Achievements_Characters"
+        baseColumnNames="character_id" baseTableName="Process_Achievements"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="NO ACTION" />
+
+
+  </changeSet>
+
+</databaseChangeLog>

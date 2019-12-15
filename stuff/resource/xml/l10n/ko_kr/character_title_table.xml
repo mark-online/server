@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" standalone="yes"?><character_title_table>
+	<character_title_template character_title_code="603979777" title="GM %s"/>
+	<character_title_template character_title_code="603979778" title="블랙스미스 %s"/>
+	<character_title_template character_title_code="603979876" title="새내기 %s"/>
+	<character_title_template character_title_code="603979926" title="할게 없는 %s"/>
+	<character_title_template character_title_code="603979976" title="마당발 %s"/>
+	<character_title_template character_title_code="603980076" title="던전 키퍼 %s"/>
+	<character_title_template character_title_code="603980176" title="허름한 %s"/>
+	<character_title_template character_title_code="603980276" title="평범한 %s"/>
+	<character_title_template character_title_code="603980376" title="진귀한 %s"/>
+	<character_title_template character_title_code="603980476" title="특별한 %s"/>
+	<character_title_template character_title_code="603980576" title="허접한 %s"/>
+	<character_title_template character_title_code="603980676" title="킬러 %s"/>
+	<character_title_template character_title_code="603980776" title="집행유예 %s"/>
+	<character_title_template character_title_code="603980876" title="사냥꾼 %s"/>
+	<character_title_template character_title_code="603980976" title="서민 %s"/>
+	<character_title_template character_title_code="603981076" title="드라큘라 %s"/>
+	<character_title_template character_title_code="603981176" title="난세의 영웅 %s"/>
+	<character_title_template character_title_code="603981276" title="스파르타! %s"/>
+	<character_title_template character_title_code="603981376" title="좀 하는 %s"/>
+	<character_title_template character_title_code="603981377" title="꽤 하는 %s"/>
+	<character_title_template character_title_code="603981476" title="카오스 %s"/>
+	<character_title_template character_title_code="603981576" title="전설 아닌 레전드 %s"/>
+	<character_title_template character_title_code="603981776" title="애인 구하는 %s"/>
+</character_title_table>

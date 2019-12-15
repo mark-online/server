@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110131436">
+    <createTable tableName="Character_Properties" remarks="character_properties table">
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="config" type="VARCHAR(8000)">
+        <constraints nullable="true"/>
+      </column>
+      <column name="prefs" type="VARCHAR(8000)">
+        <constraints nullable="true"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Character_Properties" columnNames="character_id" tableName="Character_Properties"/>
+
+  </changeSet>
+
+</databaseChangeLog>

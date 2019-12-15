@@ -1,0 +1,7 @@
+dynamic Logger Service_Object *
+  ACEd:_make_ACE_Logging_Strategy()
+  "-s log/zone_server_2.log -f STDERR|OSTREAM -p DEBUG|INFO|ERROR|NOTICE|WARNING"
+
+dynamic ZoneServer_Service Service_Object *
+  ZoneServer.debug.dll:_make_ZoneServerApp()
+  "-k STDERR|OSTREAM|VERBOSE -c development/zone_server_2.ini"

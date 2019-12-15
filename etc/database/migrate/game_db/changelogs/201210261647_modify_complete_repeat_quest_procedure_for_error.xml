@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201110191536" runOnChange="true">
+    <sql>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.complete_repeat_quest') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.complete_repeat_quest
+GO
+
+
+CREATE PROCEDURE dbo.complete_repeat_quest
+    @character_id dbo.id_t,
+	@quest_code dbo.id_t,
+	@accept_at SMALLDATETIME
+AS
+    SET NOCOUNT ON
+	BEGIN TRY
+	BEGIN TRANSACTION
+	    DELETE FROM dbo.Accept_Repeat_Quest_Missions WHERE character_id = @character_id AND quest_code = @quest_code
+	    DELETE FROM dbo.Accept_Repeat_Quests WHERE character_id = @character_id AND quest_code = @quest_code
+	    INSERT INTO dbo.complete_repeat_quests(character_id, quest_code, accept_at) VALUES (@character_id, @quest_code, @accept_at)
+	    COMMIT
+    END TRY
+	BEGIN CATCH
+        ROLLBACK
+    END CATCH
+    SET NOCOUNT OFF
+
+    </sql>
+    
+    <rollback>
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'dbo.complete_repeat_quest') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
+    DROP PROCEDURE dbo.complete_repeat_quest
+GO
+    </rollback>
+  </changeSet>
+
+</databaseChangeLog>

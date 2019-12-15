@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+  
+  <changeSet author="kcando" id="201105110740">
+    <createTable tableName="Last_Access_Characters" remarks="last access character table">
+      <column name="account_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+      <column name="character_id" type="dbo.id_t">
+        <constraints nullable="false"/>
+      </column>
+    </createTable>
+
+    <addPrimaryKey constraintName="pk_Last_Access_Characters" columnNames="account_id" tableName="Last_Access_Characters"/>
+
+    <addForeignKeyConstraint constraintName="fk_Characters_Last_Access_Characters"
+        baseColumnNames="character_id" baseTableName="Last_Access_Characters"
+        referencedColumnNames="id" referencedTableName="Characters"
+        onDelete="CASCADE" />
+    
+  </changeSet>
+
+</databaseChangeLog>
